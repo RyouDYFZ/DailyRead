@@ -480,7 +480,10 @@ def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], 
                 {"role": "user", "content": (
                     "Revise the previous JSON. Correct only the unsupported or overconfident statements "
                     "identified by the fact checker below, using the supplied sources. Keep accurate material, "
-                    "preserve the complete JSON schema, and return JSON only.\n\n" + "\n".join(issues)
+                    "preserve the complete JSON schema, and return JSON only. Re-check every reading question, "
+                    "all four options, each question's answer, and answer_key against the revised passage. "
+                    "Answers are dynamic for each article and must never be copied from a fixed template.\n\n"
+                    + "\n".join(issues)
                 )},
             ]
             continue
