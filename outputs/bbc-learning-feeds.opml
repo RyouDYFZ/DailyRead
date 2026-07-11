@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>BBC News Feeds for Daily English Learning</title>
+    <dateCreated>2026-07-11</dateCreated>
+    <ownerName>Danny Feng</ownerName>
+  </head>
+  <body>
+    <outline text="BBC News — Business" title="BBC News — Business" type="rss" language="en-gb" category="business" xmlUrl="https://feeds.bbci.co.uk/news/business/rss.xml?edition=int" htmlUrl="https://www.bbc.co.uk/news/business" />
+    <outline text="BBC News — Technology and AI" title="BBC News — Technology and AI" type="rss" language="en-gb" category="technology,ai" xmlUrl="https://feeds.bbci.co.uk/news/technology/rss.xml?edition=int" htmlUrl="https://www.bbc.co.uk/news/technology" />
+    <outline text="BBC News — Health and Medicine" title="BBC News — Health and Medicine" type="rss" language="en-gb" category="health,medicine" xmlUrl="https://feeds.bbci.co.uk/news/health/rss.xml?edition=int" htmlUrl="https://www.bbc.co.uk/news/health" />
+    <outline text="BBC News — Science and Environment" title="BBC News — Science and Environment" type="rss" language="en-gb" category="science,environment" xmlUrl="https://feeds.bbci.co.uk/news/science_and_environment/rss.xml?edition=int" htmlUrl="https://www.bbc.co.uk/news/science_and_environment" />
+    <outline text="BBC News — Education" title="BBC News — Education" type="rss" language="en-gb" category="education" xmlUrl="https://feeds.bbci.co.uk/news/education/rss.xml?edition=int" htmlUrl="https://www.bbc.co.uk/news/education" />
+  </body>
+</opml>

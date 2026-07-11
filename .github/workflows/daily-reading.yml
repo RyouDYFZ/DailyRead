@@ -1,0 +1,66 @@
+name: Daily Reading Pack
+
+on:
+  schedule:
+    - cron: "10 23 * * *"
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Optional topic override"
+        required: false
+        default: ""
+      publish:
+        description: "Commit the generated pack back to the repo"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-reading-pack
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
+      NEWS_FEEDS_FILE: outputs/bbc-learning-feeds.opml
+      OUTPUT_DIR: outputs/generated
+      TOPIC_OVERRIDE: ${{ github.event.inputs.topic || '' }}
+      PUBLISH_RESULTS: ${{ github.event.inputs.publish || 'false' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate reading pack
+        run: |
+          python scripts/generate_reading_pack.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-reading-pack
+          path: outputs/generated/
+          if-no-files-found: error
+
+      - name: Commit generated pack
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.publish == 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs/generated
+          git commit -m "chore: add daily reading pack" || exit 0
+          git push origin HEAD:${{ github.ref_name }}
