@@ -198,7 +198,7 @@ def build_prompt(topic: str, selected: list[Story]) -> list[dict[str, str]]:
         You are writing a publication-ready daily English reading pack for Chinese learners.
         Topic: {topic}
         Use only the source facts below. Do not invent named entities, statistics, or claims.
-        Create a learner-friendly original article in CEFR B2-C1 level, 600-900 words, with low repetition and natural journalistic style.
+        Create a learner-friendly original article in CEFR B2-C1 level, aiming for about 600-900 words, with low repetition and natural journalistic style. Prioritize factual completeness and clarity over an exact word count.
         The article should be about one coherent news story or a tight cluster of stories related to the topic.
 
         CONSISTENCY IS MANDATORY. The JSON will be rendered by a fixed Markdown template, so follow the schema, wording style, item order, punctuation, and counts exactly. Do not add Markdown to JSON values except ordinary paragraph breaks in reading_passage.
@@ -223,7 +223,7 @@ def build_prompt(topic: str, selected: list[Story]) -> list[dict[str, str]]:
         - cefr: exactly "B2", "B2-C1", or "C1".
         - themes: 1-3 concise English theme labels, e.g. ["Medicine", "Public Health"].
         - difficulty: integer from 3 to 5.
-        - reading_passage: 600-900 English words, coherent paragraphs, no heading.
+        - reading_passage: aim for about 600-900 English words, coherent paragraphs, no heading. This is a target, not a hard limit.
         - vocabulary: exactly 10 items in this exact order: 4 core_word, 3 fixed_collocation, 2 phrasal_verb, 1 academic_word. Each item contains category, word, ipa, pos, meaning_zh, collocations, example. category must be exactly one of those four labels. For multiword entries, still provide natural IPA and a suitable POS label. collocations is a list of 2-3 common English collocations or usage patterns.
         - difficult_sentences: 3-5 items, each with sentence, explanation_zh, grammar_point, translation_zh. Choose useful sentences that accurately reflect the reading passage.
         - idioms: 3-5 items, each with expression, meaning_zh, usage_note, example.
@@ -393,9 +393,6 @@ def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
     for key in required:
         if key not in payload:
             raise ValueError(f"Missing key: {key}")
-    word_count = len(re.findall(r"\b[A-Za-z]+(?:['-][A-Za-z]+)*\b", payload["reading_passage"]))
-    if not 600 <= word_count <= 900:
-        raise ValueError(f"Reading passage length out of range: {word_count}")
     if payload["cefr"] not in {"B2", "B2-C1", "C1"}:
         raise ValueError("cefr must be B2, B2-C1, or C1.")
     if not isinstance(payload["themes"], list) or not 1 <= len(payload["themes"]) <= 3:
@@ -437,7 +434,7 @@ def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
         raise ValueError(f"Passage contains numbers absent from sources: {unsupported_numbers}")
 
 
-def audit_facts(payload: dict[str, Any], sources: list[Story]) -> None:
+def audit_facts(payload: dict[str, Any], sources: list[Story]) -> dict[str, Any]:
     source_text = "\n\n".join(
         f"SOURCE {idx}: {story.title}\n{story.source_text[:6000]}" for idx, story in enumerate(sources, 1)
     )
@@ -459,9 +456,7 @@ def audit_facts(payload: dict[str, Any], sources: list[Story]) -> None:
     result = call_deepseek(messages, temperature=0.0)
     if set(result) != {"supported", "issues"} or not isinstance(result["supported"], bool) or not isinstance(result["issues"], list):
         raise ValueError("Fact checker returned an invalid schema.")
-    if not result["supported"]:
-        issues = "; ".join(str(issue) for issue in result["issues"][:5])
-        raise ValueError(f"Fact checker rejected the passage: {issues}")
+    return result
 
 
 def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], attempts: int = 3) -> dict[str, Any]:
@@ -471,8 +466,24 @@ def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], 
         try:
             payload = call_deepseek(current_messages)
             validate_payload(payload, sources)
-            audit_facts(payload, sources)
-            return payload
+            audit = audit_facts(payload, sources)
+            if audit["supported"]:
+                return payload
+            issues = [str(issue) for issue in audit["issues"][:5]]
+            message = "Fact checker suggestions: " + "; ".join(issues)
+            errors.append(f"attempt {attempt}: {message}")
+            eprint(f"Generation needs revision ({attempt}/{attempts}): {message}")
+            if attempt == attempts:
+                break
+            current_messages += [
+                {"role": "assistant", "content": json.dumps(payload, ensure_ascii=False)},
+                {"role": "user", "content": (
+                    "Revise the previous JSON. Correct only the unsupported or overconfident statements "
+                    "identified by the fact checker below, using the supplied sources. Keep accurate material, "
+                    "preserve the complete JSON schema, and return JSON only.\n\n" + "\n".join(issues)
+                )},
+            ]
+            continue
         except (ValueError, KeyError, TypeError, RuntimeError, json.JSONDecodeError, requests.RequestException) as exc:
             errors.append(f"attempt {attempt}: {exc}")
             eprint(f"Generation rejected ({attempt}/{attempts}): {exc}")
