@@ -225,7 +225,7 @@ VOCABULARY_SECTION_TITLES = {
 SUMMARY_BANNED_PHRASES = ("适合", "学习者", "词汇", "句型", "学习效果", "帮助读者", "阅读材料")
 
 
-def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profile: dict[str, Any]) -> list[dict[str, str]]:
+def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profile: dict[str, Any], ledger: dict[str, list[str]]) -> list[dict[str, str]]:
     items = []
     for idx, story in enumerate(selected, 1):
         items.append(
@@ -233,8 +233,7 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
             f"   outlet: {story.feed_title}\n"
             f"   title: {story.title}\n"
             f"   link: {story.link}\n"
-            f"   published: {story.published}\n"
-            f"   source text:\n{story.source_text[:6000]}"
+            f"   published: {story.published}"
         )
     user_prompt = textwrap.dedent(
         f"""
@@ -242,7 +241,7 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
         Topic: {topic}
         Difficulty profile: {difficulty_name}
         Target learners: {profile['audience']}
-        Use only the source facts below. Do not invent named entities, statistics, or claims.
+        Use only the fact ledger below. It is the complete allow-list for this article. Do not invent named entities, statistics, quotations, legal context, market context, causal claims, comparisons, predictions, or claims beyond the ledger.
         Create a learner-friendly original article of {profile['words']} words, with low repetition and natural journalistic style. Match the target learners' real language level.
         The article should be about one coherent news story or a tight cluster of stories related to the topic.
 
@@ -274,12 +273,15 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
         - idioms: 3-5 items, each with expression, meaning_zh, usage_note, example.
         - reading_questions: exactly {profile['questions']} multiple-choice objects in this exact type order: {', '.join(profile['question_types'])}. Each object contains type, question, options and answer. options is an object with exactly A, B, C, D. answer is one capital letter.
         - answer_key: exactly {profile['questions']} answer letters as one string, with no spaces or punctuation, matching reading_questions. Correct option positions must vary naturally across A-D; do not use a fixed pattern.
-        - Never introduce a number, date, proper name, quotation, causal claim, or research finding that is absent from the source text.
+        - If a detail is absent from the fact ledger, omit it. Do not fill gaps with general knowledge or plausible analysis.
         - Avoid sports, entertainment gossip, and political controversy.
         - Chinese prose must be idiomatic, precise, restrained, and consistent with a professional learning publication. Whenever an English word or expression appears inside Chinese explanatory prose, wrap it in Markdown inline code, for example `cause a backlash`.
 
-        Source facts:
+        Source references:
         {chr(10).join(items)}
+
+        FACT LEDGER — THE ONLY ALLOWED FACTS:
+        {json.dumps(ledger, ensure_ascii=False)}
         """
     ).strip()
     return [
@@ -316,6 +318,39 @@ def call_deepseek(messages: list[dict[str, str]], temperature: float = 0.6) -> d
         content = re.sub(r"^```(?:json)?\s*", "", content)
         content = re.sub(r"\s*```$", "", content)
     return json.loads(content)
+
+
+def extract_fact_ledger(sources: list[Story]) -> dict[str, list[str]]:
+    source_text = "\n\n".join(
+        f"SOURCE {index}: {story.title}\n{story.source_text[:6000]}"
+        for index, story in enumerate(sources, 1)
+    )
+    messages = [
+        {"role": "system", "content": "Extract facts conservatively. Use only supplied text. Return JSON only."},
+        {"role": "user", "content": textwrap.dedent(f"""
+            Build a fact ledger for a news-learning article. Return exactly this JSON object:
+            {{"entities": [string], "numbers": [string], "facts": [string], "quotes": [string]}}.
+
+            Rules:
+            - Include only facts explicitly stated in the sources.
+            - facts must be short, neutral, and concrete; include at most 20.
+            - entities and numbers must occur verbatim in the sources.
+            - quotes are optional and must be exact source quotations of no more than 20 words.
+            - Do not infer consequences, give context from general knowledge, or add companies, laws, statistics, or opinions not stated in the sources.
+
+            SOURCES:
+            {source_text}
+        """).strip()},
+    ]
+    ledger = call_deepseek(messages, temperature=0.0)
+    if set(ledger) != {"entities", "numbers", "facts", "quotes"}:
+        raise ValueError("Fact ledger returned an invalid schema.")
+    for key, values in ledger.items():
+        if not isinstance(values, list) or not all(isinstance(value, str) and value.strip() for value in values):
+            raise ValueError(f"Fact ledger field is invalid: {key}")
+    if not ledger["facts"]:
+        raise ValueError("Fact ledger contains no usable facts.")
+    return ledger
 
 
 def assess_text_difficulty(passage: str) -> tuple[str, int]:
@@ -562,7 +597,7 @@ def audit_facts(payload: dict[str, Any], sources: list[Story]) -> dict[str, Any]
     return result
 
 
-def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], profile: dict[str, Any], attempts: int = 3) -> dict[str, Any]:
+def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], profile: dict[str, Any], attempts: int = 2) -> dict[str, Any]:
     errors: list[str] = []
     current_messages = list(messages)
     for attempt in range(1, attempts + 1):
@@ -583,11 +618,12 @@ def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], 
             current_messages += [
                 {"role": "assistant", "content": json.dumps(payload, ensure_ascii=False)},
                 {"role": "user", "content": (
-                    "Revise the previous JSON. Correct only the unsupported or overconfident statements "
-                    "identified by the fact checker below, using the supplied sources. Keep accurate material, "
-                    "preserve the complete JSON schema, and return JSON only. Re-check every reading question, "
-                    "all four options, each question's answer, and answer_key against the revised passage. "
-                    "Answers are dynamic for each article and must never be copied from a fixed template.\n\n"
+                    "Revise the previous JSON using the fact ledger from the original request. For every flagged "
+                    "claim, do exactly one of these: (1) replace it with a direct, neutral fact from the ledger, "
+                    "or (2) delete it. If no direct ledger fact exists, delete it. Do not add background context, "
+                    "industry examples, legal comparisons, user numbers, predictions, causal analysis, or shortened "
+                    "quotes. Preserve the complete JSON schema and return JSON only. Re-check every reading question, "
+                    "all four options, each question's answer, and answer_key against the revised passage.\n\n"
                     + "\n".join(issues)
                 )},
             ]
@@ -639,7 +675,8 @@ def main() -> None:
     if not selected:
         raise SystemExit("No selected story had enough source text for grounded generation.")
 
-    messages = build_prompt(topic, selected, difficulty_name, profile)
+    ledger = extract_fact_ledger(selected)
+    messages = build_prompt(topic, selected, difficulty_name, profile, ledger)
     payload = generate_with_retries(messages, selected, profile)
 
     today = dt.date.today().isoformat()
