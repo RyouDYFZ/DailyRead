@@ -174,6 +174,39 @@ QUESTION_TYPES = [
     "Author's Attitude", "Organization", "Title",
 ]
 
+DIFFICULTY_PROFILES = {
+    "middle": {
+        "cefr": "A2-B1", "words": "500-700", "vocab": 8, "sentences": 2, "questions": 5,
+        "vocab_distribution": {"core_word": 3, "fixed_collocation": 2, "phrasal_verb": 2, "academic_word": 1},
+        "question_types": QUESTION_TYPES[:5],
+        "audience": "middle-school learners; use concrete topics, common vocabulary, and short direct sentences",
+    },
+    "high": {
+        "cefr": "B1-B2", "words": "700-900", "vocab": 10, "sentences": 3, "questions": 6,
+        "vocab_distribution": {"core_word": 4, "fixed_collocation": 3, "phrasal_verb": 2, "academic_word": 1},
+        "question_types": QUESTION_TYPES[:6],
+        "audience": "high-school learners; use clear news prose with moderate detail and limited abstraction",
+    },
+    "college": {
+        "cefr": "B2-C1", "words": "900-1200", "vocab": 10, "sentences": 4, "questions": 7,
+        "vocab_distribution": {"core_word": 4, "fixed_collocation": 3, "phrasal_verb": 2, "academic_word": 1},
+        "question_types": QUESTION_TYPES,
+        "audience": "college learners; use nuanced reporting, varied sentence structures, and discipline-relevant vocabulary",
+    },
+    "advanced": {
+        "cefr": "C1-C2", "words": "1000-1400", "vocab": 15, "sentences": 5, "questions": 8,
+        "vocab_distribution": {"core_word": 6, "fixed_collocation": 4, "phrasal_verb": 3, "academic_word": 2},
+        "question_types": QUESTION_TYPES + ["Application"],
+        "audience": "advanced learners around IELTS 6.5-8.0 or TOEFL 90+; allow sophisticated vocabulary and complex syntax",
+    },
+    "proficiency": {
+        "cefr": "C2+", "words": "1200-1800", "vocab": 30, "sentences": 10, "questions": 12,
+        "vocab_distribution": {"core_word": 12, "fixed_collocation": 8, "phrasal_verb": 6, "academic_word": 4},
+        "question_types": QUESTION_TYPES + ["Application", "Evidence", "Tone and Style", "Critical Evaluation", "Synthesis"],
+        "audience": "near-native or highly proficient learners at TEM-8, GRE, GMAT Verbal, or Academic Reading level; allow academic expressions, complex syntax, and abstract argument",
+    },
+}
+
 VOCABULARY_CATEGORIES = {
     "core_word": 4,
     "fixed_collocation": 3,
@@ -181,8 +214,17 @@ VOCABULARY_CATEGORIES = {
     "academic_word": 1,
 }
 
+POS_ABBREVIATIONS = {"n.", "v.", "adj.", "adv.", "phr.", "prep.", "conj.", "pron.", "det.", "int.", "num.", "abbr."}
+VOCABULARY_SECTION_TITLES = {
+    "core_word": "核心单词",
+    "fixed_collocation": "固定搭配",
+    "phrasal_verb": "短语动词",
+    "academic_word": "学术词",
+}
+SUMMARY_BANNED_PHRASES = ("适合", "学习者", "词汇", "句型", "学习效果", "帮助读者", "阅读材料")
 
-def build_prompt(topic: str, selected: list[Story]) -> list[dict[str, str]]:
+
+def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profile: dict[str, Any]) -> list[dict[str, str]]:
     items = []
     for idx, story in enumerate(selected, 1):
         items.append(
@@ -197,8 +239,10 @@ def build_prompt(topic: str, selected: list[Story]) -> list[dict[str, str]]:
         f"""
         You are writing a publication-ready daily English reading pack for Chinese learners.
         Topic: {topic}
+        Difficulty profile: {difficulty_name}
+        Target learners: {profile['audience']}
         Use only the source facts below. Do not invent named entities, statistics, or claims.
-        Create a learner-friendly original article in CEFR B2-C1 level, aiming for about 600-900 words, with low repetition and natural journalistic style. Prioritize factual completeness and clarity over an exact word count.
+        Create a learner-friendly original article of {profile['words']} words, with low repetition and natural journalistic style. Match the target learners' real language level.
         The article should be about one coherent news story or a tight cluster of stories related to the topic.
 
         CONSISTENCY IS MANDATORY. The JSON will be rendered by a fixed Markdown template, so follow the schema, wording style, item order, punctuation, and counts exactly. Do not add Markdown to JSON values except ordinary paragraph breaks in reading_passage.
@@ -219,19 +263,19 @@ def build_prompt(topic: str, selected: list[Story]) -> list[dict[str, str]]:
 
         Field requirements:
         - title_en/title_zh: concise natural titles. They will appear as "English｜中文".
-        - summary_zh: one polished Chinese paragraph summarizing the article and its learning value.
-        - cefr: exactly "B2", "B2-C1", or "C1".
+        - summary_zh: one factual Chinese summary paragraph only. State what happened, who was involved, and why it matters. Never mention learners, suitability, reading, vocabulary, grammar, learning outcomes, or the article's usefulness.
+        - cefr: exactly "{profile['cefr']}".
         - themes: 1-3 concise English theme labels, e.g. ["Medicine", "Public Health"].
-        - difficulty: integer from 3 to 5.
-        - reading_passage: aim for about 600-900 English words, coherent paragraphs, no heading. This is a target, not a hard limit.
-        - vocabulary: exactly 10 items in this exact order: 4 core_word, 3 fixed_collocation, 2 phrasal_verb, 1 academic_word. Each item contains category, word, ipa, pos, meaning_zh, collocations, example. category must be exactly one of those four labels. For multiword entries, still provide natural IPA and a suitable POS label. collocations is a list of 2-3 common English collocations or usage patterns.
-        - difficult_sentences: 3-5 items, each with sentence, explanation_zh, grammar_point, translation_zh. Choose useful sentences that accurately reflect the reading passage.
+        - difficulty: integer from 1 to 5. This is provisional; the script will calculate the published star rating from the text.
+        - reading_passage: {profile['words']} English words, coherent paragraphs, no heading.
+        - vocabulary: exactly {profile['vocab']} items with category counts {json.dumps(profile['vocab_distribution'])}. Items must remain in category order. Each item contains category, word, ipa, pos, meaning_zh, collocations, example. category must be exactly one of those four labels. pos must be one of: n., v., adj., adv., phr., prep., conj. Use phr. for all fixed expressions and phrasal verbs; never use labels such as phr. n. or phr. v. collocations is a list of 2-3 common English collocations or usage patterns.
+        - difficult_sentences: exactly {profile['sentences']} items, each with sentence, explanation_zh, grammar_point, translation_zh. Choose useful sentences that accurately reflect the reading passage.
         - idioms: 3-5 items, each with expression, meaning_zh, usage_note, example.
-        - reading_questions: exactly 7 multiple-choice objects in this exact type order: Main Idea, Detail, Inference, Vocabulary in Context, Author's Attitude, Organization, Title. Each object contains type, question, options and answer. options is an object with exactly A, B, C, D. answer is one capital letter.
-        - answer_key: exactly the seven answer letters as one string, with no spaces or punctuation, matching reading_questions.
+        - reading_questions: exactly {profile['questions']} multiple-choice objects in this exact type order: {', '.join(profile['question_types'])}. Each object contains type, question, options and answer. options is an object with exactly A, B, C, D. answer is one capital letter.
+        - answer_key: exactly {profile['questions']} answer letters as one string, with no spaces or punctuation, matching reading_questions.
         - Never introduce a number, date, proper name, quotation, causal claim, or research finding that is absent from the source text.
         - Avoid sports, entertainment gossip, and political controversy.
-        - Chinese prose must be idiomatic, precise, restrained, and consistent with a professional learning publication.
+        - Chinese prose must be idiomatic, precise, restrained, and consistent with a professional learning publication. Whenever an English word or expression appears inside Chinese explanatory prose, wrap it in Markdown inline code, for example `cause a backlash`.
 
         Source facts:
         {chr(10).join(items)}
@@ -273,6 +317,32 @@ def call_deepseek(messages: list[dict[str, str]], temperature: float = 0.6) -> d
     return json.loads(content)
 
 
+def assess_text_difficulty(passage: str) -> tuple[str, int]:
+    words = re.findall(r"[A-Za-z]+(?:['’-][A-Za-z]+)*", passage)
+    sentences = [part for part in re.split(r"[.!?]+", passage) if part.strip()]
+    if not words or not sentences:
+        return "B1", 1
+    average_sentence_length = len(words) / len(sentences)
+    long_word_ratio = sum(len(word) >= 8 for word in words) / len(words)
+    connector_ratio = sum(
+        word.lower() in {"although", "because", "however", "therefore", "whereas", "while", "despite", "whether"}
+        for word in words
+    ) / len(words)
+    complexity = average_sentence_length + (long_word_ratio * 30) + (connector_ratio * 60)
+    if complexity < 16:
+        return "B1", 1
+    if complexity < 21:
+        return "B2", 2 if complexity < 18 else 3
+    if complexity < 27:
+        return "C1", 4
+    return "C2", 5
+
+
+def apply_text_assessment(payload: dict[str, Any], profile: dict[str, Any]) -> None:
+    _, payload["difficulty"] = assess_text_difficulty(payload["reading_passage"])
+    payload["cefr"] = profile["cefr"]
+
+
 def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story]) -> str:
     passage = payload["reading_passage"].strip()
     word_count = len(re.findall(r"\b[A-Za-z]+(?:['’-][A-Za-z]+)*\b", passage))
@@ -286,16 +356,22 @@ def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story]) -
     lines.extend(["", f"🏷 主题：`{' · '.join(payload['themes'])}`", "", f"⭐ 难度：{stars}", "", "------", ""])
     lines.extend(["## 文章摘要", "", payload["summary_zh"].strip(), "", "------", ""])
     lines.extend(["## Reading Passage", "", passage, "", "------", "", "## 单词积累", ""])
-    for item in payload["vocabulary"]:
-        collocations = item["collocations"]
-        if isinstance(collocations, list):
-            collocations = "; ".join(collocations)
-        lines.extend([
-            f"**{item['word']}** [/{item['ipa'].strip('/[]')}/]", "",
-            f"**{item['pos']}** {item['meaning_zh']}", "",
-            f"常见搭配：{collocations}", "",
-            f"例句：{item['example']}", "", "",
-        ])
+    for category in VOCABULARY_CATEGORIES:
+        category_items = [item for item in payload["vocabulary"] if item["category"] == category]
+        lines.extend([f"### {VOCABULARY_SECTION_TITLES[category]}", ""])
+        for index, item in enumerate(category_items, 1):
+            collocations = item["collocations"]
+            if isinstance(collocations, list):
+                collocations = " · ".join(f"`{value}`" for value in collocations)
+            else:
+                collocations = f"`{collocations}`"
+            lines.extend([
+                f"#### {index}. **{item['word']}** [/{item['ipa'].strip('/[]')}/]", "",
+                f"- **词性** `{item['pos']}`",
+                f"- **释义** {item['meaning_zh']}",
+                f"- **常见搭配** {collocations}",
+                f"- **例句** {item['example']}", "",
+            ])
     lines.extend(["------", "", "## 长难句理解", ""])
     for item in payload["difficult_sentences"]:
         lines.extend([
@@ -375,7 +451,7 @@ def repair_difficult_sentences(payload: dict[str, Any]) -> None:
         item["sentence"] = candidate.strip()
 
 
-def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
+def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dict[str, Any]) -> None:
     required = [
         "title_zh",
         "title_en",
@@ -393,29 +469,33 @@ def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
     for key in required:
         if key not in payload:
             raise ValueError(f"Missing key: {key}")
-    if payload["cefr"] not in {"B2", "B2-C1", "C1"}:
-        raise ValueError("cefr must be B2, B2-C1, or C1.")
+    if payload["cefr"] != profile["cefr"]:
+        raise ValueError(f"cefr must be {profile['cefr']}.")
     if not isinstance(payload["themes"], list) or not 1 <= len(payload["themes"]) <= 3:
         raise ValueError("themes must contain 1-3 labels.")
-    if not isinstance(payload["difficulty"], int) or not 3 <= payload["difficulty"] <= 5:
-        raise ValueError("difficulty must be an integer from 3 to 5.")
+    if not isinstance(payload["difficulty"], int) or not 1 <= payload["difficulty"] <= 5:
+        raise ValueError("difficulty must be an integer from 1 to 5.")
+    if any(phrase in payload["summary_zh"] for phrase in SUMMARY_BANNED_PHRASES):
+        raise ValueError("summary_zh contains learning-oriented rather than factual content.")
     vocabulary = payload["vocabulary"]
-    if not isinstance(vocabulary, list) or len(vocabulary) != 10:
-        raise ValueError("Expected exactly 10 vocabulary items.")
+    if not isinstance(vocabulary, list) or len(vocabulary) != profile["vocab"]:
+        raise ValueError(f"Expected exactly {profile['vocab']} vocabulary items.")
     categories = [item.get("category") for item in vocabulary]
-    expected = [category for category, count in VOCABULARY_CATEGORIES.items() for _ in range(count)]
+    expected = [category for category, count in profile["vocab_distribution"].items() for _ in range(count)]
     if categories != expected:
         raise ValueError(f"Vocabulary category order/count is invalid: {categories}")
     vocab_keys = {"category", "word", "ipa", "pos", "meaning_zh", "collocations", "example"}
     for item in vocabulary:
         if not vocab_keys.issubset(item) or not all(item[key] for key in vocab_keys):
             raise ValueError("A vocabulary item is incomplete.")
-    if not 3 <= len(payload["difficult_sentences"]) <= 5:
-        raise ValueError("Expected 3-5 difficult sentences.")
+        if item["pos"] not in POS_ABBREVIATIONS:
+            raise ValueError(f"Unsupported vocabulary part of speech: {item['pos']}")
+    if len(payload["difficult_sentences"]) != profile["sentences"]:
+        raise ValueError(f"Expected exactly {profile['sentences']} difficult sentences.")
     questions = payload["reading_questions"]
-    if not isinstance(questions, list) or len(questions) != 7:
-        raise ValueError("Expected exactly 7 reading questions.")
-    if [q.get("type") for q in questions] != QUESTION_TYPES:
+    if not isinstance(questions, list) or len(questions) != profile["questions"]:
+        raise ValueError(f"Expected exactly {profile['questions']} reading questions.")
+    if [q.get("type") for q in questions] != profile["question_types"]:
         raise ValueError("Question types or order do not match the house style.")
     for question in questions:
         if set(question.get("options", {})) != set("ABCD"):
@@ -459,13 +539,14 @@ def audit_facts(payload: dict[str, Any], sources: list[Story]) -> dict[str, Any]
     return result
 
 
-def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], attempts: int = 3) -> dict[str, Any]:
+def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], profile: dict[str, Any], attempts: int = 3) -> dict[str, Any]:
     errors: list[str] = []
     current_messages = list(messages)
     for attempt in range(1, attempts + 1):
         try:
             payload = call_deepseek(current_messages)
-            validate_payload(payload, sources)
+            apply_text_assessment(payload, profile)
+            validate_payload(payload, sources, profile)
             audit = audit_facts(payload, sources)
             if audit["supported"]:
                 return payload
@@ -503,6 +584,10 @@ def main() -> None:
     feeds_file = Path(os.environ.get("NEWS_FEEDS_FILE", str(DEFAULT_FEEDS_FILE)))
     output_dir = Path(os.environ.get("OUTPUT_DIR", str(BASE_DIR / "outputs" / "generated")))
     topic_override = os.environ.get("TOPIC_OVERRIDE", "").strip().lower()
+    difficulty_name = os.environ.get("DIFFICULTY_LEVEL", "college").strip().lower()
+    if difficulty_name not in DIFFICULTY_PROFILES:
+        raise SystemExit(f"Invalid DIFFICULTY_LEVEL: {difficulty_name}. Choose from {', '.join(DIFFICULTY_PROFILES)}")
+    profile = DIFFICULTY_PROFILES[difficulty_name]
     output_dir.mkdir(parents=True, exist_ok=True)
 
     feeds = load_feeds(feeds_file)
@@ -530,8 +615,8 @@ def main() -> None:
     if not selected:
         raise SystemExit("No selected story had enough source text for grounded generation.")
 
-    messages = build_prompt(topic, selected)
-    payload = generate_with_retries(messages, selected)
+    messages = build_prompt(topic, selected, difficulty_name, profile)
+    payload = generate_with_retries(messages, selected, profile)
 
     today = dt.date.today().isoformat()
     json_path = output_dir / f"{today}.json"

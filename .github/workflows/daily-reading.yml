@@ -9,6 +9,10 @@ on:
         description: "Optional topic override"
         required: false
         default: ""
+      difficulty:
+        description: "Learner level: middle, high, college, advanced, or proficiency"
+        required: false
+        default: "college"
       publish:
         description: "Commit the generated pack back to the repo"
         required: false
@@ -32,6 +36,7 @@ jobs:
       NEWS_FEEDS_FILE: outputs/bbc-learning-feeds.opml
       OUTPUT_DIR: outputs/generated
       TOPIC_OVERRIDE: ${{ github.event.inputs.topic || '' }}
+      DIFFICULTY_LEVEL: ${{ github.event.inputs.difficulty || 'college' }}
       PUBLISH_RESULTS: ${{ github.event.inputs.publish || 'false' }}
     steps:
       - name: Checkout

@@ -50,8 +50,8 @@ def extract_quiz(section: str, answer_key: str) -> list[dict[str, object]]:
             },
             "answer": answer_key[index],
         })
-    if len(questions) != 7:
-        raise ValueError(f"Expected 7 quiz questions, found {len(questions)}")
+    if len(questions) != len(answer_key):
+        raise ValueError(f"Expected {len(answer_key)} quiz questions, found {len(questions)}")
     return questions
 
 
@@ -65,9 +65,9 @@ def parse_article(path: Path) -> dict[str, object]:
     sources_heading = text.find("## \u6570\u636e\u6e90")
     if quiz_heading < 0 or sources_heading < 0 or sources_heading <= quiz_heading:
         raise ValueError(f"Missing quiz or sources section in {path}")
-    answer_match = re.search(r"\uff08\u7b54\u6848\uff1a([A-D]{7})\uff09", text[quiz_heading:sources_heading])
+    answer_match = re.search(r"\uff08\u7b54\u6848\uff1a([A-D]{5,12})\uff09", text[quiz_heading:sources_heading])
     if not answer_match:
-        raise ValueError(f"Cannot find seven-letter answer key in {path}")
+        raise ValueError(f"Cannot find a 5-12 letter answer key in {path}")
     quiz = extract_quiz(text[quiz_heading:sources_heading], answer_match.group(1))
     md = markdown.Markdown(extensions=["extra", "sane_lists"])
     content_html = md.convert(text[:quiz_heading].strip())
