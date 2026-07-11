@@ -191,7 +191,7 @@ def build_prompt(topic: str, selected: list[Story]) -> list[dict[str, str]]:
             f"   title: {story.title}\n"
             f"   link: {story.link}\n"
             f"   published: {story.published}\n"
-            f"   source text:\n{story.source_text[:12000]}"
+            f"   source text:\n{story.source_text[:6000]}"
         )
     user_prompt = textwrap.dedent(
         f"""
@@ -216,7 +216,6 @@ def build_prompt(topic: str, selected: list[Story]) -> list[dict[str, str]]:
         - idioms
         - reading_questions
         - answer_key
-        - factual_claims
 
         Field requirements:
         - title_en/title_zh: concise natural titles. They will appear as "English｜中文".
@@ -226,11 +225,10 @@ def build_prompt(topic: str, selected: list[Story]) -> list[dict[str, str]]:
         - difficulty: integer from 3 to 5.
         - reading_passage: 600-900 English words, coherent paragraphs, no heading.
         - vocabulary: exactly 10 items in this exact order: 4 core_word, 3 fixed_collocation, 2 phrasal_verb, 1 academic_word. Each item contains category, word, ipa, pos, meaning_zh, collocations, example. category must be exactly one of those four labels. For multiword entries, still provide natural IPA and a suitable POS label. collocations is a list of 2-3 common English collocations or usage patterns.
-        - difficult_sentences: 3-5 items copied verbatim from reading_passage, each with sentence, explanation_zh, grammar_point, translation_zh.
+        - difficult_sentences: 3-5 items, each with sentence, explanation_zh, grammar_point, translation_zh. Choose useful sentences that accurately reflect the reading passage.
         - idioms: 3-5 items, each with expression, meaning_zh, usage_note, example.
         - reading_questions: exactly 7 multiple-choice objects in this exact type order: Main Idea, Detail, Inference, Vocabulary in Context, Author's Attitude, Organization, Title. Each object contains type, question, options and answer. options is an object with exactly A, B, C, D. answer is one capital letter.
         - answer_key: exactly the seven answer letters as one string, with no spaces or punctuation, matching reading_questions.
-        - factual_claims: 5-12 objects covering every concrete claim, number, date, person, organization, and reported finding in the reading passage. Each object contains claim, source_id, evidence_quote. source_id is an integer matching one of the supplied SOURCE blocks. evidence_quote must be an exact 8-40 word quote copied from that source text. Do not include factual_claims in the reading passage.
         - Never introduce a number, date, proper name, quotation, causal claim, or research finding that is absent from the source text.
         - Avoid sports, entertainment gossip, and political controversy.
         - Chinese prose must be idiomatic, precise, restrained, and consistent with a professional learning publication.
@@ -391,7 +389,6 @@ def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
         "idioms",
         "reading_questions",
         "answer_key",
-        "factual_claims",
     ]
     for key in required:
         if key not in payload:
@@ -418,11 +415,6 @@ def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
             raise ValueError("A vocabulary item is incomplete.")
     if not 3 <= len(payload["difficult_sentences"]) <= 5:
         raise ValueError("Expected 3-5 difficult sentences.")
-    normalized_passage = normalize_evidence(payload["reading_passage"])
-    for item in payload["difficult_sentences"]:
-        sentence = normalize_evidence(item["sentence"])
-        if sentence not in normalized_passage:
-            raise ValueError("A difficult sentence is not copied verbatim from the passage.")
     questions = payload["reading_questions"]
     if not isinstance(questions, list) or len(questions) != 7:
         raise ValueError("Expected exactly 7 reading questions.")
@@ -436,20 +428,6 @@ def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
     expected_key = "".join(question["answer"] for question in questions)
     if payload["answer_key"] != expected_key:
         raise ValueError(f"answer_key must be {expected_key}.")
-    claims = payload["factual_claims"]
-    if not isinstance(claims, list) or not 5 <= len(claims) <= 12:
-        raise ValueError("Expected 5-12 factual claims with evidence.")
-    for claim in claims:
-        if set(claim) != {"claim", "source_id", "evidence_quote"}:
-            raise ValueError("Each factual claim needs claim, source_id, and evidence_quote only.")
-        source_id = claim["source_id"]
-        if not isinstance(source_id, int) or not 1 <= source_id <= len(sources):
-            raise ValueError("A factual claim has an invalid source_id.")
-        quote = normalize_evidence(claim["evidence_quote"])
-        if not 8 <= len(quote.split()) <= 40:
-            raise ValueError("Evidence quotes must contain 8-40 words.")
-        if not quote_matches_source(claim["evidence_quote"], sources[source_id - 1].source_text):
-            raise ValueError("An evidence quote cannot be matched to its source.")
     source_corpus = normalize_evidence(" ".join(
         f"{story.title} {story.published} {story.source_text}" for story in sources
     ))
@@ -461,7 +439,7 @@ def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
 
 def audit_facts(payload: dict[str, Any], sources: list[Story]) -> None:
     source_text = "\n\n".join(
-        f"SOURCE {idx}: {story.title}\n{story.source_text}" for idx, story in enumerate(sources, 1)
+        f"SOURCE {idx}: {story.title}\n{story.source_text[:6000]}" for idx, story in enumerate(sources, 1)
     )
     messages = [
         {"role": "system", "content": "You are a strict fact checker. Use only supplied sources. Return JSON only."},
@@ -492,7 +470,6 @@ def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], 
     for attempt in range(1, attempts + 1):
         try:
             payload = call_deepseek(current_messages)
-            repair_difficult_sentences(payload)
             validate_payload(payload, sources)
             audit_facts(payload, sources)
             return payload
@@ -532,7 +509,7 @@ def main() -> None:
 
     topic = choose_topic(stories_by_topic, topic_override)
     selected = stories_by_topic[topic]
-    selected = sorted(selected, key=lambda s: (s.published, s.title), reverse=True)[:3]
+    selected = sorted(selected, key=lambda s: (s.published, s.title), reverse=True)[:2]
     for story in selected:
         story.source_text = fetch_article_text(story)
     selected = [story for story in selected if len(story.source_text.split()) >= 20]
@@ -545,8 +522,7 @@ def main() -> None:
     today = dt.date.today().isoformat()
     json_path = output_dir / f"{today}.json"
     md_path = output_dir / f"{today}.md"
-    public_payload = {key: value for key, value in payload.items() if key != "factual_claims"}
-    json_path.write_text(json.dumps(public_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     md_path.write_text(render_markdown(payload, topic, selected), encoding="utf-8")
     eprint(f"Wrote {json_path}")
     eprint(f"Wrote {md_path}")
