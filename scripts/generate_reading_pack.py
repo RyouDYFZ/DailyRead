@@ -9,6 +9,7 @@ import os
 import re
 import sys
 import textwrap
+import unicodedata
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -325,7 +326,55 @@ def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story]) -
 
 
 def normalize_evidence(text: str) -> str:
-    return re.sub(r"\s+", " ", html.unescape(text)).strip().casefold()
+    text = unicodedata.normalize("NFKC", html.unescape(text)).casefold()
+    text = text.replace("'", "").replace("’", "")
+    text = re.sub(r"[^\w]+", " ", text, flags=re.UNICODE)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def token_similarity(left: str, right: str) -> float:
+    left_tokens = normalize_evidence(left).split()
+    right_tokens = normalize_evidence(right).split()
+    if not left_tokens or not right_tokens:
+        return 0.0
+    shared = sum((Counter(left_tokens) & Counter(right_tokens)).values())
+    return (2 * shared) / (len(left_tokens) + len(right_tokens))
+
+
+def quote_matches_source(quote: str, source: str) -> bool:
+    quote_tokens = normalize_evidence(quote).split()
+    source_tokens = normalize_evidence(source).split()
+    if not quote_tokens or not source_tokens:
+        return False
+    phrase = " ".join(quote_tokens)
+    if phrase in " ".join(source_tokens):
+        return True
+    window_min = max(1, len(quote_tokens) - 3)
+    window_max = min(len(source_tokens), len(quote_tokens) + 3)
+    for start, token in enumerate(source_tokens):
+        if token != quote_tokens[0]:
+            continue
+        for size in range(window_min, window_max + 1):
+            window = source_tokens[start:start + size]
+            if len(window) < window_min:
+                continue
+            if token_similarity(" ".join(quote_tokens), " ".join(window)) >= 0.88:
+                return True
+    return False
+
+
+def repair_difficult_sentences(payload: dict[str, Any]) -> None:
+    passage = payload.get("reading_passage", "")
+    passage_sentences = re.split(r"(?<=[.!?])\s+", passage.strip())
+    for item in payload.get("difficult_sentences", []):
+        sentence = item.get("sentence", "")
+        normalized = normalize_evidence(sentence)
+        if normalized and normalized in normalize_evidence(passage):
+            continue
+        candidate = max(passage_sentences, key=lambda value: token_similarity(sentence, value), default="")
+        if token_similarity(sentence, candidate) < 0.84:
+            raise ValueError("A difficult sentence cannot be aligned to the reading passage.")
+        item["sentence"] = candidate.strip()
 
 
 def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
@@ -369,9 +418,9 @@ def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
             raise ValueError("A vocabulary item is incomplete.")
     if not 3 <= len(payload["difficult_sentences"]) <= 5:
         raise ValueError("Expected 3-5 difficult sentences.")
-    normalized_passage = re.sub(r"\s+", " ", payload["reading_passage"]).strip()
+    normalized_passage = normalize_evidence(payload["reading_passage"])
     for item in payload["difficult_sentences"]:
-        sentence = re.sub(r"\s+", " ", item["sentence"]).strip()
+        sentence = normalize_evidence(item["sentence"])
         if sentence not in normalized_passage:
             raise ValueError("A difficult sentence is not copied verbatim from the passage.")
     questions = payload["reading_questions"]
@@ -399,8 +448,8 @@ def validate_payload(payload: dict[str, Any], sources: list[Story]) -> None:
         quote = normalize_evidence(claim["evidence_quote"])
         if not 8 <= len(quote.split()) <= 40:
             raise ValueError("Evidence quotes must contain 8-40 words.")
-        if quote not in normalize_evidence(sources[source_id - 1].source_text):
-            raise ValueError("An evidence quote does not occur verbatim in its source.")
+        if not quote_matches_source(claim["evidence_quote"], sources[source_id - 1].source_text):
+            raise ValueError("An evidence quote cannot be matched to its source.")
     source_corpus = normalize_evidence(" ".join(
         f"{story.title} {story.published} {story.source_text}" for story in sources
     ))
@@ -443,6 +492,7 @@ def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], 
     for attempt in range(1, attempts + 1):
         try:
             payload = call_deepseek(current_messages)
+            repair_difficult_sentences(payload)
             validate_payload(payload, sources)
             audit_facts(payload, sources)
             return payload
