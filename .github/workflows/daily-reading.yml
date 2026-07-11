@@ -13,6 +13,10 @@ on:
         description: "Learner level: middle, high, college, advanced, or proficiency"
         required: false
         default: "college"
+      content_mode:
+        description: "Content mode: original-adapt (default), original-full, or adapted"
+        required: false
+        default: "original-adapt"
       publish:
         description: "Commit the generated pack back to the repo"
         required: false
@@ -37,6 +41,7 @@ jobs:
       OUTPUT_DIR: outputs/generated
       TOPIC_OVERRIDE: ${{ github.event.inputs.topic || '' }}
       DIFFICULTY_LEVEL: ${{ github.event.inputs.difficulty || 'college' }}
+      CONTENT_MODE: ${{ github.event.inputs.content_mode || 'original-adapt' }}
       PUBLISH_RESULTS: ${{ github.event.inputs.publish || 'false' }}
     steps:
       - name: Checkout

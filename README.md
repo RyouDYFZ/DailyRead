@@ -6,7 +6,7 @@
 
 ## 功能一览
 
-- 每日定时或手动生成英文阅读材料。
+- 每日定时或手动生成英文阅读材料；默认保留新闻原文，不由 AI 重写正文。
 - 主题覆盖科技、AI、医学、商业、环境和教育；过滤逻辑可自行扩展。
 - 五档学习难度：`middle`、`high`、`college`、`advanced`、`proficiency`。
 - 固定 Markdown 教学版式，词汇按类别分区展示。
@@ -38,6 +38,7 @@
 
 - `topic`：可选。填写 `technology`、`ai`、`medicine`、`business`、`environment` 或 `education`。
 - `difficulty`：选择学习难度，默认 `college`。
+- `content_mode`：正文模式，默认 `original-adapt`；可选择 `original-full` 或 `adapted`。
 - `publish`：设为 `true` 时，生成的 Markdown 与 JSON 会提交回仓库；定时任务会自动提交。
 
 生成结果位于 `outputs/generated/YYYY-MM-DD.md` 和 `outputs/generated/YYYY-MM-DD.json`。网页部署后，左侧栏会自动出现对应日期。
@@ -53,6 +54,24 @@
 | `college` | College | B2–C1 | 900–1200 | 10 | 4 | 7 |
 | `advanced` | IELTS 6.5–8.0 / TOEFL 90+ | C1–C2 | 1000–1400 | 15 | 5 | 8 |
 | `proficiency` | TEM-8, GRE, GMAT Verbal, Academic Reading | C2+ | 1200–1800 | 30 | 10 | 12 |
+
+## 正文模式
+
+`CONTENT_MODE` 决定新闻正文是否由模型改写。无论哪种模式，摘要、词汇卡、长难句、表达和阅读题均由 DeepSeek 基于最终正文生成。
+
+| 模式 | 默认 | 正文处理 | 难度说明 |
+| --- | --- | --- | --- |
+| `original-adapt` | 是 | 从一篇来源新闻中选择连续段落，逐字保留，不改写 | 仅允许 `high`、`college`、`advanced`；实际难度随原文浮动 |
+| `original-full` | 否 | 使用抓取到的该篇新闻全文，逐字保留 | 可搭配五档配置；原文难度不保证与目标档位完全一致 |
+| `adapted` | 否 | 根据经核查的事实清单生成改写阅读文章 | 五档难度均可精确控制 |
+
+`original-adapt` 会选取接近所选档位目标篇幅的连续段落，默认以 `college` 的目标长度选取。它不简化词汇或句法，因此 `CEFR` 仍显示所选档位，星级则由脚本根据最终原文计算。文章顶部会明确标注“新闻原文连续节选”或“新闻原文全文”，并保留数据源链接。
+
+在本地运行时设置：
+
+```bash
+export CONTENT_MODE="original-adapt"  # 默认；也可为 original-full 或 adapted
+```
 
 ### 修改难度档位
 
@@ -209,6 +228,7 @@ cron: "10 23 * * *"
 python3 -m pip install -r requirements.txt
 export DEEPSEEK_API_KEY="your_key"
 export DIFFICULTY_LEVEL="college"
+export CONTENT_MODE="original-adapt"
 export TOPIC_OVERRIDE="technology"   # 可选
 python3 scripts/generate_reading_pack.py
 python3 scripts/build_site.py
@@ -221,6 +241,7 @@ python3 scripts/build_site.py
 | `DEEPSEEK_API_KEY` | None | 必填 API 密钥 |
 | `DEEPSEEK_MODEL` | `deepseek-v4-flash` | DeepSeek 模型名称 |
 | `DIFFICULTY_LEVEL` | `college` | 五档学习难度之一 |
+| `CONTENT_MODE` | `original-adapt` | `original-adapt`、`original-full` 或 `adapted` |
 | `TOPIC_OVERRIDE` | 自动选择 | 强制指定主题 |
 | `NEWS_FEEDS_FILE` | `outputs/bbc-learning-feeds.opml` | RSS 配置文件 |
 | `OUTPUT_DIR` | `outputs/generated` | 生成结果目录 |

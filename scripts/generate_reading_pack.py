@@ -92,7 +92,7 @@ def fetch_article_text(story: Story) -> str:
         paragraphs = list(dict.fromkeys(parser.paragraphs))
         article_text = "\n".join(paragraphs)
         if len(article_text.split()) >= 120:
-            return article_text[:12000]
+            return article_text
     except (requests.RequestException, UnicodeError) as exc:
         eprint(f"Article fetch failed for {story.link}: {exc}")
     fallback = re.sub(r"<[^>]+>", " ", story.summary)
@@ -225,7 +225,8 @@ VOCABULARY_SECTION_TITLES = {
 SUMMARY_BANNED_PHRASES = ("适合", "学习者", "词汇", "句型", "学习效果", "帮助读者", "阅读材料")
 
 
-def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profile: dict[str, Any], ledger: dict[str, list[str]]) -> list[dict[str, str]]:
+def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profile: dict[str, Any], ledger: dict[str, list[str]] | None = None, original_passage: str | None = None) -> list[dict[str, str]]:
+    original_mode = original_passage is not None
     items = []
     for idx, story in enumerate(selected, 1):
         items.append(
@@ -241,9 +242,7 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
         Topic: {topic}
         Difficulty profile: {difficulty_name}
         Target learners: {profile['audience']}
-        Use only the fact ledger below. It is the complete allow-list for this article. Do not invent named entities, statistics, quotations, legal context, market context, causal claims, comparisons, predictions, or claims beyond the ledger.
-        Create a learner-friendly original article of {profile['words']} words, with low repetition and natural journalistic style. Match the target learners' real language level.
-        The article should be about one coherent news story or a tight cluster of stories related to the topic.
+        {"This is ORIGINAL-SOURCE mode. The reading passage below is locked news text. Do not rewrite, simplify, paraphrase, shorten, expand, or correct it. Generate only the learning analysis from this exact passage. Every vocabulary item, difficult sentence, idiom, question, answer, title, and summary must be grounded in it." if original_mode else "Use only the fact ledger below. It is the complete allow-list for this article. Do not invent named entities, statistics, quotations, legal context, market context, causal claims, comparisons, predictions, or claims beyond the ledger. Create a learner-friendly original article of " + str(profile['words']) + " words, with low repetition and natural journalistic style. Match the target learners' real language level. The article should be about one coherent news story or a tight cluster of stories related to the topic."}
 
         CONSISTENCY IS MANDATORY. The JSON will be rendered by a fixed Markdown template, so follow the schema, wording style, item order, punctuation, and counts exactly. Do not add Markdown to JSON values except ordinary paragraph breaks in reading_passage.
 
@@ -267,21 +266,20 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
         - cefr: exactly "{profile['cefr']}".
         - themes: 1-3 concise English theme labels, e.g. ["Medicine", "Public Health"].
         - difficulty: integer from 1 to 5. This is provisional; the script will calculate the published star rating from the text.
-        - reading_passage: {profile['words']} English words, coherent paragraphs, no heading.
+        - reading_passage: {"set this field to the exact string __LOCKED_BY_SCRIPT__. The script will insert the original passage after generation; do not reproduce it in your response." if original_mode else str(profile['words']) + " English words, coherent paragraphs, no heading."}
         - vocabulary: exactly {profile['vocab']} items with category counts {json.dumps(profile['vocab_distribution'])}. Items must remain in category order. Each item contains category, word, ipa, pos, meaning_zh, collocations, example. category must be exactly one of those four labels. pos must be one of: n., v., adj., adv., phr., prep., conj. Use phr. for all fixed expressions and phrasal verbs; never use labels such as phr. n. or phr. v. collocations is a list of 2-3 common English collocations or usage patterns.
         - difficult_sentences: exactly {profile['sentences']} items, each with sentence, explanation_zh, grammar_point, translation_zh. Choose useful sentences that accurately reflect the reading passage.
         - idioms: 3-5 items, each with expression, meaning_zh, usage_note, example.
         - reading_questions: exactly {profile['questions']} multiple-choice objects in this exact type order: {', '.join(profile['question_types'])}. Each object contains type, question, options and answer. options is an object with exactly A, B, C, D. answer is one capital letter.
         - answer_key: exactly {profile['questions']} answer letters as one string, with no spaces or punctuation, matching reading_questions. Correct option positions must vary naturally across A-D; do not use a fixed pattern.
-        - If a detail is absent from the fact ledger, omit it. Do not fill gaps with general knowledge or plausible analysis.
+        - {"If a point is absent from the locked original passage, omit it. Do not fill gaps with general knowledge or plausible analysis." if original_mode else "If a detail is absent from the fact ledger, omit it. Do not fill gaps with general knowledge or plausible analysis."}
         - Avoid sports, entertainment gossip, and political controversy.
         - Chinese prose must be idiomatic, precise, restrained, and consistent with a professional learning publication. Whenever an English word or expression appears inside Chinese explanatory prose, wrap it in Markdown inline code, for example `cause a backlash`.
 
         Source references:
         {chr(10).join(items)}
 
-        FACT LEDGER — THE ONLY ALLOWED FACTS:
-        {json.dumps(ledger, ensure_ascii=False)}
+        {"LOCKED ORIGINAL PASSAGE:\n" + original_passage if original_mode else "FACT LEDGER — THE ONLY ALLOWED FACTS:\n" + json.dumps(ledger, ensure_ascii=False)}
         """
     ).strip()
     return [
@@ -379,6 +377,29 @@ def apply_text_assessment(payload: dict[str, Any], profile: dict[str, Any]) -> N
     payload["cefr"] = profile["cefr"]
 
 
+def select_original_excerpt(story: Story, profile: dict[str, Any]) -> str:
+    """Select a continuous, attributed news excerpt without altering its wording."""
+    paragraphs = [paragraph.strip() for paragraph in story.source_text.splitlines() if paragraph.strip()]
+    if not paragraphs:
+        return story.source_text.strip()
+    lower, upper = (int(value) for value in profile["words"].split("-"))
+    target = (lower + upper) // 2
+    best: tuple[int, int, int] | None = None
+    for start in range(len(paragraphs)):
+        count = 0
+        for end in range(start, len(paragraphs)):
+            count += len(re.findall(r"[A-Za-z]+(?:['’-][A-Za-z]+)*", paragraphs[end]))
+            if count >= lower:
+                candidate = (abs(count - target) + (10000 if count > upper else 0), start, end + 1)
+                if best is None or candidate < best:
+                    best = candidate
+                break
+    if best:
+        _, start, end = best
+        return "\n\n".join(paragraphs[start:end])
+    return "\n\n".join(paragraphs)
+
+
 def randomize_answer_positions(payload: dict[str, Any]) -> None:
     questions = payload.get("reading_questions", [])
     if not questions:
@@ -401,17 +422,21 @@ def randomize_answer_positions(payload: dict[str, Any]) -> None:
     payload["answer_key"] = "".join(question["answer"] for question in questions)
 
 
-def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story]) -> str:
+def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story], content_mode: str = "adapted") -> str:
     passage = payload["reading_passage"].strip()
     word_count = len(re.findall(r"\b[A-Za-z]+(?:['’-][A-Za-z]+)*\b", passage))
     reading_minutes = max(1, round(word_count / 130))
     stars = "★" * payload["difficulty"] + "☆" * (5 - payload["difficulty"])
     lines = [f"# {payload['title_en']}｜{payload['title_zh']}", ""]
+    source_label = " · ".join(sorted(set(story.feed_title for story in sources)))
     lines.append(
         f"日期： `{dt.date.today().isoformat()}`｜词汇量：`{word_count:,} words`｜"
-        f"预计阅读时间：`{reading_minutes} 分钟`｜CEFR：`{payload['cefr']}`｜来源：`BBC News`"
+        f"预计阅读时间：`{reading_minutes} 分钟`｜CEFR：`{payload['cefr']}`｜来源：`{source_label}`"
     )
     lines.extend(["", f"🏷 主题：`{' · '.join(payload['themes'])}`", "", f"⭐ 难度：{stars}", "", "------", ""])
+    if content_mode != "adapted":
+        mode_label = "新闻原文连续节选" if content_mode == "original-adapt" else "新闻原文全文"
+        lines.extend([f"> 正文模式：{mode_label}。正文未经 AI 改写；学习分析由 AI 基于该文本生成。", "", "------", ""])
     lines.extend(["## 文章摘要", "", payload["summary_zh"].strip(), "", "------", ""])
     lines.extend(["## Reading Passage", "", passage, "", "------", "", "## 单词积累", ""])
     for category in VOCABULARY_CATEGORIES:
@@ -597,15 +622,19 @@ def audit_facts(payload: dict[str, Any], sources: list[Story]) -> dict[str, Any]
     return result
 
 
-def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], profile: dict[str, Any], attempts: int = 2) -> dict[str, Any]:
+def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], profile: dict[str, Any], attempts: int = 2, original_passage: str | None = None) -> dict[str, Any]:
     errors: list[str] = []
     current_messages = list(messages)
     for attempt in range(1, attempts + 1):
         try:
             payload = call_deepseek(current_messages)
+            if original_passage is not None:
+                payload["reading_passage"] = original_passage
             apply_text_assessment(payload, profile)
             randomize_answer_positions(payload)
             validate_payload(payload, sources, profile)
+            if original_passage is not None:
+                return payload
             audit = audit_facts(payload, sources)
             if audit["supported"]:
                 return payload
@@ -645,9 +674,14 @@ def main() -> None:
     output_dir = Path(os.environ.get("OUTPUT_DIR", str(BASE_DIR / "outputs" / "generated")))
     topic_override = os.environ.get("TOPIC_OVERRIDE", "").strip().lower()
     difficulty_name = os.environ.get("DIFFICULTY_LEVEL", "college").strip().lower()
+    content_mode = os.environ.get("CONTENT_MODE", "original-adapt").strip().lower()
     if difficulty_name not in DIFFICULTY_PROFILES:
         raise SystemExit(f"Invalid DIFFICULTY_LEVEL: {difficulty_name}. Choose from {', '.join(DIFFICULTY_PROFILES)}")
     profile = DIFFICULTY_PROFILES[difficulty_name]
+    if content_mode not in {"adapted", "original-adapt", "original-full"}:
+        raise SystemExit("Invalid CONTENT_MODE: choose adapted, original-adapt, or original-full.")
+    if content_mode == "original-adapt" and difficulty_name not in {"high", "college", "advanced"}:
+        raise SystemExit("original-adapt supports high, college, or advanced difficulty because it preserves source wording.")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     feeds = load_feeds(feeds_file)
@@ -675,15 +709,29 @@ def main() -> None:
     if not selected:
         raise SystemExit("No selected story had enough source text for grounded generation.")
 
-    ledger = extract_fact_ledger(selected)
-    messages = build_prompt(topic, selected, difficulty_name, profile, ledger)
-    payload = generate_with_retries(messages, selected, profile)
+    original_passage: str | None = None
+    if content_mode != "adapted":
+        # A single source keeps the original text, attribution, questions, and analysis aligned.
+        selected = [selected[0]]
+        original_passage = (
+            select_original_excerpt(selected[0], profile)
+            if content_mode == "original-adapt"
+            else selected[0].source_text.strip()
+        )
+        if not original_passage:
+            raise SystemExit("The selected source has no usable original text.")
+        messages = build_prompt(topic, selected, difficulty_name, profile, original_passage=original_passage)
+    else:
+        ledger = extract_fact_ledger(selected)
+        messages = build_prompt(topic, selected, difficulty_name, profile, ledger=ledger)
+    payload = generate_with_retries(messages, selected, profile, original_passage=original_passage)
+    payload["content_mode"] = content_mode
 
     today = dt.date.today().isoformat()
     json_path = output_dir / f"{today}.json"
     md_path = output_dir / f"{today}.md"
     json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    md_path.write_text(render_markdown(payload, topic, selected), encoding="utf-8")
+    md_path.write_text(render_markdown(payload, topic, selected, content_mode), encoding="utf-8")
     eprint(f"Wrote {json_path}")
     eprint(f"Wrote {md_path}")
 
