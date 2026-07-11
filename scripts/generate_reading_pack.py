@@ -6,6 +6,7 @@ import datetime as dt
 import html
 import json
 import os
+import random
 import re
 import sys
 import textwrap
@@ -272,7 +273,7 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
         - difficult_sentences: exactly {profile['sentences']} items, each with sentence, explanation_zh, grammar_point, translation_zh. Choose useful sentences that accurately reflect the reading passage.
         - idioms: 3-5 items, each with expression, meaning_zh, usage_note, example.
         - reading_questions: exactly {profile['questions']} multiple-choice objects in this exact type order: {', '.join(profile['question_types'])}. Each object contains type, question, options and answer. options is an object with exactly A, B, C, D. answer is one capital letter.
-        - answer_key: exactly {profile['questions']} answer letters as one string, with no spaces or punctuation, matching reading_questions.
+        - answer_key: exactly {profile['questions']} answer letters as one string, with no spaces or punctuation, matching reading_questions. Correct option positions must vary naturally across A-D; do not use a fixed pattern.
         - Never introduce a number, date, proper name, quotation, causal claim, or research finding that is absent from the source text.
         - Avoid sports, entertainment gossip, and political controversy.
         - Chinese prose must be idiomatic, precise, restrained, and consistent with a professional learning publication. Whenever an English word or expression appears inside Chinese explanatory prose, wrap it in Markdown inline code, for example `cause a backlash`.
@@ -341,6 +342,28 @@ def assess_text_difficulty(passage: str) -> tuple[str, int]:
 def apply_text_assessment(payload: dict[str, Any], profile: dict[str, Any]) -> None:
     _, payload["difficulty"] = assess_text_difficulty(payload["reading_passage"])
     payload["cefr"] = profile["cefr"]
+
+
+def randomize_answer_positions(payload: dict[str, Any]) -> None:
+    questions = payload.get("reading_questions", [])
+    if not questions:
+        return
+    seed = sum(ord(char) for char in payload.get("title_en", "")) + len(questions)
+    rng = random.Random(seed)
+    for question in questions:
+        target = rng.choice("ABCD")
+        options = question.get("options", {})
+        correct_letter = question.get("answer")
+        if correct_letter not in options or set(options) != set("ABCD"):
+            continue
+        correct_option = options[correct_letter]
+        remaining = [options[letter] for letter in "ABCD" if letter != correct_letter]
+        new_options: dict[str, str] = {}
+        for letter in "ABCD":
+            new_options[letter] = correct_option if letter == target else remaining.pop(0)
+        question["options"] = new_options
+        question["answer"] = target
+    payload["answer_key"] = "".join(question["answer"] for question in questions)
 
 
 def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story]) -> str:
@@ -546,6 +569,7 @@ def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], 
         try:
             payload = call_deepseek(current_messages)
             apply_text_assessment(payload, profile)
+            randomize_answer_positions(payload)
             validate_payload(payload, sources, profile)
             audit = audit_facts(payload, sources)
             if audit["supported"]:
