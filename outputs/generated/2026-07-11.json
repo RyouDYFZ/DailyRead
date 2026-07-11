@@ -1,7 +1,7 @@
 {
   "title_en": "Meta’s Muse Image AI Tool Sparks Privacy Backlash",
   "title_zh": "Meta的Muse Image人工智能工具引发隐私争议",
-  "summary_zh": "本文介绍了Meta新推出的AI图像生成工具Muse Image，该工具利用公开的Instagram头像生成图像但未告知用户，引发了隐私倡导者和用户的强烈反对。文章讨论了工具的功能、隐私争议、Meta的退出选项以及监管背景，最后反思了创新与隐私权之间的冲突。本文适合中高级英语学习者，不仅能了解科技热点，还能学习相关词汇和复杂句型。",
+  "summary_zh": "本文介绍了Meta新推出的AI图像生成工具Muse Image，该工具利用公开的Instagram头像生成图像但未告知用户，引发了隐私倡导者和用户的强烈反对。文章讨论了工具的功能、隐私争议、Meta的退出选项以及监管背景，最后反思了创新与隐私权之间的冲突。",
   "cefr": "B2-C1",
   "themes": [
     "Technology",
@@ -15,7 +15,7 @@
       "category": "core_word",
       "word": "backlash",
       "ipa": "/ˈbæk.læʃ/",
-      "pos": "noun",
+      "pos": "n.",
       "meaning_zh": "强烈反对，反弹",
       "collocations": [
         "cause a backlash",
@@ -28,7 +28,7 @@
       "category": "core_word",
       "word": "consent",
       "ipa": "/kənˈsent/",
-      "pos": "noun",
+      "pos": "n.",
       "meaning_zh": "同意，许可",
       "collocations": [
         "give consent",
@@ -41,7 +41,7 @@
       "category": "core_word",
       "word": "repository",
       "ipa": "/rɪˈpɒz.ɪ.tər.i/",
-      "pos": "noun",
+      "pos": "n.",
       "meaning_zh": "仓库，存储库",
       "collocations": [
         "a repository of information",
@@ -54,7 +54,7 @@
       "category": "core_word",
       "word": "ethical",
       "ipa": "/ˈeθ.ɪ.kəl/",
-      "pos": "adjective",
+      "pos": "adj.",
       "meaning_zh": "道德的，合乎伦理的",
       "collocations": [
         "ethical standards",
@@ -67,7 +67,7 @@
       "category": "fixed_collocation",
       "word": "recipe for disaster",
       "ipa": "/ˈres.ɪ.pi fɔːr dɪˈzɑː.stər/",
-      "pos": "phrase",
+      "pos": "phr.",
       "meaning_zh": "导致灾难的根源",
       "collocations": [
         "a recipe for disaster",
@@ -79,7 +79,7 @@
       "category": "fixed_collocation",
       "word": "raw material",
       "ipa": "/rɔː məˈtɪə.ri.əl/",
-      "pos": "noun phrase",
+      "pos": "phr.",
       "meaning_zh": "原材料（此处喻指被随意利用的数据）",
       "collocations": [
         "use as raw material",
@@ -92,7 +92,7 @@
       "category": "fixed_collocation",
       "word": "advanced reasoning",
       "ipa": "/ədˈvɑːnst ˈriː.zən.ɪŋ/",
-      "pos": "noun phrase",
+      "pos": "phr.",
       "meaning_zh": "高级推理能力",
       "collocations": [
         "use advanced reasoning",
@@ -105,7 +105,7 @@
       "category": "phrasal_verb",
       "word": "opt out",
       "ipa": "/ˌɒpt ˈaʊt/",
-      "pos": "phrasal verb",
+      "pos": "phr.",
       "meaning_zh": "选择退出",
       "collocations": [
         "opt out of something",
@@ -118,7 +118,7 @@
       "category": "phrasal_verb",
       "word": "weigh in",
       "ipa": "/weɪ ɪn/",
-      "pos": "phrasal verb",
+      "pos": "phr.",
       "meaning_zh": "发表意见，加入讨论",
       "collocations": [
         "weigh in on an issue",
@@ -131,7 +131,7 @@
       "category": "academic_word",
       "word": "scrutiny",
       "ipa": "/ˈskruː.tɪ.ni/",
-      "pos": "noun",
+      "pos": "n.",
       "meaning_zh": "仔细审查",
       "collocations": [
         "face scrutiny",
