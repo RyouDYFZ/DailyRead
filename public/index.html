@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DailyRead - daily English reading practice">
+  <title>DailyRead</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">D</span>
+        <div><strong>DailyRead</strong><small>Read · Learn · Reflect</small></div>
+      </div>
+      <label class="mobile-label" for="date-select">&#x9009;&#x62e9;&#x65e5;&#x671f;</label>
+      <select id="date-select" class="date-select" aria-label="&#x9009;&#x62e9;&#x9605;&#x8bfb;&#x65e5;&#x671f;"></select>
+      <nav id="date-list" class="date-list" aria-label="&#x6309;&#x65e5;&#x671f;&#x6d4f;&#x89c8;"></nav>
+    </aside>
+    <main class="main">
+      <div id="loading" class="status">Loading…</div>
+      <article id="article" class="article" hidden></article>
+    </main>
+  </div>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
