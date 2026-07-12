@@ -239,6 +239,12 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
             f"   link: {story.link}\n"
             f"   published: {story.published}"
         )
+    source_references = "\n".join(items)
+    source_material = (
+        "LOCKED ORIGINAL PASSAGE:\n" + (original_passage or "")
+        if original_mode
+        else "FACT LEDGER — THE ONLY ALLOWED FACTS:\n" + json.dumps(ledger, ensure_ascii=False)
+    )
     user_prompt = textwrap.dedent(
         f"""
         You are writing a publication-ready daily English reading pack for Chinese learners.
@@ -280,9 +286,9 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
         - Chinese prose must be idiomatic, precise, restrained, and consistent with a professional learning publication. Whenever an English word or expression appears inside Chinese explanatory prose, wrap it in Markdown inline code, for example `cause a backlash`.
 
         Source references:
-        {chr(10).join(items)}
+        {source_references}
 
-        {"LOCKED ORIGINAL PASSAGE:\n" + original_passage if original_mode else "FACT LEDGER — THE ONLY ALLOWED FACTS:\n" + json.dumps(ledger, ensure_ascii=False)}
+        {source_material}
         """
     ).strip()
     return [
