@@ -20,7 +20,8 @@ on:
       publish:
         description: "Commit the generated pack back to the repo"
         required: false
-        default: "false"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -42,7 +43,6 @@ jobs:
       TOPIC_OVERRIDE: ${{ github.event.inputs.topic || '' }}
       DIFFICULTY_LEVEL: ${{ github.event.inputs.difficulty || 'college' }}
       CONTENT_MODE: ${{ github.event.inputs.content_mode || 'original-adapt' }}
-      PUBLISH_RESULTS: ${{ github.event.inputs.publish || 'false' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -69,7 +69,7 @@ jobs:
           if-no-files-found: error
 
       - name: Commit generated pack
-        if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.publish == 'true') }}
+        if: ${{ github.event_name == 'schedule' || inputs.publish }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

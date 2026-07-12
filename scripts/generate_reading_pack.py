@@ -12,6 +12,7 @@ import sys
 import textwrap
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
@@ -24,6 +25,8 @@ import requests
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_FEEDS_FILE = BASE_DIR / "outputs" / "bbc-learning-feeds.opml"
+SPEC_VERSION = "1.0"
+VOCABULARY_BANNED_WORDS = {"the", "and", "government", "company"}
 
 
 TOPIC_KEYWORDS = {
@@ -270,7 +273,7 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
         - vocabulary: exactly {profile['vocab']} items with category counts {json.dumps(profile['vocab_distribution'])}. Items must remain in category order. Each item contains category, word, ipa, pos, meaning_zh, collocations, example. category must be exactly one of those four labels. pos must be one of: n., v., adj., adv., phr., prep., conj. Use phr. for all fixed expressions and phrasal verbs; never use labels such as phr. n. or phr. v. collocations is a list of 2-3 common English collocations or usage patterns.
         - difficult_sentences: exactly {profile['sentences']} items, each with sentence, explanation_zh, grammar_point, translation_zh. Choose useful sentences that accurately reflect the reading passage.
         - idioms: 3-5 items, each with expression, meaning_zh, usage_note, example.
-        - reading_questions: exactly {profile['questions']} multiple-choice objects in this exact type order: {', '.join(profile['question_types'])}. Each object contains type, question, options and answer. options is an object with exactly A, B, C, D. answer is one capital letter.
+        - reading_questions: exactly {profile['questions']} multiple-choice objects in this exact type order: {', '.join(profile['question_types'])}. Each object contains type, question, options, answer, and evidence_paragraph. options is an object with exactly A, B, C, D. answer is one capital letter. evidence_paragraph is the 1-based paragraph number containing the main evidence. Across all questions, cover paragraphs 1, 2, 3, 4 and the concluding paragraph (when present).
         - answer_key: exactly {profile['questions']} answer letters as one string, with no spaces or punctuation, matching reading_questions. Correct option positions must vary naturally across A-D; do not use a fixed pattern.
         - {"If a point is absent from the locked original passage, omit it. Do not fill gaps with general knowledge or plausible analysis." if original_mode else "If a detail is absent from the fact ledger, omit it. Do not fill gaps with general knowledge or plausible analysis."}
         - Avoid sports, entertainment gossip, and political controversy.
@@ -427,7 +430,7 @@ def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story], c
     word_count = len(re.findall(r"\b[A-Za-z]+(?:['’-][A-Za-z]+)*\b", passage))
     reading_minutes = max(1, round(word_count / 130))
     stars = "★" * payload["difficulty"] + "☆" * (5 - payload["difficulty"])
-    lines = [f"# {payload['title_en']}｜{payload['title_zh']}", ""]
+    lines = [f"# {payload['title_en']}｜{payload['title_zh']}", "", f"规范版本：`{SPEC_VERSION}`", ""]
     source_label = " · ".join(sorted(set(story.feed_title for story in sources)))
     lines.append(
         f"日期： `{dt.date.today().isoformat()}`｜词汇量：`{word_count:,} words`｜"
@@ -438,7 +441,10 @@ def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story], c
         mode_label = "新闻原文连续节选" if content_mode == "original-adapt" else "新闻原文全文"
         lines.extend([f"> 正文模式：{mode_label}。正文未经 AI 改写；学习分析由 AI 基于该文本生成。", "", "------", ""])
     lines.extend(["## 文章摘要", "", payload["summary_zh"].strip(), "", "------", ""])
-    lines.extend(["## Reading Passage", "", passage, "", "------", "", "## 单词积累", ""])
+    lines.extend([
+        "## Reading Passage", "", passage, "", "------", "", "## 单词卡片", "",
+        "> 点开卡片查看词义、搭配和例句。", "",
+    ])
     for category in VOCABULARY_CATEGORIES:
         category_items = [item for item in payload["vocabulary"] if item["category"] == category]
         lines.extend([f"### {VOCABULARY_SECTION_TITLES[category]}", ""])
@@ -449,11 +455,16 @@ def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story], c
             else:
                 collocations = f"`{collocations}`"
             lines.extend([
-                f"#### {index}. **{item['word']}** [/{item['ipa'].strip('/[]')}/]", "",
-                f"- **词性** `{item['pos']}`",
-                f"- **释义** {item['meaning_zh']}",
-                f"- **常见搭配** {collocations}",
-                f"- **例句** {item['example']}", "",
+                '<details class="word-card">',
+                f'<summary><strong>{html.escape(str(item["word"]))}</strong> '
+                f'<span class="ipa">/{html.escape(str(item["ipa"]).strip("/[]"))}/</span> '
+                f'<code>{html.escape(str(item["pos"]))}</code></summary>',
+                '<div class="word-card-body">',
+                f'<p><strong>释义</strong> {html.escape(str(item["meaning_zh"]))}</p>',
+                f'<p><strong>常见搭配</strong> {collocations}</p>',
+                f'<p><strong>例句</strong> {html.escape(str(item["example"]))}</p>',
+                '</div>',
+                '</details>', "",
             ])
     lines.extend(["------", "", "## 长难句理解", ""])
     for item in payload["difficult_sentences"]:
@@ -480,6 +491,106 @@ def render_markdown(payload: dict[str, Any], topic: str, sources: list[Story], c
         lines.extend([f"[{story.feed_title}] {story.title} ({story.link})", ""])
     lines.append("")
     return "\n".join(lines)
+
+
+def validate_rendered_markdown(markdown_text: str, payload: dict[str, Any], profile: dict[str, Any], sources: list[Story]) -> None:
+    """Reject rendered files that drift from the Markdown publication contract."""
+    expected_headings = [
+        "## 文章摘要", "## Reading Passage", "## 单词卡片", "## 长难句理解",
+        "## 习语与地道表达", "## 阅读理解", "## 数据源",
+    ]
+    actual_headings = re.findall(r"(?m)^## .+$", markdown_text)
+    if actual_headings != expected_headings:
+        raise ValueError(f"Markdown section order is invalid: {actual_headings}")
+    allowed_headings = {
+        f"# {payload['title_en']}｜{payload['title_zh']}",
+        *expected_headings,
+        *(f"### {VOCABULARY_SECTION_TITLES[key]}" for key in VOCABULARY_CATEGORIES),
+    }
+    emitted_headings = re.findall(r"(?m)^#{1,6} .+$", markdown_text)
+    if any(heading not in allowed_headings for heading in emitted_headings):
+        raise ValueError("Markdown contains a heading not allowed by specification v1.0.")
+    if len(re.findall(r"(?m)^# [^#].+$", markdown_text)) != 1:
+        raise ValueError("Markdown must contain exactly one level-one bilingual title.")
+    if not re.search(r"(?m)^# .+｜.+$", markdown_text):
+        raise ValueError("Markdown title must use the full-width separator ｜.")
+    if f"# {payload['title_en']}｜{payload['title_zh']}" not in markdown_text:
+        raise ValueError("Markdown and JSON titles are inconsistent.")
+    if not re.search(rf"(?m)^规范版本：`{re.escape(SPEC_VERSION)}`$", markdown_text):
+        raise ValueError("Markdown specification version is missing or unsupported.")
+    if payload.get("spec_version") != SPEC_VERSION:
+        raise ValueError("Markdown and JSON specification versions are inconsistent.")
+    forbidden_patterns = {
+        "fenced code block": r"(?m)^```",
+        "YAML front matter": r"(?m)^---\s*$",
+        "HTML comment": r"<!--",
+        "Markdown table": r"(?m)^\s*\|.*\|\s*$",
+        "AI preamble": r"(?m)^(?:好的|当然|以下是|作为(?:一个)?AI).*$",
+    }
+    for label, pattern in forbidden_patterns.items():
+        if re.search(pattern, markdown_text):
+            raise ValueError(f"Markdown contains forbidden {label}.")
+    metadata_pattern = (
+        r"(?m)^日期： `\d{4}-\d{2}-\d{2}`｜词汇量：`[\d,]+ words`｜"
+        r"预计阅读时间：`\d+ 分钟`｜CEFR：`[^`]+`｜来源：`[^`]+`$"
+    )
+    if not re.search(metadata_pattern, markdown_text):
+        raise ValueError("Markdown metadata line does not match the standard template.")
+    if not re.search(r"(?m)^🏷 主题：`[^`]+`$", markdown_text):
+        raise ValueError("Markdown theme line is invalid.")
+    if f"## 文章摘要\n\n{payload['summary_zh'].strip()}\n" not in markdown_text:
+        raise ValueError("Markdown and JSON summaries are inconsistent.")
+    if f"## Reading Passage\n\n{payload['reading_passage'].strip()}\n" not in markdown_text:
+        raise ValueError("Markdown and JSON reading passages are inconsistent.")
+    star_match = re.search(r"(?m)^⭐ 难度：([★☆]+)$", markdown_text)
+    if not star_match or len(star_match.group(1)) != 5 or "☆★" in star_match.group(1):
+        raise ValueError("Markdown difficulty must contain five ordered stars.")
+    expected_groups = [f"### {VOCABULARY_SECTION_TITLES[key]}" for key in VOCABULARY_CATEGORIES]
+    if re.findall(r"(?m)^### .+$", markdown_text) != expected_groups:
+        raise ValueError("Markdown vocabulary groups or their order are invalid.")
+    card_count = markdown_text.count('<details class="word-card">')
+    if card_count != profile["vocab"] or markdown_text.count("</details>") != card_count:
+        raise ValueError(f"Markdown must contain exactly {profile['vocab']} complete word cards.")
+    for label in ("释义", "常见搭配", "例句"):
+        if markdown_text.count(f"<p><strong>{label}</strong>") != card_count:
+            raise ValueError(f"Every word card must contain the {label} field.")
+    for item in payload["vocabulary"]:
+        if f"<strong>{html.escape(str(item['word']))}</strong>" not in markdown_text:
+            raise ValueError("Markdown and JSON vocabulary entries are inconsistent.")
+    for item in payload["difficult_sentences"]:
+        if f"> {item['sentence']}" not in markdown_text:
+            raise ValueError("A difficult sentence is missing or differs from the passage.")
+    quiz_section = markdown_text.split("## 阅读理解", 1)[1].split("## 数据源", 1)[0]
+    question_numbers = [int(value) for value in re.findall(r"(?m)^(\d+)\. \*\*.+\*\*$", quiz_section)]
+    if question_numbers != list(range(1, profile["questions"] + 1)):
+        raise ValueError("Markdown quiz numbering/count is invalid.")
+    for letter in "ABCD":
+        if len(re.findall(rf"(?m)^{letter}\. .+$", quiz_section)) != profile["questions"]:
+            raise ValueError(f"Every quiz question must contain option {letter}.")
+    if f"（答案：{payload['answer_key']}）" not in quiz_section:
+        raise ValueError("Markdown answer key is missing or inconsistent.")
+    for question in payload["reading_questions"]:
+        if f"**{question['question']}**" not in quiz_section:
+            raise ValueError("Markdown and JSON quiz questions are inconsistent.")
+        for letter in "ABCD":
+            if f"{letter}. {question['options'][letter]}" not in quiz_section:
+                raise ValueError("Markdown and JSON quiz options are inconsistent.")
+    source_section = markdown_text.split("## 数据源", 1)[1]
+    source_lines = re.findall(r"(?m)^\[[^\]]+\] .+ \(https://[^)]+\)$", source_section)
+    if len(source_lines) != len(sources):
+        raise ValueError("Markdown data-source lines do not match the selected sources.")
+    urls = re.findall(r"\((https://[^)]+)\)$", source_section, flags=re.MULTILINE)
+    normalized_urls = [normalize_source_url(url) for url in urls]
+    if len(normalized_urls) != len(set(normalized_urls)):
+        raise ValueError("Markdown data-source URLs must be unique.")
+    expected_source_lines = [f"[{item['outlet']}] {item['title']} ({item['url']})" for item in payload.get("sources", [])]
+    if source_lines != expected_source_lines:
+        raise ValueError("Markdown and JSON data sources are inconsistent.")
+
+
+def normalize_source_url(url: str) -> str:
+    parsed = urllib.parse.urlsplit(url)
+    return urllib.parse.urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), parsed.path.rstrip("/"), "", ""))
 
 
 def normalize_evidence(text: str) -> str:
@@ -554,6 +665,17 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
             raise ValueError(f"Missing key: {key}")
     if payload["cefr"] != profile["cefr"]:
         raise ValueError(f"cefr must be {profile['cefr']}.")
+    paragraphs = [value.strip() for value in re.split(r"\n\s*\n", payload["reading_passage"].strip()) if value.strip()]
+    if not 4 <= len(paragraphs) <= 8:
+        raise ValueError("Reading passage must contain 4-8 paragraphs.")
+    paragraph_word_counts = [len(re.findall(r"[A-Za-z]+(?:['’-][A-Za-z]+)*", value)) for value in paragraphs]
+    if any(count > 220 for count in paragraph_word_counts):
+        raise ValueError("No reading-passage paragraph may exceed 220 words.")
+    passage_words = sum(paragraph_word_counts)
+    passage_sentences = [value for value in re.split(r"(?<=[.!?])\s+", payload["reading_passage"].strip()) if value.strip()]
+    average_sentence_length = passage_words / max(1, len(passage_sentences))
+    if not 18 <= average_sentence_length <= 30:
+        raise ValueError("Average reading-passage sentence length must be 18-30 words.")
     if not isinstance(payload["themes"], list) or not 1 <= len(payload["themes"]) <= 3:
         raise ValueError("themes must contain 1-3 labels.")
     if not isinstance(payload["difficulty"], int) or not 1 <= payload["difficulty"] <= 5:
@@ -573,8 +695,43 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
             raise ValueError("A vocabulary item is incomplete.")
         if item["pos"] not in POS_ABBREVIATIONS:
             raise ValueError(f"Unsupported vocabulary part of speech: {item['pos']}")
+        if not isinstance(item["collocations"], list) or not 2 <= len(item["collocations"]) <= 3:
+            raise ValueError("Every vocabulary item must contain 2-3 collocations.")
+        if not all(isinstance(value, str) and value.strip() for value in item["collocations"]):
+            raise ValueError("Vocabulary collocations must be non-empty strings.")
+        if not re.search(r"[.!?]$", item["example"].strip()):
+            raise ValueError("Every vocabulary example must end with sentence punctuation.")
+        if item["word"].strip().casefold() in VOCABULARY_BANNED_WORDS:
+            raise ValueError(f"Vocabulary item is forbidden: {item['word']}")
     if len(payload["difficult_sentences"]) != profile["sentences"]:
         raise ValueError(f"Expected exactly {profile['sentences']} difficult sentences.")
+    normalized_passage = normalize_evidence(payload["reading_passage"])
+    for item in payload["difficult_sentences"]:
+        sentence_keys = {"sentence", "explanation_zh", "grammar_point", "translation_zh"}
+        if not sentence_keys.issubset(item) or not all(item[key] for key in sentence_keys):
+            raise ValueError("A difficult-sentence item is incomplete.")
+        if normalize_evidence(item["sentence"]) not in normalized_passage:
+            raise ValueError("Every difficult sentence must occur verbatim in the reading passage.")
+    selected_paragraphs: list[int] = []
+    for item in payload["difficult_sentences"]:
+        matches = [index for index, paragraph in enumerate(paragraphs, 1) if normalize_evidence(item["sentence"]) in normalize_evidence(paragraph)]
+        if not matches:
+            raise ValueError("A difficult sentence cannot be mapped to a passage paragraph.")
+        selected_paragraphs.append(matches[0])
+    if len(selected_paragraphs) != len(set(selected_paragraphs)):
+        raise ValueError("At most one difficult sentence may be selected from each paragraph.")
+    if not isinstance(payload["idioms"], list) or not 3 <= len(payload["idioms"]) <= 5:
+        raise ValueError("Expected 3-5 idiomatic expressions.")
+    idiom_keys = {"expression", "meaning_zh", "usage_note", "example"}
+    for item in payload["idioms"]:
+        if not idiom_keys.issubset(item) or not all(item[key] for key in idiom_keys):
+            raise ValueError("An idiomatic-expression item is incomplete.")
+        if not re.search(r"[.!?]$", item["example"].strip()):
+            raise ValueError("Every idiom example must end with sentence punctuation.")
+    vocabulary_terms = {normalize_evidence(item["word"]) for item in vocabulary}
+    idiom_terms = {normalize_evidence(item["expression"]) for item in payload["idioms"]}
+    if vocabulary_terms & idiom_terms:
+        raise ValueError("Vocabulary and idiomatic-expression entries must not overlap.")
     questions = payload["reading_questions"]
     if not isinstance(questions, list) or len(questions) != profile["questions"]:
         raise ValueError(f"Expected exactly {profile['questions']} reading questions.")
@@ -585,6 +742,12 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
             raise ValueError("Every question must have exactly A-D options.")
         if question.get("answer") not in "ABCD":
             raise ValueError("Every question must have one A-D answer.")
+        if not isinstance(question.get("evidence_paragraph"), int) or not 1 <= question["evidence_paragraph"] <= len(paragraphs):
+            raise ValueError("Every question must reference a valid 1-based evidence_paragraph.")
+    required_coverage = {1, 2, 3, 4, len(paragraphs)}
+    actual_coverage = {question["evidence_paragraph"] for question in questions}
+    if not required_coverage.issubset(actual_coverage):
+        raise ValueError(f"Reading questions must cover paragraphs {sorted(required_coverage)}.")
     expected_key = "".join(question["answer"] for question in questions)
     if payload["answer_key"] != expected_key:
         raise ValueError(f"answer_key must be {expected_key}.")
@@ -595,6 +758,9 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
     unsupported_numbers = sorted(number for number in passage_numbers if normalize_evidence(number) not in source_corpus)
     if unsupported_numbers:
         raise ValueError(f"Passage contains numbers absent from sources: {unsupported_numbers}")
+    source_urls = [normalize_source_url(story.link) for story in sources]
+    if len(source_urls) != len(set(source_urls)):
+        raise ValueError("Selected source URLs must be unique.")
 
 
 def audit_facts(payload: dict[str, Any], sources: list[Story]) -> dict[str, Any]:
@@ -726,12 +892,19 @@ def main() -> None:
         messages = build_prompt(topic, selected, difficulty_name, profile, ledger=ledger)
     payload = generate_with_retries(messages, selected, profile, original_passage=original_passage)
     payload["content_mode"] = content_mode
+    payload["spec_version"] = SPEC_VERSION
+    payload["sources"] = [
+        {"outlet": story.feed_title, "title": story.title, "url": story.link}
+        for story in selected
+    ]
 
     today = dt.date.today().isoformat()
     json_path = output_dir / f"{today}.json"
     md_path = output_dir / f"{today}.md"
     json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    md_path.write_text(render_markdown(payload, topic, selected, content_mode), encoding="utf-8")
+    markdown_text = render_markdown(payload, topic, selected, content_mode)
+    validate_rendered_markdown(markdown_text, payload, profile, selected)
+    md_path.write_text(markdown_text, encoding="utf-8")
     eprint(f"Wrote {json_path}")
     eprint(f"Wrote {md_path}")
 

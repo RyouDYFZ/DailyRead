@@ -75,3 +75,25 @@ body { margin: 0; background: var(--paper); }
   .article h1 { font-size: 29px; }
   .option { grid-template-columns: 19px 24px 1fr; padding-inline: 7px; }
 }
+
+.word-card {
+  margin: 0 0 0.85rem;
+  border: 1px solid var(--border, #dbe3ee);
+  border-radius: 12px;
+  background: var(--surface, #fff);
+  overflow: hidden;
+}
+
+.word-card summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  padding: 0.9rem 1rem;
+  cursor: pointer;
+  list-style-position: inside;
+}
+
+.word-card summary strong { font-size: 1.08rem; }
+.word-card .ipa { color: var(--muted, #64748b); }
+.word-card-body { padding: 0 1rem 0.85rem; border-top: 1px solid var(--border, #e5e7eb); }
+.word-card-body p { margin: 0.7rem 0 0; }

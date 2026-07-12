@@ -12,6 +12,7 @@ import markdown
 BASE_DIR = Path(__file__).resolve().parents[1]
 SITE_DIR = BASE_DIR / "site"
 PUBLIC_DIR = BASE_DIR / "public"
+SUPPORTED_SPEC_VERSIONS = {"1.0"}
 
 
 def discover_articles() -> list[Path]:
@@ -57,6 +58,10 @@ def extract_quiz(section: str, answer_key: str) -> list[dict[str, object]]:
 
 def parse_article(path: Path) -> dict[str, object]:
     text = path.read_text(encoding="utf-8")
+    version_match = re.search(r"(?m)^规范版本：`([^`]+)`$", text)
+    spec_version = version_match.group(1) if version_match else "legacy"
+    if spec_version != "legacy" and spec_version not in SUPPORTED_SPEC_VERSIONS:
+        raise ValueError(f"Unsupported Markdown specification version {spec_version} in {path}")
     title_match = re.search(r"(?m)^#\s+(.+?)\s*$", text)
     if not title_match:
         raise ValueError(f"Cannot find title in {path}")
@@ -75,6 +80,7 @@ def parse_article(path: Path) -> dict[str, object]:
     sources_html = md.convert(text[sources_heading:].strip())
     return {
         "date": date,
+        "spec_version": spec_version,
         "title": title_match.group(1).strip(),
         "content_html": content_html,
         "sources_html": sources_html,

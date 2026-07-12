@@ -10,6 +10,7 @@
 - 主题覆盖科技、AI、医学、商业、环境和教育；过滤逻辑可自行扩展。
 - 五档学习难度：`middle`、`high`、`college`、`advanced`、`proficiency`。
 - 固定 Markdown 教学版式，词汇按类别分区展示。
+- 发布格式遵循 [DailyRead Markdown 标准模板规范](docs/MARKDOWN_FORMAT.md)，落盘前执行结构硬校验。
 - GitHub Pages 网页：按日期浏览、在线作答、即时批改。
 
 ## 快速开始
