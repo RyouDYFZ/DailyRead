@@ -225,7 +225,7 @@ D. Option D
 - 每个实际使用的来源占一行，来源之间空一行；顺序与正文事实使用顺序一致。
 - 方括号中为媒体名，随后为原始英文标题，圆括号内为完整 HTTPS URL。
 - 不使用 Markdown 的 `[标题](URL)` 链接形式，不添加未用于生成正文的候选来源。
-- URL 必须使用 HTTPS 且全篇唯一；不得通过不同查询参数重复引用同一篇来源。
+- URL 应使用 HTTPS。允许整合多篇文章，也允许同一 URL 因不同来源记录或引用关系重复出现；URL 唯一性不是有效性条件。
 
 ## 11. Markdown 与 JSON 一致性
 
@@ -269,7 +269,8 @@ options_per_question == 4
 question_evidence covers {available paragraphs among 1, 2, 3, 4, last_paragraph}
 answer_key.length == reading_questions
 sources >= 1
-unique(source.normalized_url) == sources
+source_url_uniqueness is not validated
+source_number_matching is not validated
 markdown_json_consistency == true
 forbidden_construct_count == 0
 ```

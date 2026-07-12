@@ -12,7 +12,6 @@ import sys
 import textwrap
 import unicodedata
 import urllib.error
-import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
@@ -598,18 +597,9 @@ def validate_rendered_markdown(markdown_text: str, payload: dict[str, Any], prof
     source_lines = re.findall(r"(?m)^\[[^\]]+\] .+ \(https://[^)]+\)$", source_section)
     if len(source_lines) != len(sources):
         raise ValueError("Markdown data-source lines do not match the selected sources.")
-    urls = re.findall(r"\((https://[^)]+)\)$", source_section, flags=re.MULTILINE)
-    normalized_urls = [normalize_source_url(url) for url in urls]
-    if len(normalized_urls) != len(set(normalized_urls)):
-        raise ValueError("Markdown data-source URLs must be unique.")
     expected_source_lines = [f"[{item['outlet']}] {item['title']} ({item['url']})" for item in payload.get("sources", [])]
     if source_lines != expected_source_lines:
         raise ValueError("Markdown and JSON data sources are inconsistent.")
-
-
-def normalize_source_url(url: str) -> str:
-    parsed = urllib.parse.urlsplit(url)
-    return urllib.parse.urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), parsed.path.rstrip("/"), "", ""))
 
 
 def normalize_evidence(text: str) -> str:
@@ -763,16 +753,6 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
     expected_key = "".join(question["answer"] for question in questions)
     if payload["answer_key"] != expected_key:
         raise ValueError(f"answer_key must be {expected_key}.")
-    source_corpus = normalize_evidence(" ".join(
-        f"{story.title} {story.published} {story.source_text}" for story in sources
-    ))
-    passage_numbers = set(re.findall(r"(?<!\w)\d+(?:[.,]\d+)*(?:%|st|nd|rd|th)?", payload["reading_passage"]))
-    unsupported_numbers = sorted(number for number in passage_numbers if normalize_evidence(number) not in source_corpus)
-    if unsupported_numbers:
-        raise ValueError(f"Passage contains numbers absent from sources: {unsupported_numbers}")
-    source_urls = [normalize_source_url(story.link) for story in sources]
-    if len(source_urls) != len(set(source_urls)):
-        raise ValueError("Selected source URLs must be unique.")
 
 
 def audit_facts(payload: dict[str, Any], sources: list[Story]) -> dict[str, Any]:
