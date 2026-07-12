@@ -110,10 +110,12 @@ Second paragraph...
 - 只包含英文正文，不加内部标题、项目符号、图片、脚注或答案提示。
 - 每段之间空一行，段首不缩进；直引号使用英文弯引号或半角引号并保持一致。
 - 正文必须与选定难度的词数、CEFR 和受众要求一致；原文模式不得改写正文。
+- 各难度词数范围属于编辑目标（SHOULD）而非有效性条件；例如 `college` 建议为 900–1,200 词。偏离目标不得触发重试或阻止发布。
 - 人名、机构、数字、引语和事实必须能由数据源支持。
-- 正文必须包含 4–8 个自然段；每个自然段不得超过 220 个英文词。
-- 全文平均句长必须为 18–30 个英文词。缩写中的句点不得被误判为句末。
-- 单个自然段不得承载整篇文章；应按背景、主要事实、影响/解释和结论组织。
+- 正文建议（SHOULD）包含 4–8 个自然段；建议每个自然段不超过 220 个英文词。
+- 全文平均句长建议（SHOULD）保持在 18–30 个英文词。缩写中的句点不得被误判为句末。
+- 以上均为编辑质量建议，不是有效性条件，不得因偏离建议而拒绝生成、触发重试或阻止发布。
+- 建议避免由单个自然段承载整篇文章，并按背景、主要事实、影响/解释和结论组织。
 
 ## 6. 单词卡片
 
@@ -252,19 +254,19 @@ title_count == 1
 section_count == 7
 sections == REQUIRED_SECTIONS_V1_0
 extra_heading_count == 0
-paragraph_count >= 4 && paragraph_count <= 8
-max(paragraph_word_count) <= 220
-average_sentence_words >= 18 && average_sentence_words <= 30
+paragraph_count recommendation 4..8 // SHOULD; non-blocking
+max(paragraph_word_count) recommendation <= 220 // SHOULD; non-blocking
+average_sentence_words recommendation 18..30 // SHOULD; non-blocking
 word_cards == difficulty.vocabulary
 word_card_groups == difficulty.vocabulary_distribution
 collocations_per_card >= 2 && collocations_per_card <= 3
 vocabulary_intersection_idioms == empty
 difficult_sentences == difficulty.difficult_sentences
-max_difficult_sentences_per_paragraph == 1
+if paragraph_count >= difficult_sentences: max_difficult_sentences_per_paragraph == 1
 idioms >= 3 && idioms <= 5
 reading_questions == difficulty.questions
 options_per_question == 4
-question_evidence covers {1, 2, 3, 4, last_paragraph}
+question_evidence covers {available paragraphs among 1, 2, 3, 4, last_paragraph}
 answer_key.length == reading_questions
 sources >= 1
 unique(source.normalized_url) == sources

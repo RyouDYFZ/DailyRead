@@ -255,6 +255,19 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
 
         CONSISTENCY IS MANDATORY. The JSON will be rendered by a fixed Markdown template, so follow the schema, wording style, item order, punctuation, and counts exactly. Do not add Markdown to JSON values except ordinary paragraph breaks in reading_passage.
 
+        EDITORIAL REQUIREMENTS:
+        - Write in neutral, restrained, fact-led professional news prose. Do not use sensational, promotional, moralizing, conversational, first-person, or reader-addressing language.
+        - Never include greetings, process commentary, completion notices, disclaimers, or AI self-reference such as "好的", "当然", "以下是", or "作为 AI" in any field.
+        - For adapted passages, the target word range, 4-8 paragraph range, maximum 220 words per paragraph, and average sentence length of 18-30 words are editorial recommendations (SHOULD), not mandatory validity conditions. Prefer a clear background -> facts -> impact/explanation -> conclusion progression.
+        - Keep vocabulary and sentence patterns varied without forcing obscure words or artificially long sentences.
+        - Chinese explanations must be precise, idiomatic, concise, and specific. Avoid empty praise such as "值得学习", "表达生动", or "增强语言效果".
+        - Vocabulary must be useful and transferable in the passage context. Do not select names, places, brands, trivial derivatives, basic stop words, or overly broad items such as the, and, government, or company.
+        - Vocabulary examples must be original complete English sentences, not copied from the passage. Vocabulary and idiom entries must not duplicate each other after case and punctuation normalization.
+        - Difficult-sentence analysis must identify the main clause, subordinate/non-finite structures, logical relationship, and useful construction where applicable; do not merely restate the translation. Select at most one sentence from any paragraph when the passage has enough paragraphs.
+        - Idioms must occur in or be directly grounded in natural wording from the passage. Explain register, usage context, or restrictions; do not label arbitrary literal phrases as idioms.
+        - Questions must be answerable from the passage alone. Use parallel, similarly plausible options with exactly one best answer; avoid double negatives, external knowledge, all/none-of-the-above, and answer-length clues.
+        - Distribute question evidence across the passage. Cover paragraphs 1, 2, 3, 4, and the conclusion when those paragraphs exist; for shorter passages, cover every available paragraph.
+
         Output MUST be valid JSON with these keys:
         - title_en
         - title_zh
@@ -672,16 +685,9 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
     if payload["cefr"] != profile["cefr"]:
         raise ValueError(f"cefr must be {profile['cefr']}.")
     paragraphs = [value.strip() for value in re.split(r"\n\s*\n", payload["reading_passage"].strip()) if value.strip()]
-    if not 4 <= len(paragraphs) <= 8:
-        raise ValueError("Reading passage must contain 4-8 paragraphs.")
     paragraph_word_counts = [len(re.findall(r"[A-Za-z]+(?:['’-][A-Za-z]+)*", value)) for value in paragraphs]
-    if any(count > 220 for count in paragraph_word_counts):
-        raise ValueError("No reading-passage paragraph may exceed 220 words.")
-    passage_words = sum(paragraph_word_counts)
-    passage_sentences = [value for value in re.split(r"(?<=[.!?])\s+", payload["reading_passage"].strip()) if value.strip()]
-    average_sentence_length = passage_words / max(1, len(passage_sentences))
-    if not 18 <= average_sentence_length <= 30:
-        raise ValueError("Average reading-passage sentence length must be 18-30 words.")
+    if not paragraphs or not any(paragraph_word_counts):
+        raise ValueError("Reading passage must contain non-empty English prose.")
     if not isinstance(payload["themes"], list) or not 1 <= len(payload["themes"]) <= 3:
         raise ValueError("themes must contain 1-3 labels.")
     if not isinstance(payload["difficulty"], int) or not 1 <= payload["difficulty"] <= 5:
@@ -724,7 +730,7 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
         if not matches:
             raise ValueError("A difficult sentence cannot be mapped to a passage paragraph.")
         selected_paragraphs.append(matches[0])
-    if len(selected_paragraphs) != len(set(selected_paragraphs)):
+    if len(paragraphs) >= len(payload["difficult_sentences"]) and len(selected_paragraphs) != len(set(selected_paragraphs)):
         raise ValueError("At most one difficult sentence may be selected from each paragraph.")
     if not isinstance(payload["idioms"], list) or not 3 <= len(payload["idioms"]) <= 5:
         raise ValueError("Expected 3-5 idiomatic expressions.")
@@ -750,7 +756,7 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
             raise ValueError("Every question must have one A-D answer.")
         if not isinstance(question.get("evidence_paragraph"), int) or not 1 <= question["evidence_paragraph"] <= len(paragraphs):
             raise ValueError("Every question must reference a valid 1-based evidence_paragraph.")
-    required_coverage = {1, 2, 3, 4, len(paragraphs)}
+    required_coverage = set(range(1, min(4, len(paragraphs)) + 1)) | {len(paragraphs)}
     actual_coverage = {question["evidence_paragraph"] for question in questions}
     if not required_coverage.issubset(actual_coverage):
         raise ValueError(f"Reading questions must cover paragraphs {sorted(required_coverage)}.")
