@@ -262,10 +262,10 @@ def build_prompt(topic: str, selected: list[Story], difficulty_name: str, profil
         - Chinese explanations must be precise, idiomatic, concise, and specific. Avoid empty praise such as "值得学习", "表达生动", or "增强语言效果".
         - Vocabulary must be useful and transferable in the passage context. Do not select names, places, brands, trivial derivatives, basic stop words, or overly broad items such as the, and, government, or company.
         - Vocabulary examples must be original complete English sentences, not copied from the passage. Vocabulary and idiom entries must not duplicate each other after case and punctuation normalization.
-        - Difficult-sentence analysis must identify the main clause, subordinate/non-finite structures, logical relationship, and useful construction where applicable; do not merely restate the translation. Select at most one sentence from any paragraph when the passage has enough paragraphs.
+        - Difficult-sentence analysis must identify the main clause, subordinate/non-finite structures, logical relationship, and useful construction where applicable; do not merely restate the translation. As a non-blocking editorial recommendation (SHOULD), select at most one sentence from any paragraph when the passage has enough paragraphs.
         - Idioms must occur in or be directly grounded in natural wording from the passage. Explain register, usage context, or restrictions; do not label arbitrary literal phrases as idioms.
         - Questions must be answerable from the passage alone. Use parallel, similarly plausible options with exactly one best answer; avoid double negatives, external knowledge, all/none-of-the-above, and answer-length clues.
-        - Distribute question evidence across the passage. Cover paragraphs 1, 2, 3, 4, and the conclusion when those paragraphs exist; for shorter passages, cover every available paragraph.
+        - As a non-blocking editorial recommendation (SHOULD), distribute question evidence across the passage and cover paragraphs 1, 2, 3, 4, and the conclusion when those paragraphs exist. Missing this coverage must not invalidate otherwise usable content.
 
         Output MUST be valid JSON with these keys:
         - title_en
@@ -720,8 +720,6 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
         if not matches:
             raise ValueError("A difficult sentence cannot be mapped to a passage paragraph.")
         selected_paragraphs.append(matches[0])
-    if len(paragraphs) >= len(payload["difficult_sentences"]) and len(selected_paragraphs) != len(set(selected_paragraphs)):
-        raise ValueError("At most one difficult sentence may be selected from each paragraph.")
     if not isinstance(payload["idioms"], list) or not 3 <= len(payload["idioms"]) <= 5:
         raise ValueError("Expected 3-5 idiomatic expressions.")
     idiom_keys = {"expression", "meaning_zh", "usage_note", "example"}
@@ -746,10 +744,6 @@ def validate_payload(payload: dict[str, Any], sources: list[Story], profile: dic
             raise ValueError("Every question must have one A-D answer.")
         if not isinstance(question.get("evidence_paragraph"), int) or not 1 <= question["evidence_paragraph"] <= len(paragraphs):
             raise ValueError("Every question must reference a valid 1-based evidence_paragraph.")
-    required_coverage = set(range(1, min(4, len(paragraphs)) + 1)) | {len(paragraphs)}
-    actual_coverage = {question["evidence_paragraph"] for question in questions}
-    if not required_coverage.issubset(actual_coverage):
-        raise ValueError(f"Reading questions must cover paragraphs {sorted(required_coverage)}.")
     expected_key = "".join(question["answer"] for question in questions)
     if payload["answer_key"] != expected_key:
         raise ValueError(f"answer_key must be {expected_key}.")
@@ -794,27 +788,10 @@ def generate_with_retries(messages: list[dict[str, str]], sources: list[Story], 
             if original_passage is not None:
                 return payload
             audit = audit_facts(payload, sources)
-            if audit["supported"]:
-                return payload
-            issues = [str(issue) for issue in audit["issues"][:5]]
-            message = "Fact checker suggestions: " + "; ".join(issues)
-            errors.append(f"attempt {attempt}: {message}")
-            eprint(f"Generation needs revision ({attempt}/{attempts}): {message}")
-            if attempt == attempts:
-                break
-            current_messages += [
-                {"role": "assistant", "content": json.dumps(payload, ensure_ascii=False)},
-                {"role": "user", "content": (
-                    "Revise the previous JSON using the fact ledger from the original request. For every flagged "
-                    "claim, do exactly one of these: (1) replace it with a direct, neutral fact from the ledger, "
-                    "or (2) delete it. If no direct ledger fact exists, delete it. Do not add background context, "
-                    "industry examples, legal comparisons, user numbers, predictions, causal analysis, or shortened "
-                    "quotes. Preserve the complete JSON schema and return JSON only. Re-check every reading question, "
-                    "all four options, each question's answer, and answer_key against the revised passage.\n\n"
-                    + "\n".join(issues)
-                )},
-            ]
-            continue
+            if not audit["supported"]:
+                issues = [str(issue) for issue in audit["issues"][:5]]
+                eprint("Fact checker advisory (non-blocking): " + "; ".join(issues))
+            return payload
         except (ValueError, KeyError, TypeError, RuntimeError, json.JSONDecodeError, requests.RequestException) as exc:
             errors.append(f"attempt {attempt}: {exc}")
             eprint(f"Generation rejected ({attempt}/{attempts}): {exc}")

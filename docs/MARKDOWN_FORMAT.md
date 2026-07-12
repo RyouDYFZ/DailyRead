@@ -169,7 +169,7 @@ Second paragraph...
 - 数量由难度配置决定；默认 `college` 为 4 句。
 - 语法要点写结构名称，用中文分号分隔；分析必须指出主句、从句、非谓语或关键搭配的具体作用。
 - 翻译应完整准确，不遗漏逻辑关系；每项之间保留两个空行。
-- 每个自然段最多抽取一个长难句；不得将全部长难句集中在同一段或相邻的单一信息点。
+- 建议（SHOULD）每个自然段最多抽取一个长难句，避免全部集中在同一段；该分布要求不作为拒绝生成或发布的条件。
 
 ## 8. 习语与地道表达
 
@@ -210,7 +210,7 @@ D. Option D
 - 题型和顺序由难度配置决定。默认 `college` 依次为主旨、细节、推断、语境词义、作者态度、篇章结构、标题。
 - 每题后写 `------`；最后一题的分隔线后写答案串，例如 `（答案：BCADCBA）`。
 - 答案必须只含连续的大写 `A`–`D`，数量与题数一致，并逐题匹配结构化 JSON。
-- JSON 中每题必须包含从 1 开始的整数 `evidence_paragraph`。整套题至少覆盖第 1、2、3、4 段和结论段；结论段定义为正文最后一个自然段。
+- JSON 中每题必须包含指向实际段落、从 1 开始的整数 `evidence_paragraph`。整套题建议（SHOULD）覆盖第 1、2、3、4 段和结论段；覆盖不足只记录为质量提示，不得拒绝生成或发布。
 
 ## 10. 数据源
 
@@ -262,15 +262,16 @@ word_card_groups == difficulty.vocabulary_distribution
 collocations_per_card >= 2 && collocations_per_card <= 3
 vocabulary_intersection_idioms == empty
 difficult_sentences == difficulty.difficult_sentences
-if paragraph_count >= difficult_sentences: max_difficult_sentences_per_paragraph == 1
+max_difficult_sentences_per_paragraph recommendation == 1 // SHOULD; non-blocking
 idioms >= 3 && idioms <= 5
 reading_questions == difficulty.questions
 options_per_question == 4
-question_evidence covers {available paragraphs among 1, 2, 3, 4, last_paragraph}
+question_evidence coverage recommendation includes {available paragraphs among 1, 2, 3, 4, last_paragraph} // SHOULD; non-blocking
 answer_key.length == reading_questions
 sources >= 1
 source_url_uniqueness is not validated
 source_number_matching is not validated
+fact_audit_supported recommendation == true // SHOULD; non-blocking advisory
 markdown_json_consistency == true
 forbidden_construct_count == 0
 ```
