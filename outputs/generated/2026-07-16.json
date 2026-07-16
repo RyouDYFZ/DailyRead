@@ -1,0 +1,292 @@
+{
+  "title_en": "SpaceX Share Price Drops Below Stock Market Debut",
+  "title_zh": "SpaceX股价跌破上市发行价",
+  "summary_zh": "SpaceX股价在上市一个月后跌破发行价，较高点下跌41%。马斯克曾在公司IPO时成为全球首位万亿富翁。股价波动受到科技股整体低迷、投资者初期狂热后的回落、Starlink降价消息以及缺乏新的催化剂等因素影响。分析师指出，轻微跌破发行价本身并非灾难，但SpaceX受到高度关注。公司即将发布首份财报。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Technology",
+    "Finance"
+  ],
+  "difficulty": 5,
+  "reading_passage": "Elon Musk became the world's first trillionaire when SpaceX floated\n\nSpaceX's share price has dropped below its stock market debut just over a month ago, falling sharply from a post-float peak.\n\nThe price for a single share in Elon Musk's rocket, satellite and artificial intelligence (AI) company fell to $132.62 (Â£98.24) on Wednesday, below its initial listing of $135 in June.\n\nSpaceX's initial public offering (IPO) made Musk the world's first trillionaire. Compared to its on-the-day high so far, the stock price is now down 41%.\n\nIf the price holds, or falls further, it will mean that those who purchased stock around the time of its flotation will stand to lose money on their investment.\n\nEven amid a tumultuous few weeks for tech stocks, SpaceX has taken a particular hit.\n\nCompared to a 0.2% fall on the wider Nasdaq index, where SpaceX's shares are listed, the company's stock price fell more than 2% on Wednesday.\n\nSpaceX stock has been volatile since it began trading on the public stock market a little over one month ago.\n\nAfter an initial investor frenzy that saw the company valued at more than Amazon and Microsoft, the price of its shares has drifted downward.\n\nInitially, SpaceX was treated by investors as the first chance they had to invest in an AI company, according to what financial market analysts and experts recently told the BBC,\n\nEarlier this year, SpaceX acquired Musk's AI start-up xAI, recently renamed SpaceXAI, marking it's first foray into an AI-focused business.\n\nXAI is best known for the controversial chatbot Grok, but through that acquisition, SpaceX now leases data centre capacity to other tech companies.\n\nThe company's main business is the manufacture and launch of rockets and telecommunications satellites called Starlink.\n\nWhen Starlink said it was cutting prices in the Memphis, Tennessee area amid local concerns over a massive data centre project, SpaceX shares fell by 8%.\n\nSteve Sosnick, chief market analyst at Interactive Brokers, told Reuters: \"There hasn't been anything that lately to remind people of some of the catalysts for why they bought SpaceX.\"\n\nSpaceX is expected to release in August its first public earnings report.\n\nSosnick added: \"The fact that a stock has fallen a couple of dollars below its IPO price in itself is not a tragedy, but SpaceX is heavily watched and has an important role in investor psyche.\"\n\nSpaceX did not immediately respond to a request for comment.\n\nWatch our pick of standout clips from across the BBC\n\nEngland suffer World Cup semi-final heartbreak with loss to Argentina\n\nWilliam tells England to 'hold their heads high' after defeat\n\nArgentina fans celebrate World Cup win over England\n\nLuxury holidays and lost bank cards - how fake Army major defrauded women on dating apps\n\nHosepipe ban in force for millions of households - is your area affected?\n\n'I dreaded bedtime before new sleep apnoea treatment'\n\nTourists warned of methanol poisoning risks in new campaign\n\nDon't panic - five ways to stop your kids' endless scrolling\n\nI changed jobs 10 times in 10 years to get the career I wanted\n\nBullying pupils protected more than victims, parents say\n\nAfter record heat, could the Atlantic make Britain's weather even more extreme?\n\n'I don't want my mother to be remembered as a murder victim'\n\nChew over the ingredients of a World Cup footballer's diet\n\nA twisty mystery starring Nikki AmukaâBird and John Simm\n\nThe Odyssey is a 'colossal piece of cinema', critics say in rave reviews\n\nArgentina face fine for Falklands banner in semi-final win\n\nCovid fraudsters spent thousands on cars and watches\n\nBurnham faces crucial choice for chancellor as battle for No 11 continues\n\nSalary information to be shown on job ads under new laws\n\nUS launches fresh strikes on Iran as Trump warns Tehran it 'better behave'\n\nStarmer says it's the 'end of my political journey' at his final Prime Minister's Questions\n\nSpaceX share price drops below stock market debut\n\nMan arrested over social media post threatening to shoot Farage\n\nCopyright Â© 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "float",
+      "ipa": "/floʊt/",
+      "pos": "v.",
+      "meaning_zh": "（公司）首次公开发行股票，上市",
+      "collocations": [
+        "float a company",
+        "float on the stock market",
+        "float shares"
+      ],
+      "example": "The tech startup decided to float on the Nasdaq last year."
+    },
+    {
+      "category": "core_word",
+      "word": "debut",
+      "ipa": "/deɪˈbjuː/",
+      "pos": "n.",
+      "meaning_zh": "首次亮相，初次登场",
+      "collocations": [
+        "make one's debut",
+        "stock market debut",
+        "product debut"
+      ],
+      "example": "The company's stock market debut was highly anticipated by investors."
+    },
+    {
+      "category": "core_word",
+      "word": "volatile",
+      "ipa": "/ˈvɑː.lə.t̬əl/",
+      "pos": "adj.",
+      "meaning_zh": "不稳定的，易波动的",
+      "collocations": [
+        "volatile market",
+        "volatile stock",
+        "highly volatile"
+      ],
+      "example": "Tech stocks are known to be more volatile than government bonds."
+    },
+    {
+      "category": "core_word",
+      "word": "foray",
+      "ipa": "/ˈfɔːr.eɪ/",
+      "pos": "n.",
+      "meaning_zh": "初次尝试，涉足",
+      "collocations": [
+        "make a foray into",
+        "first foray",
+        "brief foray"
+      ],
+      "example": "The company's foray into artificial intelligence has attracted significant investment."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "stock market debut",
+      "ipa": "/stɑːk ˈmɑːr.kɪt deɪˈbjuː/",
+      "pos": "phr.",
+      "meaning_zh": "股市首秀，上市首日",
+      "collocations": [
+        "make a stock market debut",
+        "eagerly awaited stock market debut",
+        "successful stock market debut"
+      ],
+      "example": "Many startups dream of a successful stock market debut that boosts their valuation."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "initial public offering (IPO)",
+      "ipa": "/ɪˌnɪʃ.əl ˈpʌb.lɪk ˈɔː.fər.ɪŋ/",
+      "pos": "phr.",
+      "meaning_zh": "首次公开募股",
+      "collocations": [
+        "launch an IPO",
+        "IPO price",
+        "IPO date"
+      ],
+      "example": "The company raised $2 billion through its initial public offering."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "take a hit",
+      "ipa": "/teɪk ə hɪt/",
+      "pos": "phr.",
+      "meaning_zh": "遭受打击，受到负面影响",
+      "collocations": [
+        "take a big hit",
+        "take a hit from",
+        "take a hit in the market"
+      ],
+      "example": "The energy sector took a hit after the new regulations were announced."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "fall by",
+      "ipa": "/fɔːl baɪ/",
+      "pos": "phr.",
+      "meaning_zh": "下降了……（后接幅度）",
+      "collocations": [
+        "fall by a percentage",
+        "fall by half",
+        "fall by a third"
+      ],
+      "example": "The company's revenue fell by 15% compared to the same quarter last year."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "remind of",
+      "ipa": "/rɪˈmaɪnd əv/",
+      "pos": "phr.",
+      "meaning_zh": "使想起，提醒……注意",
+      "collocations": [
+        "remind someone of something",
+        "be reminded of",
+        "that reminds me of"
+      ],
+      "example": "The analyst's comments reminded investors of the risks associated with growth stocks."
+    },
+    {
+      "category": "academic_word",
+      "word": "acquisition",
+      "ipa": "/ˌæk.wɪˈzɪʃ.ən/",
+      "pos": "n.",
+      "meaning_zh": "收购，获得",
+      "collocations": [
+        "corporate acquisition",
+        "acquisition of a company",
+        "complete an acquisition"
+      ],
+      "example": "The acquisition of the smaller firm allowed the company to expand its market share."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "SpaceX's initial public offering (IPO) made Musk the world's first trillionaire.",
+      "explanation_zh": "该句使用 `make + sb + sth` 结构，表示‘使某人成为……’，宾语补足语说明造成的结果。",
+      "grammar_point": "`make + object + noun complement` 表示致使结果",
+      "translation_zh": "SpaceX的首次公开募股使马斯克成为全球首位万亿富翁。"
+    },
+    {
+      "sentence": "Even amid a tumultuous few weeks for tech stocks, SpaceX has taken a particular hit.",
+      "explanation_zh": "`Even amid...` 引导让步状语，强调在不利环境下仍发生某事；`take a hit` 是固定搭配，意为‘遭受打击’。",
+      "grammar_point": "`even amid + noun` 引导让步，`take a hit` 表示受到冲击",
+      "translation_zh": "即使在科技股动荡的数周里，SpaceX也遭受了尤为严重的打击。"
+    },
+    {
+      "sentence": "When Starlink said it was cutting prices in the Memphis, Tennessee area amid local concerns over a massive data centre project, SpaceX shares fell by 8%.",
+      "explanation_zh": "时间状语从句 `When...` 说明股价下跌的背景，其中 `amid` 引导部分说明同时发生的情况，表示‘在……之中’。",
+      "grammar_point": "时间状语从句 + `amid` 表背景原因",
+      "translation_zh": "当Starlink称其在田纳西州孟菲斯地区因当地对大型数据中心项目的担忧而降价时，SpaceX股价下跌了8%。"
+    },
+    {
+      "sentence": "The fact that a stock has fallen a couple of dollars below its IPO price in itself is not a tragedy, but SpaceX is heavily watched and has an important role in investor psyche.",
+      "explanation_zh": "`The fact that...` 引导同位语从句，说明事实内容；`in itself` 表示‘就其本身而言’；`but` 连接转折并列句。",
+      "grammar_point": "同位语从句 `the fact that...` + 并列转折 `but`",
+      "translation_zh": "一只股票跌破发行价几美元本身并不是悲剧，但SpaceX备受关注，且在投资者心理中占有重要地位。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "stand to do something",
+      "meaning_zh": "很可能做某事，往往会……",
+      "usage_note": "通常用于描述某人或某事物在未来很有可能经历某个（多为负面的）结果。",
+      "example": "If the market continues to fall, investors stand to lose a significant portion of their savings."
+    },
+    {
+      "expression": "in itself",
+      "meaning_zh": "就其本身而言，本质上",
+      "usage_note": "用于强调某事物在脱离其他因素时并不重要或并不说明问题。",
+      "example": "A single drop in share price is not a disaster in itself."
+    },
+    {
+      "expression": "drift downward",
+      "meaning_zh": "逐渐下降，缓缓走低",
+      "usage_note": "常用来形容价格、数量等缓慢而非急剧的下降趋势。",
+      "example": "After reaching a peak, the company's market share began to drift downward."
+    },
+    {
+      "expression": "have a role (in something)",
+      "meaning_zh": "在……中起作用，扮演角色",
+      "usage_note": "与 `play a role` 同义，表示发挥一定作用或具有某种影响力。",
+      "example": "Social media has a significant role in shaping public opinion."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main focus of the article?",
+      "options": {
+        "A": "The challenges of space exploration.",
+        "B": "SpaceX's dropping share price after its IPO.",
+        "C": "Elon Musk's business ventures.",
+        "D": "The benefits of investing in tech stocks."
+      },
+      "answer": "B",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "According to the article, what was the initial listing price of SpaceX shares?",
+      "options": {
+        "A": "$132.62",
+        "B": "$98.24",
+        "C": "The article does not say.",
+        "D": "$135"
+      },
+      "answer": "D",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Inference",
+      "question": "What does the article imply about the significance of SpaceX's IPO for Elon Musk?",
+      "options": {
+        "A": "It allowed him to buy Twitter.",
+        "B": "It turned him into a billionaire.",
+        "C": "It elevated his wealth to unprecedented trillionaire status.",
+        "D": "It caused his net worth to decline."
+      },
+      "answer": "C",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "The word \"frenzy\" in paragraph 9 is closest in meaning to:",
+      "options": {
+        "A": "calm period",
+        "B": "organized activity",
+        "C": "careful planning",
+        "D": "wild excitement"
+      },
+      "answer": "D",
+      "evidence_paragraph": 9
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "The author's tone when quoting the analyst's comment in paragraph 17 can be best described as:",
+      "options": {
+        "A": "alarmist, warning of a major crash.",
+        "B": "optimistic about the company's future.",
+        "C": "neutral, presenting a balanced expert view.",
+        "D": "dismissive of the analyst's concerns."
+      },
+      "answer": "C",
+      "evidence_paragraph": 17
+    },
+    {
+      "type": "Organization",
+      "question": "How does the article organize information about the share drop?",
+      "options": {
+        "A": "It lists only negative events in chronological order.",
+        "B": "It compares SpaceX with Amazon and Microsoft throughout.",
+        "C": "It presents the drop, then provides context and possible reasons, including analyst commentary.",
+        "D": "It focuses solely on Musk's role as a trillionaire."
+      },
+      "answer": "C",
+      "evidence_paragraph": 10
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the most appropriate title for the article?",
+      "options": {
+        "A": "Elon Musk's Trillionaire Dream",
+        "B": "The Future of Space Travel",
+        "C": "AI Companies on the Rise",
+        "D": "SpaceX Stock Falls Below Debut Price"
+      },
+      "answer": "D",
+      "evidence_paragraph": 4
+    }
+  ],
+  "answer_key": "BDCDCCD",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "SpaceX share price drops below stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/clyl33q0yl0o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
