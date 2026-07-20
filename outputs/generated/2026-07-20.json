@@ -1,0 +1,287 @@
+{
+  "title_en": "Moonshot AI Unveils Open-Source Kimi K3, Rivaling Western Models",
+  "title_zh": "月之暗面发布开源模型Kimi K3，与西方模型抗衡",
+  "summary_zh": "中国AI初创公司月之暗面发布了拥有2.8万亿参数的开源模型Kimi K3，声称其性能可媲美美国顶尖模型。该模型在编码和网页界面工程等独立基准测试中表现出色，并计划于7月27日作为开源模型发布。此举表明中国在AI领域正迅速缩小与美国的差距，可能颠覆硅谷的商业模式，并已导致国内竞争对手智谱和MiniMax的股价分别大跌约27%和16%。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Artificial Intelligence",
+    "Technology Competition",
+    "Open-Source Software"
+  ],
+  "difficulty": 5,
+  "reading_passage": "Moonshot AI showed off Kimi 3 at the World Artificial Intelligence Conference in Shanghai on Friday\n\nChinese AI start-up Moonshot has unveiled a massive new artificial intelligence model it says can rival top American firms.\n\nThe company launched Kimi K3, containing 2.8 trillion parameters, which serves as a measure of an AI's scale and processing power.\n\nKimi K3's full capabilities â coding, knowledge work, and reasoning â will be known when it is released as an open-source model on 27 July.\n\nThe sudden breakthrough suggests that China's tech prowess is rapidly narrowing the capabilities gap, upending long-held assumptions in the West that Chinese developers trail their American peers.\n\nIts arrival later this month will make it the world's first open-source model in the three-trillion-parameter class that can be freely downloaded, run and customised by outside developers.\n\nThe release comes at a highly sensitive moment for the global technology sector, just weeks after the US government abruptly forced American developer Anthropic to temporarily withdraw its flagship Fable and Mythos models due to severe cybersecurity concerns.\n\nWhile Washington has since lifted those restrictions, the initial move highlights how the US government now views advanced AI software as critical national infrastructure, labelling frontier models as vital national security assets subject to strict export controls.\n\nHowever, the rapid arrival of Kimi K3 suggests Chinese firms are successfully bypassing these regulatory barriers and advancing independently despite US restrictions on hardware sales.\n\nHeavily backed by domestic tech giants Alibaba and Tencent, Moonshot has quickly risen to the forefront of China's generative AI ecosystem.\n\nIn a statement the company said that K3 stands as Moonshot AI's \"most capable flagship model to date\".\n\nUnlike closed, proprietary American systems from OpenAI or Anthropic, Kimi K3's open nature allows global users to modify the system for advanced reasoning and complex software development.\n\nMoonshot AI noted that the system is uniquely built to operate with \"minimal human supervision\" to sustain tasks such as engineering and coding.\n\nThird-party evaluations from Artificial Analysis and Arena.ai show the model performing on a par with leading models in the US, such as OpenAI's GPT and Anthropic's Claude.\n\nIn these independent benchmarks, external, Kimi K3 ranked first in web interface engineering, outperforming Anthropic's Fable system, external in blind human-preference tests.\n\nWhile the system's massive size means running it locally requires significant computing equipment, making it open-source could heavily disrupt Silicon Valley's commercial models.\n\nThe announcement had an immediate impact on shares in Moonshot's domestic competitors Zhipu and MiniMax, which tumbled sharply in Hong Kong by about 27% and 16% respectively.\n\nWatch our pick of standout clips from across the BBC\n\nSpain beat Argentina to win World Cup for second time\n\nBurnham to promise 'more breathing room' in first speech as PM\n\nThames Water lenders preparing legal challenge in event of Burnham nationalisation\n\nThe hidden cost of the night shift and how to sleep it off\n\n'Our murdered girls brought us together - now we're changing the law'\n\nTwins share uni, course, grade and graduation day\n\n'Sharing my grief on TikTok gives my life purpose'\n\nCan Burnham's casual style survive contact with No 10?\n\nI'll lose my bowel because my pain was dismissed until my husband spoke up\n\nBirthmark no barrier for young footballing TV star\n\nMy ice hockey dream is taking me 3,000 miles from home\n\nGet news, tips and ideas for your family with our Summer Essential newsletter\n\nWhat Has the BBC Ever Done for Me?\n\nHave a laugh with Diane Morgan's new comedy, Ann Droid\n\nKatie Razzall speaks to Oscar-winning filmmaker Christopher Nolan\n\nThe 1975's Matty Healy marries model Gabbriette Bechtel in Los Angeles\n\nShakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show\n\nFire crews battling blaze on Arthurâs Seat in Edinburgh\n\nITV political editor found it 'too difficult' returning to Wales after wife's death\n\nTate brothers arrested in US as further UK charges take total to 59\n\nUS soldier killed and one injured after Iranian attack in Iraq\n\nThe honours system used to be too posh but I'm proof change is happening\n\nCopyright Â© 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "unveil",
+      "ipa": "/ʌnˈveɪl/",
+      "pos": "v.",
+      "meaning_zh": "公布，推出",
+      "collocations": [
+        "unveil a plan",
+        "unveil a new product",
+        "unveil a statue"
+      ],
+      "example": "The company plans to unveil its latest smartphone next month."
+    },
+    {
+      "category": "core_word",
+      "word": "rival",
+      "ipa": "/ˈraɪvəl/",
+      "pos": "v.",
+      "meaning_zh": "与…匹敌，比得上",
+      "collocations": [
+        "rival the best",
+        "rival in quality",
+        "rival one's achievements"
+      ],
+      "example": "No other player could rival his skill on the court."
+    },
+    {
+      "category": "core_word",
+      "word": "prowess",
+      "ipa": "/ˈpraʊəs/",
+      "pos": "n.",
+      "meaning_zh": "非凡的技能，高超的技艺",
+      "collocations": [
+        "technical prowess",
+        "athletic prowess",
+        "academic prowess"
+      ],
+      "example": "Her prowess in mathematics earned her a scholarship."
+    },
+    {
+      "category": "core_word",
+      "word": "bypass",
+      "ipa": "/ˈbaɪpɑːs/",
+      "pos": "v.",
+      "meaning_zh": "绕过，避开",
+      "collocations": [
+        "bypass regulations",
+        "bypass the need for",
+        "bypass controls"
+      ],
+      "example": "They found a way to bypass the security system."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "on a par with",
+      "ipa": "/ɒn ə pɑː wɪð/",
+      "pos": "phr.",
+      "meaning_zh": "与…同等，与…水平相当",
+      "collocations": [
+        "on a par with the best",
+        "be considered on a par with",
+        "performance on a par with"
+      ],
+      "example": "Her writing is on a par with professional authors."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "narrow the gap",
+      "ipa": "/ˈnærəʊ ðə ɡæp/",
+      "pos": "phr.",
+      "meaning_zh": "缩小差距",
+      "collocations": [
+        "help narrow the gap",
+        "narrow the gap between",
+        "aim to narrow the gap"
+      ],
+      "example": "The new policy aims to narrow the gap between rich and poor."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "export controls",
+      "ipa": "/ˈekspɔːt kənˈtrəʊlz/",
+      "pos": "phr.",
+      "meaning_zh": "出口管制",
+      "collocations": [
+        "impose export controls",
+        "strict export controls",
+        "violate export controls"
+      ],
+      "example": "The country tightened export controls on advanced technology."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "show off",
+      "ipa": "/ʃəʊ ɒf/",
+      "pos": "phr.",
+      "meaning_zh": "炫耀，展示",
+      "collocations": [
+        "show off a new car",
+        "show off skills",
+        "like to show off"
+      ],
+      "example": "He drove around town to show off his new sports car."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "serve as",
+      "ipa": "/sɜːv əz/",
+      "pos": "phr.",
+      "meaning_zh": "充当，担任",
+      "collocations": [
+        "serve as a reminder",
+        "serve as a model",
+        "serve as a basis"
+      ],
+      "example": "The old factory now serves as a museum."
+    },
+    {
+      "category": "academic_word",
+      "word": "infrastructure",
+      "ipa": "/ˈɪnfrəstrʌktʃə(r)/",
+      "pos": "n.",
+      "meaning_zh": "基础设施",
+      "collocations": [
+        "critical infrastructure",
+        "infrastructure development",
+        "physical infrastructure"
+      ],
+      "example": "Investment in infrastructure is crucial for economic growth."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "The sudden breakthrough suggests that China's tech prowess is rapidly narrowing the capabilities gap, upending long-held assumptions in the West that Chinese developers trail their American peers.",
+      "explanation_zh": "主句为“The sudden breakthrough suggests that ...”，`that` 引导宾语从句；现在分词短语“upending...”作结果状语，表示前句带来的结果；该分词短语中又包含一个 `that` 引导的同位语从句，说明 `assumptions` 的具体内容。",
+      "grammar_point": "现在分词作结果状语；同位语从句",
+      "translation_zh": "这一突然的突破表明，中国的技术实力正在迅速缩小能力差距，颠覆了西方长期以来的观念，即中国开发者落后于美国同行。"
+    },
+    {
+      "sentence": "The release comes at a highly sensitive moment for the global technology sector, just weeks after the US government abruptly forced American developer Anthropic to temporarily withdraw its flagship Fable and Mythos models due to severe cybersecurity concerns.",
+      "explanation_zh": "主句为“The release comes at a highly sensitive moment”；“just weeks after...”是时间状语，说明事件发生的背景；该时间状语中包含“force sb. to do sth.”结构，以及“due to...”引出原因。",
+      "grammar_point": "复杂时间状语；`force sb. to do sth.`；`due to` 表原因",
+      "translation_zh": "这次发布正值全球科技行业高度敏感的时刻，就在几周前，美国政府突然以严重的网络安全问题为由，迫使美国开发商Anthropic临时撤回其旗舰模型Fable和Mythos。"
+    },
+    {
+      "sentence": "While the system's massive size means running it locally requires significant computing equipment, making it open-source could heavily disrupt Silicon Valley's commercial models.",
+      "explanation_zh": "句首为 `While` 引导的让步状语从句，从句中“means (that) running it locally requires...”省略了 `that`；主句为“making it open-source could heavily disrupt...”，其中动名词短语“making it open-source”作主语。",
+      "grammar_point": "`while` 引导状语从句表转折；动名词短语作主语",
+      "translation_zh": "尽管该系统庞大的规模意味着在本地运行它需要大量的计算设备，但将其开源可能会严重颠覆硅谷的商业模式。"
+    },
+    {
+      "sentence": "The announcement had an immediate impact on shares in Moonshot's domestic competitors Zhipu and MiniMax, which tumbled sharply in Hong Kong by about 27% and 16% respectively.",
+      "explanation_zh": "主句为“The announcement had an immediate impact on shares”；“in Moonshot's domestic competitors Zhipu and MiniMax”为定语修饰 `shares`；`which` 引导非限制性定语从句，修饰 `shares`，说明股价的具体跌幅。",
+      "grammar_point": "非限制性定语从句",
+      "translation_zh": "这一消息对月之暗面国内竞争对手智谱和MiniMax的股价立即产生了影响，这两家公司的股票在香港分别大幅下跌了约27%和16%。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "at the forefront",
+      "meaning_zh": "处于最前沿，处于领先地位",
+      "usage_note": "常用于描述某组织或个人在某个领域处于领先位置，后常接 `of` 引出具体领域，多用于正式语境。",
+      "example": "This research institute has always been at the forefront of medical innovation."
+    },
+    {
+      "expression": "to date",
+      "meaning_zh": "迄今为止，到目前为止",
+      "usage_note": "通常置于句末，表示直到说话时为止，多用于书面语和正式报告中。",
+      "example": "The project has received to date over $10 million in funding."
+    },
+    {
+      "expression": "stand as",
+      "meaning_zh": "作为……的象征，是……的体现",
+      "usage_note": "用于正式语境，强调某人或某物代表了某种品质或成就，后接名词短语。",
+      "example": "The new bridge stands as a symbol of the city's renewal."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main idea of the passage?",
+      "options": {
+        "A": "Moonshot AI has released an AI model that completely outperforms all American models.",
+        "B": "US export controls have totally failed and China now dominates the AI sector.",
+        "C": "The launch of the open-source Kimi K3 model signals that China is rapidly closing the AI gap with the US and could disrupt the existing commercial landscape.",
+        "D": "The stock prices of Moonshot's competitors fell because they lack similar technology."
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Detail",
+      "question": "How many parameters does the Kimi K3 model contain?",
+      "options": {
+        "A": "2.8 billion",
+        "B": "2.8 trillion",
+        "C": "28 trillion",
+        "D": "280 billion"
+      },
+      "answer": "B",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the passage about US export controls on AI?",
+      "options": {
+        "A": "They have successfully prevented Chinese firms from developing advanced AI.",
+        "B": "They mainly restrict software exports rather than hardware.",
+        "C": "They are intended to safeguard national security but Chinese companies are finding ways around them.",
+        "D": "They have been lifted completely following the Anthropic incident."
+      },
+      "answer": "C",
+      "evidence_paragraph": 8
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "The word \"upending\" in paragraph 4 is closest in meaning to:",
+      "options": {
+        "A": "supporting",
+        "B": "challenging",
+        "C": "overturning",
+        "D": "confirming"
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "The author's tone in the passage can best be described as:",
+      "options": {
+        "A": "strongly critical of US government policies",
+        "B": "enthusiastically supportive of open-source AI",
+        "C": "neutral and measured, reporting facts and potential implications",
+        "D": "skeptical about the claims made by Moonshot AI"
+      },
+      "answer": "C",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Organization",
+      "question": "The final paragraph of the passage serves primarily to:",
+      "options": {
+        "A": "show the immediate financial market impact of the announcement",
+        "B": "summarize the technical capabilities of Kimi K3",
+        "C": "introduce a counterargument to the previous claims",
+        "D": "provide a detailed comparison between Moonshot and its competitors"
+      },
+      "answer": "A",
+      "evidence_paragraph": 16
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the most appropriate title for the passage?",
+      "options": {
+        "A": "Moonshot AI's Stock Surge After Kimi K3 Launch",
+        "B": "The US-China AI Race: Who Will Win?",
+        "C": "Open-Source AI: The Future of Technology",
+        "D": "Moonshot Unveils Kimi K3, Signaling a Shift in Global AI Competition"
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "CBCCCAD",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
+      "url": "https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
