@@ -57,28 +57,117 @@ class Story:
 
 
 class ArticleTextParser(HTMLParser):
+    BODY_MARKERS = re.compile(
+        r"(?:article|story|post|entry)[-_ ]?(?:body|content)|"
+        r"(?:body|content)[-_ ]?(?:article|story|post|entry)|text[-_ ]?block",
+        re.IGNORECASE,
+    )
+    BLOCKED_TAGS = {"aside", "footer", "form", "nav"}
+    VOID_TAGS = {
+        "area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta",
+        "param", "source", "track", "wbr",
+    }
+
     def __init__(self) -> None:
         super().__init__()
         self.in_paragraph = False
         self.current: list[str] = []
         self.paragraphs: list[str] = []
+        self.article_paragraphs: list[str] = []
+        self.article_body_paragraphs: list[str] = []
+        self.body_paragraphs: list[str] = []
+        self.element_stack: list[tuple[str, bool, bool, bool]] = []
+        self.article_depth = 0
+        self.body_depth = 0
+        self.blocked_depth = 0
+        self.paragraph_scope = (False, False, False)
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag = tag.lower()
+        attributes = {name.lower(): value or "" for name, value in attrs}
+        marker_text = " ".join(
+            attributes.get(name, "")
+            for name in ("class", "data-component", "data-testid", "id", "itemprop")
+        )
+        role = attributes.get("role", "").lower()
+        enters_article = tag == "article"
+        enters_body = bool(self.BODY_MARKERS.search(marker_text))
+        enters_blocked = (
+            tag in self.BLOCKED_TAGS
+            or role in {"complementary", "contentinfo", "navigation"}
+            or attributes.get("aria-hidden", "").lower() == "true"
+        )
+        self.article_depth += enters_article
+        self.body_depth += enters_body
+        self.blocked_depth += enters_blocked
+        if tag not in self.VOID_TAGS:
+            self.element_stack.append((tag, enters_article, enters_body, enters_blocked))
         if tag == "p":
             self.in_paragraph = True
             self.current = []
+            self.paragraph_scope = (
+                self.article_depth > 0,
+                self.body_depth > 0,
+                self.blocked_depth > 0,
+            )
 
     def handle_data(self, data: str) -> None:
         if self.in_paragraph:
             self.current.append(data)
 
     def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
         if tag == "p" and self.in_paragraph:
             text = re.sub(r"\s+", " ", html.unescape("".join(self.current))).strip()
-            if len(text.split()) >= 8:
+            in_article, in_body, is_blocked = self.paragraph_scope
+            if len(text.split()) >= 8 and not is_blocked:
                 self.paragraphs.append(text)
+                if in_article:
+                    self.article_paragraphs.append(text)
+                if in_body:
+                    self.body_paragraphs.append(text)
+                if in_article and in_body:
+                    self.article_body_paragraphs.append(text)
             self.in_paragraph = False
             self.current = []
+            self.paragraph_scope = (False, False, False)
+        for index in range(len(self.element_stack) - 1, -1, -1):
+            if self.element_stack[index][0] != tag:
+                continue
+            closing_elements = self.element_stack[index:]
+            del self.element_stack[index:]
+            for _, leaves_article, leaves_body, leaves_blocked in closing_elements:
+                self.article_depth -= leaves_article
+                self.body_depth -= leaves_body
+                self.blocked_depth -= leaves_blocked
+            break
+
+    def best_paragraphs(self, minimum_words: int = 120) -> list[str]:
+        candidates = (
+            self.article_body_paragraphs,
+            self.article_paragraphs,
+            self.body_paragraphs,
+            self.paragraphs,
+        )
+        for paragraphs in candidates:
+            unique_paragraphs = list(dict.fromkeys(paragraphs))
+            word_count = sum(len(paragraph.split()) for paragraph in unique_paragraphs)
+            if word_count >= minimum_words:
+                return unique_paragraphs
+        for paragraphs in candidates:
+            if paragraphs:
+                return list(dict.fromkeys(paragraphs))
+        return []
+
+
+def decode_html_response(response: requests.Response) -> str:
+    encoding = (response.encoding or "").lower().replace("_", "-")
+    if encoding and encoding not in {"iso-8859-1", "latin-1"}:
+        return response.content.decode(response.encoding)
+    try:
+        return response.content.decode("utf-8")
+    except UnicodeDecodeError:
+        return response.content.decode(response.apparent_encoding or "iso-8859-1", errors="replace")
 
 
 def fetch_article_text(story: Story) -> str:
@@ -90,8 +179,8 @@ def fetch_article_text(story: Story) -> str:
         )
         response.raise_for_status()
         parser = ArticleTextParser()
-        parser.feed(response.text)
-        paragraphs = list(dict.fromkeys(parser.paragraphs))
+        parser.feed(decode_html_response(response))
+        paragraphs = parser.best_paragraphs()
         article_text = "\n".join(paragraphs)
         if len(article_text.split()) >= 120:
             return article_text
