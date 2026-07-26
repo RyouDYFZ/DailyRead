@@ -1,0 +1,287 @@
+{
+  "title_en": "Teenager Drops Social Media Addiction Lawsuit Against Meta",
+  "title_zh": "青少年撤回针对 Meta 的社交媒体成瘾诉讼",
+  "summary_zh": "一名佛罗里达州青少年撤回其对 Meta 的诉讼，该诉讼称其因使用 Instagram 等平台而成瘾并受到伤害。此前他已就相同指控与 TikTok、Snapchat 和 YouTube 达成和解。Meta 发言人表示未支付和解金，原告律师称其希望专注于康复。此案是数百起针对社交媒体公司的类似诉讼之一，此前已有陪审团裁定 Meta 和 YouTube 赔偿 600 万美元。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Social Media",
+    "Legal",
+    "Youth"
+  ],
+  "difficulty": 2,
+  "reading_passage": "Teens and parents have increasingly claimed ill-effects of social media use.\n\nA Florida teenager who sued Meta claiming that he was addicted to and harmed by his use of platforms, such as Instagram, has dropped his case.\n\nThe 15-year-old plaintiff, known by the initials R.K.C., had in recent weeks settled the same claims against TikTok, Snapchat, and YouTube, all of which have been accused in a large lawsuit of creating addictive platforms harmful to children.\n\nR.K.C.'s claims were to go before a Los Angeles jury next week as part of court proceedings that have seen Meta and YouTube lose once already.\n\nA Meta spokeswoman told the BBC: \"The claims never held up, and this outcome makes clear that we will not back away from defending ourselves against baseless lawsuits.\"\n\nLawyers for R.K.C., Emily Jeffcott and Rahul Ravipudi, told the BBC that the young plaintiff \"came into this process wanting to hold social media companies accountable and push for changes to protect young people like himself\".\n\nThe lawyers noted concerns about a jury trial stretching on for weeks and said R.K.C. was \"ready to close this chapter and focus on his recovery and engage in therapy as he aspires to have a normal life\".\n\nThe Meta spokeswoman said he received no payment for dropping his claims.\n\nR.K.C. had claimed that common social media features such as infinite scroll and autoplay, both of which continuously and automatically show users new content on a platform, drove compulsive use that became a type of addiction.\n\nHe argued it caused him anxiety and sleep deprivation, among other issues.\n\nMeta and YouTube faced similar accusations from a young woman during the initial trial.\n\nA jury ultimately found them liable for harming her mental health and were told to pay her $6mn (£4.4mn) in damages.\n\nIt was the first time that social media platforms had been held liable for their effects on users.\n\nThe Los Angeles Superior Court is overseeing hundreds of lawsuits making similar claims of addiction and harm against social media companies. A small number of cases have been selected to go to trial.\n\nThe next one is set to begin in October, according to court records.\n\nAcross the US, there are thousands of lawsuits accusing Meta and other major social media platforms of harming young children.\n\nIn May, Meta settled for an undisclosed amount with a school district that had sued it for negatively impacting students, so much so that schools incurred costs related to student welfare. The school district had sought $60m in damages.\n\nThat settlement came not long after a New Mexico judge told Meta to pay $375m for misleading users on the safety of its platforms for children.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "plaintiff",
+      "ipa": "/ˈpleɪntɪf/",
+      "pos": "n.",
+      "meaning_zh": "原告",
+      "collocations": [
+        "the plaintiff's claims",
+        "represent the plaintiff",
+        "plaintiff and defendant"
+      ],
+      "example": "The plaintiff argued that the company's negligence caused his injury."
+    },
+    {
+      "category": "core_word",
+      "word": "lawsuit",
+      "ipa": "/ˈlɔːsuːt/",
+      "pos": "n.",
+      "meaning_zh": "诉讼",
+      "collocations": [
+        "file a lawsuit",
+        "baseless lawsuit",
+        "settle a lawsuit"
+      ],
+      "example": "They decided to settle the lawsuit out of court to avoid a long trial."
+    },
+    {
+      "category": "core_word",
+      "word": "addiction",
+      "ipa": "/əˈdɪkʃən/",
+      "pos": "n.",
+      "meaning_zh": "成瘾",
+      "collocations": [
+        "social media addiction",
+        "overcome addiction",
+        "addiction to technology"
+      ],
+      "example": "Her addiction to video games affected her academic performance."
+    },
+    {
+      "category": "core_word",
+      "word": "liable",
+      "ipa": "/ˈlaɪəbl/",
+      "pos": "adj.",
+      "meaning_zh": "负有法律责任的",
+      "collocations": [
+        "hold someone liable",
+        "personally liable",
+        "liable for damages"
+      ],
+      "example": "The manufacturer was held liable for the defective product."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "mental health",
+      "ipa": "/ˈmentl helθ/",
+      "pos": "phr.",
+      "meaning_zh": "心理健康",
+      "collocations": [
+        "mental health issues",
+        "mental health support",
+        "mental health crisis"
+      ],
+      "example": "The pandemic has worsened mental health problems among teenagers."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "sleep deprivation",
+      "ipa": "/sliːp ˌdeprɪˈveɪʃn/",
+      "pos": "phr.",
+      "meaning_zh": "睡眠剥夺",
+      "collocations": [
+        "suffer from sleep deprivation",
+        "chronic sleep deprivation",
+        "effects of sleep deprivation"
+      ],
+      "example": "Sleep deprivation can impair cognitive function and decision-making."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "social media",
+      "ipa": "/ˌsəʊʃl ˈmiːdiə/",
+      "pos": "phr.",
+      "meaning_zh": "社交媒体",
+      "collocations": [
+        "social media platform",
+        "social media use",
+        "social media addiction"
+      ],
+      "example": "Many young people spend hours daily on social media."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "hold up",
+      "ipa": "/həʊld ʌp/",
+      "pos": "phr.",
+      "meaning_zh": "站得住脚；保持有效",
+      "collocations": [
+        "claim holds up in court",
+        "arguments don't hold up",
+        "hold up under scrutiny"
+      ],
+      "example": "The prosecution's evidence did not hold up during cross-examination."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "back away",
+      "ipa": "/bæk əˈweɪ/",
+      "pos": "phr.",
+      "meaning_zh": "退缩；放弃",
+      "collocations": [
+        "back away from a commitment",
+        "back away from a fight",
+        "refuse to back away"
+      ],
+      "example": "Despite the pressure, she refused to back away from her principles."
+    },
+    {
+      "category": "academic_word",
+      "word": "oversee",
+      "ipa": "/ˌəʊvəˈsiː/",
+      "pos": "v.",
+      "meaning_zh": "监督；管理",
+      "collocations": [
+        "oversee a project",
+        "oversee compliance",
+        "oversee the implementation"
+      ],
+      "example": "A committee was appointed to oversee the renovation work."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "The 15-year-old plaintiff, known by the initials R.K.C., had in recent weeks settled the same claims against TikTok, Snapchat, and YouTube, all of which have been accused in a large lawsuit of creating addictive platforms harmful to children.",
+      "explanation_zh": "主句是“The 15-year-old plaintiff had settled the same claims”，插入语“known by the initials R.K.C.”作同位语，关系代词“all of which”引导非限定性定语从句，修饰先行词“TikTok, Snapchat, and YouTube”，从句中包含被动语态“have been accused”，表示这些平台被指控。",
+      "grammar_point": "非限定性定语从句；同位语",
+      "translation_zh": "这位15岁的原告（化名为R.K.C.）在最近几周已经就同样的指控与TikTok、Snapchat和YouTube达成和解，这些平台都在一场大型诉讼中被指控创建了有害于儿童的成瘾性平台。"
+    },
+    {
+      "sentence": "R.K.C.'s claims were to go before a Los Angeles jury next week as part of court proceedings that have seen Meta and YouTube lose once already.",
+      "explanation_zh": "主句是“R.K.C.'s claims were to go”，表示“将提交”，定语从句“that have seen Meta and YouTube lose once already”修饰“proceedings”，其中“see sb do sth”结构表示经历或见证某事发生。",
+      "grammar_point": "“be to do”表示计划或安排；“see sb do”结构",
+      "translation_zh": "R.K.C.的诉求原定于下周提交给洛杉矶陪审团，作为法庭审理的一部分，此前的审理中Meta和YouTube已经败诉一次。"
+    },
+    {
+      "sentence": "The lawyers noted concerns about a jury trial stretching on for weeks and said R.K.C. was 'ready to close this chapter and focus on his recovery and engage in therapy as he aspires to have a normal life'.",
+      "explanation_zh": "主句“The lawyers noted... and said...”，宾语从句中包含“ready to close... and focus... and engage...”，并列不定式短语；时间状语从句“as he aspires to have a normal life”表示“当他渴望过上正常生活时”。",
+      "grammar_point": "并列不定式短语；直接引语中的宾语从句",
+      "translation_zh": "律师们提到他们对陪审团审理可能持续数周表示担忧，并表示R.K.C.“准备翻过这一页，专注于康复和接受治疗，渴望过上正常的生活”。"
+    },
+    {
+      "sentence": "That settlement came not long after a New Mexico judge told Meta to pay $375m for misleading users on the safety of its platforms for children.",
+      "explanation_zh": "主句“That settlement came”，“not long after”引导时间状语，其中包含“told Meta to pay...”的复合宾语结构，说明命令的内容；“for misleading users”表示原因。",
+      "grammar_point": "“not long after”句型；“tell sb to do”结构",
+      "translation_zh": "该和解达成前不久，新墨西哥州一名法官判决Meta因其对儿童平台安全性误导用户而支付3.75亿美元。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "hold someone accountable",
+      "meaning_zh": "追究某人的责任",
+      "usage_note": "常用于正式或法律语境，表示让某人对其行为负责",
+      "example": "The public wants to hold the company accountable for environmental damage."
+    },
+    {
+      "expression": "close this chapter",
+      "meaning_zh": "结束一个阶段；翻过这一页",
+      "usage_note": "比喻结束生活中的某个时期或问题，常用于个人经历",
+      "example": "After graduation, she was ready to close that chapter and start her career."
+    },
+    {
+      "expression": "stretch on",
+      "meaning_zh": "持续很长时间",
+      "usage_note": "通常指时间上的延续，常带有中性或略微负面的含义",
+      "example": "The meeting stretched on until midnight, exhausting everyone."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the article mainly about?",
+      "options": {
+        "A": "Social media platforms are inherently harmful to teenagers.",
+        "B": "Meta successfully defended itself against a teenager's claims of addiction.",
+        "C": "Lawyers for a teenager celebrated a legal victory against social media companies.",
+        "D": "A teenager withdrew his addiction lawsuit against Meta, amid a broader legal battle over social media's effects."
+      },
+      "answer": "D",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "According to the article, which of the following is true about R.K.C.'s case?",
+      "options": {
+        "A": "He received a settlement payment from Meta.",
+        "B": "He had already settled similar claims with TikTok, Snapchat, and YouTube.",
+        "C": "His claims were to be heard by a New York jury.",
+        "D": "He sued Meta for misleading users about platform safety."
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred about Meta's stance from the article?",
+      "options": {
+        "A": "Meta admits its platforms can be addictive.",
+        "B": "Meta is willing to settle all lawsuits to avoid trials.",
+        "C": "Meta denies the claims and is prepared to fight them in court.",
+        "D": "Meta has changed its features to reduce addiction."
+      },
+      "answer": "C",
+      "evidence_paragraph": 5
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "The phrase \"held up\" in paragraph 5 most closely means:",
+      "options": {
+        "A": "were delayed",
+        "B": "were supported",
+        "C": "were understood",
+        "D": "remained valid"
+      },
+      "answer": "D",
+      "evidence_paragraph": 5
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "What is the author's tone in reporting this news?",
+      "options": {
+        "A": "Emotional and sympathetic",
+        "B": "Critical of social media companies",
+        "C": "Supportive of the teenager's decision",
+        "D": "Neutral and factual"
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Organization",
+      "question": "How does the author organize the article?",
+      "options": {
+        "A": "By presenting a chronological account of the trial proceedings.",
+        "B": "By comparing different lawsuits against social media companies.",
+        "C": "By listing arguments for and against social media regulation.",
+        "D": "By reporting the current event and then providing background and context."
+      },
+      "answer": "D",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the best alternative title for the passage?",
+      "options": {
+        "A": "\"Meta Wins Major Legal Battle Over Teen Addiction\"",
+        "B": "\"Social Media Platforms Face Thousands of Lawsuits Nationwide\"",
+        "C": "\"Teen Withdraws Meta Lawsuit Amid Broader Social Media Legal Fight\"",
+        "D": "\"Florida Teen Receives $6 Million in Damages from Social Media Companies\""
+      },
+      "answer": "C",
+      "evidence_paragraph": 16
+    }
+  ],
+  "answer_key": "DBCDDDC",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Teenager drops social media addiction lawsuit against Meta",
+      "url": "https://www.bbc.co.uk/news/articles/c5yrdg4q9vgo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
