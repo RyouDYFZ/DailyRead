@@ -1,0 +1,287 @@
+{
+  "title_en": "Why Most Brits Would Take a Guaranteed £50,000 Over a Coin Flip for £1m",
+  "title_zh": "为何多数英国人选择5万英镑保障金而非掷硬币赢取100万英镑",
+  "summary_zh": "YouGov对4600名英国成年人进行的调查显示，73%的人宁愿立即获得5万英镑，也不愿掷硬币赢得100万英镑（概率50%）。女性（82%）比男性（63%）更倾向于规避风险，年轻人（18-24岁）中28%选择赌博，比例高于其他年龄段。文章探讨了风险规避的心理因素，强调损失厌恶使人更害怕失去确定性收益，并指出若将5万英镑投资于全球基金，约38年前需投入才能增值至100万英镑。这些发现揭示了人们在财务决策中的行为模式。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Behavioral Economics",
+    "Risk Perception",
+    "Consumer Psychology"
+  ],
+  "difficulty": 4,
+  "reading_passage": "You have the choice of instantly receiving £50,000 or flipping a coin for a 50/50 chance of £1m.\n\nThe vast majority decide on taking the £50k, according to a survey of thousands of people by YouGov. Women voted 82% in favour of the guaranteed cash.\n\nThe poll has sparked a debate about why Brits appear more risk-averse than people in the US.\n\nSo why are the results so clear-cut, and what are the financial and psychological factors at play?\n\nSadly, there is little chance of ever having such a choice, but there are some interesting lessons for how we manage our money nonetheless.\n\nNearly three-quarters (73%) of the 4,600 adults asked in the survey said they would take the £50,000 now.\n\nJust over a fifth (21%) went for the chance of £1m and, 6% of those asked sat on the fence and simply couldn't decide.\n\nThe gender split in the results is striking. Some 82% of women opted for the £50,000, compared with 63% of men.\n\nThis chimes with other research which suggests that men are twice as likely to invest in stocks and shares than women, external, and women are more likely to subscribe to cash ISAs than men, external.\n\nLots of people might opt for the £50,000 guarantee, deciding that it is a life-changing amount of money in itself.\n\nAfter all, it is £10,000 more than the median average earnings for full-time workers in the UK for an entire year, according to official statistics, external.\n\nBut younger people generally earn less and yet, according to this survey, external, those aged 18 to 24 are more willing to take the bet on £1m than any other age group.\n\nSome 28% go for the coin flip, compared with just 11% among the over-65s - their grandparents' generation.\n\nThere is a different tipping point for everyone. Repeat the survey but instead guarantee £5 or offer a 50/50 chance for a £100, and most people will probably go for the £100 bet. After all, lots of people bet at least £2 a week hoping for a National Lottery win.\n\nAs those amounts rise, so your appetite for risk becomes clear.\n\nOne choice is to take the guaranteed £50,000 and hope it grows over time.\n\nSaving the money would be helped by the magic of compound interest.\n\nAlternatively, you could take more of a risk, but potentially with greater reward, by investing the money.\n\nWhat has happened in the past will not necessarily happen in the future when it comes to investments.\n\nBut you'd have had to have invested your £50,000 in a typical global fund just under 38 years ago for it to be worth £1m today, according to Sarah Coles, of investment firm AJ Bell.\n\nWe are hardwired, says Coles, to go for the guaranteed £50,000.\n\nThat's because we feel losses more acutely than gains, she says.\n\n\"The thrill of potentially winning £1m is felt less strongly than the fear of giving up a guaranteed £50,000 and ending up with nothing,\" she says.\n\nIn other words, having £50k and knowing you might have won £1m will play on your mind.\n\nBut it is not as bad as having a crack at £1m and knowing you've given up enough for an average deposit to buy a home in the West Midlands, external.\n\nWe split money equally even when one of us earned a lot more\n\nAre you a parent missing out on £27 a week? Here's how to check\n\nFake romance to missed deliveries: How to protect yourself from three common scams\n\nGet our flagship newsletter with all the headlines you need to start the day. Sign up here.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "risk-averse",
+      "ipa": "/ˌrɪsk əˈvɜːs/",
+      "pos": "adj.",
+      "meaning_zh": "不愿承担风险的，风险规避的",
+      "collocations": [
+        "highly risk-averse",
+        "risk-averse investors",
+        "a risk-averse strategy"
+      ],
+      "example": "The company adopted a risk-averse approach during the economic downturn."
+    },
+    {
+      "category": "core_word",
+      "word": "striking",
+      "ipa": "/ˈstraɪkɪŋ/",
+      "pos": "adj.",
+      "meaning_zh": "显著的，引人注目的",
+      "collocations": [
+        "a striking contrast",
+        "a striking similarity",
+        "a striking feature"
+      ],
+      "example": "The difference in their test scores was quite striking."
+    },
+    {
+      "category": "core_word",
+      "word": "split",
+      "ipa": "/splɪt/",
+      "pos": "n.",
+      "meaning_zh": "分歧，差异；划分",
+      "collocations": [
+        "a gender split",
+        "a political split",
+        "a deep split"
+      ],
+      "example": "There was a clear split in opinions among the committee members."
+    },
+    {
+      "category": "core_word",
+      "word": "appetite",
+      "ipa": "/ˈæpɪtaɪt/",
+      "pos": "n.",
+      "meaning_zh": "欲望，偏好（尤指对风险或某些活动的）",
+      "collocations": [
+        "risk appetite",
+        "an appetite for adventure",
+        "loss of appetite"
+      ],
+      "example": "His appetite for risky investments has grown over the years."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "in favour of",
+      "ipa": "/ɪn ˈfeɪvər ʌv/",
+      "pos": "phr.",
+      "meaning_zh": "支持，赞成",
+      "collocations": [
+        "vote in favour of",
+        "speak in favour of",
+        "argue in favour of"
+      ],
+      "example": "The board voted overwhelmingly in favour of the merger proposal."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "at play",
+      "ipa": "/æt pleɪ/",
+      "pos": "phr.",
+      "meaning_zh": "在起作用，产生影响的",
+      "collocations": [
+        "factors at play",
+        "issues at play",
+        "forces at play"
+      ],
+      "example": "Several economic factors are at play in the current market volatility."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "compound interest",
+      "ipa": "/ˈkɒmpaʊnd ˈɪntrəst/",
+      "pos": "n.",
+      "meaning_zh": "复利",
+      "collocations": [
+        "the magic of compound interest",
+        "compound interest rate",
+        "earn compound interest"
+      ],
+      "example": "Thanks to compound interest, her savings doubled in ten years."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "give up",
+      "ipa": "/ɡɪv ʌp/",
+      "pos": "phr.",
+      "meaning_zh": "放弃",
+      "collocations": [
+        "give up a chance",
+        "give up hope",
+        "give up trying"
+      ],
+      "example": "He decided to give up smoking for health reasons."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "end up",
+      "ipa": "/end ʌp/",
+      "pos": "phr.",
+      "meaning_zh": "最终处于，以…告终",
+      "collocations": [
+        "end up with nothing",
+        "end up in failure",
+        "end up doing something"
+      ],
+      "example": "If you don't plan ahead, you might end up spending too much money."
+    },
+    {
+      "category": "academic_word",
+      "word": "acutely",
+      "ipa": "/əˈkjuːtli/",
+      "pos": "adv.",
+      "meaning_zh": "强烈地；敏锐地",
+      "collocations": [
+        "acutely aware",
+        "feel acutely",
+        "acutely sensitive"
+      ],
+      "example": "She was acutely conscious that many people were watching her."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "The poll has sparked a debate about why Brits appear more risk-averse than people in the US.",
+      "explanation_zh": "主句为‘The poll has sparked a debate’，‘about why...’是介词短语作后置定语修饰‘debate’，其中‘why Brits appear more risk-averse than people in the US’是宾语从句，包含比较结构‘more... than...’。句子简洁地引出调查引发的讨论。",
+      "grammar_point": "比较状语从句与宾语从句嵌套",
+      "translation_zh": "这项调查引发了一场辩论，讨论为什么英国人似乎比美国人更厌恶风险。"
+    },
+    {
+      "sentence": "This chimes with other research which suggests that men are twice as likely to invest in stocks and shares than women, external, and women are more likely to subscribe to cash ISAs than men, external.",
+      "explanation_zh": "主句为‘This chimes with other research’，‘which suggests that...’是定语从句修饰‘research’，‘that’引导的宾语从句包含并列结构：‘men are twice as likely... than women’和‘women are more likely... than men’，其中‘twice as likely... as’是倍数比较结构，文本中使用了‘than’是非标准用法，但保留原句。‘external’为标注超链接的原文标记。",
+      "grammar_point": "定语从句与倍数比较结构",
+      "translation_zh": "这与另一项研究相吻合，该研究表明男性投资股票的概率是女性的两倍，同时女性比男性更可能开设现金个人储蓄账户，以下为外部链接。"
+    },
+    {
+      "sentence": "But younger people generally earn less and yet, according to this survey, external, those aged 18 to 24 are more willing to take the bet on £1m than any other age group.",
+      "explanation_zh": "主句由‘But’引导表示转折，‘younger people generally earn less’与‘yet... those... are more willing...’形成对比。‘according to this survey’为插入语，‘aged 18 to 24’是过去分词短语作后置定语修饰‘those’，‘more willing... than...’为比较结构。",
+      "grammar_point": "插入语与比较结构",
+      "translation_zh": "但年轻人通常收入更低，然而根据这项调查（外链），18至24岁的人群比其他年龄段更愿意参加100万英镑的赌博。"
+    },
+    {
+      "sentence": "\"The thrill of potentially winning £1m is felt less strongly than the fear of giving up a guaranteed £50,000 and ending up with nothing,\" she says.",
+      "explanation_zh": "直接引语中包含被动语态‘is felt’，主语‘The thrill of potentially winning £1m’与‘the fear of giving up...’通过‘less strongly than’构成不对称比较。‘and ending up’与‘giving up’并列，共同修饰‘fear’。该句揭示了损失厌恶心理。",
+      "grammar_point": "被动语态与比较结构",
+      "translation_zh": "她说：“可能赢得100万英镑带来的兴奋感，其强烈程度远不及放弃确凿的5万英镑并最终一无所获的恐惧。”"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "sit on the fence",
+      "meaning_zh": "骑墙；保持中立，犹豫不决",
+      "usage_note": "非正式用语，常用于描述在面对选择时无法做出决定的情况。",
+      "example": "When asked which candidate he supported, he sat on the fence and refused to commit."
+    },
+    {
+      "expression": "play on your mind",
+      "meaning_zh": "萦绕心头，令你忧虑",
+      "usage_note": "指某个想法或担忧反复出现在脑海中，造成不安。",
+      "example": "The mistake I made at work has been playing on my mind all weekend."
+    },
+    {
+      "expression": "have a crack at",
+      "meaning_zh": "尝试，努力去做（某事）",
+      "usage_note": "英式口语，尤指尝试有一定难度或风险的事情。",
+      "example": "I've never tried surfing before, but I'll have a crack at it next summer."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main finding of the YouGov survey presented in the article?",
+      "options": {
+        "A": "Most Brits would rather take a chance on £1m.",
+        "B": "Younger people are the most risk-averse group.",
+        "C": "Gender has no impact on financial risk preference.",
+        "D": "The vast majority of Brits prefer a guaranteed £50,000 over a 50/50 chance for £1m."
+      },
+      "answer": "D",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "What choice is presented at the very beginning of the article?",
+      "options": {
+        "A": "£50,000 now or a 50/50 chance for £100,000.",
+        "B": "A guaranteed £50,000 or a coin flip with a 50% chance of £1m.",
+        "C": "£5 or a 50/50 chance for £100.",
+        "D": "£1m now or £50,000 later."
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Inference",
+      "question": "The debate sparked by the poll (paragraph 3) centered on:",
+      "options": {
+        "A": "why Brits appear more risk-averse than Americans",
+        "B": "the survey's accuracy",
+        "C": "ethical concerns about gambling",
+        "D": "historical trends in coin flips"
+      },
+      "answer": "A",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 7, the phrase 'sat on the fence' most nearly means:",
+      "options": {
+        "A": "chose the guaranteed money",
+        "B": "took the risky option",
+        "C": "were undecided",
+        "D": "criticized the survey"
+      },
+      "answer": "C",
+      "evidence_paragraph": 7
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "By calling the gender split 'striking' (paragraph 8), the author implies that the difference is:",
+      "options": {
+        "A": "remarkable",
+        "B": "negligible",
+        "C": "predictable",
+        "D": "humorous"
+      },
+      "answer": "A",
+      "evidence_paragraph": 8
+    },
+    {
+      "type": "Organization",
+      "question": "Which of the following best outlines the organization of the article?",
+      "options": {
+        "A": "Survey results → demographic analysis → psychological factors → investment implications",
+        "B": "Problem statement → proposed solution → evaluation",
+        "C": "Historical background → current debate → future predictions",
+        "D": "Personal anecdote → general statistics → conclusion"
+      },
+      "answer": "A",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Title",
+      "question": "Which title best captures the article's content?",
+      "options": {
+        "A": "\"The Magic of Compound Interest\"",
+        "B": "\"The £50,000 Question: What the Survey Reveals About British Risk Appetite\"",
+        "C": "\"A Guide to UK Savings Accounts\"",
+        "D": "\"Why You Should Always Take the Gamble\""
+      },
+      "answer": "B",
+      "evidence_paragraph": 24
+    }
+  ],
+  "answer_key": "DBACAAB",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Would you choose £50,000 over the chance of £1m?",
+      "url": "https://www.bbc.co.uk/news/articles/cn0njd4e2evo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
