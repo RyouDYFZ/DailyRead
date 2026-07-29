@@ -1,0 +1,286 @@
+{
+  "title_en": "Mysterious Deaths of 14 Elephants in Kenya Prompts Urgent Investigation",
+  "title_zh": "肯尼亚14头大象神秘死亡引发紧急调查",
+  "summary_zh": "肯尼亚安博塞利国家公园附近发生14头大象神秘死亡事件，肯尼亚野生动物管理局已启动紧急调查并将组织样本送检，以确定死因是疾病、中毒还是其他因素。这些大象年龄和性别各异，排除了单一群体受害的可能。官方表示这是该地区数十年来首次记录到如此规模的死亡事件，目前尚无单一原因的证据。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Environment",
+    "Wildlife Conservation"
+  ],
+  "difficulty": 5,
+  "reading_passage": "It is estimated that more than 2,000 elephants roam in and around Amboseli National Park\n\nAn urgent investigation has been launched into the mysterious deaths of 14 elephants in southern Kenya near the Amboseli National Park.\n\nThe Kenya Wildlife Service (KWS) told the BBC that experts were examining the carcasses and said that tissue samples had been sent to laboratories to determine whether the deaths were caused by disease, poisoning or another factor.\n\nThe park and its surrounds are known as the Amboseli ecosystem, a vast area that straddles the border with Tanzania, which is famous for its wildlife.\n\nOfficials say this is the first time in decades that elephant mortalities on this scale have been recorded in the region where they have successfully cracked down on poaching.\n\nKWS says there is currently no evidence pointing to a single cause of death.\n\nThe carcasses include elephants of different ages and sexes, suggesting the deaths are not limited to a single family or demographic.\n\nThe wildlife agency's head of communication, Duncan Wanyama, told local media the bodies had been found at different locations surrounding the Amboseli National Park, around 15km (nine miles) to 30km from its boundaries.\n\nAccording to figures from the Amboseli Trust for Elephants, which monitors the movements of the animals, there were more than 2,000 elephants in the Amboseli ecosystem as of 2025.\n\nTourist pouring beer down elephant's trunk in Kenya sparks anger\n\nGo to BBCAfrica.com, external for more news from the African continent.\n\nFollow us on Twitter @BBCAfrica, external, on Facebook at BBC Africa, external or on Instagram at bbcafrica, external",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "roam",
+      "ipa": "/rəʊm/",
+      "pos": "v.",
+      "meaning_zh": "漫步；游荡",
+      "collocations": [
+        "roam the streets",
+        "roam freely",
+        "roam around"
+      ],
+      "example": "The cattle are allowed to roam freely on the hillside."
+    },
+    {
+      "category": "core_word",
+      "word": "carcass",
+      "ipa": "/ˈkɑːrkəs/",
+      "pos": "n.",
+      "meaning_zh": "(动物的)尸体",
+      "collocations": [
+        "elephant carcass",
+        "decaying carcass",
+        "carcass disposal"
+      ],
+      "example": "Vultures were feeding on the carcass of a zebra."
+    },
+    {
+      "category": "core_word",
+      "word": "ecosystem",
+      "ipa": "/ˈiːkoʊsɪstəm/",
+      "pos": "n.",
+      "meaning_zh": "生态系统",
+      "collocations": [
+        "fragile ecosystem",
+        "marine ecosystem",
+        "ecosystem services"
+      ],
+      "example": "Pollution can disrupt the delicate balance of the ecosystem."
+    },
+    {
+      "category": "core_word",
+      "word": "mortality",
+      "ipa": "/mɔːrˈtæləti/",
+      "pos": "n.",
+      "meaning_zh": "死亡；死亡率",
+      "collocations": [
+        "infant mortality",
+        "mortality rate",
+        "high mortality"
+      ],
+      "example": "The study examined mortality patterns among the elderly."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "launch an investigation",
+      "ipa": "/lɔːntʃ ən ɪnˌvestɪˈɡeɪʃən/",
+      "pos": "phr.",
+      "meaning_zh": "发起调查",
+      "collocations": [
+        "launch an inquiry",
+        "launch a probe",
+        "launch an investigation"
+      ],
+      "example": "The police decided to launch an investigation into the allegations."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "tissue samples",
+      "ipa": "/ˈtɪʃuː ˈsæmpəlz/",
+      "pos": "phr.",
+      "meaning_zh": "组织样本",
+      "collocations": [
+        "collect tissue samples",
+        "analyse tissue samples",
+        "tissue sample collection"
+      ],
+      "example": "The researchers collected tissue samples from the patients for genetic testing."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "different ages and sexes",
+      "ipa": "/ˈdɪfərənt ˈeɪdʒɪz ænd ˈseksɪz/",
+      "pos": "phr.",
+      "meaning_zh": "不同年龄和性别",
+      "collocations": [
+        "of different ages and sexes",
+        "people of different ages and sexes",
+        "across different ages and sexes"
+      ],
+      "example": "The survey included participants of different ages and sexes."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "crack down on",
+      "ipa": "/kræk daʊn ɒn/",
+      "pos": "phr.",
+      "meaning_zh": "严厉打击；镇压",
+      "collocations": [
+        "crack down on crime",
+        "crack down on illegal activities",
+        "crack down hard on"
+      ],
+      "example": "The government vowed to crack down on tax evasion."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "point to",
+      "ipa": "/pɔɪnt tə/",
+      "pos": "phr.",
+      "meaning_zh": "表明；指向",
+      "collocations": [
+        "point to a cause",
+        "point to evidence",
+        "point to a conclusion"
+      ],
+      "example": "All the clues point to the butler as the culprit."
+    },
+    {
+      "category": "academic_word",
+      "word": "demographic",
+      "ipa": "/ˌdeməˈɡræfɪk/",
+      "pos": "n.",
+      "meaning_zh": "人口统计数据；特定群体",
+      "collocations": [
+        "target demographic",
+        "demographic data",
+        "demographic change"
+      ],
+      "example": "The company's marketing strategy focuses on the 18-35 demographic."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "The Kenya Wildlife Service (KWS) told the BBC that experts were examining the carcasses and said that tissue samples had been sent to laboratories to determine whether the deaths were caused by disease, poisoning or another factor.",
+      "explanation_zh": "该句包含两个并列的宾语从句，由and连接，分别由told和said引导；第二个宾语从句中还包含whether引导的宾语从句，作determine的宾语，说明要确定的内容。",
+      "grammar_point": "并列宾语从句及whether引导的宾语从句",
+      "translation_zh": "肯尼亚野生动物管理局告诉BBC，专家们正在检查尸体，并表示组织样本已被送往实验室，以确定死亡是由疾病、中毒还是其他因素引起的。"
+    },
+    {
+      "sentence": "Officials say this is the first time in decades that elephant mortalities on this scale have been recorded in the region where they have successfully cracked down on poaching.",
+      "explanation_zh": "该句主干为Officials say...，宾语从句中包含that引导的定语从句修饰the first time，同时含有where引导的定语从句修饰the region，说明该地区的情况。",
+      "grammar_point": "定语从句嵌套",
+      "translation_zh": "官员们表示，这是数十年来该地区首次记录到如此规模的大象死亡事件，该地区在打击偷猎方面取得了成功。"
+    },
+    {
+      "sentence": "The carcasses include elephants of different ages and sexes, suggesting the deaths are not limited to a single family or demographic.",
+      "explanation_zh": "现在分词短语suggesting...作结果状语，表示由前面内容推断出的结论；其中not limited to为固定搭配，意为“不限于”。",
+      "grammar_point": "现在分词作结果状语",
+      "translation_zh": "这些尸体包括不同年龄和性别的大象，表明死亡并不局限于单一家庭或群体。"
+    },
+    {
+      "sentence": "According to figures from the Amboseli Trust for Elephants, which monitors the movements of the animals, there were more than 2,000 elephants in the Amboseli ecosystem as of 2025.",
+      "explanation_zh": "句首为介词短语according to...作状语，其中包含which引导的非限制性定语从句修饰the Amboseli Trust for Elephants；主句为there be句型。",
+      "grammar_point": "介词短语作状语及非限制性定语从句",
+      "translation_zh": "根据监测大象活动的安博塞利大象信托基金的数据，截至2025年，安博塞利生态系统中有超过2000头大象。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "on this scale",
+      "meaning_zh": "如此规模；达到这种程度",
+      "usage_note": "通常用于强调某事物的规模或范围之大，与this或that连用。",
+      "example": "We have never seen a protest on this scale before."
+    },
+    {
+      "expression": "first time in decades",
+      "meaning_zh": "数十年来首次",
+      "usage_note": "用来表示长时间以来第一次发生某事，常与否定或疑问连用，强调事件的不寻常性。",
+      "example": "This is the first time in decades that the river has flooded to this level."
+    },
+    {
+      "expression": "not limited to",
+      "meaning_zh": "不限于；不仅仅局限于",
+      "usage_note": "用于表明某事物不局限于已经提到的范围，通常后接名词或名词短语。",
+      "example": "The benefits of exercise are not limited to physical health."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the primary focus of this news article?",
+      "options": {
+        "A": "The mysterious deaths of 14 elephants in Kenya.",
+        "B": "The successful anti-poaching efforts in Amboseli.",
+        "C": "The tourism industry near Amboseli National Park.",
+        "D": "The work of the Amboseli Trust for Elephants."
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "According to the article, what characteristic did the dead elephants share?",
+      "options": {
+        "A": "They were all from the same family.",
+        "B": "They were all of the same sex.",
+        "C": "They were all found in the same location.",
+        "D": "They were of different ages and sexes."
+      },
+      "answer": "D",
+      "evidence_paragraph": 7
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred about poaching in the Amboseli region?",
+      "options": {
+        "A": "It remains a serious problem.",
+        "B": "It has never occurred.",
+        "C": "It was once a problem but has been reduced.",
+        "D": "It has increased in recent decades."
+      },
+      "answer": "C",
+      "evidence_paragraph": 5
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "The word 'carcasses' in the article refers to:",
+      "options": {
+        "A": "living elephants",
+        "B": "dead elephant bodies",
+        "C": "skeletons",
+        "D": "injured elephants"
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "What is the author's attitude toward the elephant deaths?",
+      "options": {
+        "A": "Outraged",
+        "B": "Indifferent",
+        "C": "Concerned and factual",
+        "D": "Hopeful"
+      },
+      "answer": "C",
+      "evidence_paragraph": 6
+    },
+    {
+      "type": "Organization",
+      "question": "What is the function of the fourth paragraph (beginning 'The park and its surrounds...')?",
+      "options": {
+        "A": "It presents a new theory.",
+        "B": "It offers a solution to the problem.",
+        "C": "It provides background information about the location.",
+        "D": "It introduces a key witness."
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the most appropriate title for this article?",
+      "options": {
+        "A": "Tourism Risks in Kenya's National Parks",
+        "B": "Mysterious Elephant Deaths in Kenya Prompt Investigation",
+        "C": "Kenya's Elephant Population Reaches 2,000",
+        "D": "Anti-Poaching Success in Amboseli"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "ADCBCCB",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Mysterious deaths of 14 elephants in Kenya prompts urgent inquiry",
+      "url": "https://www.bbc.co.uk/news/articles/c3w0d7yeqlxo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
