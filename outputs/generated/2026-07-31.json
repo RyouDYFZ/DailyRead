@@ -1,0 +1,292 @@
+{
+  "title_en": "Meta Shares Plunge on AI Spending Concerns as Microsoft Bucks the Trend",
+  "title_zh": "Meta股价因AI支出忧虑暴跌，微软逆势上涨",
+  "summary_zh": "Meta公司在最新季度录得收入增长但利润下滑，并大幅提高年度人工智能支出预算后，投资者对其未来回报产生疑虑，导致股价暴跌11%。分析人士质疑其AI投资是否分散了核心业务。与此同时，微软虽同样进行巨额AI投入，但因业绩增长强劲而股价逆势上涨。报道反映出市场对科技公司AI投资回报确定性的高度重视。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Technology",
+    "Finance"
+  ],
+  "difficulty": 4,
+  "reading_passage": "Meta CEO Mark Zuckerberg has turned the company into a major spender on AI\n\nMeta shares plunged on Wednesday as investors balked at its promise to keep spending on artificial intelligence (AI) projects while profits dwindle.\n\nShares in the firm behind Instagram and Facebook fell as much as 11% in extended trading after its results for the quarter from April to June showed revenue grew 28% from a year ago to $61bn (£45.6bn), while profits fell 14% to $6bn.\n\nMeta said it would spend $130bn to $145bn this year, mostly on AI, up from the $125bn it said it planned to spend just three months ago.\n\nChief executive Mark Zuckerberg said the firm's AI spending was \"accelerating every part of our core business\" and it plans to start selling the technology to other companies.\n\nSusan Li, Meta's chief financial officer, told financial analysts that selling its tech to other companies would help it drive returns on its AI spending.\n\n\"By 2028, we'll have turned over a lot of cards,\" she said.\n\nSuch lines of business have not yet materialised. Meta's free cash flow for the quarter, what it held onto after paying for its operations, was $784m, the lowest level of the metric it has posted in at least five years, according to its financial records.\n\n\"What it generated in cash this quarter almost all got eaten by AI infrastructure spending\", analyst Mike Proulx at Forrester said. \"Investors now have to decide whether Meta's growing list of AI initiatives represents company diversification or distraction.\"\n\n\"There's a bit of similarity to Meta's metaverse missteps in that Meta is once again spending ahead of proven product demand,\" Proulx added, referring to the firm's previous spending of tens of billions of dollars on virtual reality experiences that fell flat with users.\n\nGoogle last week also reported its lowest ever amount of leftover cash, which sent its own stock tumbling.\n\n\"I get that this is a big bet across the industry,\" Zuckerberg said of AI spending. \"My personal bet is that the people who invest in this will feel very good and be rewarded over time.\"\n\nHe said on the call with analysts that Meta's AI abilities and models were driving engagement on Instagram and Facebook and boosting the ability of smaller businesses to create advertising. Zuckerberg added that the company was developing AI agents, or AI chatbots that act somewhat autonomously.\n\nSuch agents \"will be the next wave of our product line in the months and years to come,\" Zuckerberg said.\n\n\"Soon, we'll have agents that can work 24/7 on your behalf\", he added. \"Great personal agents need to just work out of the box. I'm very excited about this and we will have more to share soon.\"\n\n\"We're the best company in the world at scaling experiences to billions of people,\" Zuckerberg said.\n\nAs for Meta's plans to sell AI models and computer tools to other firms for the first time, Zuckerberg said the first step is to make its Muse Spark AI model \"easier for companies to integrate\".\n\n\"We expect to build a large business for large businesses,\" he said. \"We have more coding and product tools on our roadmap.\"\n\nAlthough Zuckerberg said the move would flex \"a different muscle than we've historically had\", he said the financial opportunity was too big to ignore.\n\n\"It's not just about selling compute; it's the API services and the productivity services and I think there is a very, very large opportunity there and we're quite focused on that.\"\n\nMicrosoft also reported its quarterly and full year results on Wednesday and it bucked a trend of declining tech stocks, with shares rising 5% in after-hours trading.\n\nIts positive reception by Wall Street showed that even huge AI spending can be acceptable to investors when it is not consistently coupled with a lack of clear financial returns.\n\nSales at Microsoft for the three months from April to June rose18% to $90bn, with profits up 31% at $35.8bn.\n\nMicrosoft is also one of the largest investors in OpenAI, and chief executive Satya Nadella used a call with analysts to address the AI company's recent issues with its models improperly breaching the technical operations of other companies.\n\n\"The biggest thing you take away from that is you can't depend on any one model,\" Nadella said.\n\nMicrosoft's chief financial officer, Amy Hood, said its capital spending for the whole of the next year would be $175bn, mostly related to AI and AI infrastructure. That's less than the $190bn it spent in the year to June.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "plunge",
+      "ipa": "/plʌndʒ/",
+      "pos": "v.",
+      "meaning_zh": "暴跌",
+      "collocations": [
+        "plunge in value",
+        "prices plunged",
+        "shares plunged"
+      ],
+      "example": "The company's stock plunged after the disappointing earnings report."
+    },
+    {
+      "category": "core_word",
+      "word": "dwindle",
+      "ipa": "/ˈdwɪndl/",
+      "pos": "v.",
+      "meaning_zh": "逐渐减少",
+      "collocations": [
+        "profits dwindle",
+        "resources dwindle",
+        "dwindle away"
+      ],
+      "example": "Our savings have dwindled to just a few hundred dollars."
+    },
+    {
+      "category": "core_word",
+      "word": "materialise",
+      "ipa": "/məˈtɪəriəlaɪz/",
+      "pos": "v.",
+      "meaning_zh": "实现，成为现实",
+      "collocations": [
+        "fail to materialise",
+        "plans materialise",
+        "threat materialised"
+      ],
+      "example": "The promised funding never materialised, forcing the project to shut down."
+    },
+    {
+      "category": "core_word",
+      "word": "metric",
+      "ipa": "/ˈmetrɪk/",
+      "pos": "n.",
+      "meaning_zh": "指标，衡量标准",
+      "collocations": [
+        "key metric",
+        "performance metric",
+        "financial metric"
+      ],
+      "example": "Customer satisfaction is an important metric for evaluating service quality."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "drive returns",
+      "ipa": "/draɪv rɪˈtɜːnz/",
+      "pos": "phr.",
+      "meaning_zh": "带来回报",
+      "collocations": [
+        "drive returns on investment",
+        "drive returns for shareholders",
+        "efforts to drive returns"
+      ],
+      "example": "The company launched new products to drive returns for its investors."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "free cash flow",
+      "ipa": "/friː kæʃ fləʊ/",
+      "pos": "phr.",
+      "meaning_zh": "自由现金流",
+      "collocations": [
+        "generate free cash flow",
+        "strong free cash flow",
+        "free cash flow margin"
+      ],
+      "example": "A healthy free cash flow allows the company to pay dividends."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "capital spending",
+      "ipa": "/ˈkæpɪtl ˈspendɪŋ/",
+      "pos": "phr.",
+      "meaning_zh": "资本支出",
+      "collocations": [
+        "increase capital spending",
+        "capital spending budget",
+        "capital spending on infrastructure"
+      ],
+      "example": "The firm announced a cut in capital spending for the next fiscal year."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "fall flat",
+      "ipa": "/fɔːl flæt/",
+      "pos": "phr.",
+      "meaning_zh": "失败，未达到预期效果",
+      "collocations": [
+        "joke fell flat",
+        "plan fell flat",
+        "fell flat with users"
+      ],
+      "example": "His attempt at humor fell flat with the audience."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "hold onto",
+      "ipa": "/həʊld ˈɒntu/",
+      "pos": "phr.",
+      "meaning_zh": "保留，守住",
+      "collocations": [
+        "hold onto cash",
+        "hold onto assets",
+        "hold onto the lead"
+      ],
+      "example": "The company held onto its top market position despite fierce competition."
+    },
+    {
+      "category": "academic_word",
+      "word": "infrastructure",
+      "ipa": "/ˈɪnfrəstrʌktʃər/",
+      "pos": "n.",
+      "meaning_zh": "基础设施",
+      "collocations": [
+        "IT infrastructure",
+        "infrastructure spending",
+        "critical infrastructure"
+      ],
+      "example": "Investment in digital infrastructure is essential for economic growth."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Shares in the firm behind Instagram and Facebook fell as much as 11% in extended trading after its results for the quarter from April to June showed revenue grew 28% from a year ago to $61bn (£45.6bn), while profits fell 14% to $6bn.",
+      "explanation_zh": "主句为“Shares ... fell as much as 11%”，后接时间状语从句“after its results ... showed ...”，其中“revenue grew ...”和“while profits fell ...”形成对比。",
+      "grammar_point": "复合句：包含时间状语从句及并列对比分句。",
+      "translation_zh": "这家旗下拥有Instagram和Facebook的公司在盘后交易中股价暴跌高达11%，此前发布的4至6月季度财报显示，其收入同比增长28%至610亿美元，而利润下降14%至60亿美元。"
+    },
+    {
+      "sentence": "Meta's free cash flow for the quarter, what it held onto after paying for its operations, was $784m, the lowest level of the metric it has posted in at least five years, according to its financial records.",
+      "explanation_zh": "句子主干为“Meta's free cash flow ... was $784m”，插入的同位语“what it held onto ... operations”解释自由现金流的含义，最后的名词短语“the lowest level ...”作同位语补充说明。",
+      "grammar_point": "同位语结构：用“what”从句及名词短语对主语进行解释和补充。",
+      "translation_zh": "根据其财务记录，Meta本季度的自由现金流（即扣除运营成本后留存的资金）为7.84亿美元，这是该公司至少五年来公布的最低水平。"
+    },
+    {
+      "sentence": "\"There's a bit of similarity to Meta's metaverse missteps in that Meta is once again spending ahead of proven product demand,\" Proulx added, referring to the firm's previous spending of tens of billions of dollars on virtual reality experiences that fell flat with users.",
+      "explanation_zh": "引语中使用“in that”引导原因状语从句，句末的现在分词短语“referring to ...”补充说明Proulx的言论所指。",
+      "grammar_point": "直接引语包含“in that”原因状语从句，外加现在分词短语作伴随状语。",
+      "translation_zh": "普罗克斯补充说：“这与Meta在元宇宙上的失误有几分相似，因为Meta又一次在产品需求未经验证的情况下超前支出。”他指的是该公司此前在虚拟现实体验上投入了数百亿美元，却未能获得用户青睐。"
+    },
+    {
+      "sentence": "Its positive reception by Wall Street showed that even huge AI spending can be acceptable to investors when it is not consistently coupled with a lack of clear financial returns.",
+      "explanation_zh": "主句为“Its positive reception ... showed”，后接that引导的宾语从句，其中包含when引导的条件从句。",
+      "grammar_point": "宾语从句中嵌套条件状语从句。",
+      "translation_zh": "华尔街的积极反应表明，即使巨额的AI支出也是投资者可以接受的，只要它并非总是与缺乏明确的财务回报相伴。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "turn over a lot of cards",
+      "meaning_zh": "揭开许多底牌，意为逐步揭示计划或可能性",
+      "usage_note": "用于商业或战略场合，指逐步展示进展或成果。",
+      "example": "The CEO said they will turn over a lot of cards by the end of the year, meaning more product details will be revealed."
+    },
+    {
+      "expression": "work out of the box",
+      "meaning_zh": "开箱即用，立即正常工作",
+      "usage_note": "常用于科技产品，指无需复杂设置即可使用。",
+      "example": "The new software is designed to work out of the box, requiring no configuration."
+    },
+    {
+      "expression": "flex a muscle",
+      "meaning_zh": "展示或锻炼某种能力",
+      "usage_note": "比喻用法，指动用平时不用的技能。",
+      "example": "The company is flexing its marketing muscle to attract a younger audience."
+    },
+    {
+      "expression": "a big bet",
+      "meaning_zh": "一场巨大的赌注，一项高风险高投入的决策",
+      "usage_note": "常用于商业或投资语境。",
+      "example": "The acquisition was a big bet on the future of electric vehicles."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the primary focus of the passage?",
+      "options": {
+        "A": "Meta's plan to sell AI technology to other companies.",
+        "B": "The reasons behind the decline of tech stocks across the industry.",
+        "C": "Investor concerns over Meta's heavy AI spending and a contrasting case with Microsoft.",
+        "D": "Mark Zuckerberg's personal enthusiasm for AI agents."
+      },
+      "answer": "C",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "By how much did Meta's revenue increase in the April–June quarter?",
+      "options": {
+        "A": "11%",
+        "B": "28%",
+        "C": "14%",
+        "D": "18%"
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from Meta raising its annual AI spending plan from $125bn to $130–$145bn in three months?",
+      "options": {
+        "A": "Meta is aggressively expanding its investments in AI technology.",
+        "B": "The company is becoming uncertain about the payoffs of AI.",
+        "C": "Investors forced the company to scale up its expenditure.",
+        "D": "The earlier spending plan was deemed insufficient by regulators."
+      },
+      "answer": "A",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 8, the word \"materialise\" is closest in meaning to:",
+      "options": {
+        "A": "become real",
+        "B": "vanish",
+        "C": "increase",
+        "D": "succeed"
+      },
+      "answer": "A",
+      "evidence_paragraph": 8
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which of the following best describes the author's tone towards tech companies' AI spending?",
+      "options": {
+        "A": "Deeply sceptical",
+        "B": "Highly enthusiastic",
+        "C": "Neutral and balanced",
+        "D": "Mildly critical"
+      },
+      "answer": "C",
+      "evidence_paragraph": 22
+    },
+    {
+      "type": "Organization",
+      "question": "How does the author organize the information in the passage?",
+      "options": {
+        "A": "By listing Meta's AI initiatives and their individual merits",
+        "B": "By presenting Meta's AI-related stock drop and then contrasting it with Microsoft's positive investor reaction",
+        "C": "By focusing solely on Meta's financial decline in the recent quarter",
+        "D": "By comparing the AI spending of several major tech firms side by side"
+      },
+      "answer": "B",
+      "evidence_paragraph": 21
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following titles best captures the main idea of the passage?",
+      "options": {
+        "A": "Meta's AI Products Drive Revenue Growth",
+        "B": "Zuckerberg's Vision for AI Agents",
+        "C": "The Future of AI Infrastructure Spending",
+        "D": "Meta's Stock Plunges Amid AI Spending Concerns, Microsoft Bucks the Trend"
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "CBAACBD",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Meta shares fall as frustration grows over AI spending plans",
+      "url": "https://www.bbc.co.uk/news/articles/ckgd31l5yrdo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
