@@ -1,0 +1,299 @@
+{
+  "title_en": "India's Strawberry Industry Pursues Indigenous Varieties and High-Tech Farming",
+  "title_zh": "印度草莓产业寻求本土品种与高科技种植",
+  "summary_zh": "印度草莓产业长期依赖引进国外专利母株，本土育种和高科技种植正试图改变这一现状。马哈拉施特拉邦的农业大学与巴巴原子研究中心合作，利用低剂量伽马射线辐照诱导基因突变，以加快培育耐热的本土品种。与此同时，部分农场主投资水培、垂直种植塔和AI天气监测系统，期望提高产量并降低气候风险，但小农户因资金和技术门槛面临困境。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Agriculture",
+    "Technology",
+    "Climate Resilience"
+  ],
+  "difficulty": 4,
+  "reading_passage": "It can take 10 to 15 years for breeders in the US and Europe to develop a top quality fruit and they patent their varieties.\n\n\"We import the certified mother plant from the breeder abroad,\" says Nelson Sequeira, the founder and director of Tara Farms Fresh, a licensed strawberry propagator.\n\nOnce imported the plants have to go through a government quarantine, before they are planted in a nursery. There the mother plant produces daughter plants and those are then sold to farmers.\n\n\"One single imported mother plant becomes an engine. That single mother plant will shoot out runners to yield an average of 20 daughter plants - with some advanced growers pushing that up to 30 or 40,\" says Sequeira.\n\n\"The plants do not touch the ground. We use large industrial pipes split completely in half to form long, rounded gutter containers,\" Sequeira explains.\n\n\"Instead of soil, we pack these containers with a specialized coco-peat substrate derived entirely from coconut husk. We then integrate a highly precise drip-irrigation and fogging system to control micro-climates.\"\n\nSequeira and other propagators rely on mother plants from abroad - for now.\n\nBut work at Mahatma Phule Krishi Vidyapeeth (MPKV), an agricultural university in Maharashtra, might change that.\n\nMPKV has partnered with the Bhabha Atomic Research Centre (BARC) on a breeding experiment.\n\nResearchers are using controlled, low-dose gamma irradiation on plant tissues to induce stable genetic mutations.\n\n\"The goal is to fast-track the development of India's first indigenous, climate-resilient strawberry cultivar that matches the large fruit size and firm texture of foreign varieties while natively tolerating Indian heatwaves,\" says Dr Darshan Shashank Kadam, assistant professor of Horticulture at MPKV.\n\nHe admits it could be a long process, with results perhaps in 10 or 15 years. But in the near term they are helping farmers in other ways.\n\n\"We are developing scientific packages of practices for farmers. We have already standardised planting schedules, fertiliser recommendations and growth regulator applications specifically for Mahabaleshwar conditions,\" he says.\n\nLarge farms with more resources are investing in new technology.\n\nKetan Yashwant Sodha, is the founder and CEO of Berry Fresh Agrotech. He started with traditional open-field farming, but was frustrated by losses caused by the weather.\n\n\"For the past 10 years, it has consistently rained in India during our peak season - November, December, and the first week of January. When you are in an open field and your plantation is at its absolute peak, a single rain will ruin your entire crop,\" he says.\n\nSo in 2022, he started to experiment with hydroponics, a type of covered cultivation that does not use soil and tightly controls water, nutrients, light, and temperature.\n\n\"I suffered immense losses and failed multiple times,\" Sodha says.\n\n\"The soil is forgiving; hydroponics does not forgive. If you make a mistake today, you will wake up tomorrow morning to a disaster - and the recovery time in hydroponics takes twice as long as soil.\"\n\nBut the lessons learned from those mistakes are paying off.\n\n\"We have trailed 19 different varieties, including rare Japanese ones, and we are the only ones in India trailing a specific Netherlands variety this season.\"\n\nSodha says that limiting each plant to 75ml of water a day produces \"rich, highly concentrated sugars and aromas instead of water-logged, bland fruits\".\n\nHis team also runs what he calls regular \"blood work\" on the crops, which involves laboratory testing of the leaves and petioles (the stalks attaching leaves to the stems) to measure exact nutrient uptake. That way he knows exactly which nutrients and chemicals need to go into the water supply.\n\nAnd by using a semi-open polyhouse, strawberries can grow the whole year round. \"It's not a seasonal fruit for us,\" Sodha says.\n\n\"We have built the trial facility, written the SOPs (standard operating procedures), and designed the farm manual. We are talking to investors to expand to a five-acre facility that will accommodate 200,000 plants.\"\n\nKrishan Bhilare's family has been farming strawberries for generations in Mahabaleshwar.\n\nHe can remember when the first American varieties were planted in 1992 and being amazed at the size of the fruit.\n\nBhilare is part of a Farmer Producer Organisation (FPO) network. They have installed towers at four strategic locations across their land. The towers monitor weather conditions.\n\nThe system employs AI, which uses the weather data to pinpoint when rain will strike. Farmers can then be advised to delay spraying their crops, so expensive chemicals are not just washed away.\n\nThe FPO is also building vertical towers, where strawberries can be grown on a coco-peat substrate, five layers deep.\n\n\"By stacking five pots into a single vertical tower, we can scale our density from 25,000 plants to 125,000 plants per acre. We are effectively multiplying our production footprint by five times on the exact same piece of land,\" says Bhilare.\n\nBut such investments are either beyond small farms, or a huge risk.\n\nIn 2017, Danavle and her husband experimented with hydroponic strawberry farming.\n\n\"The experiment was 100% successful and the fruits we grew were entirely organic. It saved us a lot of labour, the workers didn't have to constantly bend down or prune, and it saved us a lot of money on medicines and field manure.\"\n\nBut they were unlucky - a massive cyclone hit Mahabaleshwar that year.\n\n\"The cyclone completely knocked down our entire hydroponic setup. Then we did not have the courage to set it up again.\"\n\nSo, Sheetal went back to the traditional method of growing strawberries, but with a twist.\n\n\"I took help of social media. I post videos of how one can grow strawberries and invite tourists to visit my strawberry farm, learn and pick the fruit. They directly now buy from the farm. This has helped, cut the middle man, and make more profit. So, now I am an influencer and entrepreneur.\"",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "propagator",
+      "ipa": "/ˈprɒpəɡeɪtə/",
+      "pos": "n.",
+      "meaning_zh": "繁殖者；育苗者",
+      "collocations": [
+        "plant propagator",
+        "licensed propagator",
+        "commercial propagator"
+      ],
+      "example": "The nursery acts as a propagator, supplying young plants to local farmers."
+    },
+    {
+      "category": "core_word",
+      "word": "cultivar",
+      "ipa": "/ˈkʌltɪvɑːr/",
+      "pos": "n.",
+      "meaning_zh": "栽培品种；栽培植物",
+      "collocations": [
+        "high-yield cultivar",
+        "disease-resistant cultivar",
+        "indigenous cultivar"
+      ],
+      "example": "The new rice cultivar can withstand flooding better than traditional varieties."
+    },
+    {
+      "category": "core_word",
+      "word": "indigenous",
+      "ipa": "/ɪnˈdɪdʒɪnəs/",
+      "pos": "adj.",
+      "meaning_zh": "本土的；土生土长的",
+      "collocations": [
+        "indigenous people",
+        "indigenous species",
+        "indigenous knowledge"
+      ],
+      "example": "The park is home to many indigenous plant species."
+    },
+    {
+      "category": "core_word",
+      "word": "resilient",
+      "ipa": "/rɪˈzɪliənt/",
+      "pos": "adj.",
+      "meaning_zh": "有韧性的；能够迅速恢复的",
+      "collocations": [
+        "resilient material",
+        "resilient community",
+        "resilient to change"
+      ],
+      "example": "Children can be remarkably resilient in the face of adversity."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "climate-resilient",
+      "ipa": "/ˈklaɪmət rɪˈzɪliənt/",
+      "pos": "phr.",
+      "meaning_zh": "能够适应气候变化的；耐气候的",
+      "collocations": [
+        "climate-resilient agriculture",
+        "climate-resilient crops",
+        "climate-resilient infrastructure"
+      ],
+      "example": "Funding is being directed toward climate-resilient infrastructure projects."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "drip-irrigation",
+      "ipa": "/ˌdrɪp ˌɪrɪˈɡeɪʃən/",
+      "pos": "phr.",
+      "meaning_zh": "滴灌",
+      "collocations": [
+        "drip-irrigation system",
+        "install drip-irrigation",
+        "drip-irrigation technology"
+      ],
+      "example": "Drip-irrigation conserves water by delivering moisture directly to the roots."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "nutrient uptake",
+      "ipa": "/ˈnjuːtriənt ˈʌpteɪk/",
+      "pos": "phr.",
+      "meaning_zh": "养分吸收",
+      "collocations": [
+        "plant nutrient uptake",
+        "enhance nutrient uptake",
+        "nutrient uptake efficiency"
+      ],
+      "example": "Poor soil pH can hinder nutrient uptake in plants."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "shoot out",
+      "ipa": "/ˌʃuːt ˈaʊt/",
+      "pos": "phr.",
+      "meaning_zh": "（迅速）长出；射出",
+      "collocations": [
+        "shoot out runners",
+        "shoot out new growth",
+        "shoot out tendrils"
+      ],
+      "example": "In spring, the tulip bulbs shoot out green leaves in just a few days."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "pay off",
+      "ipa": "/ˌpeɪ ˈɒf/",
+      "pos": "phr.",
+      "meaning_zh": "取得回报；没有白费",
+      "collocations": [
+        "hard work pays off",
+        "investment pays off",
+        "patience pays off"
+      ],
+      "example": "After months of training, her efforts finally paid off with a gold medal."
+    },
+    {
+      "category": "academic_word",
+      "word": "induce",
+      "ipa": "/ɪnˈdjuːs/",
+      "pos": "v.",
+      "meaning_zh": "诱导；引发",
+      "collocations": [
+        "induce change",
+        "induce sleep",
+        "induce mutations"
+      ],
+      "example": "The drug is known to induce drowsiness in patients."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "'The goal is to fast-track the development of India's first indigenous, climate-resilient strawberry cultivar that matches the large fruit size and firm texture of foreign varieties while natively tolerating Indian heatwaves,' says Dr Darshan Shashank Kadam, assistant professor of Horticulture at MPKV.",
+      "explanation_zh": "主句为`The goal is to fast-track the development of...`，不定式短语作表语说明目标的具体内容。`that matches...`引导定语从句修饰`strawberry cultivar`，强调该品种需同时具备国外品种的果实特性；`while natively tolerating...`为现在分词短语构成的状语，表示与主句动作同时存在的对比条件，意为“同时又能在本地耐受热浪”。句子通过多个修饰成分清晰表达出育种目标的复杂性。",
+      "grammar_point": "复杂名词短语中的定语从句与while引导的对比状语",
+      "translation_zh": "“我们的目标是加快培育出印度首个本土耐气候草莓品种，该品种既要果实大小和紧实质地能与国外品种媲美，又能在本地耐受热浪侵袭，”马哈拉施特拉邦MPKV农业大学园艺学助理教授达尚·沙尚克·卡达姆博士说。"
+    },
+    {
+      "sentence": "His team also runs what he calls regular 'blood work' on the crops, which involves laboratory testing of the leaves and petioles (the stalks attaching leaves to the stems) to measure exact nutrient uptake.",
+      "explanation_zh": "主句为`His team also runs...`，宾语为`what he calls regular 'blood work' on the crops`，这是一个名词性从句，充当`runs`的宾语，指“他所说的定期‘血检’”。`which involves...`是非限制性定语从句，补充说明`blood work`的具体内容。括号内`the stalks attaching leaves to the stems`为同位语，解释`petioles`，其中`attaching`为现在分词作后置定语。句末`to measure...`为不定式目的状语。",
+      "grammar_point": "名词性从句作宾语、非限制性定语从句及同位语中的现在分词",
+      "translation_zh": "他的团队还对作物进行他所说的定期“血检”，即对叶片和叶柄（连接叶片与茎的柄）进行实验室检测，以测量确切的养分吸收量。"
+    },
+    {
+      "sentence": "The system employs AI, which uses the weather data to pinpoint when rain will strike.",
+      "explanation_zh": "主句为`The system employs AI`，`which uses the weather data to pinpoint...`为非限制性定语从句，修饰`AI`，说明AI的功能。在定语从句内部，`when rain will strike`是名词性从句，作`pinpoint`的宾语，表示“精确定位下雨的时间点”。整体结构层次分明，由外层主句向内层层叠套从句。",
+      "grammar_point": "非限制性定语从句及内部嵌入的名词性从句",
+      "translation_zh": "该系统采用人工智能技术，利用天气数据精确定位何时将会降雨。"
+    },
+    {
+      "sentence": "Sodha says that limiting each plant to 75ml of water a day produces 'rich, highly concentrated sugars and aromas instead of water-logged, bland fruits'.",
+      "explanation_zh": "`Sodha says`为主句，后接`that`引导的宾语从句。在宾语从句中，`limiting each plant to 75ml of water a day`是动名词短语作主语，表示“将每株植物的水量限制在每天75毫升”这一做法；`produces`是谓语，宾语为两条对比结果：`rich, highly concentrated sugars and aromas`和`water-logged, bland fruits`，通过`instead of`形成鲜明对照，强调限水的积极效果。",
+      "grammar_point": "动名词短语作主语及instead of表示对比",
+      "translation_zh": "索达表示，将每株植物每天的供水量限制在75毫升，能产出“糖分和香气高度浓缩的浓郁果实，而非水汪汪、味道寡淡的果子”。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "blood work",
+      "meaning_zh": "血液检测，此处比喻对植物叶片和叶柄的实验室检测",
+      "usage_note": "通常为医学用语，指血液检查；此处为隐喻用法，用于描述植物的营养分析，口语化且生动。",
+      "example": "She had to get blood work done before starting the new medication."
+    },
+    {
+      "expression": "forgiving",
+      "meaning_zh": "（土壤）宽容的，允许错误而不致严重后果",
+      "usage_note": "用于拟人化描述，多指某个系统或介质对操作失误容忍度高，常见于口语和非正式写作中。",
+      "example": "This recipe is very forgiving – you can substitute ingredients without ruining the dish."
+    },
+    {
+      "expression": "water-logged",
+      "meaning_zh": "浸透水的，水涝的，多指因水分过多而失去原有风味或功能",
+      "usage_note": "常用于形容被水浸泡的物体、土地或植物，也可引申指水果因水分过多变得寡淡。",
+      "example": "The campsite was water-logged after days of heavy rain."
+    },
+    {
+      "expression": "cut the middle man",
+      "meaning_zh": "省去中间商，直接交易",
+      "usage_note": "商业用语，指绕过中介环节以降低成本或提高利润，非正式场合常用。",
+      "example": "By selling their produce at farmers' markets, they cut the middle man and earned more."
+    },
+    {
+      "expression": "with a twist",
+      "meaning_zh": "略有不同，带有创新或意想不到的变化",
+      "usage_note": "用于表示在原有方式或事物上加入了有趣的改变，常见于叙述和广告中。",
+      "example": "She baked a classic chocolate cake but with a twist: she added chili powder for a spicy kick."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the article primarily about?",
+      "options": {
+        "A": "The history of strawberry cultivation in India",
+        "B": "India's efforts to develop indigenous strawberry varieties and modernize farming",
+        "C": "The challenges of hydroponic farming worldwide",
+        "D": "The success of Sheetal Danavle as a social media influencer"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "According to the article, what is the purpose of using gamma irradiation on plant tissues?",
+      "options": {
+        "A": "To sterilize the plants against pests",
+        "B": "To increase the water absorption rate of roots",
+        "C": "To induce stable genetic mutations for breeding new cultivars",
+        "D": "To measure nutrient uptake in leaves"
+      },
+      "answer": "C",
+      "evidence_paragraph": 10
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred about the adoption of new technologies among Indian strawberry farmers?",
+      "options": {
+        "A": "All farmers have eagerly adopted vertical farming and hydroponics",
+        "B": "Advanced technologies are being adopted, but they pose financial risks for smallholders",
+        "C": "Small farmers can easily afford to invest in advanced technology",
+        "D": "Technology has completely replaced traditional farming methods in India"
+      },
+      "answer": "B",
+      "evidence_paragraph": 33
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "The word \"forgiving\" in the phrase \"The soil is forgiving; hydroponics does not forgive\" most nearly means:",
+      "options": {
+        "A": "harsh and unforgiving",
+        "B": "tolerant of errors",
+        "C": "capable of producing forgiveness",
+        "D": "difficult to work with"
+      },
+      "answer": "B",
+      "evidence_paragraph": 19
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "What is the author's overall tone towards the Indian strawberry industry's future?",
+      "options": {
+        "A": "Highly optimistic, predicting immediate success",
+        "B": "Cautiously hopeful, acknowledging challenges",
+        "C": "Completely detached and indifferent",
+        "D": "Critical and dismissive of current efforts"
+      },
+      "answer": "B",
+      "evidence_paragraph": 33
+    },
+    {
+      "type": "Organization",
+      "question": "Which of the following best describes the organization of the article?",
+      "options": {
+        "A": "Chronological history of strawberry farming in India",
+        "B": "Comparison of Indian and American strawberry varieties",
+        "C": "Problem-solution structure, presenting multiple approaches to developing the strawberry sector",
+        "D": "A detailed analysis of the economic impact of strawberry exports"
+      },
+      "answer": "C",
+      "evidence_paragraph": 8
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the most suitable title for this article?",
+      "options": {
+        "A": "\"The Decline of Indian Agriculture\"",
+        "B": "\"How to Grow Strawberries in Your Backyard\"",
+        "C": "\"The History of Hydroponics\"",
+        "D": "\"A Taste of Innovation: India's Quest for Indigenous Strawberries\""
+      },
+      "answer": "D",
+      "evidence_paragraph": 11
+    }
+  ],
+  "answer_key": "BCBBBCD",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "India wants to join the strawberry superpowers",
+      "url": "https://www.bbc.co.uk/news/articles/c8x274xxxpwo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
