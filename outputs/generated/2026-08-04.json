@@ -1,0 +1,284 @@
+{
+  "title_en": "NHS England to Provide 'Life-Changing' MS Drug to Help Patients Walk",
+  "title_zh": "英格兰NHS将提供‘改变生活’的多发性硬化症药物，帮助患者行走",
+  "summary_zh": "英格兰NHS决定为多发性硬化症(MS)患者提供药物法普利啶(fampridine)，该药可增强神经信号，帮助部分患者改善行走能力。此前此药因性价比问题被拒，现每年约5,000名符合条件的患者可受益。患者Aysen Slack曾自费使用后因费用停用，现在期待能重新用药。专家表示，即使有限的改善也能显著提升患者的独立性和生活质量。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Medicine",
+    "Healthcare Policy"
+  ],
+  "difficulty": 4,
+  "reading_passage": "Aysen Slack says she used to pay for the drug privately until it became too costly\n\nThe first drug to help people with multiple sclerosis walk is being made available on the NHS in England.\n\nFampridine boosts nerve signals to make it easier for some people to move and live independently.\n\nAysen Slack, who used to pay for fampridine privately until it became too costly, said the decision would make a \"huge difference\".\n\nUp to 5,000 people in England could benefit each year. The drug is already available elsewhere in the UK.\n\nMultiple sclerosis is caused by the immune system attacking the protective covering around nerve cells - known as myelin.\n\nThis damage impairs the ability of nerves to carry electrical messages from the brain to the rest of the body - including those needed for the precise control of muscles needed to walk.\n\nFampridine is known as a \"signal booster\" as it helps those electrical messages still get through.\n\nClinical trials showed around four in 10 people taking the drug had improvements in their walking speed and in how long they could walk for.\n\nThis could be the difference between getting around the house or needing help at home or enabling people to go out and see friends and family.\n\nCurrent NHS support includes physiotherapy and walking aids.\n\nThe drug has previously been rejected for use by the NHS in England as it was not considered value for money, although it did become available in Wales, Scotland and Northern Ireland.\n\nAysen Slack, 65 and from Eastbourne, chose to pay privately for the pills once she heard about them.\n\nShe said fampridine was \"working well for me\" but came at a \"significant expense and I could not keep doing that forever\" so she had to stop.\n\nSlack said it was \"great news\" the drug was coming to the NHS and she \"would definitely like to try\" again.\n\n\"My mobility has decreased a lot and even in my flat I have to use sticks now,\" she said, \"it would make a huge difference to my life if I were able to improve my walking.\"\n\nMore than 120,000 people live with MS in England. However, only around 5,000 people a year will be eligible - based on the extent of their walking difficulties.\n\nPatients will try the medicine for up to a month and only those showing \"clear benefit\" will be able to continue taking it.\n\nProf Frankie Swords, the NHS national medical director, said: \"Walking difficulties can have a huge impact on the freedom and independence of people with MS, so this signal-boosting pill could be life-changing for thousands of patients.\n\n\"Even a modest improvement could mean getting around the house more easily, going out with greater confidence and living more independently.\"\n\nCeri Smith, from the MS Society, said they were \"delighted\" by the news as the drug could be \"life-changing\" for many, allowing people to \"live more independently or stay in employment\".\n\nMS trial results suggest drugs could repair damage\n\n'I kept falling over on Ibiza lads holiday - it turned out to be MS'\n\nGet our flagship newsletter with all the headlines you need to start the day. Sign up here.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "boost",
+      "ipa": "/buːst/",
+      "pos": "v.",
+      "meaning_zh": "增强，提高",
+      "collocations": [
+        "boost morale",
+        "boost sales",
+        "boost energy"
+      ],
+      "example": "Regular exercise can boost your immune system."
+    },
+    {
+      "category": "core_word",
+      "word": "impair",
+      "ipa": "/ɪmˈpeər/",
+      "pos": "v.",
+      "meaning_zh": "损害，削弱",
+      "collocations": [
+        "impair vision",
+        "impair judgment",
+        "impair function"
+      ],
+      "example": "Alcohol can impair your ability to drive safely."
+    },
+    {
+      "category": "core_word",
+      "word": "eligible",
+      "ipa": "/ˈelɪdʒəbl/",
+      "pos": "adj.",
+      "meaning_zh": "有资格的，符合条件的",
+      "collocations": [
+        "be eligible for",
+        "eligible voters",
+        "eligible candidates"
+      ],
+      "example": "Only students with a GPA above 3.0 are eligible for the scholarship."
+    },
+    {
+      "category": "core_word",
+      "word": "mobility",
+      "ipa": "/məʊˈbɪləti/",
+      "pos": "n.",
+      "meaning_zh": "移动能力，流动性",
+      "collocations": [
+        "limited mobility",
+        "social mobility",
+        "upward mobility"
+      ],
+      "example": "The injury restricted his mobility for several months."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "huge difference",
+      "ipa": "/hjuːdʒ ˈdɪfərəns/",
+      "pos": "phr.",
+      "meaning_zh": "巨大的差异，很大的影响",
+      "collocations": [
+        "make a huge difference",
+        "a huge difference to"
+      ],
+      "example": "Learning a new language can make a huge difference to your career prospects."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "huge impact",
+      "ipa": "/hjuːdʒ ˈɪmpækt/",
+      "pos": "phr.",
+      "meaning_zh": "巨大的影响",
+      "collocations": [
+        "have a huge impact",
+        "a huge impact on"
+      ],
+      "example": "The new policy had a huge impact on the economy."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "life-changing",
+      "ipa": "/ˈlaɪf ˌtʃeɪndʒɪŋ/",
+      "pos": "adj.",
+      "meaning_zh": "改变人生的，影响深远的",
+      "collocations": [
+        "a life-changing experience",
+        "life-changing decision",
+        "life-changing technology"
+      ],
+      "example": "Winning the scholarship was a life-changing event for her."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "get through",
+      "ipa": "/ɡet ˈθruː/",
+      "pos": "phr.",
+      "meaning_zh": "通过，传达过去",
+      "collocations": [
+        "get through to someone",
+        "get through the exam",
+        "get through a difficult time"
+      ],
+      "example": "I couldn't get through to him because his phone was off."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "get around",
+      "ipa": "/ɡet əˈraʊnd/",
+      "pos": "phr.",
+      "meaning_zh": "四处走动，通行",
+      "collocations": [
+        "get around town",
+        "get around easily",
+        "help someone get around"
+      ],
+      "example": "After his hip surgery, he was able to get around without a cane."
+    },
+    {
+      "category": "academic_word",
+      "word": "modest",
+      "ipa": "/ˈmɒdɪst/",
+      "pos": "adj.",
+      "meaning_zh": "适度的，不太大的；谦虚的",
+      "collocations": [
+        "modest improvement",
+        "modest increase",
+        "modest proposal"
+      ],
+      "example": "The study showed a modest but significant reduction in risk."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Fampridine boosts nerve signals to make it easier for some people to move and live independently.",
+      "explanation_zh": "主句为“Fampridine boosts nerve signals”，后接不定式短语“to make it easier...”作目的状语，其中“make it easier”使用了形式宾语结构，真正的宾语是“for some people to move and live independently”。",
+      "grammar_point": "不定式作目的状语；形式宾语 it",
+      "translation_zh": "法普利啶能增强神经信号，使一些人更容易移动和独立生活。"
+    },
+    {
+      "sentence": "Multiple sclerosis is caused by the immune system attacking the protective covering around nerve cells - known as myelin.",
+      "explanation_zh": "该句使用了被动语态“is caused by”，其后接带逻辑主语的动名词复合结构“the immune system attacking...”；破折号后的过去分词短语“known as myelin”作定语，修饰“protective covering”。",
+      "grammar_point": "被动语态；动名词复合结构；过去分词作定语",
+      "translation_zh": "多发性硬化症是由免疫系统攻击覆盖在神经细胞周围的保护层——即髓鞘——引起的。"
+    },
+    {
+      "sentence": "This damage impairs the ability of nerves to carry electrical messages from the brain to the rest of the body - including those needed for the precise control of muscles needed to walk.",
+      "explanation_zh": "句子主干是“This damage impairs the ability”，后接不定式“to carry…”作定语修饰ability；破折号后的“including those needed…”中，“those”指代electrical messages，“needed for…”为过去分词短语作定语，其中又嵌套“muscles needed to walk”。",
+      "grammar_point": "不定式作定语；过去分词作定语；嵌套结构",
+      "translation_zh": "这种损伤损害了神经将大脑发出的电信号传递到身体其余部位的能力——包括那些用于精确控制行走所需肌肉的信号。"
+    },
+    {
+      "sentence": "The drug has previously been rejected for use by the NHS in England as it was not considered value for money, although it did become available in Wales, Scotland and Northern Ireland.",
+      "explanation_zh": "主句使用现在完成时被动语态“has been rejected”；“as”引导原因状语从句，“it was not considered value for money”为被动结构；“although”引导让步状语从句，其中助动词“did”用于强调谓语“become”。",
+      "grammar_point": "现在完成时的被动语态；as引导原因状语从句；although引导让步状语从句；do表示强调",
+      "translation_zh": "该药此前曾被英格兰NHS拒绝使用，因为认为其性价比不高，尽管在威尔士、苏格兰和北爱尔兰已可使用。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "make a difference",
+      "meaning_zh": "有影响，使不同",
+      "usage_note": "常用于表示某事物或行为带来积极改变，可加 huge/real 等形容词修饰。",
+      "example": "Volunteering can really make a difference in your community."
+    },
+    {
+      "expression": "come at a cost",
+      "meaning_zh": "以某种代价获得或带来",
+      "usage_note": "常用于指出某事物虽有益处但伴随困难或花费。",
+      "example": "The new treatment comes at a cost, but for many patients it's worth it."
+    },
+    {
+      "expression": "value for money",
+      "meaning_zh": "物有所值，性价比",
+      "usage_note": "常用于评估产品或服务是否值得其价格，尤用于公共支出讨论。",
+      "example": "When buying a house, you should consider not just the price but also the value for money."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main topic of this article?",
+      "options": {
+        "A": "The NHS decision to make a MS walking drug available in England.",
+        "B": "The causes and symptoms of multiple sclerosis.",
+        "C": "The personal story of MS patient Aysen Slack.",
+        "D": "The UK-wide availability of fampridine."
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "What did Aysen Slack do before the NHS decision to provide fampridine?",
+      "options": {
+        "A": "She paid for the drug herself until it became too expensive.",
+        "B": "She used walking aids and physiotherapy provided by the NHS.",
+        "C": "She participated in clinical trials for the drug.",
+        "D": "She moved to Scotland to access the drug through their NHS."
+      },
+      "answer": "A",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the article about the NHS's previous rejection of fampridine?",
+      "options": {
+        "A": "The NHS did not believe MS patients needed walking assistance.",
+        "B": "The drug was considered not cost-effective at that time.",
+        "C": "The drug was only available in Northern Ireland.",
+        "D": "There were no clinical trials to support its effectiveness."
+      },
+      "answer": "B",
+      "evidence_paragraph": 12
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 6, what does the word 'myelin' most likely refer to?",
+      "options": {
+        "A": "A type of electrical signal in nerves.",
+        "B": "A drug used to treat multiple sclerosis.",
+        "C": "A symptom caused by nerve damage.",
+        "D": "The protective covering around nerve cells."
+      },
+      "answer": "D",
+      "evidence_paragraph": 6
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "What is the author's overall tone in this article?",
+      "options": {
+        "A": "Critical and doubtful about the drug's benefits.",
+        "B": "Emotionally charged and sympathetic.",
+        "C": "Promotional and advertising-like.",
+        "D": "Objective and informative."
+      },
+      "answer": "D",
+      "evidence_paragraph": 6
+    },
+    {
+      "type": "Organization",
+      "question": "How does the author organize the information in the article?",
+      "options": {
+        "A": "By announcing the news, explaining MS and the drug, then presenting reactions.",
+        "B": "By comparing fampridine with other MS treatments.",
+        "C": "By describing symptoms, then offering a cure, and finally warning of side effects.",
+        "D": "By focusing solely on the patient's experience and then generalizing."
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following is the most suitable title for this article?",
+      "options": {
+        "A": "A New Cure for Multiple Sclerosis Discovered",
+        "B": "Patient Highlights NHS Failure in MS Treatment",
+        "C": "The Financial Burden of MS Drugs on Patients",
+        "D": "NHS Approves 'Signal-Boosting' Pill for MS Patients in England"
+      },
+      "answer": "D",
+      "evidence_paragraph": 2
+    }
+  ],
+  "answer_key": "AABDDAD",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "'Life-changing' MS drug to help people walk now on NHS in England",
+      "url": "https://www.bbc.co.uk/news/articles/cgmkygjk9g2o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
