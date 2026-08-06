@@ -1,0 +1,293 @@
+{
+  "title_en": "Cyber-attack on DfE Exposes 607,000 Records",
+  "title_zh": "英国教育部网络攻击致60.7万条记录泄露",
+  "summary_zh": "英国教育部（DfE）遭遇网络攻击，约60.7万条记录被窃取，内容为个人及组织的电话和电子邮件联系方式，不包含银行细节等敏感信息。受影响系统包括图灵计划门户和在线帮助台，预计本周晚些时候恢复正常运行。教育部已向信息专员办公室自我报告，并与国家网络安全中心及国家犯罪局合作应对。该事件被迅速控制，对个人的数据保护风险被评估为较低。文章还指出，教育领域的网络事件正日益频繁，反映出该行业面临的持续性安全挑战。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Cyber Security",
+    "Education",
+    "Data Protection"
+  ],
+  "difficulty": 4,
+  "reading_passage": "Hackers have obtained about 607,000 records in a cyber-attack on the Department for Education (DfE) in England.\n\nThe data taken includes telephone numbers and email addresses relating to individuals and organisations but does not include bank details or other sensitive information.\n\nThe DfE confirmed the incident and said it is working closely with the National Cyber Security Centre and the National Crime Agency (NCA).\n\nThe data protection risk to individuals is not considered high and it is understood the attack was contained quickly.\n\nThe Turing Scheme portal - a programme providing funding for international education - and the DfE online help desk have both been affected, but are expected to be operating normally later this week.\n\nThe DfE has referred itself to the Information Commissioner's Office.\n\n\"We have robust processes in place to protect information and took swift action to contain this incident\", a DfE spokesperson said.\n\n\"The information involved is limited to customer service contact details relating to individuals and organisations. No other data has been accessed\".\n\nIt stressed the 607,000 figure relates to the total number of records affected, not individuals.\n\nAn NCA spokesperson said: \"We are aware of an incident affecting the Department for Education and are working with partners to understand the circumstances and impact.\"\n\nCyber incidents within the education sector are becoming more frequent.\n\nAround a quarter of further education institutions (24%) reported experiencing a breach or attack at least weekly according to the government's most recent Cyber Security Breaches Survey., external\n\nAnd more than half of schools have reported an attack or breach in the last year.\n\nHave you been affected by issues covered in this story?\n\nThe true cost of cyber attacks - and the business weak spots that allow them to happen\n\nChildren hacking their own schools for 'fun', watchdog warns",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "cyber-attack",
+      "ipa": "/ˈsaɪbər əˌtæk/",
+      "pos": "n.",
+      "meaning_zh": "网络攻击",
+      "collocations": [
+        "launch a cyber-attack",
+        "prevent a cyber-attack",
+        "sophisticated cyber-attack"
+      ],
+      "example": "The company's website was shut down by a massive cyber-attack."
+    },
+    {
+      "category": "core_word",
+      "word": "incident",
+      "ipa": "/ˈɪnsɪdənt/",
+      "pos": "n.",
+      "meaning_zh": "事件",
+      "collocations": [
+        "security incident",
+        "report an incident",
+        "contain an incident"
+      ],
+      "example": "The police arrived quickly after the incident was reported."
+    },
+    {
+      "category": "core_word",
+      "word": "contain",
+      "ipa": "/kənˈteɪn/",
+      "pos": "v.",
+      "meaning_zh": "控制，遏制",
+      "collocations": [
+        "contain an outbreak",
+        "contain a threat",
+        "contain the spread"
+      ],
+      "example": "Firefighters worked overnight to contain the wildfire."
+    },
+    {
+      "category": "core_word",
+      "word": "breach",
+      "ipa": "/briːtʃ/",
+      "pos": "n.",
+      "meaning_zh": "破坏，违规",
+      "collocations": [
+        "data breach",
+        "security breach",
+        "breach of contract"
+      ],
+      "example": "The company was fined for the data breach that exposed customer information."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "customer service",
+      "ipa": "/ˈkʌstəmər ˈsɜːrvɪs/",
+      "pos": "phr.",
+      "meaning_zh": "客户服务",
+      "collocations": [
+        "customer service representative",
+        "provide customer service",
+        "excellent customer service"
+      ],
+      "example": "The company's customer service team handles complaints efficiently."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "swift action",
+      "ipa": "/swɪft ˈækʃən/",
+      "pos": "phr.",
+      "meaning_zh": "迅速行动",
+      "collocations": [
+        "take swift action",
+        "demand swift action",
+        "swift action against"
+      ],
+      "example": "The government promised swift action to address the crisis."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "robust process",
+      "ipa": "/rəʊˈbʌst ˈprəʊses/",
+      "pos": "phr.",
+      "meaning_zh": "健全的流程",
+      "collocations": [
+        "implement robust processes",
+        "maintain robust processes",
+        "robust security processes"
+      ],
+      "example": "The bank has robust processes to prevent fraud."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "work closely with",
+      "ipa": "/wɜːrk kloʊsli wɪð/",
+      "pos": "phr.",
+      "meaning_zh": "紧密合作",
+      "collocations": [
+        "work closely with partners",
+        "work closely with clients",
+        "work closely together"
+      ],
+      "example": "Our team works closely with the marketing department on new campaigns."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "refer to",
+      "ipa": "/rɪˈfɜːr tu/",
+      "pos": "phr.",
+      "meaning_zh": "移交，提交",
+      "collocations": [
+        "refer a case to",
+        "refer to a specialist",
+        "refer to as"
+      ],
+      "example": "The doctor referred me to a specialist for further tests."
+    },
+    {
+      "category": "academic_word",
+      "word": "institution",
+      "ipa": "/ˌɪnstɪˈtjuːʃən/",
+      "pos": "n.",
+      "meaning_zh": "机构",
+      "collocations": [
+        "educational institution",
+        "financial institution",
+        "public institution"
+      ],
+      "example": "Oxford University is one of the oldest academic institutions in the world."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "The data taken includes telephone numbers and email addresses relating to individuals and organisations but does not include bank details or other sensitive information.",
+      "explanation_zh": "过去分词短语`taken`作定语修饰`data`，并列谓语`includes...but does not include`，`relating to`作后置定语。",
+      "grammar_point": "Past participle as post-modifier; compound predicates",
+      "translation_zh": "被窃取的数据包括与个人和组织相关的电话号码和电子邮件地址，但不包括银行详细信息或其他敏感信息。"
+    },
+    {
+      "sentence": "The DfE confirmed the incident and said it is working closely with the National Cyber Security Centre and the National Crime Agency (NCA).",
+      "explanation_zh": "主语后接并列谓语，宾语从句`it is working...`用进行时表当前持续的行动。",
+      "grammar_point": "Compound predicate with object clause",
+      "translation_zh": "教育部证实了该事件，并表示正与国家网络安全中心和国家犯罪局紧密合作。"
+    },
+    {
+      "sentence": "It stressed the 607,000 figure relates to the total number of records affected, not individuals.",
+      "explanation_zh": "`figure relates to...`为宾语从句，省略了引导词`that`；`affected`为过去分词后置定语修饰`records`。",
+      "grammar_point": "Ellipsis of 'that' in object clause; past participle post-modifier",
+      "translation_zh": "该部门强调，60.7万这一数字指的是受影响的记录总数，而非个人数量。"
+    },
+    {
+      "sentence": "Around a quarter of further education institutions (24%) reported experiencing a breach or attack at least weekly according to the government's most recent Cyber Security Breaches Survey.",
+      "explanation_zh": "主语包含分数表达`a quarter of...`，谓语`reported experiencing...`是接动名词作宾语，后面有`according to`引出消息来源。",
+      "grammar_point": "Gerund after 'report'; compound preposition 'according to'",
+      "translation_zh": "根据政府最新的《网络安全漏洞调查》，约四分之一的继续教育机构（24%）报告至少每周遭遇一次破坏或攻击。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "in place",
+      "meaning_zh": "到位，已建立",
+      "usage_note": "常与`have`或`put`连用，表示措施或系统已建立并运行。",
+      "example": "Emergency procedures are in place to ensure everyone's safety."
+    },
+    {
+      "expression": "at least",
+      "meaning_zh": "至少",
+      "usage_note": "用于表示最低限度、数量或程度。",
+      "example": "You should drink at least eight glasses of water a day."
+    },
+    {
+      "expression": "weak spots",
+      "meaning_zh": "弱点，薄弱环节",
+      "usage_note": "可指物理、系统或个人的易受攻击之处。",
+      "example": "Regular security checks help identify weak spots in the company's IT infrastructure."
+    },
+    {
+      "expression": "for fun",
+      "meaning_zh": "为了好玩",
+      "usage_note": "表示做某事是出于娱乐而非认真目的。",
+      "example": "Many people learn to play musical instruments just for fun."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main subject of the article?",
+      "options": {
+        "A": "The Department for Education's improved security protocols after a breach.",
+        "B": "A cyber-attack on the DfE that resulted in the theft of 607,000 records.",
+        "C": "The National Crime Agency's investigation into online hackers.",
+        "D": "The growing number of cyber-attacks across all UK government departments."
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "According to the passage, which of the following was NOT among the stolen records?",
+      "options": {
+        "A": "telephone numbers",
+        "B": "email addresses",
+        "C": "bank details",
+        "D": "customer service contact details"
+      },
+      "answer": "C",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred about the DfE's response to the cyber-attack?",
+      "options": {
+        "A": "The department was unaware of how to handle the incident.",
+        "B": "The attack was extremely difficult to stop and caused significant disruption.",
+        "C": "The DfE acted promptly to limit the damage and inform relevant authorities.",
+        "D": "The DfE had no prior security measures and was taken by surprise."
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 4, the word 'contained' is closest in meaning to:",
+      "options": {
+        "A": "stored securely",
+        "B": "completely eliminated",
+        "C": "publicly disclosed",
+        "D": "prevented from spreading"
+      },
+      "answer": "D",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "What is the author's tone throughout the passage?",
+      "options": {
+        "A": "critical and accusatory",
+        "B": "emotional and outraged",
+        "C": "neutral and factual",
+        "D": "skeptical and questioning"
+      },
+      "answer": "C",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Organization",
+      "question": "Which of the following best describes the organization of the passage?",
+      "options": {
+        "A": "It narrates a chronological sequence of events leading to a major crisis.",
+        "B": "It describes a problem, proposes solutions, and evaluates their effectiveness.",
+        "C": "It compares and contrasts different types of cyber-attacks on educational bodies.",
+        "D": "It presents a factual report, followed by specific details and broader context."
+      },
+      "answer": "D",
+      "evidence_paragraph": 11
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the most appropriate title for the passage?",
+      "options": {
+        "A": "DfE Introduces Stricter Digital Safety Policies",
+        "B": "Cyber-attack on DfE Exposes 607,000 Records",
+        "C": "The Alarming Rise of School Cyber-attacks Nationwide",
+        "D": "NCA Launches Nationwide Investigation into Data Theft"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "BCCDCDB",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Cyber-attackers take 607,000 records from Department for Education",
+      "url": "https://www.bbc.co.uk/news/articles/cq6dmgrp21po?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
