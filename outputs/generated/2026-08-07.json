@@ -1,11 +1,11 @@
 {
-  "title_en": "High Beef Prices, Low Profits: The US Supply Chain Paradox",
-  "title_zh": "美国牛肉价格高企 供应链各环节利润未增",
-  "summary_zh": "由于干旱和疾病导致美国牛只数量降至1951年以来最低，牛肉价格创下纪录。然而，从牧场主到饲料场、肉类加工商再到餐馆，供应链每个环节都面临成本同步攀升和定价权受限的困境，无人从高价中获取额外利润。这种局面要等到大量新牛进入市场才会改变，而增产过程需要三年。",
+  "title_en": "Record US Beef Prices Fail to Boost Profits Across Supply Chain",
+  "title_zh": "美国牛肉价格创纪录，供应链各环利润却未增",
+  "summary_zh": "由于干旱和疾病导致美国活牛存栏量创下数十年来新低，牛肉价格随之飙升至历史高位。但从牧场主、育肥场、肉类加工商到餐厅的整个供应链上，各方均因成本激增、运营效率低下或定价受限而未能从中获得更大利润。文章通过现场采访与分析，展现了高价格并未带来高收益的行业困境，并指出增加牛群供给需要至少三年时间。",
   "cefr": "B2-C1",
   "themes": [
-    "Business",
     "Agriculture",
+    "Economics",
     "Supply Chain"
   ],
   "difficulty": 3,
@@ -19,268 +19,268 @@
       "meaning_zh": "干旱",
       "collocations": [
         "severe drought",
-        "prolonged drought",
-        "drought-affected areas"
+        "drought conditions",
+        "drought-hit land"
       ],
-      "example": "The severe drought last year caused crop failures across the region."
+      "example": "The prolonged drought forced farmers to sell their livestock."
     },
     {
       "category": "core_word",
-      "word": "parched",
-      "ipa": "/pɑːrtʃt/",
-      "pos": "adj.",
-      "meaning_zh": "干枯的",
-      "collocations": [
-        "parched land",
-        "parched throat",
-        "parched fields"
-      ],
-      "example": "The parched landscape showed no signs of life after months without rain."
-    },
-    {
-      "category": "core_word",
-      "word": "carcass",
-      "ipa": "/ˈkɑːrkəs/",
+      "word": "slaughter",
+      "ipa": "/ˈslɔːtər/",
       "pos": "n.",
-      "meaning_zh": "（屠宰后的）动物尸体",
+      "meaning_zh": "屠宰；宰杀",
       "collocations": [
-        "animal carcass",
-        "dispose of a carcass",
-        "carcass weight"
+        "send to slaughter",
+        "slaughterhouse",
+        "slaughter weight"
       ],
-      "example": "The workers had to dispose of the animal carcass safely to prevent disease."
+      "example": "The calves are sent to slaughter when they reach a certain weight."
+    },
+    {
+      "category": "core_word",
+      "word": "shortage",
+      "ipa": "/ˈʃɔːrtɪdʒ/",
+      "pos": "n.",
+      "meaning_zh": "短缺；不足",
+      "collocations": [
+        "national shortage",
+        "water shortage",
+        "supply shortage"
+      ],
+      "example": "There is a shortage of skilled workers in the technology sector."
     },
     {
       "category": "core_word",
       "word": "conjure",
-      "ipa": "/ˈkɑːndʒər/",
+      "ipa": "/ˈkʌndʒər/",
       "pos": "v.",
-      "meaning_zh": "变戏法般创造",
+      "meaning_zh": "变戏法般地创造；想象出",
       "collocations": [
         "conjure up",
-        "conjure an image",
-        "conjure from thin air"
+        "conjure something out of thin air",
+        "cannot conjure"
       ],
-      "example": "The magician seemed to conjure a rabbit from his hat."
+      "example": "She managed to conjure a delicious meal out of a few basic ingredients."
     },
     {
       "category": "fixed_collocation",
-      "word": "record prices",
-      "ipa": "/ˈrekərd ˈpraɪsɪz/",
-      "pos": "phr.",
-      "meaning_zh": "创纪录的价格",
-      "collocations": [
-        "pay record prices",
-        "hit record prices",
-        "fetch record prices"
-      ],
-      "example": "At the auction, the painting fetched record prices."
-    },
-    {
-      "category": "fixed_collocation",
-      "word": "all-time highs",
-      "ipa": "/ˌɔːl taɪm ˈhaɪz/",
+      "word": "all-time high",
+      "ipa": "/ˌɔːl taɪm ˈhaɪ/",
       "pos": "phr.",
       "meaning_zh": "历史最高点",
       "collocations": [
-        "reach all-time highs",
-        "stand at all-time highs",
-        "climb to all-time highs"
+        "reach an all-time high",
+        "all-time high prices",
+        "all-time high levels"
       ],
-      "example": "The stock market has reached all-time highs this year."
+      "example": "The temperature reached an all-time high for the month of June."
     },
     {
       "category": "fixed_collocation",
-      "word": "supply chain",
-      "ipa": "/səˈplaɪ tʃeɪn/",
+      "word": "price-fixing",
+      "ipa": "/ˈpraɪs fɪksɪŋ/",
       "pos": "n.",
-      "meaning_zh": "供应链",
+      "meaning_zh": "价格垄断；价格操纵",
       "collocations": [
-        "disrupt the supply chain",
-        "streamline the supply chain",
-        "global supply chain"
+        "accusations of price-fixing",
+        "illegal price-fixing",
+        "price-fixing scandal"
       ],
-      "example": "The pandemic severely disrupted the global supply chain."
+      "example": "The investigation uncovered a widespread price-fixing scheme among competitors."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "market concentration",
+      "ipa": "/ˈmɑːrkɪt ˌkɒnsənˈtreɪʃən/",
+      "pos": "phr.",
+      "meaning_zh": "市场集中度",
+      "collocations": [
+        "high level of market concentration",
+        "market concentration ratio",
+        "reduce market concentration"
+      ],
+      "example": "Regulators are concerned about the high market concentration in the telecommunications industry."
     },
     {
       "category": "phrasal_verb",
-      "word": "go through",
-      "ipa": "/ɡoʊ θruː/",
+      "word": "run dry",
+      "ipa": "/rʌn draɪ/",
       "pos": "phr.",
-      "meaning_zh": "消耗，用完",
+      "meaning_zh": "干涸；枯竭",
       "collocations": [
-        "go through a lot of something",
-        "quickly go through",
-        "go through supplies"
+        "wells run dry",
+        "funds run dry",
+        "stream ran dry"
       ],
-      "example": "Our office goes through a ton of paper every week."
+      "example": "If the river runs dry, the whole village will have to find a new water source."
     },
     {
       "category": "phrasal_verb",
-      "word": "turn over",
-      "ipa": "/tɜːrn ˈoʊvər/",
+      "word": "buy in",
+      "ipa": "/baɪ ɪn/",
       "pos": "phr.",
-      "meaning_zh": "实现（营业额），周转",
+      "meaning_zh": "大量购进（货物等）",
       "collocations": [
-        "turn over money",
-        "turn over goods",
-        "turn over a profit"
+        "buy in supplies",
+        "buy in feed",
+        "buy in bulk"
       ],
-      "example": "The company turns over millions annually."
+      "example": "The store had to buy in extra stock before the holiday season."
     },
     {
       "category": "academic_word",
-      "word": "capacity",
-      "ipa": "/kəˈpæsəti/",
+      "word": "inefficiency",
+      "ipa": "/ˌɪnɪˈfɪʃənsi/",
       "pos": "n.",
-      "meaning_zh": "产能，能力",
+      "meaning_zh": "低效率；无效率",
       "collocations": [
-        "excess capacity",
-        "full capacity",
-        "production capacity"
+        "operational inefficiency",
+        "inefficiency of running",
+        "cause inefficiency"
       ],
-      "example": "The factory is operating at full capacity to meet demand."
+      "example": "The report highlighted the inefficiency of the current billing system."
     }
   ],
   "difficult_sentences": [
     {
       "sentence": "Due to a combination of drought in many states, and disease pressure, at the start of this year the US had fewer cattle than at any point since 1951.",
-      "explanation_zh": "本句主干为“the US had fewer cattle”，前面有原因状语“Due to...”和时间状语“at the start of this year”，后面跟着比较结构“fewer... than...”，点明数量为1951年以来最低。",
-      "grammar_point": "原因状语 + 时间状语 + 比较结构",
-      "translation_zh": "由于许多州干旱与疫病压力并存，今年年初美国牛只数量降至1951年以来最低。"
+      "explanation_zh": "主句为“the US had fewer cattle”，介词短语“Due to... disease pressure”作原因状语，“at the start of this year”为时间状语，“than at any point since 1951”为比较状语从句。",
+      "grammar_point": "use of 'due to' to introduce a cause; comparative structure 'fewer … than'",
+      "translation_zh": "由于许多州干旱和疾病压力的共同作用，今年初美国的牛存栏量比1951年以来的任何时候都要少。"
     },
     {
       "sentence": "And with little grass on parched fields – well over 60% of US cattle are now grazing on drought-hit land - farms like his are having to buy in hay, silage and other fodder for their cattle.",
-      "explanation_zh": "由“with”引导的独立结构描述背景，破折号内为补充数据，主句“farms... are having to buy...”中“are having to”强调因客观原因被迫采取行动。",
-      "grammar_point": "with复合结构、插入语、现在进行时表义务",
-      "translation_zh": "干旱的草场上牧草稀疏——目前超60%的美国牛只正在受旱土地上放牧——像他这样的农场不得不购买干草、青贮饲料和其他饲草来喂养牲口。"
+      "explanation_zh": "主句为“farms like his are having to buy in... fodder”，“with little grass on parched fields”为独立主格结构表示伴随原因，破折号之间的内容为插入语补充说明干旱影响的普遍程度。",
+      "grammar_point": "'with' + noun phrase to show accompanying circumstances; parenthetical information set off by dashes",
+      "translation_zh": "在干裂的牧场上几乎不长草的情况下——目前有超过60%的美国牛群正在遭受旱灾的土地上吃草——像他这样的农场不得不购买干草、青贮饲料和其他饲草来喂养他们的牛。"
     },
     {
-      "sentence": "Everyone is turning over more money than they used to, but not keeping any of the extra.",
-      "explanation_zh": "主句为并列结构，前一分句含比较“more... than they used to”，后省略“turn over”；后一分句以“but”转折，阐明营业额增加但利润未增。",
-      "grammar_point": "比较状语从句的省略、并列转折",
-      "translation_zh": "每个人的营业额比过去更高，却没有留下任何额外利润。"
+      "sentence": "She says that while the feedlot companies are currently selling cattle at record prices, they are having to buy them at all-time highs in the first place.",
+      "explanation_zh": "主句为“She says”，后接 that 引导的宾语从句，该从句内部含有 while 引导的让步状语从句，表示“虽然...但是...”。",
+      "grammar_point": "noun clause with 'that'; concessive clause with 'while' to show contrast",
+      "translation_zh": "她说，尽管饲养场公司目前以创纪录的价格出售牛只，但他们首先需要以历史最高价买入这些牛。"
     },
     {
-      "sentence": "And that calf needs another year to reach slaughter weight, so the extra beef takes three years to arrive.",
-      "explanation_zh": "前一分句用“need... to do”表示需求，后一分句以“so”引出结果，“take... to do”为常见耗时表达。两句共同解释增加供应需时长的逻辑。",
-      "grammar_point": "并列因果（so）、表耗时的固定句式",
-      "translation_zh": "而这头牛犊还需一年才能达到屠宰重量，所以新增的牛肉需要三年才能上市。"
+      "sentence": "Then there is the inefficiency of running the meatpacking plants at much less than full capacity.",
+      "explanation_zh": "这是一个 there be 存在句，主语为“the inefficiency”，其后的 of 介词短语“of running... capacity”作定语修饰 inefficiency，其中“at much less than full capacity”是方式状语。",
+      "grammar_point": "existential 'there be' sentence; prepositional phrase 'of + gerund' as postmodifier; comparison with 'less than'",
+      "translation_zh": "然后是肉类加工厂远低于满负荷运转带来的低效率。"
     }
   ],
   "idioms": [
     {
-      "expression": "run dry",
-      "meaning_zh": "枯竭；用光",
-      "usage_note": "尤指水源、资源等耗尽",
-      "example": "The village well ran dry after the long drought."
+      "expression": "first hand",
+      "meaning_zh": "亲身；直接地",
+      "usage_note": "常用作状语，表示直接体验或经历某事，而非通过他人描述。",
+      "example": "By working in the field, she gained first-hand experience of the challenges faced by farmers."
     },
     {
-      "expression": "come to market",
-      "meaning_zh": "上市；进入市场",
-      "usage_note": "用于商品、产品等",
-      "example": "The new smartphone will come to market next month."
+      "expression": "in the first place",
+      "meaning_zh": "起初；一开始",
+      "usage_note": "用于强调某件事原本就应该如此，或指事情发生的初始阶段。",
+      "example": "If you had planned properly in the first place, we wouldn't have run out of materials."
     },
     {
-      "expression": "get people through the door",
-      "meaning_zh": "吸引顾客进店",
-      "usage_note": "常用于商业语境，指招揽顾客",
-      "example": "The store's deep discounts are designed to get people through the door."
+      "expression": "only so much",
+      "meaning_zh": "数量有限；只有这么多",
+      "usage_note": "表示某事物的量或程度是有限度的，常与动词连用，如 'can do only so much'。",
+      "example": "You can cut costs only so much before the quality of your product starts to decline."
     },
     {
-      "expression": "not always about the money",
-      "meaning_zh": "不全是关于钱；有时有其他考虑",
-      "usage_note": "表示动机不仅仅是为了经济利益",
-      "example": "He volunteers every weekend; for him, it's not always about the money."
+      "expression": "get (people) through the door",
+      "meaning_zh": "吸引顾客光顾",
+      "usage_note": "多用于商业语境，指通过营销、优惠等手段让顾客进入店铺。",
+      "example": "Offering free samples is a great way to get people through the door at a new store."
     }
   ],
   "reading_questions": [
     {
       "type": "Main Idea",
-      "question": "What is the central message of the article?",
+      "question": "What is the central problem discussed in the article?",
       "options": {
-        "A": "American cattle farmers are earning record profits.",
-        "B": "Although beef prices are high, no one in the supply chain is profiting more.",
-        "C": "The US beef industry is controlled by a small number of processors.",
-        "D": "Drought is the primary cause of rising food prices in the US."
+        "A": "US beef prices have fallen due to a cattle surplus.",
+        "B": "The US government is investigating price-fixing in the beef industry.",
+        "C": "Drought and disease have permanently destroyed the US cattle industry.",
+        "D": "Despite record beef prices, all segments of the supply chain struggle to make extra profit because of rising costs and market limitations."
       },
-      "answer": "B",
+      "answer": "D",
       "evidence_paragraph": 31
     },
     {
       "type": "Detail",
-      "question": "Why is Eric Gropper not making more money despite record prices?",
+      "question": "According to the passage, why is rancher Eric Gropper not making more money despite receiving record prices for his cattle?",
       "options": {
-        "A": "His input costs have declined.",
-        "B": "His operating expenses have climbed to record highs.",
-        "C": "He has reduced his herd size.",
-        "D": "He is selling his cattle too cheaply."
+        "A": "His operational costs, such as for fencing and vehicles, have risen sharply.",
+        "B": "He must pay higher taxes on his increased income.",
+        "C": "He is selling fewer calves because many died from disease.",
+        "D": "The quality of his cattle has declined, lowering their market value."
       },
-      "answer": "B",
+      "answer": "A",
       "evidence_paragraph": 4
     },
     {
       "type": "Inference",
-      "question": "What can be inferred from the situation at Harpley's Meatpacking, which is operating below capacity?",
+      "question": "What can be inferred about the large meatpacking companies?",
       "options": {
-        "A": "It is upgrading its facilities.",
-        "B": "It is planning to switch to chicken processing.",
-        "C": "It is facing a shortage of labor.",
-        "D": "It is losing money on each animal because fixed costs remain unchanged."
+        "A": "They are deliberately reducing output to drive up beef prices.",
+        "B": "Their fixed costs become a burden when plants operate below capacity.",
+        "C": "They have shifted to importing cattle from abroad to cut costs.",
+        "D": "They are lobbying the government to break up the supply chain."
       },
-      "answer": "D",
+      "answer": "C",
       "evidence_paragraph": 23
     },
     {
       "type": "Vocabulary in Context",
-      "question": "In paragraph 31, the phrase 'turning over' is closest in meaning to:",
+      "question": "In paragraph 2, the phrase “run dry” most nearly means:",
       "options": {
-        "A": "flipping upside down",
-        "B": "thinking carefully about",
-        "C": "generating (revenue)",
-        "D": "transferring ownership of"
+        "A": "become polluted",
+        "B": "overflow",
+        "C": "dry up",
+        "D": "be diverted"
       },
       "answer": "C",
-      "evidence_paragraph": 31
+      "evidence_paragraph": 2
     },
     {
       "type": "Author's Attitude",
-      "question": "Which word best describes the author's tone in the article?",
+      "question": "Which word best describes the author’s tone when discussing the financial situation of each player in the beef supply chain?",
       "options": {
-        "A": "Objective",
-        "B": "Sarcastic",
-        "C": "Pessimistic",
-        "D": "Emotional"
+        "A": "Sympathetic",
+        "B": "Analytical",
+        "C": "Indignant",
+        "D": "Optimistic"
       },
-      "answer": "A",
-      "evidence_paragraph": 32
+      "answer": "B",
+      "evidence_paragraph": 31
     },
     {
       "type": "Organization",
-      "question": "How does the author organize the information in the article?",
+      "question": "How does the author structure the information in the passage?",
       "options": {
-        "A": "By comparing the US beef industry with other countries.",
-        "B": "By tracing the beef supply chain and explaining why high prices don't yield high profits.",
-        "C": "By presenting a problem and then proposing a solution.",
-        "D": "By describing the history of US cattle ranching."
+        "A": "By comparing the US beef industry with that of other countries.",
+        "B": "By following the beef supply chain from ranchers to consumers, illustrating why high prices don’t yield high profits.",
+        "C": "By presenting a problem and then offering potential solutions.",
+        "D": "By listing historical data on beef prices over the past decade."
       },
       "answer": "B",
       "evidence_paragraph": 1
     },
     {
       "type": "Title",
-      "question": "Which of the following would be the most appropriate title for the passage?",
+      "question": "Which of the following titles best captures the main message of the article?",
       "options": {
-        "A": "The Struggles of American Ranchers",
-        "B": "Why Beef Prices Are Rising",
-        "C": "The Impact of Drought on US Agriculture",
-        "D": "High Beef Prices, Low Profits: The US Supply Chain Paradox"
+        "A": "The Decline of the American Cattle Industry: Causes and Effects",
+        "B": "How Meatpacking Giants Exploit Farmers and Consumers",
+        "C": "Why Sky-High Beef Prices Aren't Padding Anyone's Wallet",
+        "D": "Drought, Disease, and the Future of US Agriculture"
       },
-      "answer": "D",
-      "evidence_paragraph": 29
+      "answer": "C",
+      "evidence_paragraph": 31
     }
   ],
-  "answer_key": "BBDCABD",
+  "answer_key": "DACCBBC",
   "content_mode": "original-adapt",
   "spec_version": "1.0",
   "sources": [
