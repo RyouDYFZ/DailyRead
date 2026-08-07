@@ -1,0 +1,293 @@
+{
+  "title_en": "High Beef Prices, Low Profits: The US Supply Chain Paradox",
+  "title_zh": "美国牛肉价格高企 供应链各环节利润未增",
+  "summary_zh": "由于干旱和疾病导致美国牛只数量降至1951年以来最低，牛肉价格创下纪录。然而，从牧场主到饲料场、肉类加工商再到餐馆，供应链每个环节都面临成本同步攀升和定价权受限的困境，无人从高价中获取额外利润。这种局面要等到大量新牛进入市场才会改变，而增产过程需要三年。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Business",
+    "Agriculture",
+    "Supply Chain"
+  ],
+  "difficulty": 3,
+  "reading_passage": "These record prices are driven by a simple fact – there are not enough cattle. Due to a combination of drought in many states, and disease pressure, at the start of this year the US had fewer cattle than at any point since 1951., external\n\nGropper is experiencing drought first hand, as the 13 natural wells across his land that provide ground water for his cattle have run dry. He has to use a water tanker instead.\n\nEric Gropper farms his cattle the old-fashioned way - on horseback\n\nDue to the national shortage of cattle, Gropper is getting record prices for his. But unfortunately his costs have equally climbed to new highs.\n\nA new pick-up truck that once cost $40,000 now runs to $100,000. A wooden fence post has gone from about $6 to as much as $19. A quarter-mile roll of barbed wire has doubled, from $60 to $130. Everything he uses day to day, he says, has jumped in price since the Covid pandemic.\n\nAnd with little grass on parched fields – well over 60% of US cattle are now grazing on drought-hit land - farms like his are having to buy in hay, silage and other fodder for their cattle.\n\n\"I'm able to pay my bills, but my input costs are so drastically high that if we didn't have these record prices we'd all be broke. I sit down to do my taxes, and it feels like I made a lot of money. But in the end I really didn't make any more.\"\n\nMost US cattle is sent to feedlots to fatten up before the go to slaughterhouse\n\nGropper's calves don't go straight to slaughter. At around six-months-old they are bought by companies that run feedlots – large yards where the animals are fattened on corn and other grains for the final three to six months of their lives.\n\nThe biggest yards hold well over 100,000 cattle at a time. Around 95% of US cattle are finished this way.\n\nBrenda Boetel, professor of agricultural economics at the University of Wisconsin–River Falls, watches this part of the chain closely.\n\nShe says that while the feedlot companies are currently selling cattle at record prices, they are having to buy them at all-time highs in the first place. So they are not making bigger profits.\n\nThe meatpacking companies generally also portion up the beef\n\nA meatpacker is the plant that slaughters the animal and breaks the carcass down into the cuts that reach shops or restaurants.\n\nFour companies - Tyson, JBS, Cargill and National Beef - control around 85% of American beef processing.\n\nThat high level of market concentration has drawn accusations of price-fixing, even from President Trump.\n\nSo you might expect that those four firms are currently making huge profits from high beef prices. Yet the opposite is happening.\n\nTyson, the biggest of the four, reported in May that it had lost more than $500m, external on beef in the first half of its financial year.\n\nAgain, it might be selling its beef for record highs, but it is also buying the cattle at all-time peaks.\n\nJamie Crumley owns one of the remaining smaller meatpackers - Harpley's Meatpacking in central North Carolina. She says the price companies like hers have to pay for the live animals has gone up by as much as 60% over the past three years.\n\nAnd while meatpacking companies have increased the prices they charge for their beef, there is a limit. This is because supermarkets, restaurants – and US consumers – can, and will, simply switch to buying chicken or cheaper imported beef instead.\n\nThen there is the inefficiency of running the meatpacking plants at much less than full capacity. For example, Harpley's is built to handle 425 to 450 cattle a day. But it is currently running at just 350 because it cannot get the additional animals.\n\nThe building, the line and the staff cost the same either way, so those fixed costs now spread across fewer animals. On any given day Crumley says she can lose anywhere from $100 to $400 on a single head of cattle. This helps to explain Tyson's giant losses.\n\nRestaurants cannot put beef prices up too high for fear that customers won't pay\n\nAt the end of one beef supply chain is Paul and Jessica Urban, who own Block 16, a burger restaurant in Omaha, Nebraska. They go through about 300lb (136kg) of ground beef a week, making 2,800 burgers a month.\n\nWhen Block 16 opened back in 2010, a burger cost $8.95. Today it's $11.95, but profits are limited due to the much higher price of mince.\n\n\"To maximise our profit, maybe we'd have to charge $13 for a burger,\" says Paul. \"Well, we don't feel comfortable doing that. I wouldn't want to walk in here and have to pay $13 for a cheeseburger.\n\n\"So we don't make the profit that we'd like — but you're still getting people through the door, and it's not always about the money.\"\n\nThe rancher is selling calves for record sums, but is not better off because he has higher costs. The feedlot company is selling for all-time high prices, but it also has to pay them in the first place.\n\nThen the packers are losing money because there is a limit to what they can charge. Restaurants and supermarkets also can only increase prices by so much.\n\nEveryone is turning over more money than they used to, but not keeping any of the extra. It's a situation that won't change until significantly more US cattle come to market.\n\nYet as Eric Gropper puts it, you can't conjure a cow overnight. Instead a heifer, a young female cow, needs two years before she is able to produce a calf. And that calf needs another year to reach slaughter weight, so the extra beef takes three years to arrive.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "drought",
+      "ipa": "/draʊt/",
+      "pos": "n.",
+      "meaning_zh": "干旱",
+      "collocations": [
+        "severe drought",
+        "prolonged drought",
+        "drought-affected areas"
+      ],
+      "example": "The severe drought last year caused crop failures across the region."
+    },
+    {
+      "category": "core_word",
+      "word": "parched",
+      "ipa": "/pɑːrtʃt/",
+      "pos": "adj.",
+      "meaning_zh": "干枯的",
+      "collocations": [
+        "parched land",
+        "parched throat",
+        "parched fields"
+      ],
+      "example": "The parched landscape showed no signs of life after months without rain."
+    },
+    {
+      "category": "core_word",
+      "word": "carcass",
+      "ipa": "/ˈkɑːrkəs/",
+      "pos": "n.",
+      "meaning_zh": "（屠宰后的）动物尸体",
+      "collocations": [
+        "animal carcass",
+        "dispose of a carcass",
+        "carcass weight"
+      ],
+      "example": "The workers had to dispose of the animal carcass safely to prevent disease."
+    },
+    {
+      "category": "core_word",
+      "word": "conjure",
+      "ipa": "/ˈkɑːndʒər/",
+      "pos": "v.",
+      "meaning_zh": "变戏法般创造",
+      "collocations": [
+        "conjure up",
+        "conjure an image",
+        "conjure from thin air"
+      ],
+      "example": "The magician seemed to conjure a rabbit from his hat."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "record prices",
+      "ipa": "/ˈrekərd ˈpraɪsɪz/",
+      "pos": "phr.",
+      "meaning_zh": "创纪录的价格",
+      "collocations": [
+        "pay record prices",
+        "hit record prices",
+        "fetch record prices"
+      ],
+      "example": "At the auction, the painting fetched record prices."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "all-time highs",
+      "ipa": "/ˌɔːl taɪm ˈhaɪz/",
+      "pos": "phr.",
+      "meaning_zh": "历史最高点",
+      "collocations": [
+        "reach all-time highs",
+        "stand at all-time highs",
+        "climb to all-time highs"
+      ],
+      "example": "The stock market has reached all-time highs this year."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "supply chain",
+      "ipa": "/səˈplaɪ tʃeɪn/",
+      "pos": "n.",
+      "meaning_zh": "供应链",
+      "collocations": [
+        "disrupt the supply chain",
+        "streamline the supply chain",
+        "global supply chain"
+      ],
+      "example": "The pandemic severely disrupted the global supply chain."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "go through",
+      "ipa": "/ɡoʊ θruː/",
+      "pos": "phr.",
+      "meaning_zh": "消耗，用完",
+      "collocations": [
+        "go through a lot of something",
+        "quickly go through",
+        "go through supplies"
+      ],
+      "example": "Our office goes through a ton of paper every week."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "turn over",
+      "ipa": "/tɜːrn ˈoʊvər/",
+      "pos": "phr.",
+      "meaning_zh": "实现（营业额），周转",
+      "collocations": [
+        "turn over money",
+        "turn over goods",
+        "turn over a profit"
+      ],
+      "example": "The company turns over millions annually."
+    },
+    {
+      "category": "academic_word",
+      "word": "capacity",
+      "ipa": "/kəˈpæsəti/",
+      "pos": "n.",
+      "meaning_zh": "产能，能力",
+      "collocations": [
+        "excess capacity",
+        "full capacity",
+        "production capacity"
+      ],
+      "example": "The factory is operating at full capacity to meet demand."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Due to a combination of drought in many states, and disease pressure, at the start of this year the US had fewer cattle than at any point since 1951.",
+      "explanation_zh": "本句主干为“the US had fewer cattle”，前面有原因状语“Due to...”和时间状语“at the start of this year”，后面跟着比较结构“fewer... than...”，点明数量为1951年以来最低。",
+      "grammar_point": "原因状语 + 时间状语 + 比较结构",
+      "translation_zh": "由于许多州干旱与疫病压力并存，今年年初美国牛只数量降至1951年以来最低。"
+    },
+    {
+      "sentence": "And with little grass on parched fields – well over 60% of US cattle are now grazing on drought-hit land - farms like his are having to buy in hay, silage and other fodder for their cattle.",
+      "explanation_zh": "由“with”引导的独立结构描述背景，破折号内为补充数据，主句“farms... are having to buy...”中“are having to”强调因客观原因被迫采取行动。",
+      "grammar_point": "with复合结构、插入语、现在进行时表义务",
+      "translation_zh": "干旱的草场上牧草稀疏——目前超60%的美国牛只正在受旱土地上放牧——像他这样的农场不得不购买干草、青贮饲料和其他饲草来喂养牲口。"
+    },
+    {
+      "sentence": "Everyone is turning over more money than they used to, but not keeping any of the extra.",
+      "explanation_zh": "主句为并列结构，前一分句含比较“more... than they used to”，后省略“turn over”；后一分句以“but”转折，阐明营业额增加但利润未增。",
+      "grammar_point": "比较状语从句的省略、并列转折",
+      "translation_zh": "每个人的营业额比过去更高，却没有留下任何额外利润。"
+    },
+    {
+      "sentence": "And that calf needs another year to reach slaughter weight, so the extra beef takes three years to arrive.",
+      "explanation_zh": "前一分句用“need... to do”表示需求，后一分句以“so”引出结果，“take... to do”为常见耗时表达。两句共同解释增加供应需时长的逻辑。",
+      "grammar_point": "并列因果（so）、表耗时的固定句式",
+      "translation_zh": "而这头牛犊还需一年才能达到屠宰重量，所以新增的牛肉需要三年才能上市。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "run dry",
+      "meaning_zh": "枯竭；用光",
+      "usage_note": "尤指水源、资源等耗尽",
+      "example": "The village well ran dry after the long drought."
+    },
+    {
+      "expression": "come to market",
+      "meaning_zh": "上市；进入市场",
+      "usage_note": "用于商品、产品等",
+      "example": "The new smartphone will come to market next month."
+    },
+    {
+      "expression": "get people through the door",
+      "meaning_zh": "吸引顾客进店",
+      "usage_note": "常用于商业语境，指招揽顾客",
+      "example": "The store's deep discounts are designed to get people through the door."
+    },
+    {
+      "expression": "not always about the money",
+      "meaning_zh": "不全是关于钱；有时有其他考虑",
+      "usage_note": "表示动机不仅仅是为了经济利益",
+      "example": "He volunteers every weekend; for him, it's not always about the money."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the central message of the article?",
+      "options": {
+        "A": "American cattle farmers are earning record profits.",
+        "B": "Although beef prices are high, no one in the supply chain is profiting more.",
+        "C": "The US beef industry is controlled by a small number of processors.",
+        "D": "Drought is the primary cause of rising food prices in the US."
+      },
+      "answer": "B",
+      "evidence_paragraph": 31
+    },
+    {
+      "type": "Detail",
+      "question": "Why is Eric Gropper not making more money despite record prices?",
+      "options": {
+        "A": "His input costs have declined.",
+        "B": "His operating expenses have climbed to record highs.",
+        "C": "He has reduced his herd size.",
+        "D": "He is selling his cattle too cheaply."
+      },
+      "answer": "B",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the situation at Harpley's Meatpacking, which is operating below capacity?",
+      "options": {
+        "A": "It is upgrading its facilities.",
+        "B": "It is planning to switch to chicken processing.",
+        "C": "It is facing a shortage of labor.",
+        "D": "It is losing money on each animal because fixed costs remain unchanged."
+      },
+      "answer": "D",
+      "evidence_paragraph": 23
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 31, the phrase 'turning over' is closest in meaning to:",
+      "options": {
+        "A": "flipping upside down",
+        "B": "thinking carefully about",
+        "C": "generating (revenue)",
+        "D": "transferring ownership of"
+      },
+      "answer": "C",
+      "evidence_paragraph": 31
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which word best describes the author's tone in the article?",
+      "options": {
+        "A": "Objective",
+        "B": "Sarcastic",
+        "C": "Pessimistic",
+        "D": "Emotional"
+      },
+      "answer": "A",
+      "evidence_paragraph": 32
+    },
+    {
+      "type": "Organization",
+      "question": "How does the author organize the information in the article?",
+      "options": {
+        "A": "By comparing the US beef industry with other countries.",
+        "B": "By tracing the beef supply chain and explaining why high prices don't yield high profits.",
+        "C": "By presenting a problem and then proposing a solution.",
+        "D": "By describing the history of US cattle ranching."
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the most appropriate title for the passage?",
+      "options": {
+        "A": "The Struggles of American Ranchers",
+        "B": "Why Beef Prices Are Rising",
+        "C": "The Impact of Drought on US Agriculture",
+        "D": "High Beef Prices, Low Profits: The US Supply Chain Paradox"
+      },
+      "answer": "D",
+      "evidence_paragraph": 29
+    }
+  ],
+  "answer_key": "BBDCABD",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "US beef prices have soared but farmers aren't making more money",
+      "url": "https://www.bbc.co.uk/news/articles/cdrv0k0j662o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
