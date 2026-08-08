@@ -1,0 +1,286 @@
+{
+  "title_en": "Bald Eagle Live-Stream Favorite Diagnosed with Anaemia",
+  "title_zh": "秃鹰直播明星被诊断患贫血症",
+  "summary_zh": "一只因在加利福尼亚州鸟巢直播中担任主角而全球闻名的秃鹰已被诊断出贫血症。该消息已由其直播项目的关注者确认，引发对这只鸟类健康状况的担忧。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Environment",
+    "Wildlife"
+  ],
+  "difficulty": 5,
+  "reading_passage": "The bald eagle, who has gained worldwide fame as the protagonist of a nest live-stream in California, has been diagnosed with anaemia.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "bald eagle",
+      "ipa": "/bɔːld ˈiːɡəl/",
+      "pos": "n.",
+      "meaning_zh": "白头鹰，秃鹰",
+      "collocations": [
+        "a bald eagle nest",
+        "the bald eagle population",
+        "a juvenile bald eagle"
+      ],
+      "example": "The bald eagle soared high above the lake, scanning for fish."
+    },
+    {
+      "category": "core_word",
+      "word": "fame",
+      "ipa": "/feɪm/",
+      "pos": "n.",
+      "meaning_zh": "名声，声誉",
+      "collocations": [
+        "achieve fame",
+        "rise to fame",
+        "international fame"
+      ],
+      "example": "Her invention brought her sudden fame and recognition worldwide."
+    },
+    {
+      "category": "core_word",
+      "word": "diagnose",
+      "ipa": "/ˌdaɪəɡˈnoʊz/",
+      "pos": "v.",
+      "meaning_zh": "诊断（疾病）；判断（问题）",
+      "collocations": [
+        "diagnose a disease",
+        "diagnose a problem",
+        "correctly diagnose"
+      ],
+      "example": "The doctor was able to diagnose the rare condition after running several tests."
+    },
+    {
+      "category": "core_word",
+      "word": "anaemia",
+      "ipa": "/əˈniːmiə/",
+      "pos": "n.",
+      "meaning_zh": "贫血症",
+      "collocations": [
+        "suffer from anaemia",
+        "severe anaemia",
+        "symptoms of anaemia"
+      ],
+      "example": "The patient was treated for anaemia caused by iron deficiency."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "worldwide fame",
+      "ipa": "/ˈwɜːrldwaɪd feɪm/",
+      "pos": "phr.",
+      "meaning_zh": "全球声誉",
+      "collocations": [
+        "achieve worldwide fame",
+        "enjoy worldwide fame",
+        "gain worldwide fame"
+      ],
+      "example": "The invention brought the scientist worldwide fame almost overnight."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "nest live-stream",
+      "ipa": "/nɛst ˈlaɪv striːm/",
+      "pos": "phr.",
+      "meaning_zh": "鸟巢直播",
+      "collocations": [
+        "watch a nest live-stream",
+        "set up a nest live-stream",
+        "popular nest live-stream"
+      ],
+      "example": "Thousands of viewers tuned in to the nest live-stream to see the eggs hatch."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "diagnosed with",
+      "ipa": "/ˌdaɪəɡˈnoʊzd wɪð/",
+      "pos": "phr.",
+      "meaning_zh": "被诊断为（某种疾病）",
+      "collocations": [
+        "be diagnosed with cancer",
+        "newly diagnosed with",
+        "diagnosed with a condition"
+      ],
+      "example": "She was diagnosed with type 2 diabetes and immediately changed her diet."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "gain fame",
+      "ipa": "/ɡeɪn feɪm/",
+      "pos": "phr.",
+      "meaning_zh": "获得名声，成名",
+      "collocations": [
+        "gain fame as",
+        "quickly gain fame",
+        "gain international fame"
+      ],
+      "example": "The actor gained fame for her role in the independent film."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "diagnose with",
+      "ipa": "/ˌdaɪəɡˈnoʊz wɪð/",
+      "pos": "phr.",
+      "meaning_zh": "诊断出（某种疾病）",
+      "collocations": [
+        "diagnose someone with",
+        "newly diagnose with",
+        "diagnose with a disease"
+      ],
+      "example": "The vet diagnosed the cat with a rare infection."
+    },
+    {
+      "category": "academic_word",
+      "word": "protagonist",
+      "ipa": "/prəˈtæɡənɪst/",
+      "pos": "n.",
+      "meaning_zh": "主角，主要人物；倡导者",
+      "collocations": [
+        "the main protagonist",
+        "a key protagonist in",
+        "play the protagonist"
+      ],
+      "example": "The scientist became a protagonist in the public debate on climate change policy."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "The bald eagle, who has gained worldwide fame as the protagonist of a nest live-stream in California, has been diagnosed with anaemia.",
+      "explanation_zh": "本句包含一个非限制性定语从句“who has gained...California”，用于补充说明秃鹰的背景信息；主句为“The bald eagle has been diagnosed with anaemia”。非限制性从句通常用逗号隔开，关系代词who指代先行词eagle，提供附加信息。",
+      "grammar_point": "非限制性定语从句",
+      "translation_zh": "那只因作为加利福尼亚一个鸟巢直播的主角而在全球成名的秃鹰，已被诊断出贫血症。"
+    },
+    {
+      "sentence": "The bald eagle, who has gained worldwide fame as the protagonist of a nest live-stream in California, has been diagnosed with anaemia.",
+      "explanation_zh": "从句和主句均使用现在完成时（has gained, has been diagnosed），强调动作发生在过去但对现在有影响或与现在相关——秃鹰的成名是持续至今的状态，诊断结果则是刚刚得知。",
+      "grammar_point": "现在完成时",
+      "translation_zh": "那只因作为加利福尼亚一个鸟巢直播的主角而在全球成名的秃鹰，已被诊断出贫血症。"
+    },
+    {
+      "sentence": "The bald eagle, who has gained worldwide fame as the protagonist of a nest live-stream in California, has been diagnosed with anaemia.",
+      "explanation_zh": "主句为被动语态“has been diagnosed with anaemia”，表示秃鹰是承受诊断行为的对象，施动者（兽医等）未提及，这是新闻英语中常见的句式，以突出事件主体。",
+      "grammar_point": "被动语态",
+      "translation_zh": "那只因作为加利福尼亚一个鸟巢直播的主角而在全球成名的秃鹰，已被诊断出贫血症。"
+    },
+    {
+      "sentence": "The bald eagle, who has gained worldwide fame as the protagonist of a nest live-stream in California, has been diagnosed with anaemia.",
+      "explanation_zh": "介词短语“as the protagonist of a nest live-stream”作状语，说明秃鹰以何种身份或角色出名。`as` 表示“作为”，引导身份说明。",
+      "grammar_point": "介词短语表示身份",
+      "translation_zh": "那只因作为加利福尼亚一个鸟巢直播的主角而在全球成名的秃鹰，已被诊断出贫血症。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "gain worldwide fame",
+      "meaning_zh": "名声大噪，全球闻名",
+      "usage_note": "常用于描述个人、地点或事物突然获得国际关注，较正式，多用于新闻报道。",
+      "example": "The small town gained worldwide fame after the film was released."
+    },
+    {
+      "expression": "as the protagonist",
+      "meaning_zh": "以主角身份；作为主要角色",
+      "usage_note": "多用于叙事或报道中，指某人处于事件中心，可比喻非虚构情境。",
+      "example": "The journalist found herself as the protagonist of a controversy she was covering."
+    },
+    {
+      "expression": "be diagnosed with",
+      "meaning_zh": "被诊断为（疾病）",
+      "usage_note": "医学语境中的固定搭配，后接疾病名称，被动形式常见。",
+      "example": "After several tests, he was diagnosed with a rare lung condition."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What does the passage mainly discuss?",
+      "options": {
+        "A": "The popularity of live-streaming wild animals.",
+        "B": "The geography of California's bald eagles.",
+        "C": "The history of bald eagle conservation.",
+        "D": "The medical condition of a popular live-stream eagle."
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "What specific illness was the eagle diagnosed with?",
+      "options": {
+        "A": "Cancer",
+        "B": "Malaria",
+        "C": "Anaemia",
+        "D": "Obesity"
+      },
+      "answer": "C",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the passage?",
+      "options": {
+        "A": "The eagle became famous because of its role in a live-stream.",
+        "B": "The eagle's fame resulted directly from its medical condition.",
+        "C": "The eagle will likely be removed from the wild.",
+        "D": "The live-stream was set up to monitor the eagle's health."
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "The word \"protagonist\" is closest in meaning to:",
+      "options": {
+        "A": "hunter",
+        "B": "main character",
+        "C": "victim",
+        "D": "observer"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "What is the author's tone?",
+      "options": {
+        "A": "Critical",
+        "B": "Informative",
+        "C": "Celebratory",
+        "D": "Sarcastic"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Organization",
+      "question": "How does the author structure the sentence?",
+      "options": {
+        "A": "Cause and effect",
+        "B": "Presenting background followed by current event",
+        "C": "Chronological order",
+        "D": "Comparing two eagles"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following could be the best title?",
+      "options": {
+        "A": "A Famous Bald Eagle's Health Crisis",
+        "B": "The Dangers of Live-Streaming",
+        "C": "How to Diagnose Anaemia in Birds",
+        "D": "The History of Eagle Nests in California"
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "DCABBBA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Where is Jackie? Beloved live cam eagle in critical condition",
+      "url": "https://www.bbc.co.uk/news/videos/c2el1dz7ge9o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
