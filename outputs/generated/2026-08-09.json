@@ -1,0 +1,286 @@
+{
+  "title_en": "Sunshine to Meal Times: How to Beat Jet Lag",
+  "title_zh": "阳光、进食与作息：战胜时差的科学指南",
+  "summary_zh": "时差反应是由于快速跨越时区导致体内生物钟与目的地时间不同步而引起的睡眠紊乱、注意力下降等问题。文章解释向东旅行时差更难调整，因为人体内在周期略长于24小时。缓解方法包括合理利用阳光、白天运动、按时进餐、谨慎使用褪黑素，以及保持良好睡眠习惯。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Medicine",
+    "Circadian Rhythms",
+    "Travel Health"
+  ],
+  "difficulty": 5,
+  "reading_passage": "Many will have experienced it – that feeling at 3pm when all you want to do is go to bed and sleep like a log.\n\nOr, finding yourself wide awake at 3am, brain whirring and no prospect of sleep.\n\nJet lag - the world's most annoying holiday souvenir – is the price we pay for flying off around the globe on travels or holidays.\n\nSo how does it work, and what can you do about it?\n\nJet lag is what you feel when local time changes abruptly, but your body clock is playing catch up, says Dr Nina Rzechorzek, who leads research at the University of Cambridge on human brain temperature, sleep, and circadian rhythms.\n\n\"After rapid travel across several time zones, your internal biological time initially stays aligned with home while you are trying to sleep, eat, and function on destination time.\n\n\"That mismatch can cause disturbed sleep, daytime sleepiness, poor concentration, irritability, reduced performance, and digestive problems,\" she says.\n\nAnd jet lag is closely linked to what are called our circadian rhythms – the body's internal body clock.\n\n\"Almost all the cells in our body maintain their own 24-hour clock, which are synchronised by a master clock in the brain,\" explains Dr Anna Edmondson, of the Laboratory of Molecular Biology in Cambridge.\n\n\"The master clock is set to environmental timing cues, one of the most important cues being daily cycles in sunlight and darkness. However, if the timing of the sunlight/darkness cycles suddenly change (you fly far east or west), then it takes several days for the master clock to adjust to the new time, leading to jet lag.\n\n\"So effectively, it's like your body is still stuck in the timezone of where you've just flown from.\"\n\nThe direction of travel also makes a difference, says Rzechorzek.\n\n\"Travelling east is often harder, because most people find it easier to shift their clock later than earlier. That quirk is partly because the average human internal cycle is slightly longer than 24 hours, giving us a modest natural bias towards delaying rather than advancing our timing.\"\n\nWell the bad news is there's no cure, but it is possible to mitigate it.\n\n\"There are many ways to set the clock that we can control, including light, food, and exercise,\" says Dr Tatiana Wilson, another circadian researcher at Newnham College, Cambridge University.\n\nLight in the morning sets your clock earlier, light in the evening makes you stay awake later - use this to expose yourself to natural light at the correct time\n\nExercise like walking during the day will also reinforce your new time zone. Indoor light is much dimmer than natural light, even on a cloudy day, so try to go outside at the correct time of day to set your clock\n\nEat during the day and avoid food at night several hours before bed. Eating late at night can push back the release of the hormone melatonin, which helps to make us feel sleepy\n\nSome people swear by sleep aids like melatonin, but Edmondson says it is a prescription drug in the UK and to only use it if prescribed by a healthcare professional\n\nWilson says even if you can buy melatonin over the counter when you reach your destination, you may not know quite what you're getting. \"The dose in the supplements can vary significantly from what is stated on the packaging,\" she says\n\nTry to go to bed at your desired time and practise good sleep hygiene - keep light levels low before bed, make sure your room is dark and cool, and practise your usual bedtime routine\n\nHave you been affected by issues discussed in this story?",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "experience",
+      "ipa": "/ɪkˈspɪə.ri.əns/",
+      "pos": "v.",
+      "meaning_zh": "经历",
+      "collocations": [
+        "experience symptoms",
+        "experience pain",
+        "experience a change"
+      ],
+      "example": "Many travelers experience jet lag after long-haul flights."
+    },
+    {
+      "category": "core_word",
+      "word": "abrupt",
+      "ipa": "/əˈbrʌpt/",
+      "pos": "adj.",
+      "meaning_zh": "突然的",
+      "collocations": [
+        "abrupt change",
+        "abrupt end",
+        "abrupt halt"
+      ],
+      "example": "The abrupt shift in temperature caused the plants to wilt."
+    },
+    {
+      "category": "core_word",
+      "word": "synchronise",
+      "ipa": "/ˈsɪŋ.krə.naɪz/",
+      "pos": "v.",
+      "meaning_zh": "同步",
+      "collocations": [
+        "synchronise watches",
+        "synchronise data",
+        "synchronise clocks"
+      ],
+      "example": "The team members synchronised their schedules before the meeting."
+    },
+    {
+      "category": "core_word",
+      "word": "mitigate",
+      "ipa": "/ˈmɪt.ɪ.ɡeɪt/",
+      "pos": "v.",
+      "meaning_zh": "减轻",
+      "collocations": [
+        "mitigate effects",
+        "mitigate risks",
+        "mitigate damage"
+      ],
+      "example": "Planting trees helps mitigate the impact of carbon emissions."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "body clock",
+      "ipa": "/ˈbɒd.i klɒk/",
+      "pos": "phr.",
+      "meaning_zh": "生物钟",
+      "collocations": [
+        "reset body clock",
+        "disrupt body clock",
+        "internal body clock"
+      ],
+      "example": "Shift workers often struggle to adjust their body clock to irregular hours."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "play catch up",
+      "ipa": "/pleɪ kætʃ ʌp/",
+      "pos": "phr.",
+      "meaning_zh": "追赶",
+      "collocations": [
+        "play catch up with work",
+        "play catch up on sleep"
+      ],
+      "example": "After the vacation, she had to play catch up with her emails."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "make a difference",
+      "ipa": "/meɪk ə ˈdɪf.ər.əns/",
+      "pos": "phr.",
+      "meaning_zh": "有影响",
+      "collocations": [
+        "make a real difference",
+        "make a big difference",
+        "make little difference"
+      ],
+      "example": "Regular exercise can make a significant difference to your overall health."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "swear by",
+      "ipa": "/sweər baɪ/",
+      "pos": "phr.",
+      "meaning_zh": "极其信赖",
+      "collocations": [
+        "swear by a remedy",
+        "swear by a product",
+        "swear by a method"
+      ],
+      "example": "My grandmother swears by this herbal tea for a good night's sleep."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "push back",
+      "ipa": "/pʊʃ bæk/",
+      "pos": "phr.",
+      "meaning_zh": "推迟",
+      "collocations": [
+        "push back a deadline",
+        "push back a meeting",
+        "push back a release"
+      ],
+      "example": "The company decided to push back the product launch to next month."
+    },
+    {
+      "category": "academic_word",
+      "word": "circadian",
+      "ipa": "/sɜːˈkeɪ.di.ən/",
+      "pos": "adj.",
+      "meaning_zh": "昼夜节律的",
+      "collocations": [
+        "circadian rhythm",
+        "circadian clock",
+        "circadian cycle"
+      ],
+      "example": "Circadian rhythms regulate many physiological processes in the body."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Jet lag is what you feel when local time changes abruptly, but your body clock is playing catch up, says Dr Nina Rzechorzek, who leads research at the University of Cambridge on human brain temperature, sleep, and circadian rhythms.",
+      "explanation_zh": "本句包含宾语从句、时间状语从句、并列句和非限制性定语从句。‘Jet lag is what you feel’ 为主句，其中 ‘what you feel’ 是表语从句；‘when local time changes abruptly’ 是时间状语从句；‘but your body clock is playing catch up’ 与前一分句并列；‘says Dr Nina Rzechorzek’ 是插入的报道句；‘who leads…’ 是非限制性定语从句修饰医生。",
+      "grammar_point": "表语从句、时间状语从句、并列句与非限制性定语从句的综合运用",
+      "translation_zh": "妮娜·热乔切克博士说，时差就是当当地时间突然改变而你感到身体时钟还在追赶时的那种感觉；她在剑桥大学领导人类大脑温度、睡眠和昼夜节律的研究。"
+    },
+    {
+      "sentence": "The master clock is set to environmental timing cues, one of the most important cues being daily cycles in sunlight and darkness.",
+      "explanation_zh": "本句使用了独立主格结构 ‘one of the most important cues being...’，对前面的 ‘environmental timing cues’ 进行补充说明，相当于一个伴随状语。",
+      "grammar_point": "独立主格结构（名词+现在分词）作补充说明",
+      "translation_zh": "主时钟根据环境时间信号进行设置，其中最重要的信号之一就是每日的阳光和黑暗循环。"
+    },
+    {
+      "sentence": "That quirk is partly because the average human internal cycle is slightly longer than 24 hours, giving us a modest natural bias towards delaying rather than advancing our timing.",
+      "explanation_zh": "此句先以 ‘because’ 引导表语从句说明原因，然后用现在分词短语 ‘giving us…’ 作结果状语，表明这种生理周期略长的特性所带来的自然倾向。",
+      "grammar_point": "表语从句与现在分词短语作结果状语",
+      "translation_zh": "这种怪癖部分是因为人类平均的内在周期略长于24小时，这使我们有轻微的自然倾向去延迟而非提早我们的时间。"
+    },
+    {
+      "sentence": "Eating late at night can push back the release of the hormone melatonin, which helps to make us feel sleepy.",
+      "explanation_zh": "句中动名词短语 ‘Eating late at night’ 作主语，谓语为 ‘can push back’；‘which helps…’ 为非限制性定语从句，修饰先行词 ‘melatonin’，补充说明褪黑激素的功能。",
+      "grammar_point": "动名词作主语与非限制性定语从句",
+      "translation_zh": "深夜进食会推迟褪黑激素的释放，而褪黑激素有助于让我们感到困倦。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "sleep like a log",
+      "meaning_zh": "睡得很沉",
+      "usage_note": "非正式用语，用于形容无中断的深度睡眠。",
+      "example": "After the long hike, I slept like a log."
+    },
+    {
+      "expression": "wide awake",
+      "meaning_zh": "完全清醒",
+      "usage_note": "固定搭配，指人毫无睡意、异常清醒的状态。",
+      "example": "Despite being tired, she lay in bed wide awake."
+    },
+    {
+      "expression": "the price we pay",
+      "meaning_zh": "付出的代价",
+      "usage_note": "用于指因享受某事物或便利而不得不承受的负面后果。",
+      "example": "Traffic jams are the price we pay for living in a big city."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the central message of the passage?",
+      "options": {
+        "A": "Jet lag is a minor inconvenience that most people overstate.",
+        "B": "Jet lag results from a mismatch between the body clock and local time, and can be mitigated through behavioral adjustments.",
+        "C": "The causes of jet lag are still shrouded in mystery.",
+        "D": "Taking melatonin supplements is the only proven way to combat jet lag."
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Detail",
+      "question": "Which symptom of jet lag is mentioned in the first paragraph?",
+      "options": {
+        "A": "A strong urge to sleep at 3pm",
+        "B": "Digestive problems",
+        "C": "Poor concentration",
+        "D": "Irritability"
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the description in paragraph 2?",
+      "options": {
+        "A": "The author believes jet lag is a rare occurrence.",
+        "B": "Many people can relate to the feeling of being awake at night due to jet lag.",
+        "C": "Jet lag mainly affects people in the afternoon.",
+        "D": "The experience of jet lag is presented as a scientific puzzle."
+      },
+      "answer": "B",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "The phrase 'push back' in paragraph 18 most closely means:",
+      "options": {
+        "A": "eliminate",
+        "B": "intensify",
+        "C": "delay",
+        "D": "bring forward"
+      },
+      "answer": "C",
+      "evidence_paragraph": 18
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "The author's tone throughout the passage can be described as:",
+      "options": {
+        "A": "alarmist and urgent",
+        "B": "dismissive and humorous",
+        "C": "engaging and informative",
+        "D": "skeptical and critical"
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Organization",
+      "question": "How is the passage organized?",
+      "options": {
+        "A": "It describes only the symptoms of jet lag without offering solutions.",
+        "B": "It lists historical facts about jet lag before discussing modern treatments.",
+        "C": "It presents a problem, explains the underlying science, and then suggests practical ways to alleviate it.",
+        "D": "It compares the effects of jet lag on different age groups."
+      },
+      "answer": "C",
+      "evidence_paragraph": 21
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following best captures the main heading of the passage?",
+      "options": {
+        "A": "Sunshine to Mealtimes: How to Beat Jet Lag",
+        "B": "The History of Circadian Research",
+        "C": "Why Jet Lag Affects Only Eastward Travel",
+        "D": "Melatonin: The Magic Pill for Sleep"
+      },
+      "answer": "A",
+      "evidence_paragraph": 3
+    }
+  ],
+  "answer_key": "BABCCCA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Sunshine to meal times: How to beat jet lag",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj846q2veo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
