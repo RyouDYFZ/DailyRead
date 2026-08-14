@@ -1,0 +1,286 @@
+{
+  "title_en": "Breast Cancer Warning Signs and Self-Check Guidance",
+  "title_zh": "乳腺癌警示信号与自查指南",
+  "summary_zh": "女演员露西·戴维斯公开表示自己患有无法治愈的乳腺癌，并已扩散至骨骼。她回忆最初摸到的并非典型肿块，而是一个很小的硬点。文章随后引用英国国家医疗服务体系的建议，列出乳房或胸部的异常迹象、每月自查方法以及需要就医的情况。该案例提醒公众，乳腺癌征兆可能并不典型，了解和自查自身变化有助于早期发现。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Medicine",
+    "Public Health"
+  ],
+  "difficulty": 5,
+  "reading_passage": "Signs of breast cancer are not always a lump in the traditional sense, so what should you look for?\n\nActress Lucy Davis, who played Dawn Tinsley in the original UK version of the popular TV series The Office, has revealed she has incurable breast cancer.\n\nOn Instagram, external, the 53-year-old said it had spread to her bones and it was too late for chemo.\n\nShe added: \"The initial lump that I felt, wasn't a 'lump' as such; rather a kind of hard spot. Really tiny.\"\n\nThe NHS says to check your breasts, external or chest about once a month.\n\nThat helps you learn what looks and feels normal for you, making it easier to notice any abnormal changes.\n\nBreasts can naturally look and feel a bit different at different phases of your menstrual cycle, and change a bit as you age.\n\na lump or swelling in your breast, chest or armpit\n\na change in the skin of your breast, such as dimpling (it may look like orange peel) or redness, which may be harder to see on black or brown skin\n\na change in size or shape of one or both breasts, or either side of your chest – it's common for breasts to be different sizes, but check for any changes that are not normal for you\n\nnipple discharge (if you're not pregnant or breastfeeding), which may have blood in it\n\na change in the shape or look of your nipple, such as it turning inwards (inverted nipple) or a rash appearing on it (it may look like eczema)\n\nLook at your breasts or chest in a mirror to look for any changes. Start with your arms by your sides and then raise them up.\n\nFeel around each breast or side of your chest in a circular motion all the way up to your collarbone and under each armpit. Use a mix of light and firmer pressure. Do not press so hard it hurts.\n\nyou have a lump or swelling in your breast, chest or armpit\n\nyou have any changes in your breasts, chest or nipples that are not normal for you\n\nyou have pain in your breast or armpit that does not go away\n\nThe Office actress Lucy Davis says she has 'incurable' cancer\n\nBreast cancer checks missing most women under 50 who are at risk, says study",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "incurable",
+      "ipa": "/ɪnˈkjʊərəbl/",
+      "pos": "adj.",
+      "meaning_zh": "无法治愈的",
+      "collocations": [
+        "incurable cancer",
+        "incurable disease",
+        "incurable condition"
+      ],
+      "example": "The scan showed an incurable but treatable condition."
+    },
+    {
+      "category": "core_word",
+      "word": "lump",
+      "ipa": "/lʌmp/",
+      "pos": "n.",
+      "meaning_zh": "肿块",
+      "collocations": [
+        "breast lump",
+        "feel a lump",
+        "lump or swelling"
+      ],
+      "example": "She asked her doctor to examine a small lump under her arm."
+    },
+    {
+      "category": "core_word",
+      "word": "swelling",
+      "ipa": "/ˈswelɪŋ/",
+      "pos": "n.",
+      "meaning_zh": "肿胀；隆起",
+      "collocations": [
+        "breast swelling",
+        "reduce swelling",
+        "painful swelling"
+      ],
+      "example": "Persistent swelling in the armpit should be checked by a clinician."
+    },
+    {
+      "category": "core_word",
+      "word": "discharge",
+      "ipa": "/ˈdɪstʃɑːdʒ/",
+      "pos": "n.",
+      "meaning_zh": "分泌物；排出物",
+      "collocations": [
+        "nipple discharge",
+        "abnormal discharge",
+        "bloody discharge"
+      ],
+      "example": "Bloody nipple discharge needs prompt medical assessment."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "too late for",
+      "ipa": "/tuː leɪt fɔːr/",
+      "pos": "phr.",
+      "meaning_zh": "对……来说太晚；来不及",
+      "collocations": [
+        "too late for treatment",
+        "too late for chemo",
+        "too late for intervention"
+      ],
+      "example": "It was not too late for surgery, but the team ordered more scans."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "once a month",
+      "ipa": "/wʌns ə mʌnθ/",
+      "pos": "phr.",
+      "meaning_zh": "每月一次",
+      "collocations": [
+        "check once a month",
+        "meet once a month",
+        "pay once a month"
+      ],
+      "example": "Patients are advised to perform a skin check once a month."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "at risk",
+      "ipa": "/æt rɪsk/",
+      "pos": "phr.",
+      "meaning_zh": "处于危险中；有风险",
+      "collocations": [
+        "women at risk",
+        "patients at risk",
+        "groups at risk"
+      ],
+      "example": "The trial enrolled younger women at risk of hereditary cancer."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "look for",
+      "ipa": "/lʊk fɔːr/",
+      "pos": "phr.",
+      "meaning_zh": "寻找；留意",
+      "collocations": [
+        "look for changes",
+        "look for signs",
+        "look for lumps"
+      ],
+      "example": "She checked her skin carefully to look for new moles."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "feel around",
+      "ipa": "/fiːl əˈraʊnd/",
+      "pos": "phr.",
+      "meaning_zh": "触摸寻找；摸索",
+      "collocations": [
+        "feel around the breast",
+        "feel around for a lump",
+        "feel around gently"
+      ],
+      "example": "The nurse showed her how to feel around the collarbone area."
+    },
+    {
+      "category": "academic_word",
+      "word": "initial",
+      "ipa": "/ɪˈnɪʃəl/",
+      "pos": "adj.",
+      "meaning_zh": "最初的；开始的",
+      "collocations": [
+        "initial lump",
+        "initial assessment",
+        "initial symptoms"
+      ],
+      "example": "The initial examination found no visible rash or swelling."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Signs of breast cancer are not always a lump in the traditional sense, so what should you look for?",
+      "explanation_zh": "主句是否定判断句，`in the traditional sense` 作状语限定“肿块”的理解；`so` 引出结果性提问，`what should you look for` 是特殊疑问句，用 `should` 表达建议。",
+      "grammar_point": "否定句 + 介词短语作状语；so 引导结果分句；wh-疑问句",
+      "translation_zh": "乳腺癌的迹象并不总是传统意义上的肿块，那么你应该留意什么？"
+    },
+    {
+      "sentence": "Actress Lucy Davis, who played Dawn Tinsley in the original UK version of the popular TV series The Office, has revealed she has incurable breast cancer.",
+      "explanation_zh": "主句为 `Actress Lucy Davis has revealed`，`who` 引导非限制性定语从句补充身份信息，`revealed` 后接省略 `that` 的宾语从句。",
+      "grammar_point": "非限制性定语从句；省略 that 的宾语从句",
+      "translation_zh": "女演员露西·戴维斯曾出演英国原版热门电视剧《办公室》中的唐·廷斯利，她透露自己患有无法治愈的乳腺癌。"
+    },
+    {
+      "sentence": "That helps you learn what looks and feels normal for you, making it easier to notice any abnormal changes.",
+      "explanation_zh": "主句为 `That helps you learn`，`what looks and feels normal for you` 作 `learn` 的宾语从句，`making` 现在分词短语作结果状语，表示前句动作产生的后果。",
+      "grammar_point": "wh-宾语从句；现在分词短语作结果状语",
+      "translation_zh": "这有助于你了解自己正常的外观和触感，从而更容易发现任何异常变化。"
+    },
+    {
+      "sentence": "Feel around each breast or side of your chest in a circular motion all the way up to your collarbone and under each armpit.",
+      "explanation_zh": "祈使句以 `feel` 开头，`around each breast or side of your chest` 表示检查范围，`in a circular motion` 说明方式，`all the way up to... and under...` 是介词短语补充具体位置。",
+      "grammar_point": "祈使句；方式状语；并列介词短语表空间范围",
+      "translation_zh": "以画圈的方式触摸每侧乳房或胸部侧面，一直向上到锁骨，并包括每侧腋下。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "in the traditional sense",
+      "meaning_zh": "传统意义上；按照通常的理解",
+      "usage_note": "常用于指出某概念并不符合人们通常的理解，语气中性，常见于说明文和医学语境。",
+      "example": "The test result was not a failure in the traditional sense, but it did not meet the expected standard."
+    },
+    {
+      "expression": "as such",
+      "meaning_zh": "严格来说；本身",
+      "usage_note": "用于对先前说法进行修正或限定，常放在否定词后，正式程度中等。",
+      "example": "The lesion was not a cyst as such, but a small fluid-filled area."
+    },
+    {
+      "expression": "not normal for you",
+      "meaning_zh": "对你来说不正常；与个人常态不同",
+      "usage_note": "在健康检查语境中强调以个人基线为参照，而非与他人比较。",
+      "example": "Contact a doctor if you notice any breast change that is not normal for you."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main purpose of the passage?",
+      "options": {
+        "A": "To outline breast cancer warning signs and self-check steps.",
+        "B": "To trace Lucy Davis's acting career and her rise to fame.",
+        "C": "To explain how breast cancer spreads to the bones.",
+        "D": "To argue that chemotherapy is no longer useful for breast cancer."
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "What did Lucy Davis say about her condition on Instagram?",
+      "options": {
+        "A": "It was found early and was easy to treat.",
+        "B": "It had spread to her bones and was too late for chemotherapy.",
+        "C": "She had no symptoms before the diagnosis.",
+        "D": "She planned to start chemotherapy the following week."
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from Lucy Davis's description of the initial lump as 'a kind of hard spot'?",
+      "options": {
+        "A": "It was visible on the skin as a rash.",
+        "B": "It was subtle and not a classic lump.",
+        "C": "It was an unusual and easily noticed mass.",
+        "D": "It caused constant pain."
+      },
+      "answer": "B",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In the phrase 'wasn't a \"lump\" as such', the expression 'as such' most nearly means:",
+      "options": {
+        "A": "as a result",
+        "B": "on the contrary",
+        "C": "similarly",
+        "D": "in the strict sense"
+      },
+      "answer": "D",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "The tone of the final study note can best be described as:",
+      "options": {
+        "A": "harshly critical of breast cancer patients",
+        "B": "neutral and research-based",
+        "C": "emotionally charged and personal",
+        "D": "dismissive of screening programmes"
+      },
+      "answer": "B",
+      "evidence_paragraph": 19
+    },
+    {
+      "type": "Organization",
+      "question": "The sentence 'The NHS says to check your breasts or chest about once a month' functions mainly to:",
+      "options": {
+        "A": "provide a contrast with the previous paragraph",
+        "B": "give a personal anecdote from the actress",
+        "C": "introduce official guidance on self-checks",
+        "D": "conclude the medical evidence"
+      },
+      "answer": "C",
+      "evidence_paragraph": 5
+    },
+    {
+      "type": "Title",
+      "question": "Which title best captures the passage as a whole?",
+      "options": {
+        "A": "Breast Cancer Signs, Self-Checks, and Screening Gaps",
+        "B": "Lucy Davis and Her Success in The Office",
+        "C": "How Cancer Spreads from the Breast to the Bones",
+        "D": "The NHS Guidelines on Chemotherapy"
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    }
+  ],
+  "answer_key": "ABBDBCA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Lucy Davis urges women to check their breasts for cancer - here's how",
+      "url": "https://www.bbc.co.uk/news/articles/cj03p2jpdd4o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
