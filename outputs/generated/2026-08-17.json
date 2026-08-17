@@ -1,0 +1,293 @@
+{
+  "title_en": "Korean Market Swings Leave Personal Investors with Heavy Losses",
+  "title_zh": "韩国股市剧烈震荡令个人投资者损失惨重",
+  "summary_zh": "韩国以科技股为主的 `Kospi` 指数在人工智能热潮推动下年内大幅上涨，随后又在6月至8月间出现历史性回调，许多个人投资者因此遭受重大损失。报道引述多位散户投资者，他们在 `SK Hynix`、三星等股票上投入大量积蓄或动用杠杆，部分人面临追加保证金通知；分析师指出，此次下跌与市场对 `AI` 相关支出的担忧有关，并推高了对高杠杆和高度集中持仓的警告。该事件也引发外界对日本等科技股占比较高市场同步波动的关注，并提醒投资者分散资产的重要性。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Business",
+    "Finance",
+    "Markets"
+  ],
+  "difficulty": 4,
+  "reading_passage": "Many of his friends are worse off, and now in a \"desperate\" situation after \"going all in\" with their savings, he says.\n\nWhile plenty of investors are piling into technology stocks, sharp market swings mean the bets don't always pay off, with prices often moving on every major headline.\n\nNowhere is that instability more pronounced than in South Korea's tech-heavy Kospi, widely regarded as the world's most volatile stock index.\n\nA global frenzy around artificial intelligence has driven wild swings in the value of the country's biggest chipmakers.\n\nThe Kospi faced \"one of the sharpest corrections\" in its history between June and August, comparable to the drops seen during Covid-19 and the 1997 Asian financial crisis, says Wee Khoon Chong from financial services company BNY.\n\nThe index more than doubled its value since the start of the year to rise above 9,000 points in mid-June, before plunging to 5,500 within a few weeks. It has now recovered some ground to about 6,800 points.\n\nA key reason for the sell-off in recent weeks has been concerns over the huge amounts of money being spent on AI, Chong adds.\n\nThe slump has had a big impact on many of the country's personal investors who bought tech stocks over the past year.\n\nFor Woongsa Kim, a look at his shares trading app is a painful reminder of what he had made then lost by investing in the South Korean stock market.\n\nAt the start of the year, he used about half of a bonus from work to buy shares in tech giant SK Hynix.\n\nThe stock quadrupled in value before most of those gains were wiped out, leaving his investment, now worth about 300 million won, at roughly half the value of its peak.\n\n\"Thinking about it just brings tears to my eyes,\" Kim told the BBC.\n\nWoongsa Kim put half of a bonus into SK Hynix shares\n\nThe sell-off came after tech shares had soared for months, \"generating the extreme euphoria\" that has moved some personal investors to take out loans to invest, says investment analyst Tobias Reger.\n\nIt has been most acutely felt by people who used leverage - a form of borrowing in the financial markets.\n\nLeveraging lets an investor control a larger number of stocks than their own cash would otherwise allow, which delivers a bigger profit if the shares rise.\n\nHowever, if the stocks fall past an agreed level it can trigger what is known as a margin call - when a broker demands payment of the debt.\n\nBy the end of July an estimated 1.2 million South Korean personal investor accounts had faced margin calls, equivalent to about one in every 30 working-age adults in the country.\n\nLeveraged trading is a growing trend among personal investors that has also picked up in markets like Taiwan and the US, says Frank Benzimra, the head of Asia equity strategy at financial services group Societe Generale.\n\nThat has raised the risks around AI-related stocks, he adds.\n\nAfter his US-listed Nvidia shares soared by more than 1,000%, Chanyong Park, who works in marketing, says he put most of the profits into SK Hynix shares. But that bet went sour as their value has fallen by around $10,000.\n\n\"This was money I'd invested to save before planning to leave my job around October to start my own business. But now I'm seriously wondering whether I'll have enough.\"\n\nPark plans to hold on to his SK Hynix shares in hopes of a rebound, although recent swings have made him hesitant to invest more.\n\n\"It doesn't always feel like movements are driven by rational reasons - sometimes it still feels a lot like gambling,\" he says.\n\nAnother investor Youngji Park says he went \"all in\", putting the majority of his available cash into Samsung shares that peaked at a total value of 45 million Korean won.\n\nBut his investment has suffered a \"gut-wrenching\" slump, Park says.\n\nWould you choose £50,000 over the chance of £1m?\n\nHe too plans to keep hold of his shares in the hope that they will rise again.\n\n\"I feel like a fool for trusting the Korean stock market,\" he says. \"It's a long-term game now. I'll just have to wait it out.\"\n\nCollege student Soomin Yi says she pooled money with a friend to invest in SK Hynix after experiencing \"fomo\" (fear of missing out).\n\nSoomin Yi says she did not study investing seriously before buying shares\n\nBut she now wishes she had sold her shares in the company when they peaked at three million won each in June, instead of buying into speculation that they would rise to five million won.\n\n\"We didn't really have anyone around us who is experienced in investing, and we did not study investing seriously before buying the stock,\" Yi says.\n\nThe huge swings in Korean shares are also raising concerns about some other markets around the world.\n\nTech-heavy indexes like Japan's Nikkei 225 seem to be moving in tandem with the Kospi's wild swings, Societe Generale's Benzimra says.\n\nBut the majority of the world's stock markets are unlikely to see that level of violent moves as they include a wider mix of companies, he adds.\n\n\"I don't think we can see the same kind of volatility in large diversified markets such as the [Tokyo Stock Price Index] or the US equity markets,\" Benzimra says.\n\nAnd traders who diversified their portfolios say it has helped cushion the blow from the stock market rout.\n\n\"I think this whole episode is a warning to Korean investors, especially young investors, not to put everything in one basket and hope for the best,\" says Yongjoon Kim, who also has shares in overseas markets.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "volatile",
+      "ipa": "/ˈvɒlətaɪl/",
+      "pos": "adj.",
+      "meaning_zh": "（价格或市场）易波动的；不稳定的",
+      "collocations": [
+        "volatile market",
+        "highly volatile",
+        "volatile stock index"
+      ],
+      "example": "The highly volatile market made even experienced traders cautious."
+    },
+    {
+      "category": "core_word",
+      "word": "plunge",
+      "ipa": "/plʌndʒ/",
+      "pos": "v.",
+      "meaning_zh": "（价格、数值等）暴跌；骤降",
+      "collocations": [
+        "plunge to",
+        "plunge in value",
+        "prices plunge"
+      ],
+      "example": "The tech stock plunged to its lowest level in months after the earnings report."
+    },
+    {
+      "category": "core_word",
+      "word": "slump",
+      "ipa": "/slʌmp/",
+      "pos": "n.",
+      "meaning_zh": "（经济或市场的）衰退；暴跌",
+      "collocations": [
+        "market slump",
+        "sharp slump",
+        "economic slump"
+      ],
+      "example": "The sudden slump in semiconductor shares caught many investors by surprise."
+    },
+    {
+      "category": "core_word",
+      "word": "rout",
+      "ipa": "/raʊt/",
+      "pos": "n.",
+      "meaning_zh": "（市场的）溃败；价格暴跌",
+      "collocations": [
+        "stock market rout",
+        "market rout",
+        "suffer a rout"
+      ],
+      "example": "Diversified traders said their overseas holdings helped cushion the blow from the domestic rout."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "margin call",
+      "ipa": "/ˈmɑːdʒɪn kɔːl/",
+      "pos": "phr.",
+      "meaning_zh": "追加保证金通知；经纪商要求投资者补足保证金",
+      "collocations": [
+        "trigger a margin call",
+        "face a margin call",
+        "receive a margin call"
+      ],
+      "example": "When the stock fell below the agreed level, her broker issued an urgent margin call."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "in tandem",
+      "ipa": "/ɪn ˈtændəm/",
+      "pos": "phr.",
+      "meaning_zh": "同步地；相互配合地",
+      "collocations": [
+        "move in tandem",
+        "rise in tandem",
+        "work in tandem"
+      ],
+      "example": "The two tech-heavy indexes moved in tandem as global sentiment shifted."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "fear of missing out",
+      "ipa": "/ˌfɪər əv ˌmɪsɪŋ ˈaʊt/",
+      "pos": "phr.",
+      "meaning_zh": "错失恐惧症；害怕错过上涨机会而急于买入",
+      "collocations": [
+        "experience fear of missing out",
+        "driven by fear of missing out",
+        "fear of missing out among investors"
+      ],
+      "example": "Many young traders bought shares out of fear of missing out rather than careful analysis."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "pile into",
+      "ipa": "/paɪl ˈɪntuː/",
+      "pos": "phr.",
+      "meaning_zh": "大量买入；涌向（某类资产或市场）",
+      "collocations": [
+        "pile into stocks",
+        "investors pile into",
+        "pile into the market"
+      ],
+      "example": "Amateur investors piled into crypto assets during the rally."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "hold on to",
+      "ipa": "/həʊld ɒn tuː/",
+      "pos": "phr.",
+      "meaning_zh": "继续持有；抓住不卖",
+      "collocations": [
+        "hold on to shares",
+        "hold on to investments",
+        "hold on to cash"
+      ],
+      "example": "He decided to hold on to his losing stocks in the hope of a slow recovery."
+    },
+    {
+      "category": "academic_word",
+      "word": "instability",
+      "ipa": "/ˌɪnstəˈbɪləti/",
+      "pos": "n.",
+      "meaning_zh": "不稳定；动荡",
+      "collocations": [
+        "market instability",
+        "financial instability",
+        "political instability"
+      ],
+      "example": "The instability in tech valuations has raised questions about market fundamentals."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "While plenty of investors are piling into technology stocks, sharp market swings mean the bets don't always pay off, with prices often moving on every major headline.",
+      "explanation_zh": "句首 `While` 引导让步状语从句，表示“尽管”；主句为主谓宾结构 `sharp market swings mean...`；`mean` 后接省略 `that` 的宾语从句 `the bets don't always pay off`；句末 `with prices often moving on every major headline` 是 `with` 复合结构，作伴随情况，补充说明价格对新闻标题的反应。",
+      "grammar_point": "`while` 让步状语从句 + `with` 复合结构",
+      "translation_zh": "尽管大量投资者正涌入科技股，但剧烈的市场波动意味着这些押注并不总能获利，价格往往随着每一条重大新闻标题而变动。"
+    },
+    {
+      "sentence": "Nowhere is that instability more pronounced than in South Korea's tech-heavy Kospi, widely regarded as the world's most volatile stock index.",
+      "explanation_zh": "本句为否定词 `Nowhere` 置于句首引起的部分倒装，正常语序为 `That instability is nowhere more pronounced than...`；`widely regarded as...` 为过去分词短语作后置定语，修饰 `Kospi`，相当于定语从句 `which is widely regarded...`。",
+      "grammar_point": "否定词开头引起的部分倒装 + 过去分词短语作定语",
+      "translation_zh": "这种不稳定性在韩国以科技股为主的韩国综合股价指数（`Kospi`）上表现得最为明显，该指数被普遍认为是全球波动最剧烈的股指。"
+    },
+    {
+      "sentence": "The index more than doubled its value since the start of the year to rise above 9,000 points in mid-June, before plunging to 5,500 within a few weeks.",
+      "explanation_zh": "主句为 `The index more than doubled its value`；不定式短语 `to rise above 9,000 points in mid-June` 表示从翻倍后达到的结果；`before` 在此为介词，后接动名词 `plunging`，构成时间状语，表示在暴跌之前的先后关系。",
+      "grammar_point": "不定式作结果状语 + `before` 后接动名词",
+      "translation_zh": "该指数自年初以来上涨了一倍多，在6月中旬升至9,000点以上，随后在几周内暴跌至5,500点。"
+    },
+    {
+      "sentence": "Park plans to hold on to his SK Hynix shares in hopes of a rebound, although recent swings have made him hesitant to invest more.",
+      "explanation_zh": "主句为 `Park plans to hold on to his SK Hynix shares`；介词短语 `in hopes of a rebound` 作目的状语，说明继续持有的原因；`although` 引导让步状语从句，其中 `have made him hesitant to invest more` 为“`make` + 宾语 + 形容词 + 不定式”结构。",
+      "grammar_point": "`although` 让步状语从句 + `make` + 宾语 + 形容词 + 不定式",
+      "translation_zh": "朴先生计划继续持有 `SK Hynix` 股票，期望股价反弹，尽管近期的波动使他对进一步投资举棋不定。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "go all in",
+      "meaning_zh": "把全部资金都投入；孤注一掷",
+      "usage_note": "原为扑克术语，后引申为在投资或决策中押上全部资源；在报道中带口语色彩，常用于描述散户的冒险行为。",
+      "example": "He went all in on a single volatile stock and later faced a margin call."
+    },
+    {
+      "expression": "wait it out",
+      "meaning_zh": "耐心等待困难时期过去；静候局势好转",
+      "usage_note": "强调不采取行动、等待市场或形势自行恢复；常与股票、危机等话题搭配。",
+      "example": "The investor decided to wait it out rather than sell at a loss."
+    },
+    {
+      "expression": "bring tears to one's eyes",
+      "meaning_zh": "让人非常难过；几乎要落泪",
+      "usage_note": "用于描述强烈的情感反应，尤其是对损失或失望的悲痛；在报道中引述个人感受，语气较重。",
+      "example": "Looking at the collapsed value of his portfolio brought tears to his eyes."
+    },
+    {
+      "expression": "not put everything in one basket",
+      "meaning_zh": "不要把全部资金或希望都放在一个地方；分散风险",
+      "usage_note": "常见的风险分散劝诫，源于英语谚语 `don't put all your eggs in one basket`；在金融语境中提醒避免集中投资。",
+      "example": "After the crash, she advised her friends not to put everything in one basket."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "Which statement best expresses the main idea of the article?",
+      "options": {
+        "A": "Sharp swings in South Korea's Kospi have caused heavy losses for many personal investors.",
+        "B": "Tech stock rallies always benefit small investors.",
+        "C": "Leverage is no longer used in Asian stock markets.",
+        "D": "The Kospi has now risen above its previous peak."
+      },
+      "answer": "A",
+      "evidence_paragraph": 8
+    },
+    {
+      "type": "Detail",
+      "question": "Which factor does the article identify as driving wild swings in South Korea's chipmaker stocks?",
+      "options": {
+        "A": "A global frenzy around artificial intelligence",
+        "B": "A weak Korean won",
+        "C": "Government rules on margin trading",
+        "D": "Falling global oil prices"
+      },
+      "answer": "A",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Inference",
+      "question": "From the first paragraph, what can be inferred about many of the speaker's friends?",
+      "options": {
+        "A": "They benefited from well-diversified portfolios.",
+        "B": "They were unaffected by the market swings.",
+        "C": "They have now recovered their savings.",
+        "D": "Some are now in distress after committing too much of their savings."
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 2, what does \"piling into\" most closely mean?",
+      "options": {
+        "A": "selling off quickly",
+        "B": "buying large amounts of",
+        "C": "diversifying across sectors",
+        "D": "avoiding due to risk"
+      },
+      "answer": "B",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which best describes the author's overall stance toward speculative individual investing in the passage?",
+      "options": {
+        "A": "Sober and cautionary",
+        "B": "Promotional and optimistic",
+        "C": "Mocking and dismissive",
+        "D": "Angry and alarmist"
+      },
+      "answer": "A",
+      "evidence_paragraph": 39
+    },
+    {
+      "type": "Organization",
+      "question": "How does the article mainly organize its information?",
+      "options": {
+        "A": "It moves from broad market volatility to individual investor losses, then to expert analysis and diversification warnings.",
+        "B": "It argues step-by-step that margin calls should be abolished.",
+        "C": "It compares South Korea's index with every major global market in equal detail.",
+        "D": "It focuses exclusively on the history of the Kospi without individual examples."
+      },
+      "answer": "A",
+      "evidence_paragraph": 34
+    },
+    {
+      "type": "Title",
+      "question": "Which title best captures the central theme of the passage?",
+      "options": {
+        "A": "How AI Investment Always Guarantees High Returns",
+        "B": "Business Students' Guide to Leverage",
+        "C": "South Korean Stock Volatility Devastates Personal Investors",
+        "D": "Korean Chipmakers Set to Rebound Next Quarter"
+      },
+      "answer": "C",
+      "evidence_paragraph": 3
+    }
+  ],
+  "answer_key": "AADBAAC",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "'I lost $14,000 in a month': Investors hit by Korean stock market's wild swings",
+      "url": "https://www.bbc.co.uk/news/articles/c2k7zj4knwlo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
