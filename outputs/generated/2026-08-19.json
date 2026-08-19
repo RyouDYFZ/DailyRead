@@ -1,0 +1,293 @@
+{
+  "title_en": "Personalised Cancer Vaccine Shows Early Promise in Melanoma Trial",
+  "title_zh": "个性化癌症疫苗在黑色素瘤试验中展现早期前景",
+  "summary_zh": "默克与莫德纳联合开发的一种个性化癌症疫苗在针对高危黑色素瘤患者的三期试验中，与免疫疗法药物可瑞达联合使用，延长了患者无癌生存时间并降低了扩散风险。由于完整结果尚未经过同行评议和监管审批，专家对数据持谨慎乐观态度。该研究被认为为个性化癌症疫苗提供了原理证明。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Medicine",
+    "Cancer Research",
+    "Clinical Trials"
+  ],
+  "difficulty": 5,
+  "reading_passage": "A new personalised vaccine given in combination with a drug has stopped skin cancer returning in patients during a trial, representing a potentially watershed moment in cancer treatment.\n\nThe vaccine, developed by drug companies Merck and Moderna, was given to patients with high-risk melanoma, a type of skin cancer, after they had surgery.\n\nEarly results show this new jab extended the length of time these patients were cancer free, but it's unclear for how long, according to an announcement by the two firms.\n\nCancer experts say this is a breakthrough, but emphasise caution as the full results have not been released or peer-reviewed whereby independent experts examine and check the trial findings.\n\nAnd even after the trials process has finished, the treatment would still need to be approved by regulators and then go through another approval process before it was made available on the NHS.\n\nThe vaccine, called Intismeran, was given in combination with Keytruda, an immunotherapy drug already used in cancer treatment.\n\nCompared with taking the Keytruda on its own, the companies said taking the drug and vaccine together significantly increased the time patients remained cancer free and reduced the risk of the disease spreading to other organs.\n\nThe phase three trial involved more than 1,000 patients who had high-risk stage two, three or four melanoma - meaning they ranged from having large tumours in a specific area to cancers which had already spread to other parts of the body.\n\nMerck and Moderna are calling this a personalised vaccine, meaning it works by targeting an individual patient's tumour.\n\nIn order to create this new jab, scientists used mRNA technology - which was used for some Covid-19 vaccines - to target specific mutations within the cancer cells by surgically removing a small part of a patient's tumour and then sequencing its DNA.\n\nThe result is a personalised anti-cancer jab which is specific to the patient's tumour and instructs the immune system to recognise and attack any tumour cells that remain.\n\nThe two companies are testing other similar personalised vaccines for lung, bladder and kidney cancers.\n\nStephane Bancel, chief executive of Moderna, said the findings represent a \"pivotal moment\" in the field of cancer research.\n\nShares in both Moderna and Merck have surged since the announcement, external.\n\nCancer experts have also hailed the news as positive, but are keen to stress the findings are still early.\n\nDr Talisia Quallo, head of prevention and early detection at Cancer Research UK, said the research \"shows promise\" but said that the interim data still needs to be fully reviewed.\n\n\"It's vital that research like this continues to be funded so that more people with cancer can have personalised treatment options to help them live longer, better lives\", she added.\n\nDr Lennard Lee, a consultant medical oncologist, and associate professor at the University of Oxford, said: \"This is certainly good news for patients with melanoma, but the study has much wider implications. It provides proof of principle that personalised cancer vaccines work.\"",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "personalised",
+      "ipa": "/ˈpɜːsənəlaɪzd/",
+      "pos": "adj.",
+      "meaning_zh": "个性化的；针对个人的",
+      "collocations": [
+        "personalised treatment",
+        "personalised medicine",
+        "personalised vaccine"
+      ],
+      "example": "The hospital now offers personalised cancer care based on each patient's genetic profile."
+    },
+    {
+      "category": "core_word",
+      "word": "immunotherapy",
+      "ipa": "/ˌɪmjʊnəʊˈθerəpi/",
+      "pos": "n.",
+      "meaning_zh": "免疫疗法",
+      "collocations": [
+        "immunotherapy drug",
+        "cancer immunotherapy",
+        "receive immunotherapy"
+      ],
+      "example": "Immunotherapy has changed the outlook for some patients with advanced melanoma."
+    },
+    {
+      "category": "core_word",
+      "word": "tumour",
+      "ipa": "/ˈtjuːmə/",
+      "pos": "n.",
+      "meaning_zh": "肿瘤",
+      "collocations": [
+        "malignant tumour",
+        "remove a tumour",
+        "tumour cells"
+      ],
+      "example": "A biopsy confirmed that the tumour was malignant."
+    },
+    {
+      "category": "core_word",
+      "word": "mutation",
+      "ipa": "/mjuːˈteɪʃən/",
+      "pos": "n.",
+      "meaning_zh": "突变",
+      "collocations": [
+        "genetic mutation",
+        "specific mutation",
+        "cancer-causing mutation"
+      ],
+      "example": "The new test can identify a specific mutation that drives the tumour's growth."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "in combination with",
+      "ipa": "/ɪn ˌkɒmbɪˈneɪʃən wɪð/",
+      "pos": "phr.",
+      "meaning_zh": "与……结合；联合使用",
+      "collocations": [
+        "used in combination with",
+        "in combination with chemotherapy",
+        "work in combination with"
+      ],
+      "example": "The new drug is most effective when used in combination with chemotherapy."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "peer-reviewed",
+      "ipa": "/ˌpɪə rɪˈvjuːd/",
+      "pos": "phr.",
+      "meaning_zh": "经同行评议的",
+      "collocations": [
+        "peer-reviewed journal",
+        "peer-reviewed study",
+        "peer-reviewed results"
+      ],
+      "example": "The findings have not yet been published in a peer-reviewed journal."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "phase three trial",
+      "ipa": "/ˌfeɪz θriː ˈtraɪəl/",
+      "pos": "phr.",
+      "meaning_zh": "三期临床试验",
+      "collocations": [
+        "conduct a phase three trial",
+        "phase three trial results",
+        "enrol in a phase three trial"
+      ],
+      "example": "The phase three trial enrolled patients from several countries."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "go through",
+      "ipa": "/ɡəʊ θruː/",
+      "pos": "phr.",
+      "meaning_zh": "经历，通过（流程、审查）",
+      "collocations": [
+        "go through approval",
+        "go through a review process",
+        "go through several stages"
+      ],
+      "example": "The new treatment will need to go through a separate approval process before it can be used."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "range from",
+      "ipa": "/reɪndʒ frəm/",
+      "pos": "phr.",
+      "meaning_zh": "（范围）从……到……不等",
+      "collocations": [
+        "range from X to Y",
+        "range from mild to severe",
+        "prices range from"
+      ],
+      "example": "Side effects in the trial ranged from mild fatigue to more serious complications."
+    },
+    {
+      "category": "academic_word",
+      "word": "interim",
+      "ipa": "/ˈɪntərɪm/",
+      "pos": "adj.",
+      "meaning_zh": "中期的；临时的",
+      "collocations": [
+        "interim data",
+        "interim report",
+        "interim analysis"
+      ],
+      "example": "The interim analysis showed enough promise to continue the trial."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "A new personalised vaccine given in combination with a drug has stopped skin cancer returning in patients during a trial, representing a potentially watershed moment in cancer treatment.",
+      "explanation_zh": "主句为 “A new personalised vaccine ... has stopped skin cancer returning ...”。过去分词短语 “given in combination with a drug” 作后置定语修饰主语 “vaccine”，说明疫苗的使用方式；句末现在分词短语 “representing ...” 表示伴随结果，相当于一个非限制性关系从句。翻译时可将后置定语转为前置定语，把结果状语单独成句。",
+      "grammar_point": "过去分词短语作后置定语；现在分词短语作结果状语；主句为现在完成时。",
+      "translation_zh": "一种与一种药物联合使用的新型个性化疫苗在试验中阻止了皮肤癌在患者体内复发，这可能是癌症治疗领域的一个分水岭时刻。"
+    },
+    {
+      "sentence": "Cancer experts say this is a breakthrough, but emphasise caution as the full results have not been released or peer-reviewed whereby independent experts examine and check the trial findings.",
+      "explanation_zh": "主句为 “Cancer experts say this is a breakthrough, but emphasise caution...”。 “as” 引导原因状语从句，解释为何要谨慎；从句中的 “whereby” 相当于 by which，说明同行评议的具体方式。句中有两个并列谓语 “say” 和 “emphasise”，由 “but” 连接。",
+      "grammar_point": "as 引导原因状语从句；whereby 引导方式/关系从句；并列谓语。",
+      "translation_zh": "癌症专家称这是一项突破，但强调要谨慎，因为完整结果尚未公布或经过同行评议，而在同行评议过程中，独立专家会审查和核对试验发现。"
+    },
+    {
+      "sentence": "In order to create this new jab, scientists used mRNA technology - which was used for some Covid-19 vaccines - to target specific mutations within the cancer cells by surgically removing a small part of a patient's tumour and then sequencing its DNA.",
+      "explanation_zh": "主句为 “scientists used mRNA technology...”。句首 “In order to create this new jab” 是目的状语；破折号之间的 “which was used for some Covid-19 vaccines” 是对 mRNA technology 的非限制性定语从句；“to target... by surgically removing... and then sequencing...” 是另一个目的状语，其中 by 后接两个并列动名词短语说明实现方式。",
+      "grammar_point": "in order to 引导目的状语；非限制性定语从句；by + 动名词短语表示方式。",
+      "translation_zh": "为了制造这种新型注射剂，科学家使用了曾用于部分新冠疫苗的 mRNA 技术，通过手术切除患者肿瘤的一小部分并对其 DNA 进行测序，来靶向癌细胞中的特定突变。"
+    },
+    {
+      "sentence": "Dr Lennard Lee, a consultant medical oncologist, and associate professor at the University of Oxford, said: \"This is certainly good news for patients with melanoma, but the study has much wider implications. It provides proof of principle that personalised cancer vaccines work.\"",
+      "explanation_zh": "主句为 “Dr Lennard Lee ... said...”，句子较长，主语后带有一个同位语 “a consultant medical oncologist” 和并列身份 “and associate professor at the University of Oxford”。引语部分包含 “but” 连接的转折，以及 that 引导的同位语从句 “that personalised cancer vaccines work”，说明 “proof of principle” 的具体内容。",
+      "grammar_point": "同位语与并列同位语；引语中的转折；that 引导的同位语从句。",
+      "translation_zh": "牛津大学副教授、肿瘤内科顾问医生 Lennard Lee 博士说：“这对黑色素瘤患者当然是好消息，但这项研究具有更广泛的意义。它为个性化癌症疫苗的有效性提供了原理证明。”"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "watershed moment",
+      "meaning_zh": "分水岭时刻；具有转折意义的时刻",
+      "usage_note": "多用于正式或新闻语境，常与 potential、represent、mark 等词搭配，说明某事件可能改变某一领域的发展方向。",
+      "example": "The approval of the first mRNA cancer vaccine may be seen as a watershed moment in oncology."
+    },
+    {
+      "expression": "show promise",
+      "meaning_zh": "显示出潜力；表现出良好前景",
+      "usage_note": "常用于医学、科技等领域的早期研究成果，表示初步结果令人鼓舞但尚未最终证实；常见形式为 show/ shows promise。",
+      "example": "Early trials show promise, but larger studies are still needed."
+    },
+    {
+      "expression": "proof of principle",
+      "meaning_zh": "原理证明；证实概念可行的初步证据",
+      "usage_note": "科学和工程领域常用，表示一项研究验证了基本机制或理念，但距离实际应用通常还有后续步骤。",
+      "example": "The small study serves as proof of principle that the new approach can work in humans."
+    },
+    {
+      "expression": "hail the news as positive",
+      "meaning_zh": "称赞这一消息是积极的",
+      "usage_note": "多用于新闻报道，hail 后接名词/代词再接 as positive 等补语，表示公开肯定或欢迎某项进展。",
+      "example": "Researchers hailed the early results as positive but urged caution."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main topic of the article?",
+      "options": {
+        "A": "A trial combining a personalised mRNA vaccine with an immunotherapy drug has shown early positive results for high-risk melanoma patients, but caution remains.",
+        "B": "Regulators have approved a personalised cancer vaccine for NHS use.",
+        "C": "Merck and Moderna have stopped all skin cancer recurrence, and full peer review is complete.",
+        "D": "Covid-19 vaccine technology cannot be used for cancer treatment."
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "According to the article, when was the personalised vaccine given to the high-risk melanoma patients?",
+      "options": {
+        "A": "After they had surgery",
+        "B": "Before they were diagnosed with melanoma",
+        "C": "After regulators approved the treatment",
+        "D": "Only after the cancer had spread to other organs"
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred about the early results from the trial?",
+      "options": {
+        "A": "The vaccine completely prevents all future cancers.",
+        "B": "The duration of the cancer-free period remains unclear.",
+        "C": "The cancer-free period lasted exactly ten years.",
+        "D": "The early results were based on fewer than 100 patients."
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 4, what does the term “peer-reviewed” mean?",
+      "options": {
+        "A": "Reviewed by the patients who took part in the trial",
+        "B": "Approved by the company's internal marketing team",
+        "C": "Summarised in a company press release",
+        "D": "Examined and checked by independent experts in the same field"
+      },
+      "answer": "D",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "What is the author’s overall attitude toward the vaccine trial findings?",
+      "options": {
+        "A": "Strongly opposed to further cancer vaccine research",
+        "B": "Convinced that regulatory approval is unnecessary",
+        "C": "Cautiously optimistic, balancing positive findings with the need for further review",
+        "D": "Indifferent to the trial results"
+      },
+      "answer": "C",
+      "evidence_paragraph": 15
+    },
+    {
+      "type": "Organization",
+      "question": "How does the final paragraph function within the article?",
+      "options": {
+        "A": "It introduces a new clinical trial for lung cancer.",
+        "B": "It presents a broader expert implication of the melanoma trial.",
+        "C": "It explains mRNA sequencing in technical detail.",
+        "D": "It argues that regulators should delay approval."
+      },
+      "answer": "B",
+      "evidence_paragraph": 18
+    },
+    {
+      "type": "Title",
+      "question": "Which title best captures the article?",
+      "options": {
+        "A": "Personalised Vaccine Trial Shows Promise Against High-Risk Melanoma",
+        "B": "UK Regulators Approve New Cancer Jab",
+        "C": "Stock Prices Fall After Cancer Vaccine Trial",
+        "D": "Covid Vaccines Replace Cancer Treatments"
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "AABDCBA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Vaccine breakthrough stops cancer returning in trial",
+      "url": "https://www.bbc.co.uk/news/articles/c79gpv7v190o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
