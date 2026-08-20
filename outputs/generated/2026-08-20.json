@@ -1,0 +1,287 @@
+{
+  "title_en": "81,000 warning letters sent to crypto holders in HMRC tax crackdown",
+  "title_zh": "英国税务海关总署严查加密货币税务：一年发出8.1万封警告信",
+  "summary_zh": "英国税务海关总署在2025-26财年向超过8.1万名加密货币投资者发出信件、电子邮件或短信，警示他们可能少缴了资本利得税；一项信息自由申请显示，此类信函数量自2024年以来几乎增加了两倍。税务部门怀疑，2022年12月至2025年10月比特币等加密货币价格大幅上涨期间产生了大量未申报资本利得。从2027年3月起，数十个海外国家的加密货币平台将被要求与税务机关共享客户信息，分析师称届时调查将变得极为容易，英国税务海关总署预计这些措施可在2030年4月前带来最高3.15亿英镑收入。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Cryptocurrency",
+    "Taxation",
+    "Regulation"
+  ],
+  "difficulty": 4,
+  "reading_passage": "HM Revenue and Customs (HMRC) sent more than 81,000 letters warning cryptocurrency holders they may owe capital gains tax in the past year.\n\nA Freedom of Information (FOI) request seen by the BBC showed the number of letters sent by the tax authority had almost tripled since 2024.\n\nInvestors could face fines or prosecution if they fail to declare profits they made from selling, even if they exchange one cryptocurrency for another.\n\nNew powers due to be given to HMRC next year will make it easier to target wealthy crypto investors, with one analyst saying investigations will be like \"shooting fish in a barrel\".\n\n\"There is the expectation amongst tax authorities that cryptocurrency investment is rife with tax evasion,\" says Neela Chauhan, partner at UHY Hacker Young - which carried out the FOI.\n\n\"A lot of the traders are young, have had little previous exposure to HMRC and often work under the assumption that HMRC has limited visibility over their activities.\"\n\nIn the 2025-26 financial year, HMRC sent 81,172 warning letters, emails and text messages to crypto investors it suspects may have underpaid tax.\n\nAn HMRC spokesperson said: \"We’re committed to helping people pay the right amount of tax, and the vast majority do.\n\n\"We regularly send letters to educate, remind or prompt customers to review their tax affairs, including customers who use crypto assets.\"\n\nFrom Bitcoin to blockchain: Key cryptocurrency terms and what they mean\n\nThe value of cryptocurrencies such as Bitcoin and Ethereum has fallen in the past year, but HMRC suspects there are still large amounts of unpaid capital gains from the rise in cryptocurrency values between December 2022 and October 2025.\n\nDuring this time, the price of Bitcoin shot up from around £14,000 to £90,000.\n\nAccountants are urging investors to check whether they owe money, as upcoming powers will make it easier for HMRC to target individuals.\n\nFrom March 2027, cryptocurrency platforms located in dozens of countries outside the UK will be obliged to share information about their customers with tax authorities.\n\nHMRC said the new powers would force \"crypto bros to pay their fair share of tax\" when the rules were announced last year.\n\nThe tax office estimated the changes would help raise up to £315m by April 2030, adding that this was the same amount needed to fund more than 10,000 newly qualified nurses for a year.\n\n\"Once HMRC has this data, tax investigations into cryptocurrency investors will be like shooting fish in a barrel,\" warned Ms Chauhan.\n\nIn the last year, the price of Bitcoin has fallen to around £48,000.\n\nTrump made more than $1bn from crypto in first year back in office\n\nHow crypto criminals stole $700 million from people - often using age-old tricks\n\nSign up for our Tech Decoded newsletter to follow the world's top tech stories and trends. Outside the UK? Sign up here.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "prosecution",
+      "ipa": "/ˌprɒsɪˈkjuːʃn/",
+      "pos": "n.",
+      "meaning_zh": "（对违法行为的）起诉；公诉",
+      "collocations": [
+        "face prosecution",
+        "criminal prosecution",
+        "avoid prosecution"
+      ],
+      "example": "The company could face prosecution if it continues to ignore safety regulations."
+    },
+    {
+      "category": "core_word",
+      "word": "rife",
+      "ipa": "/raɪf/",
+      "pos": "adj.",
+      "meaning_zh": "（多指坏事）普遍的，盛行的",
+      "collocations": [
+        "be rife with",
+        "rumours are rife",
+        "corruption is rife"
+      ],
+      "example": "Speculation was rife that the central bank would change interest rates."
+    },
+    {
+      "category": "core_word",
+      "word": "visibility",
+      "ipa": "/ˌvɪzəˈbɪləti/",
+      "pos": "n.",
+      "meaning_zh": "可见性；受关注程度；透明度",
+      "collocations": [
+        "limited visibility",
+        "increase visibility",
+        "public visibility"
+      ],
+      "example": "The regulator has limited visibility over transactions that occur outside the banking system."
+    },
+    {
+      "category": "core_word",
+      "word": "underpaid",
+      "ipa": "/ˌʌndəˈpeɪd/",
+      "pos": "v.",
+      "meaning_zh": "少付（税款等）；未足额支付",
+      "collocations": [
+        "underpaid tax",
+        "underpaid workers",
+        "underpaid invoices"
+      ],
+      "example": "Many self-employed people find they have underpaid tax because of complicated allowances."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "capital gains tax",
+      "ipa": "/ˌkæpɪtl ˈɡeɪnz tæks/",
+      "pos": "phr.",
+      "meaning_zh": "资本利得税",
+      "collocations": [
+        "pay capital gains tax",
+        "owe capital gains tax",
+        "declare capital gains tax"
+      ],
+      "example": "Investors must report disposals of shares because they may be liable for capital gains tax."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "tax affairs",
+      "ipa": "/ˈtæks əˌfeəz/",
+      "pos": "phr.",
+      "meaning_zh": "纳税事务；税务状况",
+      "collocations": [
+        "review one's tax affairs",
+        "sort out one's tax affairs",
+        "handle one's tax affairs"
+      ],
+      "example": "The accountant advised her to review her tax affairs before the end of the financial year."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "work under the assumption",
+      "ipa": "/wɜːk ˈʌndə ði əˈsʌmpʃn/",
+      "pos": "phr.",
+      "meaning_zh": "基于某种设想行事；想当然地认为",
+      "collocations": [
+        "work under the assumption that",
+        "operate under the assumption",
+        "go on the assumption"
+      ],
+      "example": "Many small firms work under the assumption that they are too small to be audited."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "carry out",
+      "ipa": "/ˌkæri ˈaʊt/",
+      "pos": "phr.",
+      "meaning_zh": "进行；执行；完成",
+      "collocations": [
+        "carry out a request",
+        "carry out an investigation",
+        "carry out research"
+      ],
+      "example": "The team carried out a detailed review of the company's digital payment records."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "shoot up",
+      "ipa": "/ˌʃuːt ˈʌp/",
+      "pos": "phr.",
+      "meaning_zh": "猛涨；迅速上升",
+      "collocations": [
+        "prices shot up",
+        "shoot up by 20%",
+        "shoot up from ... to ..."
+      ],
+      "example": "Energy prices shot up after the supply disruption."
+    },
+    {
+      "category": "academic_word",
+      "word": "exposure",
+      "ipa": "/ɪkˈspəʊʒə/",
+      "pos": "n.",
+      "meaning_zh": "接触；暴露；面临（风险）",
+      "collocations": [
+        "previous exposure to",
+        "exposure to risk",
+        "media exposure"
+      ],
+      "example": "Younger investors often have little exposure to formal tax enforcement procedures."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "A Freedom of Information (FOI) request seen by the BBC showed the number of letters sent by the tax authority had almost tripled since 2024.",
+      "explanation_zh": "主句为 `A Freedom of Information (FOI) request ... showed`，后接宾语从句 `the number ... had almost tripled`。主语后跟过去分词短语 `seen by the BBC` 作后置定语，宾语从句中 `letters sent by the tax authority` 也含过去分词短语作后置定语。",
+      "grammar_point": "宾语从句；过去分词短语作后置定语；过去完成时",
+      "translation_zh": "英国广播公司看到的一项信息自由申请显示，税务机关发出的信函数量自2024年以来几乎增加了两倍。"
+    },
+    {
+      "sentence": "Investors could face fines or prosecution if they fail to declare profits they made from selling, even if they exchange one cryptocurrency for another.",
+      "explanation_zh": "主句 `Investors could face fines or prosecution` 说明可能后果；条件状语从句 `if they fail to declare ...` 说明触发条件；`profits they made from selling` 中包含省略关系代词的定语从句；`even if` 引导让步状语从句，表示即便换币也算处置。",
+      "grammar_point": "条件状语从句；省略关系代词的定语从句；让步状语从句",
+      "translation_zh": "投资者如果未申报出售所得的利润，可能面临罚款或起诉，即使只是把一种加密货币换成另一种。"
+    },
+    {
+      "sentence": "New powers due to be given to HMRC next year will make it easier to target wealthy crypto investors, with one analyst saying investigations will be like 'shooting fish in a barrel'.",
+      "explanation_zh": "主句为 `New powers ... will make it easier ...`，其中 `due to be given to HMRC next year` 是形容词短语作后置定语，表示预计明年授予；`with one analyst saying ...` 为独立主格结构，补充分析师的评论，其中含引语 `shooting fish in a barrel`。",
+      "grammar_point": "形容词短语作后置定语；形式宾语 it；with + 名词 + 现在分词结构",
+      "translation_zh": "将于明年授予英国税务海关总署的新权力会使针对富有加密货币投资者的调查更容易，一位分析师称到时调查将如同“瓮中捉鳖”。"
+    },
+    {
+      "sentence": "A lot of the traders are young, have had little previous exposure to HMRC and often work under the assumption that HMRC has limited visibility over their activities.",
+      "explanation_zh": "引语中三个并列谓语 `are young`、`have had little previous exposure`、`often work under the assumption` 描述交易者特征；`that` 引导同位语从句，说明 `assumption` 的具体内容；从句中 `has limited visibility over` 表示掌握信息有限。",
+      "grammar_point": "并列谓语；同位语从句；现在完成时",
+      "translation_zh": "许多交易者很年轻，此前很少与英国税务海关总署打过交道，而且常常想当然地认为该机构对他们的活动了解有限。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "shooting fish in a barrel",
+      "meaning_zh": "瓮中捉鳖；用来形容事情非常容易，常略带贬义",
+      "usage_note": "非正式口语表达，常用于描述在条件极为有利时轻易完成任务；可单独作表语，也可与 `like` 连用。",
+      "example": "With all the transaction records now available, identifying underreporting became like shooting fish in a barrel."
+    },
+    {
+      "expression": "pay one's fair share",
+      "meaning_zh": "缴纳自己应承担的那一份（税款、费用等）",
+      "usage_note": "常用在税收或费用分担话题中，语气强调公平；`one's` 需根据主语替换为 `his/her/their` 等。",
+      "example": "The new reporting rules are intended to ensure that crypto investors pay their fair share."
+    },
+    {
+      "expression": "crypto bros",
+      "meaning_zh": "加密货币兄弟；指热情炒作加密货币、风格高调且常被视为缺乏风险意识的年轻男性投资者",
+      "usage_note": "非正式且略带贬义，多用于新闻报道或社交媒体评论；不适合正式书面语。",
+      "example": "The regulator's message was aimed at crypto bros who think they can ignore tax rules."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main message of the article?",
+      "options": {
+        "A": "HMRC has already collected £315m from cryptocurrency investors.",
+        "B": "Cryptocurrency prices have fallen recently, so most investors no longer owe tax.",
+        "C": "HMRC is investigating more than 81,000 crypto holders for possible unpaid capital gains tax and preparing stronger powers.",
+        "D": "Crypto platforms outside the UK are refusing to share customer data."
+      },
+      "answer": "C",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "According to the FOI data, how did the number of letters sent by HMRC change?",
+      "options": {
+        "A": "It almost tripled since 2024.",
+        "B": "It almost doubled since 2024.",
+        "C": "It fell by about one third since 2024.",
+        "D": "It remained roughly the same as 2024."
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Inference",
+      "question": "Based on the warning, when might an investor owe capital gains tax?",
+      "options": {
+        "A": "Only when converting cryptocurrency into British pounds.",
+        "B": "If they sell cryptocurrency at a profit, even when exchanging one cryptocurrency for another.",
+        "C": "Only if they have sold Bitcoin, not other cryptocurrencies.",
+        "D": "Only if they hold cryptocurrency for more than five years."
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 4, what does the analyst mean by \"shooting fish in a barrel\"?",
+      "options": {
+        "A": "Tax investigations will require unusually complex evidence.",
+        "B": "Tax investigations will become extremely easy once HMRC gains new data.",
+        "C": "Investors will be able to avoid investigation by moving assets abroad.",
+        "D": "HMRC will focus only on a small number of wealthy investors."
+      },
+      "answer": "B",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "How does the article present HMRC's warning campaign?",
+      "options": {
+        "A": "As primarily a public education service with no enforcement intent.",
+        "B": "As a mismatch between HMRC's powers and cryptocurrency growth.",
+        "C": "As a political dispute between HMRC and crypto platforms.",
+        "D": "As a serious compliance effort that may lead to penalties and will be strengthened."
+      },
+      "answer": "D",
+      "evidence_paragraph": 5
+    },
+    {
+      "type": "Organization",
+      "question": "The final short paragraph about Bitcoin's price (around £48,000) serves mainly to",
+      "options": {
+        "A": "introduce a new topic about Bitcoin technology.",
+        "B": "explain why HMRC expects so little tax revenue.",
+        "C": "show that market conditions have changed since the earlier price rise, though tax concerns remain.",
+        "D": "prove that all investors have now paid their unpaid tax."
+      },
+      "answer": "C",
+      "evidence_paragraph": 18
+    },
+    {
+      "type": "Title",
+      "question": "Which title best fits the article?",
+      "options": {
+        "A": "\"Bitcoin Reaches £90,000 and Boosts Treasury Revenues\"",
+        "B": "\"Crypto Platforms to Stop Sharing Customer Data\"",
+        "C": "\"HMRC Sends 81,000 Warning Letters in Crypto Tax Crackdown\"",
+        "D": "\"Nurses to Receive £315m from Crypto Tax Payments\""
+      },
+      "answer": "C",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "CABBDCC",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "81,000 warning letters sent to crypto holders in HMRC tax crackdown",
+      "url": "https://www.bbc.co.uk/news/articles/c0ej09nywdno?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
