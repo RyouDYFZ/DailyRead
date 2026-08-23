@@ -1,0 +1,286 @@
+{
+  "title_en": "SpaceX Rocket's Unexpected Appearance off Christmas Island",
+  "title_zh": "SpaceX火箭在圣诞岛附近意外出现",
+  "summary_zh": "一枚SpaceX火箭7月从得克萨斯州发射，随后坠入印度洋。之后，这枚火箭在圣诞岛附近海域意外出现。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Space",
+    "Environment"
+  ],
+  "difficulty": 4,
+  "reading_passage": "A SpaceX rocket that blasted off from Texas in July, and crashed into the Indian Ocean, made an unexpected appearance off Christmas Island.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "rocket",
+      "ipa": "/ˈrɒkɪt/",
+      "pos": "n.",
+      "meaning_zh": "火箭",
+      "collocations": [
+        "launch a rocket",
+        "space rocket",
+        "rocket launch"
+      ],
+      "example": "The space agency launched a new rocket last week."
+    },
+    {
+      "category": "core_word",
+      "word": "ocean",
+      "ipa": "/ˈəʊʃən/",
+      "pos": "n.",
+      "meaning_zh": "海洋",
+      "collocations": [
+        "Indian Ocean",
+        "ocean floor",
+        "cross the ocean"
+      ],
+      "example": "Scientists are studying plastic pollution in the ocean."
+    },
+    {
+      "category": "core_word",
+      "word": "appearance",
+      "ipa": "/əˈpɪərəns/",
+      "pos": "n.",
+      "meaning_zh": "出现；露面",
+      "collocations": [
+        "make an appearance",
+        "public appearance",
+        "sudden appearance"
+      ],
+      "example": "The singer's sudden appearance at the event caused excitement."
+    },
+    {
+      "category": "core_word",
+      "word": "crash",
+      "ipa": "/kræʃ/",
+      "pos": "v.",
+      "meaning_zh": "坠毁；碰撞",
+      "collocations": [
+        "crash into",
+        "plane crash",
+        "market crash"
+      ],
+      "example": "The plane crashed shortly after takeoff."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "unexpected appearance",
+      "ipa": "/ˌʌnɪkˈspektɪd əˈpɪərəns/",
+      "pos": "phr.",
+      "meaning_zh": "意外出现",
+      "collocations": [
+        "make an unexpected appearance",
+        "an unexpected appearance at",
+        "unexpected appearance of"
+      ],
+      "example": "The rare comet made an unexpected appearance in the night sky."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "make an appearance",
+      "ipa": "/meɪk ən əˈpɪərəns/",
+      "pos": "phr.",
+      "meaning_zh": "露面；出现",
+      "collocations": [
+        "make a brief appearance",
+        "make a public appearance",
+        "make an unexpected appearance"
+      ],
+      "example": "The minister made a brief appearance at the conference."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "in July",
+      "ipa": "/ɪn dʒuˈlaɪ/",
+      "pos": "phr.",
+      "meaning_zh": "在七月",
+      "collocations": [
+        "in July",
+        "early July",
+        "late July"
+      ],
+      "example": "The report will be released in early July."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "blast off",
+      "ipa": "/blɑːst ɒf/",
+      "pos": "phr.",
+      "meaning_zh": "发射升空",
+      "collocations": [
+        "blast off from",
+        "rocket blasts off",
+        "wait for blast-off"
+      ],
+      "example": "The satellite is scheduled to blast off tomorrow morning."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "crash into",
+      "ipa": "/kræʃ ˈɪntuː/",
+      "pos": "phr.",
+      "meaning_zh": "撞上；坠入",
+      "collocations": [
+        "crash into the ocean",
+        "crash into a wall",
+        "crash into each other"
+      ],
+      "example": "The abandoned satellite crashed into the Pacific Ocean."
+    },
+    {
+      "category": "academic_word",
+      "word": "unexpected",
+      "ipa": "/ˌʌnɪkˈspektɪd/",
+      "pos": "adj.",
+      "meaning_zh": "意外的；出乎意料的",
+      "collocations": [
+        "unexpected result",
+        "unexpected guest",
+        "unexpected delay"
+      ],
+      "example": "The study revealed an unexpected link between the two variables."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "A SpaceX rocket that blasted off from Texas in July, and crashed into the Indian Ocean, made an unexpected appearance off Christmas Island.",
+      "explanation_zh": "主句是“A SpaceX rocket made an unexpected appearance off Christmas Island”；“that blasted off from Texas in July, and crashed into the Indian Ocean”是定语从句，修饰“rocket”，内部由 `and` 连接两个并列的过去式动词短语。逻辑上先交代火箭发射和坠海背景，再说明意外出现的结果。",
+      "grammar_point": "过去式定语从句 + 并列谓语",
+      "translation_zh": "7月从得克萨斯州发射升空并坠入印度洋的一枚SpaceX火箭，在圣诞岛附近海域意外出现。"
+    },
+    {
+      "sentence": "that blasted off from Texas in July, and crashed into the Indian Ocean",
+      "explanation_zh": "这是修饰“rocket”的限制性定语从句，先行词是“rocket”。从句中有两个并列谓语“blasted off”和“crashed into”，分别接地点状语“from Texas”和时间状语“in July”。这种结构先补充火箭的发射与坠毁信息，再引出主句的意外出现。",
+      "grammar_point": "限制性定语从句中的并列谓语",
+      "translation_zh": "从得克萨斯州发射升空并在7月坠入印度洋"
+    },
+    {
+      "sentence": "made an unexpected appearance off Christmas Island",
+      "explanation_zh": "这是主句的谓语部分，“made an unexpected appearance”是固定搭配，意为“意外露面”；“off Christmas Island”是介词短语作地点状语，表示“在圣诞岛附近海域”。句子通过“unexpected”突出事件的意外性。",
+      "grammar_point": "动词短语作谓语 + 介词短语作地点状语",
+      "translation_zh": "在圣诞岛附近意外出现"
+    },
+    {
+      "sentence": "blasted off from Texas in July",
+      "explanation_zh": "“blasted off”是短语动词，表示“发射升空”；“from Texas”说明发射地点，“in July”说明时间。该短语是定语从句的第一个并列谓语，介绍火箭的出发信息。",
+      "grammar_point": "短语动词 + 来源状语 + 时间状语",
+      "translation_zh": "7月从得克萨斯州发射升空"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "make an unexpected appearance",
+      "meaning_zh": "意外露面；突然出现",
+      "usage_note": "常用于描述某人或某物在没有事先预告的情况下出现，带有“令人惊讶”的意味。多与地点或场合搭配。",
+      "example": "The rare whale made an unexpected appearance near the harbor."
+    },
+    {
+      "expression": "blast off from",
+      "meaning_zh": "从……发射升空",
+      "usage_note": "由短语动词 `blast off` 加介词 `from` 构成，后接发射地点。多用于航天或航空语境。",
+      "example": "The mission will blast off from a coastal launch pad."
+    },
+    {
+      "expression": "crash into the Indian Ocean",
+      "meaning_zh": "坠入印度洋",
+      "usage_note": "表示物体撞击海面并落入特定海域，多用于报道坠落事件。",
+      "example": "The damaged satellite crashed into the Indian Ocean."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main point of the passage?",
+      "options": {
+        "A": "A SpaceX rocket that launched and later crashed was unexpectedly seen off Christmas Island.",
+        "B": "A SpaceX rocket safely returned to its launch site.",
+        "C": "A rocket launch was postponed due to weather.",
+        "D": "A rocket crashed on Christmas Island."
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "Where did the rocket blast off from?",
+      "options": {
+        "A": "Christmas Island",
+        "B": "Texas",
+        "C": "Indian Ocean",
+        "D": "California"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred about the rocket's appearance off Christmas Island?",
+      "options": {
+        "A": "It was unusual and not expected.",
+        "B": "It was part of a planned landing.",
+        "C": "It caused damage to the island.",
+        "D": "It was invisible to observers."
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "The word \"unexpected\" is closest in meaning to:",
+      "options": {
+        "A": "planned",
+        "B": "delayed",
+        "C": "regular",
+        "D": "surprising"
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "How does the author present the information?",
+      "options": {
+        "A": "With alarm",
+        "B": "With humor",
+        "C": "In a neutral, factual manner",
+        "D": "With criticism"
+      },
+      "answer": "C",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Organization",
+      "question": "How is the sentence organized?",
+      "options": {
+        "A": "It lists causes and then effects.",
+        "B": "It compares two rockets.",
+        "C": "It presents an argument and counterargument.",
+        "D": "It provides background details about the rocket before its later appearance."
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Title",
+      "question": "Which title best summarizes the passage?",
+      "options": {
+        "A": "SpaceX Rocket's Surprise Appearance near Christmas Island",
+        "B": "Rocket Launch Delayed by Weather",
+        "C": "Indian Ocean Cleanup Begins",
+        "D": "Texas Spaceport Expands Operations"
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "ABADCDA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "'Incredible': SpaceX rocket spotted off Christmas Island coast",
+      "url": "https://www.bbc.co.uk/news/videos/c4gw160q3v3o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
