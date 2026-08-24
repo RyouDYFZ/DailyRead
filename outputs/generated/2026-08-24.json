@@ -1,0 +1,293 @@
+{
+  "title_en": "Salmonella Outbreak: What We Know So Far",
+  "title_zh": "沙门氏菌疫情：目前已知情况",
+  "summary_zh": "英国卫生安全局近日宣布一起全国性沙门氏菌食物中毒疫情，已造成一人死亡、数百人感染。目前进口鸡蛋或含蛋菜肴被列为主要怀疑对象，但尚未得到证实；证据显示感染多发生在餐馆、咖啡馆或外卖店等餐饮场所。基因测序表明病例中的菌株高度相似，并与此前涉及进口鸡蛋的疫情存在关联。卫生部门仍在进行溯源和检测，相关控制措施和供应链调查仍在继续。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Medicine",
+    "Public Health",
+    "Food Safety"
+  ],
+  "difficulty": 5,
+  "reading_passage": "The UK Health Security Agency (UKHSA) has recently declared a national outbreak, external of salmonella food poisoning after one person died and hundreds more fell ill with the bug.\n\nAlthough not yet proven, imported eggs or dishes containing them are the leading suspects as to the cause.\n\nEvidence also suggests people caught the bug while eating out, rather than at home - with catering and food services such as restaurants, cafes or take-aways likely to play a part.\n\nBut there is still a lot to be discovered.\n\nWhat do we know and what questions remain?\n\nSalmonella are a family of bacteria that typically live harmlessly in the digestive tract of animals including cattle, pigs and chicken - which is why eggs and poultry are among foods commonly associated with the infection.\n\neating contaminated food that has not been cooked properly\n\ncross contamination after mixing raw and cooked food in the kitchen for example\n\nSigns to watch out for include stomach cramps, diarrhoea, vomiting or fever. These usually develop between 12 and 72 hours after becoming infected.\n\nIn most cases people recover without further help but older people, babies and people with weakened immune systems are at greatest risk of severe disease.\n\nHospital care with fluids and sometimes antibiotics can help in these cases.\n\nAnyone who is concerned should contact their GP or out of hours service in the first instance.\n\nYes, cooking eggs and other food thoroughly can prevent infection.\n\nOther ways to protect yourself include washing your hands before preparing food, after using the bathroom and after contact with animals.\n\nIn the current outbreak most infections do not seem to arise from food that has cooked at home.\n\nThe Food Standards Agency, external has recently issued guidance to catering businesses on the storage and handling of eggs.\n\nThe majority of recent cases - 199 of the 207 - have been in England, including 47 in London and 38 in Yorkshire and Humber.\n\nThere have been six cases in Scotland, one in Wales and another in Northern Ireland.\n\nWhile the cases are spread out, scientists used a type of comprehensive genetic fingerprinting called whole-genome sequencing, which revealed the bugs involved are all closely related.\n\nTests show there are only a handful of differences in their DNA sequences, which indicate the infections are part of the same outbreak, with a common source.\n\nGenetic testing of the bacteria suggests there are similarities with a previous outbreak involving imported eggs.\n\nUKHSA experts questioned 114 people involved in the current outbreak and their answers indicate that eggs provide the \"strongest signal\" or clue.\n\nSome 24 cases had links to five businesses (which have not been named), with 11 people reporting they ate dishes containing eggs.\n\nInvestigations suggest these premises may use eggs that are supplied from multiple sources, including imported sources.\n\nIn some localities there have been questions over hygiene practices.\n\n\"At this time there is no identified link to UK-produced eggs or poultry,\" the UKHSA says.\n\nJacquelyn McCormick, head of incidents at the Food Security Agency, says the standard advice remains unchanged - thoroughly cooked eggs that are handled hygienically should not present a food safety risk.\n\nInfants, young children, those who are pregnant and older adults should only eat runny or raw eggs if they have a British Lion mark or are produced under the Laid in Britain egg assurance scheme.\n\nPeople who are immunocompromised should follow their doctor's advice.\n\nMeanwhile Dr Kathleen O'Reilly at the London School of Hygiene and Tropical Medicine recommends checking out food hygiene ratings when deciding on cafes or restaurants.\n\nThe vaccination of commercial hens against common salmonella strains, which began in the mid-1990s in the UK, has been a \"major public health success\" and has \"substantially reduced egg-associated salmonella infections,\" according to Dr Charlotte Hammer at the University of Cambridge.\n\nAnother quality control measure is the British Lion Scheme, launched in 1998.\n\nAny suppliers of eggs given the British Lion mark have to stick to a strict code that covers the vaccinating of hens, regular testing and a passport system to make sure hens are traceable.\n\nPaul Wigley, professor in animal microbial ecosystems at the Bristol Veterinary School, says improved surveillance and detection has also helped.\n\n\"However, we do still import a large number of eggs and egg product, and salmonella could be contained within these because the countries in which they're produced don't use that same level of control,\" he added.\n\nMeanwhile, Mark Williams, chairman of the British Egg Industry Council, said food businesses which import eggs should check their supply lines for vaccination information and that all the food safety checks have been done.\n\nHealth experts still need to confirm that eggs are the source and the UKHSA is continuing to interview people confirmed to have caught the bug.\n\nLocal authorities will be carrying out tests on businesses that are likely to be involved as well as carrying out some opportunistic testing.\n\nExperts will also need to look at the whole supply chain, investigating where the eggs or egg products have been eaten, supplied stored and farmed, for example.\n\nOnce they have enough information an important step would be to limit further infections.\n\nThe exact source and country of origin will need to be traced.\n\nOne challenge is that when a business imports a large number of eggs, they can come from mixed sources.\n\nThe UKHSA has alerted other countries about this outbreak so they can check for any genetically similar infections.\n\nAnd while salmonella infections occur every year in the UK, outbreaks that grow this quickly are relatively unusual, according to Dr Gauri Godbole at the UKHSA, so scientists will want to examine the factors that led to this situation.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "outbreak",
+      "ipa": "/ˈaʊtbreɪk/",
+      "pos": "n.",
+      "meaning_zh": "（疾病的）暴发，突然发生",
+      "collocations": [
+        "salmonella outbreak",
+        "disease outbreak",
+        "outbreak of food poisoning"
+      ],
+      "example": "The hospital reported a small outbreak of norovirus last winter."
+    },
+    {
+      "category": "core_word",
+      "word": "contaminated",
+      "ipa": "/kənˈtæmɪneɪtɪd/",
+      "pos": "adj.",
+      "meaning_zh": "受污染的，被污染的",
+      "collocations": [
+        "contaminated food",
+        "contaminated water",
+        "contaminated surface"
+      ],
+      "example": "Contaminated kitchen surfaces can spread bacteria to ready-to-eat food."
+    },
+    {
+      "category": "core_word",
+      "word": "infection",
+      "ipa": "/ɪnˈfekʃn/",
+      "pos": "n.",
+      "meaning_zh": "感染；传染病",
+      "collocations": [
+        "bacterial infection",
+        "prevent infection",
+        "severe infection"
+      ],
+      "example": "Handwashing is one of the most effective ways to prevent infection."
+    },
+    {
+      "category": "core_word",
+      "word": "traceable",
+      "ipa": "/ˈtreɪsəbl/",
+      "pos": "adj.",
+      "meaning_zh": "可追踪的，可追溯的",
+      "collocations": [
+        "traceable supply chain",
+        "traceable source",
+        "fully traceable"
+      ],
+      "example": "The scheme keeps eggs traceable from farm to shop."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "cross contamination",
+      "ipa": "/ˌkrɒs kənˌtæmɪˈneɪʃn/",
+      "pos": "phr.",
+      "meaning_zh": "交叉污染",
+      "collocations": [
+        "avoid cross contamination",
+        "risk of cross contamination",
+        "prevent cross contamination"
+      ],
+      "example": "Separate chopping boards help prevent cross contamination between raw and cooked food."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "whole-genome sequencing",
+      "ipa": "/ˌhəʊl ˈdʒiːnəʊm ˈsiːkwənsɪŋ/",
+      "pos": "phr.",
+      "meaning_zh": "全基因组测序",
+      "collocations": [
+        "use whole-genome sequencing",
+        "whole-genome sequencing revealed",
+        "whole-genome sequencing data"
+      ],
+      "example": "Whole-genome sequencing showed that the bacterial strains were closely related."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "supply chain",
+      "ipa": "/səˈplaɪ tʃeɪn/",
+      "pos": "phr.",
+      "meaning_zh": "供应链",
+      "collocations": [
+        "food supply chain",
+        "global supply chain",
+        "supply chain management"
+      ],
+      "example": "Investigators traced the contaminated eggs through the food supply chain."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "watch out for",
+      "ipa": "/ˌwɒtʃ ˈaʊt fɔːr/",
+      "pos": "phr.",
+      "meaning_zh": "留意，警惕",
+      "collocations": [
+        "watch out for signs",
+        "watch out for symptoms",
+        "watch out for danger"
+      ],
+      "example": "Parents should watch out for signs of dehydration in young children."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "carry out",
+      "ipa": "/ˌkæri ˈaʊt/",
+      "pos": "phr.",
+      "meaning_zh": "执行，实施",
+      "collocations": [
+        "carry out tests",
+        "carry out an investigation",
+        "carry out research"
+      ],
+      "example": "Local officials will carry out food safety tests at the affected premises."
+    },
+    {
+      "category": "academic_word",
+      "word": "comprehensive",
+      "ipa": "/ˌkɒmprɪˈhensɪv/",
+      "pos": "adj.",
+      "meaning_zh": "全面的，综合的",
+      "collocations": [
+        "comprehensive review",
+        "comprehensive approach",
+        "comprehensive data"
+      ],
+      "example": "The report provides a comprehensive analysis of the outbreak data."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Although not yet proven, imported eggs or dishes containing them are the leading suspects as to the cause.",
+      "explanation_zh": "句首是让步状语从句，省略了主语和 be 动词（完整为 `Although it is not yet proven`）；主句主语为 `imported eggs or dishes containing them`，其中 `containing them` 是现在分词短语作后置定语修饰 `dishes`。",
+      "grammar_point": "让步状语从句的省略；现在分词短语作后置定语。",
+      "translation_zh": "虽然尚未得到证实，但进口鸡蛋或含有进口鸡蛋的菜肴是主要怀疑对象。"
+    },
+    {
+      "sentence": "While the cases are spread out, scientists used a type of comprehensive genetic fingerprinting called whole-genome sequencing, which revealed the bugs involved are all closely related.",
+      "explanation_zh": "`While` 引导让步状语从句，主句为 `scientists used a type of comprehensive genetic fingerprinting`；`called whole-genome sequencing` 是过去分词短语作后置定语；`which` 引导非限制性定语从句，补充说明测序结果。",
+      "grammar_point": "让步状语从句；非限制性定语从句。",
+      "translation_zh": "尽管病例分布分散，科学家使用了一种名为全基因组测序的全面基因指纹技术，结果显示相关病菌都密切相关。"
+    },
+    {
+      "sentence": "Any suppliers of eggs given the British Lion mark have to stick to a strict code that covers the vaccinating of hens, regular testing and a passport system to make sure hens are traceable.",
+      "explanation_zh": "主语 `Any suppliers of eggs given the British Lion mark` 中，`given...` 是过去分词短语作后置定语，相当于 `who are given...`；`that` 引导限制性定语从句修饰 `code`；`to make sure...` 是不定式短语作目的状语。",
+      "grammar_point": "过去分词短语作后置定语；限制性定语从句；不定式表目的。",
+      "translation_zh": "任何获得英国狮标标志的鸡蛋供应商都必须遵守一项严格规范，该规范涵盖母鸡接种疫苗、定期检测以及确保母鸡可追溯的溯源系统。"
+    },
+    {
+      "sentence": "However, we do still import a large number of eggs and egg product, and salmonella could be contained within these because the countries in which they're produced don't use that same level of control.",
+      "explanation_zh": "`However` 引出转折；全句由 `and` 连接两个并列分句；后一分句中 `because` 引导原因状语从句，其中 `in which` 引导定语从句修饰 `the countries`；`do` 在第一个分句中起强调作用。",
+      "grammar_point": "并列句；原因状语从句；介词 + which 限制性定语从句；助动词 do 表强调。",
+      "translation_zh": "然而，我们仍然进口大量鸡蛋和蛋制品，这些产品中可能含有沙门氏菌，因为生产这些产品的国家没有使用同等水平的控制措施。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "play a part",
+      "meaning_zh": "起作用；参与其中",
+      "usage_note": "中性表达，说明某因素对结果有影响但不一定是决定性的；常与介词 `in` 搭配。",
+      "example": "Poor hygiene practices may have played a part in the spread of the infection."
+    },
+    {
+      "expression": "stick to",
+      "meaning_zh": "严格遵守；坚持",
+      "usage_note": "带口语色彩，强调不偏离规则、计划或承诺；常接名词或动名词。",
+      "example": "Suppliers must stick to the code if they want to keep the British Lion mark."
+    },
+    {
+      "expression": "a handful of",
+      "meaning_zh": "少数；少量",
+      "usage_note": "用于可数名词复数前，表示数量不多，比 `a few` 更强调数量小。",
+      "example": "Only a handful of samples showed genetic differences."
+    },
+    {
+      "expression": "in the first instance",
+      "meaning_zh": "首先；第一步",
+      "usage_note": "正式表达，常见于医疗或官方建议，指应采取的第一个行动。",
+      "example": "Patients with symptoms should contact their GP in the first instance."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the central topic of the article?",
+      "options": {
+        "A": "A confirmed link between UK egg producers and the salmonella outbreak",
+        "B": "An ongoing salmonella outbreak and the investigation into its likely source",
+        "C": "The history of the British Lion Scheme and egg vaccination",
+        "D": "How to treat salmonella infection at home"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "According to the article, what is the leading suspected cause of the current outbreak?",
+      "options": {
+        "A": "Cross contamination in home kitchens",
+        "B": "Imported eggs or dishes containing them",
+        "C": "Undercooked poultry",
+        "D": "Unpasteurized dairy products"
+      },
+      "answer": "B",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the statement that people caught the bug while eating out rather than at home?",
+      "options": {
+        "A": "Home-cooked food is always safe from salmonella",
+        "B": "Restaurants and takeaways may be an important part of the outbreak pathway",
+        "C": "Catering businesses are unlikely to be involved",
+        "D": "The outbreak only affects people who never cook"
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 22, what does the phrase 'strongest signal' most nearly mean?",
+      "options": {
+        "A": "The clearest indication pointing to eggs",
+        "B": "The most severe physical symptom",
+        "C": "The loudest public warning",
+        "D": "The strongest genetic match"
+      },
+      "answer": "A",
+      "evidence_paragraph": 22
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which word best describes the author's tone when discussing the investigation?",
+      "options": {
+        "A": "Sensationalist",
+        "B": "Dismissive",
+        "C": "Cautious",
+        "D": "Celebratory"
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Organization",
+      "question": "How does the author mainly organize the information in the article?",
+      "options": {
+        "A": "It moves from outbreak details and investigation to control measures and remaining challenges",
+        "B": "It gives a chronological account of the outbreak from the 1990s to today",
+        "C": "It presents only official statements without analysis",
+        "D": "It compares the UK outbreak with imported egg cases in other countries"
+      },
+      "answer": "A",
+      "evidence_paragraph": 44
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the most suitable title for the article?",
+      "options": {
+        "A": "British Lion Scheme: A Public Health Success",
+        "B": "Salmonella Outbreak: What We Know So Far",
+        "C": "How to Cook Eggs Safely at Home",
+        "D": "The History of Whole-Genome Sequencing"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "BBBACAB",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Salmonella outbreak: What we know so far",
+      "url": "https://www.bbc.co.uk/news/articles/cp30gqnpqjqo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
