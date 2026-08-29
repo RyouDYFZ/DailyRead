@@ -1,0 +1,293 @@
+{
+  "title_en": "Treatment involving patient's family cuts mental health hospital admissions, study finds",
+  "title_zh": "研究：亲友参与治疗可降低精神科住院率",
+  "summary_zh": "一项由伦敦大学学院牵头、发表于《柳叶刀·精神病学》的研究显示，在 500 名因精神健康危机求助的患者中，采用亲友参与的“开放对话”模式后，精神科住院风险降至原来的三分之一，住院时长减半，患者对康复和生活质量的评价更高。该模式注重患者优先事项、固定临床医生和亲友持续参与，但试验未发现复发率显著降低，部分专家认为仍需进一步研究其独特效果。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Medicine",
+    "Mental Health",
+    "Public Health"
+  ],
+  "difficulty": 5,
+  "reading_passage": "Dr Nihad Fathi said the treatment, which involved his wife Farah, had saved his life\n\nInvolving a patient's family and friends as part of a new approach to mental health treatment makes it three times less likely they will be admitted to psychiatric hospital, research has found.\n\nPatients rated their recovery and quality of life more highly than those who were treated in the traditional way, the study published in The Lancet Psychiatry, external also found.\n\nIt is the first major study of Open Dialogue, a way of providing treatment and organising mental health services that involves focusing on the patient's priorities, seeing the same clinicians, and involving people close to them.\n\nBut, the trial, in five NHS trust areas, found it did not stop patients suffering relapses, and some critics say there needs to be further research into its effectiveness.\n\nDr Nihad Fathi has benefited from the approach after he felt his life started to spiral out of control as the Covid pandemic took hold in 2020.\n\nBy the next summer, problems in his work had left him feeling anxious, depressed and worthless. He felt like he was letting his clients down.\n\n\"It was so much pressure, stress,\" he said.\n\n\"I caught myself like a lost child and I didn't know what's going on in my mind,\" he said.\n\nIt was a terrifying time for his wife Farah. \"At that stage, I didn't know what to do,\" she said.\n\nFor one of his sessions Nihad and Farah sit in a circle in their east London home with two clinicians – consultant psychiatrist Dr Bill Travers and community psychiatric nurse David Adebayo.\n\nThey have been working with Nihad for five years and the NHS trust they work for, North East London NHS Foundation Trust, has been using Open Dialogue with some of its community patients since 2019.\n\nOpen Dialogue was first devised in the 1980s in Finland. It is now used in more than 20 countries around the world, although the research into its effectiveness has been limited.\n\nThe idea is for a patient to regularly take part in \"network meetings\". As well as two Open Dialogue practitioners, these meetings also involve the friends, families, neighbours or colleagues of the patient. They then remain involved in the patient's recovery.\n\nUnder the Open Dialogue approach patients see the same clinicians and there is a focus on their own priorities\n\nThe sessions allow a free-flowing conversation about how the patient feels, what help they would like and how that may be achieved. It also allows the \"network\" to talk about what they have observed about the patient and their own feelings.\n\nDr Travers said although the network meetings were longer than a normal appointment, the patients need fewer of them.\n\n\"It enables you to reach a much firmer and deeper understanding of the underlying reasons for the problems and indeed to seek solutions that come very much from the person and their family,\" he said.\n\nThe study, led by University College London, involved 500 patients that had approached mental health services in crisis. They were split into two groups - one was entered into Open Dialogue, the other received treatment as usual.\n\nThe study found there was no significant difference in whether a patient had a relapse of their illness. However, researchers say because fewer Open Dialogue patients were admitted to hospital, the amount of time this group spent as inpatients was halved compared to those receiving standard care.\n\nDr Russell Razzaque, a consultant psychiatrist and the clinical lead on the trial, said this could have significant implications for how the NHS runs psychiatric care.\n\n\"There's a substantial reduction in cost because you're not spending all the money on inpatient beds, which are the most expensive part of the system,\" he said.\n\n\"So yes, you might be spending a bit more time in the community, but that is what the NHS wants.\"\n\nThere were also improvements in how the patients felt about their wellbeing and recovery.\n\nHowever, consultant psychiatrist Dr Sameer Jauhar feels the benefits seen in the trial might be explained by the extra resources put into it, and that more research is needed.\n\n\"The important question is whether the distinctive, resource-intensive elements of Open Dialogue itself add benefit beyond good, adequately staffed community care. On the evidence of this trial, that question remains unresolved,\" he said.\n\nBut for Farah, Open Dialogue was the right intervention for Nihad.\n\n\"It needs somebody to hear him, somebody to understand him, how he feels, what he's trying to even to achieve. They are helping him and then he sees a better picture,\" she said.\n\nIf you are suffering distress or despair, details of help and support in the UK are available at BBC Action Line\n\nHave you been affected by issues covered in this story? Share your experiences.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "involve",
+      "ipa": "/ɪnˈvɒlv/",
+      "pos": "v.",
+      "meaning_zh": "使参与；涉及；包含",
+      "collocations": [
+        "involve family members",
+        "involve patients in decisions",
+        "be involved in treatment"
+      ],
+      "example": "The new model involves relatives in regular mental health reviews."
+    },
+    {
+      "category": "core_word",
+      "word": "relapse",
+      "ipa": "/ˈriːlæps/",
+      "pos": "n.",
+      "meaning_zh": "（疾病）复发",
+      "collocations": [
+        "suffer a relapse",
+        "relapse rate",
+        "prevent relapse"
+      ],
+      "example": "The patient remained stable and did not experience a relapse during follow-up."
+    },
+    {
+      "category": "core_word",
+      "word": "admission",
+      "ipa": "/ədˈmɪʃn/",
+      "pos": "n.",
+      "meaning_zh": "（住院）收治；进入",
+      "collocations": [
+        "psychiatric admission",
+        "hospital admission",
+        "admission rate"
+      ],
+      "example": "The program was associated with a lower rate of hospital admission."
+    },
+    {
+      "category": "core_word",
+      "word": "intervention",
+      "ipa": "/ˌɪntəˈvenʃn/",
+      "pos": "n.",
+      "meaning_zh": "干预；介入措施",
+      "collocations": [
+        "medical intervention",
+        "early intervention",
+        "targeted intervention"
+      ],
+      "example": "Early intervention can improve long-term outcomes for patients."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "mental health",
+      "ipa": "/ˌmentl ˈhelθ/",
+      "pos": "phr.",
+      "meaning_zh": "心理健康；精神健康",
+      "collocations": [
+        "mental health services",
+        "mental health treatment",
+        "mental health crisis"
+      ],
+      "example": "The trust expanded its community mental health support teams."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "quality of life",
+      "ipa": "/ˌkwɒləti əv ˈlaɪf/",
+      "pos": "phr.",
+      "meaning_zh": "生活质量",
+      "collocations": [
+        "improve quality of life",
+        "quality-of-life measure",
+        "patient quality of life"
+      ],
+      "example": "Patients reported improved quality of life after six months of therapy."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "inpatient beds",
+      "ipa": "/ˈɪnpeɪʃnt bedz/",
+      "pos": "phr.",
+      "meaning_zh": "住院床位",
+      "collocations": [
+        "expensive inpatient beds",
+        "inpatient bed capacity",
+        "shortage of inpatient beds"
+      ],
+      "example": "The hospital reduced its reliance on costly inpatient beds."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "split into",
+      "ipa": "/splɪt ˈɪntuː/",
+      "pos": "phr.",
+      "meaning_zh": "把……分成（若干组/部分）",
+      "collocations": [
+        "split into groups",
+        "split into two arms",
+        "split the sample into"
+      ],
+      "example": "The study participants were split into a treatment group and a control group."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "put into",
+      "ipa": "/pʊt ˈɪntuː/",
+      "pos": "phr.",
+      "meaning_zh": "投入（资源、时间等）；把……用于",
+      "collocations": [
+        "put resources into",
+        "put time into",
+        "put money into"
+      ],
+      "example": "The health system put extra resources into community-based care."
+    },
+    {
+      "category": "academic_word",
+      "word": "significant",
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "pos": "adj.",
+      "meaning_zh": "显著的；重要的；有统计意义的",
+      "collocations": [
+        "significant difference",
+        "significant reduction",
+        "statistically significant"
+      ],
+      "example": "There was no significant difference in relapse rates between the two groups."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Involving a patient's family and friends as part of a new approach to mental health treatment makes it three times less likely they will be admitted to psychiatric hospital, research has found.",
+      "explanation_zh": "主句为 `research has found`，其前是省略 `that` 的宾语从句。在宾语从句中，主语是动名词短语 `Involving ... treatment`，谓语是 `makes`，形式宾语 `it` 指代后面的 `they will be admitted ...`，说明让亲友参与与降低住院可能性之间的因果关系；比较结构 `three times less likely` 表示可能性降至原来的三分之一。",
+      "grammar_point": "动名词短语作主语；形式宾语 `it`；省略 `that` 的宾语从句；比较结构",
+      "translation_zh": "研究发现，让患者的家人和朋友参与一种新的精神健康治疗方法，会使其被收入精神科医院的可能性降至原来的三分之一。"
+    },
+    {
+      "sentence": "It is the first major study of Open Dialogue, a way of providing treatment and organising mental health services that involves focusing on the patient's priorities, seeing the same clinicians, and involving people close to them.",
+      "explanation_zh": "主句为 `It is the first major study of Open Dialogue`。名词短语 `a way of providing ... close to them` 作 `Open Dialogue` 的同位语，解释其含义；定语从句 `that involves ...` 修饰 `a way`，后接三个并列的动名词短语作 `involves` 的宾语，说明该模式包含的三个核心要素。",
+      "grammar_point": "同位语；定语从句；并列动名词短语",
+      "translation_zh": "这是对“开放对话”的首次大型研究。该模式是一种提供治疗和组织精神卫生服务的方式，重点包括以患者优先事项为中心、由同一批临床医生接诊，以及让患者身边的人参与进来。"
+    },
+    {
+      "sentence": "But, the trial, in five NHS trust areas, found it did not stop patients suffering relapses, and some critics say there needs to be further research into its effectiveness.",
+      "explanation_zh": "句首 `But` 表示转折，承接前文正面结果。前一分句的主干是 `the trial ... found it did not stop patients suffering relapses`，其中 `in five NHS trust areas` 为插入语，说明试验范围；`it did not stop patients suffering relapses` 是省略 `that` 的宾语从句，`suffering relapses` 作宾语补足语。后一分句 `some critics say ...` 表示批评者的保留意见。",
+      "grammar_point": "插入语；省略 `that` 的宾语从句；宾语补足语；并列转折",
+      "translation_zh": "但是，这项在五个英国国家医疗服务体系信托地区开展的试验发现，它并未阻止患者复发；一些批评者认为还需要对其有效性做进一步研究。"
+    },
+    {
+      "sentence": "However, researchers say because fewer Open Dialogue patients were admitted to hospital, the amount of time this group spent as inpatients was halved compared to those receiving standard care.",
+      "explanation_zh": "主句为 `researchers say`，后接省略 `that` 的宾语从句。从句中 `because fewer Open Dialogue patients were admitted to hospital` 是原因状语从句，主句为 `the amount of time ... was halved`；`this group spent as inpatients` 是省略关系代词的定语从句，修饰 `time`；`compared to those receiving standard care` 为过去分词短语作比较状语。",
+      "grammar_point": "原因状语从句；省略关系代词的定语从句；过去分词短语作比较状语",
+      "translation_zh": "然而，研究人员表示，由于“开放对话”患者住院人数更少，该组作为住院患者的时间与接受标准照护的患者相比缩短了一半。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "spiral out of control",
+      "meaning_zh": "急剧恶化；失去控制",
+      "usage_note": "比喻性表达，常描述局势、情绪、生活或病情从可管理状态迅速恶化。多用于负面语境。",
+      "example": "After the funding cuts, waiting times began to spiral out of control in several community clinics."
+    },
+    {
+      "expression": "take hold",
+      "meaning_zh": "开始确立；变得根深蒂固；常指疾病、恐慌、观念或趋势等增强",
+      "usage_note": "不及物短语，主语通常为抽象事物或自然现象；不用被动语态。",
+      "example": "Panic took hold as the outbreak spread across the region."
+    },
+    {
+      "expression": "let somebody down",
+      "meaning_zh": "让某人失望；辜负某人",
+      "usage_note": "非正式至中性语境；常用于承诺、职责或期望未被满足时。",
+      "example": "He was afraid of letting his colleagues down by missing the deadline."
+    },
+    {
+      "expression": "see a better picture",
+      "meaning_zh": "更清楚地看清情况；看到更好的前景",
+      "usage_note": "比喻性表达，表示从困惑或低谷中获得更清晰的视角或信心。",
+      "example": "Once she began counselling, she started to see a better picture of her recovery."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the central finding or focus of the article?",
+      "options": {
+        "A": "The COVID-19 pandemic caused a sharp rise in psychiatric admissions in the NHS.",
+        "B": "Open Dialogue eliminated relapses and replaced inpatient psychiatric care entirely.",
+        "C": "Traditional treatment led to better recovery and quality of life than the new approach.",
+        "D": "A family-involving mental health approach reduced hospital admissions but did not prevent relapses, and its effectiveness remains debated."
+      },
+      "answer": "D",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "What did Dr Nihad Fathi say about the treatment described in the article?",
+      "options": {
+        "A": "It caused his condition to spiral out of control after 2020.",
+        "B": "It was unsuccessful because his wife was not involved.",
+        "C": "It led to his admission to a psychiatric hospital.",
+        "D": "It had saved his life and involved his wife Farah."
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred about Open Dialogue from the description in paragraph 4?",
+      "options": {
+        "A": "It mainly relies on medication and hospital admission.",
+        "B": "It regards patients' personal goals and social relationships as central.",
+        "C": "It treats mental illness without involving any clinicians.",
+        "D": "It is the first treatment ever to involve family members."
+      },
+      "answer": "B",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 3, the word 'rated' is closest in meaning to:",
+      "options": {
+        "A": "estimated the cost of",
+        "B": "listed in order",
+        "C": "criticized",
+        "D": "assessed or judged"
+      },
+      "answer": "D",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which word best describes the author's attitude toward the trial's findings?",
+      "options": {
+        "A": "Dismissive",
+        "B": "Balanced",
+        "C": "Sensational",
+        "D": "Hostile"
+      },
+      "answer": "B",
+      "evidence_paragraph": 25
+    },
+    {
+      "type": "Organization",
+      "question": "How is the article organized?",
+      "options": {
+        "A": "It presents a medical case, then trial results and expert views, and returns to the patient's perspective.",
+        "B": "It lists causes of psychiatric admission before discussing unrelated public health topics.",
+        "C": "It gives a chronological history of Open Dialogue from the 1980s to the present and ends with statistical tables.",
+        "D": "It compares Finland's healthcare system with the NHS before concluding that both are identical."
+      },
+      "answer": "A",
+      "evidence_paragraph": 28
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following best serves as the title of this article?",
+      "options": {
+        "A": "Family-inclusive Mental Health Approach Cuts Hospital Admissions, Study Finds",
+        "B": "NHS Trusts Struggle with Covid-19 Mental Health Crisis",
+        "C": "Traditional Psychiatric Care Shows Superior Recovery Outcomes",
+        "D": "Open Dialogue Eliminates Relapse in Community Patients"
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    }
+  ],
+  "answer_key": "DDBDBAA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Treatment involving patient's family cuts mental health hospital admissions, study finds",
+      "url": "https://www.bbc.co.uk/news/articles/cvgydk0vvpyo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
