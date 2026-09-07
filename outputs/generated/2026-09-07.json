@@ -1,0 +1,293 @@
+{
+  "title_en": "How Comparing Fruit Fly Brains Reveals Gene-Behaviour Links",
+  "title_zh": "比较果蝇大脑如何揭示基因与行为的联系",
+  "summary_zh": "剑桥大学等机构的科学家首次绘制了雄性果蝇大脑全部1.24亿个神经细胞连接图，并与此前的雌性果蝇图谱进行比较。研究发现约95%的细胞相同，但剩余5%的线路差异足以驱动攻击、求偶和求偶鸣叫等行为；这些差异由两个已知基因控制。研究主要目的是通过性别这一单一变量揭示基因如何塑造大脑线路，从而帮助理解基因影响行为的原理，并可能为自闭症、精神分裂症等人类疾病及人工智能系统提供启示。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Neuroscience",
+    "Genetics",
+    "Behaviour"
+  ],
+  "difficulty": 4,
+  "reading_passage": "Scientists have managed to compare the fine detail of the brains of male and female flies for the first time, identifying differences they say explain male aggression, courtship and their singing of love songs.\n\nThe scientists in Cambridge mapped all 124 million connections of nerve cells in a male fly's brain, having done the same for a female fly two years ago.\n\nThe team are clear that the research won't explain differences between men and women because our behaviour is far more complex.\n\nBut the research could help scientists better understand human behaviour and conditions in which genetic differences affect brain wiring, such as autism and schizophrenia.\n\nProf Gregory Jefferis, of the Medical Research Council's Laboratory of Molecular Biology and University of Cambridge, who co-led the research, told BBC News that the breakthrough was \"a really important new avenue in neuroscience\", likening it to the invention of a powerful new telescope in increasing our understanding of the Universe.\n\n\"We have this amazing stuff in our heads that lets us do incredible things such as playing a sonata or solving a scientific problem. And this development could help our understanding of how those systems work\".\n\nThe map was made by cutting the fly brain into 66 pieces, each of which was imaged by repeated rounds of scanning.\n\nThe fly's brain is as beautiful as it is incredible. It is the size of a pin head yet in many ways more efficient than a supercomputer and able to outsmart the smartest AI.\n\nJefferis' team and collaborators painstakingly analysed every nerve cell, every wire and every connection in a male fruit fly. They put them together into a 3D map of the brain and nerve cord and compared them to the earlier, female mapping.\n\nThey found that around 95% of the cells are shared between the male and female fly brains. But the remaining 5% are enough to drive quite distinct behaviours, according to Dr Isabella Beckett, who is joint first author of the scientific research paper published today in the Journal Cell.\n\n\"We were expecting to find differences, and we found them, and we're excited by what we got,\" she said.\n\nThe small differences they discovered can lead to big changes in behaviour.\n\nIn courtship, for example, the male tracks the female as she moves. The researchers have identified the brain circuits associated with that trait and found key differences in the wiring. The males have extra bits that should enhance his visual tracking.\n\nThere is an even bigger difference in the circuits associated with aggression. Males fight more often and so there is much more wiring associated with that behaviour than in females.\n\nAnd then, there is the love song circuit.\n\nMales woo females by producing a sound. They have wiring unique only to them to produce the sound. According to Dr Philipp Schlegel, co-author of the study, the circuit has to be just right, otherwise the consequences for the poor male could be dire.\n\n\"The courtship also includes singing to the female,\" he told me. \"The sound is produced by vibrating the wings to produce a very specific song.\n\n\"If the female likes it, she will allow him to approach, and if she doesn't, and she's not receptive at a time, she'll basically reject him, which could be a kick to the face\".\n\nThese three differences between male and female wiring in flies are driven by two key genes. Researchers have known about the genes for years, and how they're linked to each of these behaviours. What they've never been able to see is the bit in the middle. Now, for the first time, they can see the actual wiring those genes produce.\n\nThe primary aim of the research was not to discover the differences between male and female flies, and certainly not to find neurological explanations for certain alleged behavioural differences between men and women.\n\nComparing two brains that have some slight wiring differences associated with known big behavioural differences enables scientists to clearly see the principles that underlie the changes to brain wiring for all behaviour, according to Beckett.\n\n\"You just have one independent variable, the sex, and then you can see what's different. This is a scientist's dream\".\n\nThese differences take scientists a big step forward in understanding one of the biggest questions in biology - how genes influence behaviour.\n\nScientists have known for decades that they do, but have had little idea of exactly how they exert their influence. The answer, according to Dr Jefferis, is in how the genes shape the brain's wiring and how that wiring influences behaviour.\n\n\"The fly brain comparison gives us a really good handle on this,\" he told BBC News.\n\n\"There are patterns of behaviour in humans that seem to have a strong genetic, basis. So, for example, there are many gene varients now related to schizophrenia and autism spectrum disorders that we don't really understand\".\n\nThe wiring inside a female fly brain completed two years ago\n\nThere are also possible applications in improving AI and boosting computer systems, he adds.\n\n\"To have AI that's efficient as, as our brains, is probably going to take more biological inspiration. And the inspiration that's likely to be important is actually real biological wiring diagrams.\n\n\"There are people who've been putting the fly brain in the middle of artificial networks and trying to see if it's useful to help, learn and control artificial systems\".\n\nOther scientific collaborators were from the HHMI Janelia Research Campus led by Prof Gerry Rubin, Drosophila Connectomics Group at the University of Cambridge, Google Research and the Champalimaud Foundation",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "courtship",
+      "ipa": "/ˈkɔːtʃɪp/",
+      "pos": "n.",
+      "meaning_zh": "求偶；求爱；求偶期",
+      "collocations": [
+        "courtship behaviour",
+        "courtship ritual",
+        "elaborate courtship"
+      ],
+      "example": "The male bird performed an elaborate courtship dance to attract a mate."
+    },
+    {
+      "category": "core_word",
+      "word": "aggression",
+      "ipa": "/əˈɡreʃn/",
+      "pos": "n.",
+      "meaning_zh": "攻击行为；侵略；敌对情绪",
+      "collocations": [
+        "male aggression",
+        "display aggression",
+        "reduce aggression"
+      ],
+      "example": "The study found a link between certain brain circuits and aggressive behaviour."
+    },
+    {
+      "category": "core_word",
+      "word": "wiring",
+      "ipa": "/ˈwaɪərɪŋ/",
+      "pos": "n.",
+      "meaning_zh": "（神经）连接方式；布线；线路",
+      "collocations": [
+        "brain wiring",
+        "neural wiring",
+        "wiring diagram"
+      ],
+      "example": "Researchers are mapping the neural wiring involved in memory formation."
+    },
+    {
+      "category": "core_word",
+      "word": "breakthrough",
+      "ipa": "/ˈbreɪkθruː/",
+      "pos": "n.",
+      "meaning_zh": "突破；重大进展",
+      "collocations": [
+        "scientific breakthrough",
+        "major breakthrough",
+        "breakthrough discovery"
+      ],
+      "example": "The new imaging method is considered a major breakthrough in neuroscience."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "love song",
+      "ipa": "/ˈlʌv sɒŋ/",
+      "pos": "phr.",
+      "meaning_zh": "情歌；（果蝇等的）求偶鸣叫",
+      "collocations": [
+        "sing a love song",
+        "love song circuit",
+        "insect love song"
+      ],
+      "example": "Some birds sing a complex love song to attract mates during the breeding season."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "nerve cord",
+      "ipa": "/nɜːv kɔːd/",
+      "pos": "phr.",
+      "meaning_zh": "神经索",
+      "collocations": [
+        "ventral nerve cord",
+        "brain and nerve cord",
+        "nerve cord connection"
+      ],
+      "example": "The insect's ventral nerve cord runs along the underside of its body."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "independent variable",
+      "ipa": "/ˌɪndɪˈpendənt ˈveəriəbl/",
+      "pos": "phr.",
+      "meaning_zh": "自变量；独立变量",
+      "collocations": [
+        "have one independent variable",
+        "manipulate the independent variable",
+        "independent variable in an experiment"
+      ],
+      "example": "In this experiment, temperature is the independent variable and growth rate is the dependent variable."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "put together",
+      "ipa": "/pʊt təˈɡeðə/",
+      "pos": "phr.",
+      "meaning_zh": "组合；拼合；装配",
+      "collocations": [
+        "put together a map",
+        "put together data",
+        "put together a team"
+      ],
+      "example": "The scientists put together decades of results into a unified model."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "lead to",
+      "ipa": "/liːd tuː/",
+      "pos": "phr.",
+      "meaning_zh": "导致；引起",
+      "collocations": [
+        "lead to changes",
+        "lead to problems",
+        "lead to better understanding"
+      ],
+      "example": "Small genetic changes can lead to significant differences in behaviour."
+    },
+    {
+      "category": "academic_word",
+      "word": "underlie",
+      "ipa": "/ˌʌndəˈlaɪ/",
+      "pos": "v.",
+      "meaning_zh": "构成……的基础；引起；潜在于",
+      "collocations": [
+        "underlie behaviour",
+        "principles that underlie",
+        "factors underlying"
+      ],
+      "example": "The neural mechanisms that underlie decision-making are still not fully understood."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Scientists have managed to compare the fine detail of the brains of male and female flies for the first time, identifying differences they say explain male aggression, courtship and their singing of love songs.",
+      "explanation_zh": "主句为 `Scientists have managed to compare...`；现在分词短语 `identifying differences...` 作结果或伴随状语，补充说明比较所带来的发现。`differences` 后面接 `they say explain...`，其中 `they say` 可视为插入性说明，省略了 `that` 的定语从句说明 `differences` 的内容。",
+      "grammar_point": "现在分词短语作结果状语；插入语 they say",
+      "translation_zh": "科学家们首次成功比较了雄性和雌性果蝇大脑的细微结构，发现了他们认为能够解释雄性攻击行为、求偶以及情歌鸣唱差异的差别。"
+    },
+    {
+      "sentence": "The scientists in Cambridge mapped all 124 million connections of nerve cells in a male fly's brain, having done the same for a female fly two years ago.",
+      "explanation_zh": "主句为 `The scientists... mapped all 124 million connections...`；`having done the same...` 是完成式现在分词短语，表示动作发生在主句动作之前，并起到原因或背景说明的作用。",
+      "grammar_point": "完成式现在分词 having done 作时间/原因状语",
+      "translation_zh": "剑桥的科学家们绘制了一只雄性果蝇大脑中全部 1.24 亿个神经细胞连接，而两年前他们已经对一只雌性果蝇完成过同样的工作。"
+    },
+    {
+      "sentence": "The researchers have identified the brain circuits associated with that trait and found key differences in the wiring.",
+      "explanation_zh": "主句由并列谓语 `have identified... and found...` 组成；过去分词短语 `associated with that trait` 作后置定语，修饰 `brain circuits`，相当于定语从句 `that are associated with that trait`。",
+      "grammar_point": "过去分词短语作后置定语；并列谓语",
+      "translation_zh": "研究人员已经识别出与该特征相关的大脑回路，并发现了关键线路上的差异。"
+    },
+    {
+      "sentence": "Comparing two brains that have some slight wiring differences associated with known big behavioural differences enables scientists to clearly see the principles that underlie the changes to brain wiring for all behaviour, according to Beckett.",
+      "explanation_zh": "句子的主语是动名词短语 `Comparing two brains...`，其中 `that have some slight wiring differences...` 是定语从句修饰 `two brains`；过去分词短语 `associated with known big behavioural differences` 修饰 `wiring differences`；主句谓语是 `enables`，宾语补足语 `to clearly see...`；`that underlie...` 是定语从句修饰 `the principles`；`according to Beckett` 为评论性插入语，表示信息来源。",
+      "grammar_point": "动名词短语作主语；多个定语从句与过去分词短语嵌套；插入语 according to",
+      "translation_zh": "贝克特表示，比较两个存在细微线路差异且这些差异与已知重大行为差异相关的大脑，使科学家能够清楚地看到所有行为背后大脑线路变化所遵循的原则。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "a big step forward",
+      "meaning_zh": "向前迈出的一大步；重大进展",
+      "usage_note": "中性表达，常用于描述研究、技术或项目取得实质进步；不作字面理解。",
+      "example": "The new vaccine is a big step forward in the fight against the disease."
+    },
+    {
+      "expression": "have a really good handle on this",
+      "meaning_zh": "对……有很好的理解或掌握",
+      "usage_note": "较口语化，常出现在直接引语或非正式专业讨论中；`handle` 此处意为把握，不能按字面理解为把手。",
+      "example": "After years of data collection, the team finally has a good handle on the gene's function."
+    },
+    {
+      "expression": "a scientist's dream",
+      "meaning_zh": "科学家的理想条件；极为有利的研究情境",
+      "usage_note": "常用 `a/an + possessive + dream` 形容理想状态；此处的 `dream` 表示令人向往的事物，非睡眠中的梦。",
+      "example": "A dataset with one controlled variable and clear outcomes is a scientist's dream."
+    },
+    {
+      "expression": "a kick to the face",
+      "meaning_zh": "一记迎面打击；比喻断然拒绝或羞辱性挫败",
+      "usage_note": "原文中指雌蝇可能真的用脚踢雄蝇的脸，但该短语也可用作比喻，表示令人难堪的拒绝或失败；语气较强，多见于口语或引语。",
+      "example": "Getting rejected after the final interview felt like a kick to the face."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the central finding of the Cambridge research described in the article?",
+      "options": {
+        "A": "Small wiring differences between male and female fruit fly brains are linked to distinct behaviours.",
+        "B": "Male and female fruit flies have completely different brain structures.",
+        "C": "Fruit fly brains are larger and more efficient than human brains.",
+        "D": "The research proves that male and female human brains are wired differently."
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "According to paragraph 2, what did the scientists do two years ago?",
+      "options": {
+        "A": "Mapped a female fly brain",
+        "B": "Mapped a male fly brain",
+        "C": "Published the current research paper",
+        "D": "Identified the genes linked to behaviour"
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the team's statement that the research will not explain differences between men and women?",
+      "options": {
+        "A": "The researchers are not interested in human brain conditions.",
+        "B": "Fruit fly brains are genetically identical to human brains.",
+        "C": "Human behaviour is too complex for fruit fly findings to translate directly.",
+        "D": "The study has no relevance to human health."
+      },
+      "answer": "C",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 4, the word \"conditions\" most nearly means:",
+      "options": {
+        "A": "medical disorders or states",
+        "B": "experimental settings",
+        "C": "social circumstances",
+        "D": "rules or requirements"
+      },
+      "answer": "A",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which best describes the author's attitude toward the research?",
+      "options": {
+        "A": "cautious but receptive to its potential",
+        "B": "openly critical of its limitations",
+        "C": "indifferent to its scientific value",
+        "D": "convinced it will immediately change medicine"
+      },
+      "answer": "A",
+      "evidence_paragraph": 5
+    },
+    {
+      "type": "Organization",
+      "question": "How does the article develop its central explanation after presenting the brain-mapping discovery?",
+      "options": {
+        "A": "It compares fruit fly brains with human brains point by point.",
+        "B": "It first details specific differences and then returns to the broader principle of gene-behaviour links.",
+        "C": "It lists every researcher's quote in alphabetical order.",
+        "D": "It argues that aggression is the only important behavioural difference."
+      },
+      "answer": "B",
+      "evidence_paragraph": 13
+    },
+    {
+      "type": "Title",
+      "question": "Which title best summarizes the article?",
+      "options": {
+        "A": "The Complete Neural Map of the Human Brain",
+        "B": "How Comparing Fruit Fly Brains Illuminates Gene-Behaviour Links",
+        "C": "Why Fruit Flies Are More Efficient Than Supercomputers",
+        "D": "The History of Cambridge Neuroscience Research"
+      },
+      "answer": "B",
+      "evidence_paragraph": 23
+    }
+  ],
+  "answer_key": "AACAABB",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "How the brain of a fly may help explain human behaviour",
+      "url": "https://www.bbc.co.uk/news/articles/cqjkd2ylq1yo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
