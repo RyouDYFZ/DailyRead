@@ -1,0 +1,287 @@
+{
+  "title_en": "Tech Life: Contrails, Mobile Phones and AI Detectors",
+  "title_zh": "科技生活：凝结尾迹、手机与AI检测器",
+  "summary_zh": "本期BBC科技播客《Tech Life》介绍三项内容：飞机发动机形成的凝结尾迹对环境的危害，以及谷歌参与的AI项目“蓝色天空行动”如何减少凝结尾迹；制造商帮助儿童和成人健康使用手机的不同做法；AI检测器的工作原理。听众可通过BBC网站或新款BBC App收听。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Technology",
+    "Environment",
+    "Digital Wellbeing"
+  ],
+  "difficulty": 2,
+  "reading_passage": "Use BBC.com or the new BBC App to listen to BBC podcasts, Radio 4 and the World Service outside the UK.\n\nFind out how to listen to other BBC stations\n\nCloudy lines in the sky, caused by aircraft engines, are called contrails. They're harmful to the environment. Now a project is underway, using AI, to reduce the amount generated. It's called Operation Blue Skies, and we speak to Google about their involvement. Also this week: we look at three very different approaches taken by manufacturers to help children and adults have a healthy relationship with mobile phones. And AI detectors - how do they work? Presenter: Shiona McCallum Producer: Tom Quinn (Photo: A large four engine passenger jet flies at high altitude. The sky is blue, and the jet engines are emitting white cloudy trails, known as contrails. Credit: Getty Images)",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "contrail",
+      "ipa": "/ˈkɒn.treɪl/",
+      "pos": "n.",
+      "meaning_zh": "（飞机发动机在高空产生的）凝结尾迹，俗称飞机拉线",
+      "collocations": [
+        "aircraft contrails",
+        "persistent contrails",
+        "contrail formation"
+      ],
+      "example": "Researchers studied how atmospheric conditions affect contrail formation."
+    },
+    {
+      "category": "core_word",
+      "word": "harmful",
+      "ipa": "/ˈhɑːm.fəl/",
+      "pos": "adj.",
+      "meaning_zh": "有害的",
+      "collocations": [
+        "harmful to the environment",
+        "harmful effects",
+        "potentially harmful"
+      ],
+      "example": "The report warned that emissions from older engines are harmful to air quality."
+    },
+    {
+      "category": "core_word",
+      "word": "emit",
+      "ipa": "/iˈmɪt/",
+      "pos": "v.",
+      "meaning_zh": "排放；发出（气体、光、热等）",
+      "collocations": [
+        "emit greenhouse gases",
+        "emit pollutants",
+        "emit radiation"
+      ],
+      "example": "Jet engines emit water vapour and soot at cruising altitude."
+    },
+    {
+      "category": "core_word",
+      "word": "environment",
+      "ipa": "/ɪnˈvaɪ.rən.mənt/",
+      "pos": "n.",
+      "meaning_zh": "自然环境",
+      "collocations": [
+        "protect the environment",
+        "damage the environment",
+        "natural environment"
+      ],
+      "example": "Policies should balance economic growth with the need to protect the environment."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "aircraft engines",
+      "ipa": "/ˈeə.krɑːft ˈen.dʒɪnz/",
+      "pos": "phr.",
+      "meaning_zh": "飞机发动机",
+      "collocations": [
+        "aircraft engine emissions",
+        "aircraft engine design",
+        "modern aircraft engines"
+      ],
+      "example": "Modern aircraft engines are designed to be more fuel-efficient."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "mobile phones",
+      "ipa": "/ˈməʊ.baɪl fəʊnz/",
+      "pos": "phr.",
+      "meaning_zh": "移动电话；手机",
+      "collocations": [
+        "use mobile phones",
+        "mobile phone use",
+        "smart mobile phones"
+      ],
+      "example": "Many schools restrict mobile phone use during lessons."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "AI detectors",
+      "ipa": "/ˌeɪˈaɪ dɪˈtek.təz/",
+      "pos": "phr.",
+      "meaning_zh": "人工智能检测器；`AI` 检测工具",
+      "collocations": [
+        "AI detector software",
+        "use AI detectors",
+        "AI detector accuracy"
+      ],
+      "example": "Universities increasingly rely on AI detectors to identify machine-written essays."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "find out",
+      "ipa": "/faɪnd aʊt/",
+      "pos": "phr.",
+      "meaning_zh": "查明；弄清",
+      "collocations": [
+        "find out how to",
+        "find out about",
+        "find out whether"
+      ],
+      "example": "We need to find out how these AI detectors identify generated text."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "look at",
+      "ipa": "/lʊk æt/",
+      "pos": "phr.",
+      "meaning_zh": "考察；审视",
+      "collocations": [
+        "look at approaches",
+        "look at the evidence",
+        "look at the impact"
+      ],
+      "example": "The programme looks at the impact of smartphone use on sleep."
+    },
+    {
+      "category": "academic_word",
+      "word": "involvement",
+      "ipa": "/ɪnˈvɒlv.mənt/",
+      "pos": "n.",
+      "meaning_zh": "参与；介入",
+      "collocations": [
+        "direct involvement",
+        "active involvement",
+        "involvement in a project"
+      ],
+      "example": "The company confirmed its involvement in the AI research programme."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Cloudy lines in the sky, caused by aircraft engines, are called contrails.",
+      "explanation_zh": "主语 `Cloudy lines` 后接过去分词短语 `caused by aircraft engines`，作后置定语，相当于一个非限制性定语从句 `which are caused by aircraft engines`；主句谓语为被动语态 `are called`。",
+      "grammar_point": "过去分词短语作后置定语；被动语态",
+      "translation_zh": "天空中由飞机发动机造成的雾状线条被称为凝结尾迹。"
+    },
+    {
+      "sentence": "Now a project is underway, using AI, to reduce the amount generated.",
+      "explanation_zh": "句子主干为 `a project is underway`，`using AI` 是现在分词短语，说明方式；`to reduce the amount generated` 是目的状语，其中 `generated` 是过去分词作后置定语修饰 `amount`。",
+      "grammar_point": "现在分词短语作方式状语；不定式表目的；过去分词作定语",
+      "translation_zh": "目前一个项目正在进行中，利用人工智能来减少所产生的（尾迹）数量。"
+    },
+    {
+      "sentence": "Also this week: we look at three very different approaches taken by manufacturers to help children and adults have a healthy relationship with mobile phones.",
+      "explanation_zh": "冒号引出节目内容；主句为 `we look at three very different approaches`，过去分词短语 `taken by manufacturers` 修饰 `approaches`，最后的不定式短语 `to help children and adults have ...` 表目的。",
+      "grammar_point": "过去分词短语作定语；不定式复合结构表目的",
+      "translation_zh": "同样在本周，我们考察制造商为帮助儿童和成人与手机保持健康关系而采取的三种截然不同的方法。"
+    },
+    {
+      "sentence": "The sky is blue, and the jet engines are emitting white cloudy trails, known as contrails.",
+      "explanation_zh": "本句为并列句，`the sky is blue` 与 `the jet engines are emitting ...` 由 `and` 连接；后半句用现在进行时描述正在发生的动作，`known as contrails` 是过去分词短语作后置定语。",
+      "grammar_point": "并列句；现在进行时；过去分词短语作定语",
+      "translation_zh": "天空湛蓝，喷气发动机正排放出被称为凝结尾迹的白色雾状尾迹。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "be underway",
+      "meaning_zh": "正在进行中",
+      "usage_note": "较正式，常表示计划、项目或活动已经开始。",
+      "example": "A pilot project to reduce aviation emissions is now underway."
+    },
+    {
+      "expression": "be known as",
+      "meaning_zh": "被称为；被称作",
+      "usage_note": "常用于说明某物或某人的名称，后面接名词或名词短语。",
+      "example": "These white trails are known as contrails."
+    },
+    {
+      "expression": "have a healthy relationship with",
+      "meaning_zh": "与……保持健康的关系（常指对技术、工作、食物等的使用方式）",
+      "usage_note": "不仅用于人际，也可用于人与物之间，带有比喻色彩。",
+      "example": "Adults also need to have a healthy relationship with social media."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main purpose of the passage?",
+      "options": {
+        "A": "To explain how aircraft engines create harmful contrails",
+        "B": "To encourage listeners to contact Google about Operation Blue Skies",
+        "C": "To list the main segments in the latest edition of a technology podcast",
+        "D": "To compare manufacturers' approaches to mobile phone use"
+      },
+      "answer": "C",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Detail",
+      "question": "According to the passage, what creates contrails?",
+      "options": {
+        "A": "Aircraft engines",
+        "B": "AI systems",
+        "C": "Mobile phone signals",
+        "D": "Radio broadcasts"
+      },
+      "answer": "A",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred about Operation Blue Skies?",
+      "options": {
+        "A": "It is a Google product designed to detect AI-generated text.",
+        "B": "It uses artificial intelligence to reduce the formation of contrails.",
+        "C": "It is a mobile phone app for children's screen time.",
+        "D": "It studies how AI detectors work at high altitude."
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In the passage, the word 'contrails' refers to which of the following?",
+      "options": {
+        "A": "Cloudy lines left by passenger jets",
+        "B": "Radio signals from the World Service",
+        "C": "AI-generated text patterns",
+        "D": "Mobile phone usage data"
+      },
+      "answer": "A",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which word best describes the author's attitude toward the subjects described?",
+      "options": {
+        "A": "Critical",
+        "B": "Neutral",
+        "C": "Enthusiastic",
+        "D": "Doubtful"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Organization",
+      "question": "How is the information in the passage organized?",
+      "options": {
+        "A": "Problem, solution, then evaluation",
+        "B": "Listener instructions followed by topic previews",
+        "C": "Comparison, contrast, and recommendation",
+        "D": "Chronological history of AI development"
+      },
+      "answer": "B",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Title",
+      "question": "Which title best captures the content of this passage?",
+      "options": {
+        "A": "How Aircraft Engines Pollute the Sky",
+        "B": "BBC Radio 4's Coverage of Global Affairs",
+        "C": "A Preview of This Week's Technology Podcast",
+        "D": "Google's AI Project to Remove Clouds"
+      },
+      "answer": "C",
+      "evidence_paragraph": 3
+    }
+  ],
+  "answer_key": "CABABBC",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Tech Life",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jy9?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
