@@ -1,0 +1,293 @@
+{
+  "title_en": "AI Leaders Back Self-Regulation as Safety Fears Mount",
+  "title_zh": "人工智能安全担忧加剧，企业领袖支持自我监管",
+  "summary_zh": "在上周一名离职研究员发布关于人工智能可能在十年内杀死人类的帖子后，`OpenAI` 首席执行官萨姆·阿尔特曼在一次会议上表示公众的担忧是有理由的，但他相信公司有能力自我监管；`Meta`、`Nvidia` 等企业高管也支持自我监管，而部分业内人士警告完全不受监管的行业是在冒险。`OpenAI` 和 `Anthropic` 已开始就行业安全标准进行对话。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Business",
+    "Artificial Intelligence",
+    "Regulation"
+  ],
+  "difficulty": 5,
+  "reading_passage": "However, Altman noted that people were justified in their fears around AI, as the capability of the tools has progressed rapidly.\n\n\"It doesn't take as much imagination as it used to for [us] to imagine how this could go wrong,\" he said. \"I think the world is right to be afraid of this.\"\n\nAltman's comments came during an appearance at an annual conference hosted by software firm Salesforce.\n\nIt was the first time he had spoken publicly since a post went viral last week by a researcher who quit the AI firm Anthropic. The researcher claimed AI could kill all humans by the end of the decade if left unchecked.\n\nA handful of other AI executives and experts responded by saying they agreed with the assessment, though they didn't explain how they came to their conclusions or how exactly AI could accomplish such a thing.\n\nThe fervor over the claims has led to more scrutiny of AI development in recent days, and in response, Anthropic chief executive Dario Amodei called for the pace of all AI development to slow, external and urged governments to regulate the industry.\n\nThe post was applauded by Altman, as well as co-founder of Google's DeepMind Demis Hassabis, and Elon Musk, owner of social media site X and AI assistant Grok.\n\nBy Tuesday, more AI leaders were voicing support for self-regulation rather than government involvement.\n\nAltman said that he felt AI companies like his own were capable of essentially regulating themselves.\n\n\"We will get it right, I'm very confident in our company's and industry's ability to do this safely,\" Altman said, adding that he was sure that they would \"keep alignment and safety way ahead of capabilities\" and if they couldn't, they would \"slow down or stop\".\n\nOpenAI has been a leader in the current AI era\n\nAfter Altman's comments, Meta boss Mark Zuckerberg wrote on X that every AI lab has the ability and the incentive \"to take its own actions\" towards making AI tools and models that are designed for safety.\n\n\"Any lab that doesn't focus on alignment will fall behind,\" Zuckerberg wrote. \"Labs face significant liability if their models cause harm, so they have a strong incentive to prevent this as well.\"\n\nJensen Huang, head of Nvidia, also said at the same Tuesday conference that the AI firms should decide if new versions of the technology should be released and not be managed by outside forces.\n\n\"We don't need new laws or regulations,\" Huang said, adding that there should not be a \"false choice\" between the speed of innovation and the safety of AI products.\n\nNvidia is the biggest company in the world by valuation, with its profits having boomed as a result of rampant demand for the AI computing chips it makes.\n\n\"Safety is paramount. However, safety is an engineering problem,\" Huang said.\n\nHe added that if at any time a leader of an AI company lacks confidence in their product they should choose to not release it.\n\n\"That's a very obvious thing to do,\" Huang said. \"Run as fast as you can, but if at any time you feel the institution is not in control, take a pause.\"\n\nWhy doomsday warnings are not the only threat to the AI juggernaut\n\nTrump says AI safety fears a 'hoax' as he rejects calls for greater safeguards\n\nSome industry figures have argued resurgent AI fears were overblown and were being jumped on to generate hype for the industry.\n\nDuring the conference, Altman addressed a crowd of hundreds of business people, telling them they should use AI tools to aid in their work, but also needed them in order to protect their businesses from potentially AI-enabled cyber attacks.\n\nThe idea of AI executives being left to entirely regulate themselves has struck some in the industry as a bad idea.\n\nJack Clark, an Anthropic executive and co-founder, told the BBC on Monday that leaving AI to be a \"totally unregulated industry\" was \"rolling dice with immense risks\".\n\nPatrick Hillman, the chief operating officer of Logical Intelligence, which is chaired by Yann LeCun, a sage of the AI industry, noted Tuesday how little faith people have in tech companies to do anything truly in the public interest, external.\n\n\"The only institution that Americans might trust less than Washington these days is Silicon Valley. I have worked and lived in both and I assure you both have earned this scepticism,\" Hillman said.\n\n\"If you believe what you are building is dangerous, show us what you are prepared to stop doing,\" he added.\n\nAI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC\n\nAI regulation faces political deadlock as calls grow for Congress to act\n\nLeaders of OpenAI and Anthropic have said they have recently started working towards some sort of industry-wide agreement on safety.\n\nAmodei, during a cameo at the conference on Tuesday, said Anthropic is now in \"a dialogue with the rest of the industry\" about committing to better safety standards and checks on AI tools and development.\n\nHe also said that one of the biggest surprises of the AI boom was not how the technology itself has advanced, but its broader impact.\n\n\"We didn't appreciate that it would lead to companies growing so fast, and how quickly they would become central to things,\" Amodei said.\n\nOpenAI executive Chris Lehane said last week that the company was also working with other AI labs, external \"to advance frontier AI standards, building a voluntary effort now, with or without government support.\" Those labs include Anthropic and Google Deepmind.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "justified",
+      "ipa": "/ˈdʒʌstɪfaɪd/",
+      "pos": "adj.",
+      "meaning_zh": "有正当理由的；情有可原的",
+      "collocations": [
+        "feel justified in doing something",
+        "be justified by evidence",
+        "morally justified"
+      ],
+      "example": "The public's concern about data privacy is justified, given recent breaches."
+    },
+    {
+      "category": "core_word",
+      "word": "scrutiny",
+      "ipa": "/ˈskruːtəni/",
+      "pos": "n.",
+      "meaning_zh": "仔细审查；密切关注",
+      "collocations": [
+        "come under scrutiny",
+        "face scrutiny",
+        "public scrutiny"
+      ],
+      "example": "AI firms have come under intense scrutiny after the viral safety warning."
+    },
+    {
+      "category": "core_word",
+      "word": "paramount",
+      "ipa": "/ˈpærəmaʊnt/",
+      "pos": "adj.",
+      "meaning_zh": "至为重要的；首要的",
+      "collocations": [
+        "of paramount importance",
+        "safety is paramount",
+        "paramount concern"
+      ],
+      "example": "In the development of high-risk technology, public safety is paramount."
+    },
+    {
+      "category": "core_word",
+      "word": "liability",
+      "ipa": "/ˌlaɪəˈbɪləti/",
+      "pos": "n.",
+      "meaning_zh": "（法律）责任；债务；不利条件",
+      "collocations": [
+        "face liability",
+        "legal liability",
+        "significant liability"
+      ],
+      "example": "Labs face significant liability if their models cause harm."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "left unchecked",
+      "ipa": "/left ʌnˈtʃekt/",
+      "pos": "phr.",
+      "meaning_zh": "不受约束；放任不管",
+      "collocations": [
+        "leave something unchecked",
+        "remain unchecked",
+        "go unchecked"
+      ],
+      "example": "If the technology is left unchecked, it may create risks that are difficult to reverse."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "self-regulation",
+      "ipa": "/ˌself reɡjuˈleɪʃn/",
+      "pos": "n.",
+      "meaning_zh": "自我监管；行业自律",
+      "collocations": [
+        "industry self-regulation",
+        "voluntary self-regulation",
+        "rely on self-regulation"
+      ],
+      "example": "Some executives argued that self-regulation would allow AI development to continue safely."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "false choice",
+      "ipa": "/ˌfɔːls ˈtʃɔɪs/",
+      "pos": "phr.",
+      "meaning_zh": "虚假的二选一；错误的取舍",
+      "collocations": [
+        "present a false choice",
+        "a false choice between A and B",
+        "reject a false choice"
+      ],
+      "example": "Jensen Huang rejected the idea of a false choice between innovation speed and product safety."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "go wrong",
+      "ipa": "/ˌɡoʊ ˈrɒŋ/",
+      "pos": "phr.",
+      "meaning_zh": "出问题；出错",
+      "collocations": [
+        "things go wrong",
+        "go seriously wrong",
+        "what could go wrong"
+      ],
+      "example": "Even well-planned systems can go wrong if safety checks are ignored."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "fall behind",
+      "ipa": "/ˌfɔːl bɪˈhaɪnd/",
+      "pos": "phr.",
+      "meaning_zh": "落后；跟不上",
+      "collocations": [
+        "fall behind competitors",
+        "fall behind in the market",
+        "fall behind on safety"
+      ],
+      "example": "Zuckerberg warned that any lab that does not focus on alignment will fall behind."
+    },
+    {
+      "category": "academic_word",
+      "word": "incentive",
+      "ipa": "/ɪnˈsentɪv/",
+      "pos": "n.",
+      "meaning_zh": "激励；动力",
+      "collocations": [
+        "a strong incentive",
+        "financial incentive",
+        "create an incentive"
+      ],
+      "example": "Liability rules create a strong incentive for companies to prevent harm."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "It doesn't take as much imagination as it used to for [us] to imagine how this could go wrong.",
+      "explanation_zh": "主句是 “It doesn't take as much imagination as it used to”，其中 “it” 为形式主语，真正的主语是后面的不定式短语 “to imagine how this could go wrong”。比较结构 “as much...as it used to” 表示现在所需的想象程度低于过去，说明风险变得更容易设想。",
+      "grammar_point": "Dummy 'it' + comparative 'as much...as' + infinitive subject",
+      "translation_zh": "与过去相比，我们不需要那么丰富的想象力就能设想这件事会如何出错。"
+    },
+    {
+      "sentence": "It was the first time he had spoken publicly since a post went viral last week by a researcher who quit the AI firm Anthropic.",
+      "explanation_zh": "主句为 “It was the first time”，后接省略 that 的定语从句 “he had spoken publicly”；过去完成时 “had spoken” 强调在 “was the first time” 之前发生的动作。“since” 引导时间状语从句 “a post went viral”，其中过去分词短语 “by a researcher” 和定语从句 “who quit...” 修饰 “a post”。",
+      "grammar_point": "It was the first time + past perfect; since-clause; reduced relative clause",
+      "translation_zh": "这是他自上周一名辞职离开 Anthropic 的研究员的帖子引发病毒式传播以来首次公开发言。"
+    },
+    {
+      "sentence": "After Altman's comments, Meta boss Mark Zuckerberg wrote on X that every AI lab has the ability and the incentive 'to take its own actions' towards making AI tools and models that are designed for safety.",
+      "explanation_zh": "主句为 “Mark Zuckerberg wrote”。“After Altman's comments” 是时间状语；“that” 引导宾语从句，其中 “to take its own actions” 是不定式短语作定语修饰 ability 和 incentive；“towards making...” 是介词短语表方向；“that are designed for safety” 为定语从句修饰 AI tools and models。",
+      "grammar_point": "Prepositional time phrase + main clause + that-clause + infinitive of purpose/attribute",
+      "translation_zh": "在 Altman 发表上述言论后，Meta 首席执行官马克·扎克伯格在 X 上写道，每家 AI 实验室都有能力和动力“采取自己的行动”，以开发为安全而设计的 AI 工具和模型。"
+    },
+    {
+      "sentence": "Jack Clark, an Anthropic executive and co-founder, told the BBC on Monday that leaving AI to be a \"totally unregulated industry\" was \"rolling dice with immense risks\".",
+      "explanation_zh": "主句为 “Jack Clark told the BBC”。“an Anthropic executive and co-founder” 是主语的同位语；“that” 引导宾语从句，其主语是动名词短语 “leaving AI to be a 'totally unregulated industry'”，谓语为 “was 'rolling dice with immense risks'”，使用引号内容作表语，表示比喻性判断。",
+      "grammar_point": "Appositive phrase + main clause + that-clause with gerund subject",
+      "translation_zh": "Anthropic 高管兼联合创始人杰克·克拉克周一告诉 BBC，让 AI 成为一个“完全不受监管的行业”就像“拿巨大风险掷骰子”。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "roll the dice",
+      "meaning_zh": "孤注一掷；冒险做结果难以预料的事",
+      "usage_note": "比喻性表达，常用于批评某个决定风险很高，如文中 “rolling dice with immense risks” 表示把极大风险当作赌注。",
+      "example": "The board decided to roll the dice on an unproven AI model."
+    },
+    {
+      "expression": "jump on",
+      "meaning_zh": "急切地利用（某事物），往往带有投机意味",
+      "usage_note": "常见于商业和媒体语境中，常以被动形式 “be jumped on” 出现，表示利用某个热点或恐惧情绪来制造声势。",
+      "example": "Some critics jumped on the safety fears to attract attention to their own platforms."
+    },
+    {
+      "expression": "strike someone as",
+      "meaning_zh": "给某人留下……的印象",
+      "usage_note": "后常接形容词或名词短语，如 “strike someone as a bad idea”，语气较正式，多用于评论观点。",
+      "example": "The proposal struck many employees as unnecessarily risky."
+    },
+    {
+      "expression": "way ahead of",
+      "meaning_zh": "远远领先于；比……超前得多",
+      "usage_note": "口语化程度较高，常与 “be/keep/stay” 连用，表示在某方面明显领先。文中指让安全与对齐在能力之前。",
+      "example": "Their safety testing is way ahead of their competitors' current practices."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "Which of the following best states the central idea of the passage?",
+      "options": {
+        "A": "AI executives are urging governments to impose stricter safety laws before innovation accelerates further.",
+        "B": "Nvidia's market valuation makes it the only company capable of regulating AI safety.",
+        "C": "A viral safety warning has prompted a debate in which several tech leaders favor self-regulation over government oversight.",
+        "D": "Anthropic researchers have concluded that AI will inevitably kill all humans by the end of the decade."
+      },
+      "answer": "C",
+      "evidence_paragraph": 8
+    },
+    {
+      "type": "Detail",
+      "question": "According to paragraph 1, how did Altman describe public fears around AI?",
+      "options": {
+        "A": "As irrational and unsupported by evidence",
+        "B": "As mainly relevant to academic researchers",
+        "C": "As already resolved by government regulators",
+        "D": "As justified because AI capabilities have advanced rapidly"
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from paragraph 4 about Altman's appearance at the conference?",
+      "options": {
+        "A": "Altman spoke before the viral post appeared.",
+        "B": "The timing placed his remarks within the public debate sparked by the post.",
+        "C": "Altman had written the viral post himself.",
+        "D": "Altman refused to discuss AI safety until the researcher retracted the claim."
+      },
+      "answer": "B",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 2, the phrase 'doesn't take as much imagination as it used to' most nearly means:",
+      "options": {
+        "A": "AI systems now require no human creativity to design.",
+        "B": "It has become easier than before to imagine how AI could go wrong.",
+        "C": "The public lacks the imagination to understand AI benefits.",
+        "D": "AI risks are entirely fictional and do not require serious thought."
+      },
+      "answer": "B",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which best describes the author's tone toward the debate over AI self-regulation?",
+      "options": {
+        "A": "Strongly supportive of immediate government bans on AI development",
+        "B": "Dismissive of safety concerns as exaggerated industry hype",
+        "C": "Hostile toward AI executives and skeptical of their motives",
+        "D": "Neutral and factual, presenting competing views without taking sides"
+      },
+      "answer": "D",
+      "evidence_paragraph": 24
+    },
+    {
+      "type": "Organization",
+      "question": "How are the first three paragraphs organized?",
+      "options": {
+        "A": "Problem, solution, evaluation",
+        "B": "Claim, supporting quotation, context",
+        "C": "Comparison, contrast, recommendation",
+        "D": "Question, answer, example"
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following titles best captures the central tension of the passage?",
+      "options": {
+        "A": "Nvidia's Profit Boom and the Global Chip Shortage",
+        "B": "AI Safety Fears: Self-Regulation Versus Government Oversight",
+        "C": "Why Anthropic Researchers Are Leaving the AI Industry",
+        "D": "The Complete History of OpenAI's Corporate Leadership"
+      },
+      "answer": "B",
+      "evidence_paragraph": 35
+    }
+  ],
+  "answer_key": "CDBBDBB",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "OpenAI boss says world 'right to be afraid' but 'should trust' AI firms",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
