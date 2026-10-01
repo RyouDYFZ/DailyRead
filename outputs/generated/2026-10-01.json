@@ -1,0 +1,293 @@
+{
+  "title_en": "AI Tools Aim to Predict Fruit Harvests",
+  "title_zh": "人工智能帮助果农预测收成时机",
+  "summary_zh": "多家水果种植和科技企业正在使用 `AI` 摄像机与预测模型分析果实数量、成熟时间和收成窗口。美国 Okanagan Specialty Fruits 借助 Vivid Machines 的拖拉机相机识别花芽，英国 FruitCast 为草莓、树莓等种植者提供收成预测，并声称一周前预测误差在 10% 以内。高校研究者也在开发毫米波成熟度检测器和低成本无人机计数工具。文章指出，高温干旱会影响预测，农户对数据共享和投资回报仍存顾虑，行业尚未形成完全整合的预测生态系统。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Agriculture",
+    "Business Technology",
+    "Artificial Intelligence"
+  ],
+  "difficulty": 4,
+  "reading_passage": "Carter's company has more than 1,250 acres of apple orchards in Washington, and the fruit is grown for sliced apple portions – often sold to hotels and schools, for example. The firm is investing in technology with the hope of maximising productivity. Even the apples are genetically engineered so that they don't brown easily once cut.\n\nBut planning a harvest is tricky. New tools that count and analyse fruit on the tree or vine, and predict when crops will ripen, are emerging. It matters because prices for fruit, especially high-value berries such as strawberries or blueberries can fluctuate wildly. Getting the harvest date wrong means you book seasonal workers when you don't actually need them, and risk missing out on the biggest profits.\n\nOkanagan Specialty Fruits is already experimenting with cameras from a Canadian firm called Vivid Machines. The cameras are mounted atop tractors and they scoop up imagery of the apple trees as the tractor trundles by. AI identifies buds, flowers or fruit in that footage.\n\n\"Right now, Vivid is telling us crop estimates and harvest dates,\" says Carter. He notes that the system is good at picking out very tiny flower buds, which are hard to see at a glance with the naked eye.\n\nBut the accuracy of forecasts is noticeably dependent on the quality of historical information fed in to the system, adds Carter. \"This isn't something where an AI can scrape the internet and figure out what's the average [yield] for Granny Smith,\" he explains. \"It's going to be bespoke to your farm.\"\n\nApples are at least somewhat forgiving – the harvest window for those Granny Smiths is three weeks long, says Carter. For other fruit, such as berries, you might only have a few days.\n\n\"If a strawberry crop is on, you have to harvest it – otherwise your entire crop gets diseased very, very quickly,\" says Raymond Martin, co-founder and chief operating officer of FruitCast, a UK company that offers harvest forecasts to fruit growers here.\n\nHis firm offers growers crop predictions for strawberries and also raspberries, blackberries, blueberries and tomatoes. \"We're moving on to grapes next year,\" adds Martin.\n\nDon't experienced farmers know when their fruit will be ripe, I ask? Martin says they generally do – but not necessarily across their entire farm, which might be many acres in size, or have both outdoor and indoor growing areas. \"We do exactly what the farmers could do but we just do it on a scale that they can't.\"\n\nThe system analyses footage of ripening fruit that can be captured by drones, someone walking up and down a field with a smartphone, or a camera mounted on a farm vehicle.\n\nThis year has been challenging, notes Martin, with hot weather and severe drought hitting much of the UK. This has stressed many fruit plants, putting them into thermal dormancy and slowing down fruit production.\n\nThere's only a small window for picking berries says Raymond Martin\n\nThe FruitCast model accounts for weather and irrigation conditions in its forecasts. The company says, \"our forecasts land within 10% of actual picked volume one week out (90% accurate) and within 17% three weeks out (83% accurate). We guarantee less than 20% error…\"\n\nAngus Soft Fruits is one company that has worked with FruitCast. AI tech for forecasting fruit ripeness is not yet \"a finished solution\" says operations director Neill Finlayson: \"This journey is still ongoing and, whilst significant progress has been made, the industry remains some way from achieving a fully integrated forecasting ecosystem.\"\n\nDriscoll's, a California headquartered fruit seller with a big operation in the UK, also confirmed to BBC News that some of its independent fruit growers in the UK have used FruitCast's technology.\n\nYasaman Ghasempour (left) is developing ripeness detection techniques\n\nResearchers are also exploring new ways of analysing fruit in intense detail. Many farmers already use handheld brix meters to gauge the sugar content of their crop. These devices work by measuring how much light has changed direction, or refracted, after passing through a liquid – indicating the volume of solids present.\n\nSome such meters use infrared light, meaning there's no need to cut into the fruit to take measurements. But Yasaman Ghasempour at Princeton University says millimetre waves, high frequency radio waves, can penetrate deeper \"They basically respond very well to humidity, water [and sugar],\" she says.\n\nShe and her students have come up with a millimetre wave-based ripeness detector, external that could be used by farmers – or even customers searching for perfectly ripe fruit in shops. Her students tried it out at a local market in New Jersey. \"[Staff] there got kind of scared that we were doing something shady,\" laughs Ghasempour.\n\nSuch fine-grained analysis of fruit, if currently unripe, could also help inform forecasts of when it will be ripe.\n\nJing Zhang says new tech has to prove its worth to farmers\n\nBut while some growers, such as Carter, are interested in trying out new tech, many will wonder whether investing in it is really worthwhile. \"Adoption is very complicated,\" says Jing Zhang at North Carolina State University. \"The grower has to have confidence in the research and whether or not it works.\"\n\nZhang has been working on a system to automatically count the number of blueberries, external captured in smartphone images of blueberry bushes.\n\nThe simplest systems need not be expensive. Kevin Wang at the University of Florida has developed another crop-counting tool that can harvest imagery, external from $100 (£74) drones.\n\nIn the future, such information could feed in to ripeness predictions. However, he points out that some farmers might be uneasy about sharing commercially sensitive information about their growing strategies, such as fertiliser and irrigation plans, with third parties and AI models.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "forecast",
+      "ipa": "/ˈfɔːkɑːst/",
+      "pos": "n.",
+      "meaning_zh": "预测；预报",
+      "collocations": [
+        "harvest forecast",
+        "weather forecast",
+        "sales forecast"
+      ],
+      "example": "The harvest forecast helps growers plan labour needs."
+    },
+    {
+      "category": "core_word",
+      "word": "yield",
+      "ipa": "/jiːld/",
+      "pos": "n.",
+      "meaning_zh": "产量；收成",
+      "collocations": [
+        "crop yield",
+        "high yield",
+        "yield per acre"
+      ],
+      "example": "Farmers monitor yield per acre to estimate revenue."
+    },
+    {
+      "category": "core_word",
+      "word": "ripen",
+      "ipa": "/ˈraɪpən/",
+      "pos": "v.",
+      "meaning_zh": "成熟；使成熟",
+      "collocations": [
+        "fruit ripens",
+        "ripen early",
+        "allow to ripen"
+      ],
+      "example": "Warm weather can cause berries to ripen faster than expected."
+    },
+    {
+      "category": "core_word",
+      "word": "dormancy",
+      "ipa": "/ˈdɔːmənsi/",
+      "pos": "n.",
+      "meaning_zh": "休眠；休眠状态",
+      "collocations": [
+        "thermal dormancy",
+        "seed dormancy",
+        "break dormancy"
+      ],
+      "example": "Drought pushed many plants into thermal dormancy."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "at a glance",
+      "ipa": "/æt ə ɡlɑːns/",
+      "pos": "phr.",
+      "meaning_zh": "一眼；立刻；乍一看",
+      "collocations": [
+        "see at a glance",
+        "tell at a glance",
+        "obvious at a glance"
+      ],
+      "example": "The system detects flower buds that are not visible at a glance."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "fluctuate wildly",
+      "ipa": "/ˈflʌktʃueɪt ˈwaɪldli/",
+      "pos": "phr.",
+      "meaning_zh": "剧烈波动；大幅涨落",
+      "collocations": [
+        "prices fluctuate wildly",
+        "demand fluctuates wildly",
+        "temperatures fluctuate wildly"
+      ],
+      "example": "Berry prices can fluctuate wildly during peak season."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "at scale",
+      "ipa": "/æt skeɪl/",
+      "pos": "phr.",
+      "meaning_zh": "大规模地；规模化地",
+      "collocations": [
+        "work at scale",
+        "operate at scale",
+        "deliver at scale"
+      ],
+      "example": "The firm collects farm data at a scale individual growers cannot match."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "scoop up",
+      "ipa": "/skuːp ʌp/",
+      "pos": "phr.",
+      "meaning_zh": "收集；采集；舀起",
+      "collocations": [
+        "scoop up imagery",
+        "scoop up water",
+        "scoop up information"
+      ],
+      "example": "The tractor-mounted cameras scoop up images as they move through the orchard."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "feed into",
+      "ipa": "/fiːd ˈɪntuː/",
+      "pos": "phr.",
+      "meaning_zh": "输入；影响；汇入",
+      "collocations": [
+        "feed into the system",
+        "feed into decisions",
+        "feed into forecasts"
+      ],
+      "example": "Historical farm data feeds into the forecast model."
+    },
+    {
+      "category": "academic_word",
+      "word": "adoption",
+      "ipa": "/əˈdɒpʃn/",
+      "pos": "n.",
+      "meaning_zh": "采用；采纳",
+      "collocations": [
+        "technology adoption",
+        "widespread adoption",
+        "adoption rate"
+      ],
+      "example": "High upfront costs can slow adoption of new agricultural technology."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "Getting the harvest date wrong means you book seasonal workers when you don't actually need them, and risk missing out on the biggest profits.",
+      "explanation_zh": "主句为“Getting the harvest date wrong means...”，动名词短语作主语；“means” 后接省略 `that` 的宾语从句，其中 `when you don't actually need them` 是时间状语从句；`and risk...` 与 `book...` 并列，共同作宾语从句的谓语部分，表达错误判断收获日期带来的两种后果。",
+      "grammar_point": "gerund as subject + object clause + when-clause",
+      "translation_zh": "把收获日期判断错意味着你会在实际不需要时预订季节性工人，并冒着错失最大利润的风险。"
+    },
+    {
+      "sentence": "This isn't something where an AI can scrape the internet and figure out what's the average [yield] for Granny Smith,\" he explains.",
+      "explanation_zh": "主句是“this isn't something”，关系副词 `where` 引导定语从句修饰 something；定语从句内用 `and` 连接两个谓语 `scrape` 和 `figure out`，后接由 `what` 引导的宾语从句，说明 AI 无法通过通用网络数据获得特定农场的平均产量。",
+      "grammar_point": "where-relative clause + embedded what-clause",
+      "translation_zh": "“这不是一个人工智能可以上网搜索、然后算出澳洲青苹平均产量的东西，”他解释说。"
+    },
+    {
+      "sentence": "This has stressed many fruit plants, putting them into thermal dormancy and slowing down fruit production.",
+      "explanation_zh": "主句是 `This has stressed many fruit plants`；现在分词短语 `putting... and slowing...` 作结果状语，说明高温和干旱给果树造成的两个并发的后续影响，逻辑上表示“由此导致”。",
+      "grammar_point": "present participle phrase as a result adverbial",
+      "translation_zh": "这给许多果树造成了胁迫，使它们进入热休眠并减缓果实生产。"
+    },
+    {
+      "sentence": "However, he points out that some farmers might be uneasy about sharing commercially sensitive information about their growing strategies, such as fertiliser and irrigation plans, with third parties and AI models.",
+      "explanation_zh": "主句是 `he points out`，`that` 引导宾语从句；宾语从句的主干为 `some farmers might be uneasy about sharing... information...`，动名词 `sharing` 的宾语 `information` 后接介词短语 `about their growing strategies`，再用 `such as` 引出同位语举例，最后 `with third parties and AI models` 表示分享对象。",
+      "grammar_point": "that-clause + gerund phrase + such as appositive",
+      "translation_zh": "不过他指出，一些农民可能会对与第三方和人工智能模型分享商业敏感信息感到不安，例如施肥和灌溉计划等种植策略信息。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "a small window",
+      "meaning_zh": "一段很短的时机或机会窗口",
+      "usage_note": "Neutral business/agricultural phrase; often used with 'of opportunity' or 'for doing something' to describe a limited period.",
+      "example": "Growers have only a small window for picking strawberries before they spoil."
+    },
+    {
+      "expression": "prove its worth",
+      "meaning_zh": "证明自身的价值或有效性",
+      "usage_note": "Used when a new technology or method must show practical benefit to justify cost or effort; often followed by 'to someone'.",
+      "example": "The forecasting tool still has to prove its worth to cautious farmers."
+    },
+    {
+      "expression": "some way from",
+      "meaning_zh": "离某个目标或状态还有相当距离；远未达到",
+      "usage_note": "British/formal phrase; typically followed by a noun or gerund and used to soften a negative assessment.",
+      "example": "The industry remains some way from achieving a fully integrated forecasting ecosystem."
+    },
+    {
+      "expression": "with the naked eye",
+      "meaning_zh": "用肉眼，不借助仪器",
+      "usage_note": "Used in scientific or technical contexts to contrast ordinary human vision with aided observation.",
+      "example": "Very tiny flower buds may be difficult to identify with the naked eye."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the central topic of the passage?",
+      "options": {
+        "A": "Apple growers are replacing workers with robots.",
+        "B": "Drought has caused widespread crop failures in Britain.",
+        "C": "AI tools are being developed to predict fruit harvest timing and yields.",
+        "D": "Drones are too expensive for most farmers."
+      },
+      "answer": "C",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "According to the passage, how do Vivid Machines cameras collect information about apple trees?",
+      "options": {
+        "A": "They are placed on drones flown over each tree.",
+        "B": "They scan fruit with infrared light at packing stations.",
+        "C": "They are mounted on tractors and record imagery as the tractor moves.",
+        "D": "They measure soil moisture near the roots."
+      },
+      "answer": "C",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from Carter's comment about the Vivid system's detection of flower buds?",
+      "options": {
+        "A": "The system cannot detect buds before they open.",
+        "B": "The system only works on Granny Smith apples.",
+        "C": "The system may identify buds that are too small for a person to see easily.",
+        "D": "Farmers no longer need to inspect orchards at all."
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 5, the phrase 'bespoke to your farm' most nearly means:",
+      "options": {
+        "A": "based on general internet data for all farms",
+        "B": "identical for every apple variety",
+        "C": "specially adapted to an individual farm",
+        "D": "available only to large companies"
+      },
+      "answer": "C",
+      "evidence_paragraph": 5
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which of the following best describes the article's overall stance toward AI-based fruit forecasting?",
+      "options": {
+        "A": "It argues that current AI tools are useless for commercial farming.",
+        "B": "It presents practical benefits but also notes accuracy, adoption, and data-sharing concerns.",
+        "C": "It suggests that all growers should immediately replace traditional methods.",
+        "D": "It focuses only on the technology's promotional claims."
+      },
+      "answer": "B",
+      "evidence_paragraph": 25
+    },
+    {
+      "type": "Organization",
+      "question": "The passage as a whole is primarily organized by:",
+      "options": {
+        "A": "comparing different apple varieties",
+        "B": "tracing the history of fruit harvesting from manual to automated",
+        "C": "arguing that farmers should not adopt AI",
+        "D": "presenting a problem, describing technologies and expert views, and discussing adoption barriers"
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would make the best title for this passage?",
+      "options": {
+        "A": "AI Tools Aim to Take the Guesswork Out of Harvest Timing",
+        "B": "Why Apple Orchards Are Disappearing",
+        "C": "How Genetic Engineering Keeps Apples Fresh",
+        "D": "The Rise of Drone Photography in Farming"
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    }
+  ],
+  "answer_key": "CCCCBDA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "The AI telling farmers when to harvest",
+      "url": "https://www.bbc.co.uk/news/articles/cgk53dkmyxko?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
