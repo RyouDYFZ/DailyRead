@@ -1,0 +1,287 @@
+{
+  "title_en": "AI Claims Trigger Review of Nikon Microscopy Prize Winner",
+  "title_zh": "AI质疑触发尼康显微摄影获奖作品审查",
+  "summary_zh": "尼康年度显微动态摄影大赛（`Small World In Motion`）的获奖作品因其他科学家质疑其使用生成式人工智能而正在接受重新评审。获奖者为清华大学研究员徐宁，他承认在处理灰阶重建图像时使用了AI来区分和可视化特征，但否认违反竞赛规则。质疑者指出视频中的细胞结构和纤毛运动异常，并称源图像可能带有AI生成水印。尼康表示目前未发现任何规则被违反，但将很快公布调查进展。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Science Ethics",
+    "Artificial Intelligence",
+    "Photography"
+  ],
+  "difficulty": 5,
+  "reading_passage": "Watch: The competition's winner and runners up. Nikon is investigating whether the winning video (shown left) was altered with AI\n\nThe winning entry of a prestigious scientific photography competition is being re-evaluated following criticism from other scientists that it was made with AI.\n\nNikon's annual Small World In Motion contest accepts photos and video taken using powerful microscopes, and has run annually for the last 15 years.\n\nThe winner was a short video submitted by Dr Ning Xu, a researcher at Tsinghua University in China, which claims to be footage of tiny, hair-like structures called cilia moving inside the airways of a child with a rare disease.\n\nXu did not respond to the BBC's request for comment, but has posted online denying he broke the competition rules.\n\nIn a response to a post by Nikon on LinkedIn, external, he did not dispute using AI within the image processing but said he remained within the rules of the contest.\n\n\"AI was not used to generate the experimental movie, the cilia, or their motion,\" he said.\n\nXu's video is artificially brightly coloured - common in microscopy and permitted in the contest - which is usually done manually using stains and dyes on the sample itself.\n\nHe accepted AI was used \"to distinguish and visualize features in the reconstructed grayscale images\".\n\nBut the challenges made by other scientists include claims that the video contains shapes and movements which did not fit with normal cell structures or behaviours, and that the cilia seemed to be too big.\n\nCommenting on Nikon's social media post, Edward Phelps, associate professor at Florida University, observed some of the structures \"pop in and out of existence\" and the cilia \"appear from nowhere\".\n\nMeanwhile PhD student Ian Donovan from UT Southwestern Medical Centre said the source image appeared to contain a distinctive watermark indicating it had been AI generated.\n\nAdditionally, two former competition judges said they also had concerns about whether the image was real.\n\nNikon said Xu was \"respectfully complying\" with its investigation and had provided it with additional technical documents.\n\nDr Patrick Hickey, who came fifth in the 2026 Small World contest, said the recognition the award represents means more than the $3,000 (£2,250) prize itself.\n\n\"If you spend a lot of your time in a dark room looking down a microscope, it's really nice to be able to show people and to show the public,\" he said.\n\n\"There's an interesting fusion between science and art, and a lot of the images that scientists are making have some very abstract and artistic qualities to them.\"\n\nHickey said it would be unfair on other entrants if it turned out the winning video was unfairly altered by AI.\n\n\"There's a specific set of rules in the contest, and one of them was quite clearly that you couldn't use generative AI to produce things, and the other was obviously that it has to be taken under a microscope,\" he said.\n\nSo far, Nikon is standing by its procedures but it said there would be an update soon.\n\n\"At this time, we don't see that any rules were violated,\" it said in a statement.\n\nWhat is AI and how does it work?\n\nOpenAI unveils AI assistant 'dots' while safety worries delay new model\n\nChinese AI tool told researchers how to make bioweapons\n\nSign up for our Tech Decoded newsletter to follow the world's top tech stories and trends. Outside the UK? Sign up here.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "prestigious",
+      "ipa": "/preˈstɪdʒəs/",
+      "pos": "adj.",
+      "meaning_zh": "有声望的；享有声誉的",
+      "collocations": [
+        "prestigious award",
+        "a prestigious university",
+        "prestigious competition"
+      ],
+      "example": "She received a prestigious scholarship to study at Oxford."
+    },
+    {
+      "category": "core_word",
+      "word": "cilia",
+      "ipa": "/ˈsɪliə/",
+      "pos": "n.",
+      "meaning_zh": "纤毛（细胞表面的微小毛发状结构）",
+      "collocations": [
+        "motile cilia",
+        "ciliated cells",
+        "cilia movement"
+      ],
+      "example": "Cilia help move mucus out of the airways."
+    },
+    {
+      "category": "core_word",
+      "word": "microscopy",
+      "ipa": "/maɪˈkrɒskəpi/",
+      "pos": "n.",
+      "meaning_zh": "显微术；显微镜观察",
+      "collocations": [
+        "electron microscopy",
+        "fluorescence microscopy",
+        "light microscopy"
+      ],
+      "example": "Fluorescence microscopy allows researchers to track specific proteins in living cells."
+    },
+    {
+      "category": "core_word",
+      "word": "grayscale",
+      "ipa": "/ˈɡreɪskeɪl/",
+      "pos": "adj.",
+      "meaning_zh": "灰度的；黑白灰阶的",
+      "collocations": [
+        "grayscale image",
+        "grayscale photography",
+        "convert to grayscale"
+      ],
+      "example": "The software can convert colour photographs into grayscale images."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "generative AI",
+      "ipa": "/ˌdʒenərətɪv eɪ ˈaɪ/",
+      "pos": "phr.",
+      "meaning_zh": "生成式人工智能",
+      "collocations": [
+        "use generative AI",
+        "generative AI tools",
+        "generative AI model"
+      ],
+      "example": "Generative AI can produce text, images, and video from simple prompts."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "request for comment",
+      "ipa": "/rɪˈkwest fə ˈkɒment/",
+      "pos": "phr.",
+      "meaning_zh": "评论请求；置评请求（新闻机构向当事人征求意见）",
+      "collocations": [
+        "a request for comment",
+        "did not respond to a request for comment",
+        "issue a request for comment"
+      ],
+      "example": "The reporter sent a request for comment to the company before publishing the story."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "rules of the contest",
+      "ipa": "/ruːlz əv ðə ˈkɒntest/",
+      "pos": "phr.",
+      "meaning_zh": "竞赛规则",
+      "collocations": [
+        "follow the rules of the contest",
+        "break the rules of the contest",
+        "within the rules of the contest"
+      ],
+      "example": "All entrants must follow the rules of the contest to qualify for judging."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "stand by",
+      "ipa": "/stænd baɪ/",
+      "pos": "phr.",
+      "meaning_zh": "坚持；继续支持（原有的说法、决定或程序）",
+      "collocations": [
+        "stand by a decision",
+        "stand by one's statement",
+        "stand by someone"
+      ],
+      "example": "The university stood by its investigation despite public criticism."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "turn out",
+      "ipa": "/tɜːn aʊt/",
+      "pos": "phr.",
+      "meaning_zh": "结果是；证明是",
+      "collocations": [
+        "turn out to be",
+        "it turned out that",
+        "turn out well"
+      ],
+      "example": "The suspicious image turned out to be a genuine microscopic photograph."
+    },
+    {
+      "category": "academic_word",
+      "word": "distinguish",
+      "ipa": "/dɪˈstɪŋɡwɪʃ/",
+      "pos": "v.",
+      "meaning_zh": "区分；辨别",
+      "collocations": [
+        "distinguish between A and B",
+        "distinguish features",
+        "clearly distinguish"
+      ],
+      "example": "Researchers used false colour to distinguish different structures in the image."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "The winning entry of a prestigious scientific photography competition is being re-evaluated following criticism from other scientists that it was made with AI.",
+      "explanation_zh": "主句为 `The winning entry ... is being re-evaluated`，使用现在进行时被动语态；`following...` 是介词短语作原因状语；`that it was made with AI` 是同位语从句，说明批评的内容。",
+      "grammar_point": "present continuous passive; prepositional phrase of cause; noun clause as apposition",
+      "translation_zh": "一项声望很高的科学摄影比赛的获奖作品正在被重新评审，因为其他科学家批评该作品是用人工智能制作的。"
+    },
+    {
+      "sentence": "Xu's video is artificially brightly coloured - common in microscopy and permitted in the contest - which is usually done manually using stains and dyes on the sample itself.",
+      "explanation_zh": "主句为 `Xu's video is artificially brightly coloured`；两个破折号之间是插入的形容词短语作补充说明；`which` 引导非限制性定语从句，指代上文的着色做法；`using...` 为现在分词短语作方式状语。",
+      "grammar_point": "parenthetical insert; non-restrictive relative clause; present participial phrase",
+      "translation_zh": "徐的视频经过了人工亮色处理，这在显微摄影中很常见且在比赛中被允许，通常是通过对样品本身使用染色剂和染料手工完成的。"
+    },
+    {
+      "sentence": "But the challenges made by other scientists include claims that the video contains shapes and movements which did not fit with normal cell structures or behaviours, and that the cilia seemed to be too big.",
+      "explanation_zh": "主句为 `the challenges ... include claims`；`made by other scientists` 是过去分词短语作后置定语；`claims` 后由两个 `that` 从句作同位语；第二个从句中又含 `which` 引导的定语从句。",
+      "grammar_point": "past participial postmodifier; appositive clauses; relative clause",
+      "translation_zh": "但其他科学家提出的质疑包括：视频中的形状和运动不符合正常细胞结构或行为，而且纤毛似乎过大。"
+    },
+    {
+      "sentence": "There's a specific set of rules in the contest, and one of them was quite clearly that you couldn't use generative AI to produce things, and the other was obviously that it has to be taken under a microscope.",
+      "explanation_zh": "这是一个由 and 连接的并列复合句；后两个分句中的表语是从句 `that you couldn't...` 和 `that it has to be...`；`quite clearly` 和 `obviously` 作评注性状语，表达说话者的强调。",
+      "grammar_point": "compound sentence; predicative clauses; stance adverbials",
+      "translation_zh": "比赛有一套明确的规则，其中一条非常清楚地规定不能使用生成式人工智能来制作内容，另一条显然是必须在显微镜下拍摄。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "pop in and out of existence",
+      "meaning_zh": "突然出现又消失；时隐时现",
+      "usage_note": "非正式、口语化表达，此处由评论者用来强调画面中结构出现和消失得很不自然。",
+      "example": "On the faulty video, the shapes seemed to pop in and out of existence every few seconds."
+    },
+    {
+      "expression": "appear from nowhere",
+      "meaning_zh": "突然出现；不知从哪里冒出来",
+      "usage_note": "常用于口语和新闻报道，带有意外或不可信的语气；在文中与评论者质疑视频真实性有关。",
+      "example": "The strange object appeared from nowhere in the final frame."
+    },
+    {
+      "expression": "under a microscope",
+      "meaning_zh": "字面义为在显微镜下；比喻义为受到严格审查",
+      "usage_note": "文中为字面义，指显微拍摄这一规则；比喻用法常与 put、place 等动词搭配。",
+      "example": "After the error, the lab's procedures were placed under a microscope."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the article mainly about?",
+      "options": {
+        "A": "A microscopy contest winner has been disqualified for using generative AI.",
+        "B": "Nikon has ended its annual Small World In Motion contest after public criticism.",
+        "C": "Former judges have replaced Nikon as the organisers of the contest.",
+        "D": "A microscopy contest winner is being re-evaluated after scientists raised AI-related concerns."
+      },
+      "answer": "D",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "According to the passage, what does Nikon's annual Small World In Motion contest accept?",
+      "options": {
+        "A": "Photos and video taken using powerful microscopes.",
+        "B": "Only photographs taken with standard digital cameras.",
+        "C": "Images and videos made by AI without any microscopic source material.",
+        "D": "Entries only from researchers at universities in China and the United States."
+      },
+      "answer": "A",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the phrase “which claims to be footage” in the description of the winning video?",
+      "options": {
+        "A": "The video was definitely accepted because it showed real cilia.",
+        "B": "The video was made without any microscopic imaging.",
+        "C": "The claim about the video's content is presented as an assertion rather than established fact.",
+        "D": "The video is the only entry in the competition."
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 11, the phrase “pop in and out of existence” most nearly means:",
+      "options": {
+        "A": "gradually change colour over time.",
+        "B": "remain stable and visible throughout the video.",
+        "C": "move too slowly to be observed by the naked eye.",
+        "D": "appear and disappear suddenly and repeatedly."
+      },
+      "answer": "D",
+      "evidence_paragraph": 11
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "What is the author's attitude toward the accusations against the winning video?",
+      "options": {
+        "A": "Strongly supportive of Dr Xu's explanation.",
+        "B": "Neutral and cautious, presenting claims and official responses without taking sides.",
+        "C": "Convinced that the contest judges ignored clear evidence of cheating.",
+        "D": "Dismissive of concerns raised by other scientists."
+      },
+      "answer": "B",
+      "evidence_paragraph": 14
+    },
+    {
+      "type": "Organization",
+      "question": "How does the article conclude?",
+      "options": {
+        "A": "By announcing that Dr Xu has been disqualified and banned from future contests.",
+        "B": "By noting that Nikon is standing by its procedures but says an update will come soon.",
+        "C": "By explaining the technical details of generative AI image watermarking.",
+        "D": "By quoting Patrick Hickey as the final winner of the competition."
+      },
+      "answer": "B",
+      "evidence_paragraph": 20
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the best title for the article?",
+      "options": {
+        "A": "AI Image Generator Wins Chinese Photography Award",
+        "B": "AI Doubts Prompt Review of Nikon Microscopy Prize Winner",
+        "C": "Scientists Call for Ban on Colour Enhancement in Microscopy",
+        "D": "Nikon Ends Small World In Motion Contest After 15 Years"
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "DACDBBB",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Tiny image sparks big backlash in Nikon photo contest",
+      "url": "https://www.bbc.co.uk/news/articles/ck4gjn1yzprno?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
