@@ -1,0 +1,293 @@
+{
+  "title_en": "Google Maps to Show UK Fuel Prices Amid Rising Costs",
+  "title_zh": "谷歌地图将显示英国燃油价格 加油成本持续攀升",
+  "summary_zh": "谷歌地图将在英国显示加油站燃油价格，数据来自政府运营的 Fuel Finder 计划。英国加油站须在价格变动后30分钟内更新该计划；由于柴油价格首次突破每升2英镑，此举旨在帮助车主寻找更便宜的燃油。部分专家认为 Fuel Finder 的覆盖率和准确性尚不完善，谷歌表示会独立核实数据后再显示价格。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Technology",
+    "Transport",
+    "Energy"
+  ],
+  "difficulty": 5,
+  "reading_passage": "The prices will be displayed when people search for fuel, as well as listed underneath descriptions of forecourts\n\nGoogle Maps will now show fuel prices to help motorists find cheaper petrol and diesel in the UK as costs continue to soar.\n\nFrom Thursday, a search for forecourts on the app will display their locations as well as their pricing, using data supplied via the government's Fuel Finder scheme.\n\nIt is a legal requirement for UK forecourts to add their prices to Fuel Finder within 30 minutes of changing them.\n\nIt comes days after the price of diesel topped £2 per litre for the first time, which RAC policy head Simon Williams described as \"a price threshold no one wanted to cross\".\n\nThere are multiple apps dedicated to finding the cheapest fuel around, but Google Maps is used by 77% of Britain's adult population for general navigation, according to Ofcom.\n\nFuel costs around the world have been dramatically impacted by the US war with Iran and Russia's war with Ukraine.\n\nDiesel price has since fallen by 2p but the AA says an average 55 litre tank of diesel still costs around £110, with the petrol equivalent coming to around £96.\n\nThe feature is already part of the navigation app Waze, which is used by around 2 million people in the UK.\n\nApple Maps does not show the price of fuel, although some third-party apps can link to its maps on iPhones.\n\nSome experts say Fuel Finder is not entirely reliable.\n\n\"At the moment, we still have to supplement the Government's Fuel Finder feed with other data sources because, on its own, it does not provide the level of coverage and accuracy needed to deliver a complete and reliable service to motorists,\" said Clare Lafferty, director at the price comparison site PetrolPrices.\n\n\"There are still sites that have not registered with the scheme at all, alongside sites that have registered but are not consistently updating their prices within the required timeframe.\"\n\nShe said the firm identified 200 forecourts in September which it did not believe had updated its diesel prices in time.\n\nSarah-Jayne Williams, director of product partnerships for Google Maps and Waze, said the firm would check the data independently, and would not display prices it believed were not up-to-date.\n\n\"Accuracy is very important, so we will still show the petrol station and where it is, but you'll only see a price if we have high confidence that it's the right price,\" she said.\n\nThe Petrol Retailers Association, which represents thousands of UK forecourts and petrol retailers, said its members were complying.\n\nFuel Finder was launched in February by former chancellor Rachel Reeves, who said at the time it could save households £40 per year.\n\nWhy UK diesel prices have breached the £2 per litre mark\n\nG7 to release millions of barrels of oil and diesel after Trump threat\n\nSign up for our Tech Decoded newsletter to follow the world's top tech stories and trends. Outside the UK? Sign up here.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "motorist",
+      "ipa": "/ˈməʊtərɪst/",
+      "pos": "n.",
+      "meaning_zh": "驾车者，开车的人",
+      "collocations": [
+        "motorists and cyclists",
+        "warn motorists",
+        "average motorist"
+      ],
+      "example": "Motorists are advised to check their tyre pressure before long journeys."
+    },
+    {
+      "category": "core_word",
+      "word": "forecourt",
+      "ipa": "/ˈfɔːkɔːt/",
+      "pos": "n.",
+      "meaning_zh": "（加油站的）前庭；加油站场地",
+      "collocations": [
+        "petrol station forecourt",
+        "on the forecourt",
+        "fuel forecourt"
+      ],
+      "example": "The forecourt was quiet in the early morning."
+    },
+    {
+      "category": "core_word",
+      "word": "soar",
+      "ipa": "/sɔːr/",
+      "pos": "v.",
+      "meaning_zh": "猛增，飙升",
+      "collocations": [
+        "prices soar",
+        "soaring costs",
+        "soar to a record high"
+      ],
+      "example": "House prices continued to soar in the second quarter."
+    },
+    {
+      "category": "core_word",
+      "word": "threshold",
+      "ipa": "/ˈθreʃhəʊld/",
+      "pos": "n.",
+      "meaning_zh": "阈值；门槛；界限",
+      "collocations": [
+        "price threshold",
+        "cross a threshold",
+        "below the threshold"
+      ],
+      "example": "The new tax applies only to incomes above a certain threshold."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "legal requirement",
+      "ipa": "/ˈliːɡl rɪˈkwaɪəmənt/",
+      "pos": "phr.",
+      "meaning_zh": "法律要求，法定要求",
+      "collocations": [
+        "meet a legal requirement",
+        "a legal requirement to do something",
+        "impose a legal requirement"
+      ],
+      "example": "Providing safety data is a legal requirement for chemical manufacturers."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "price comparison site",
+      "ipa": "/praɪs kəmˈpærɪsən saɪt/",
+      "pos": "phr.",
+      "meaning_zh": "比价网站",
+      "collocations": [
+        "use a price comparison site",
+        "a leading price comparison site",
+        "compare prices on a price comparison site"
+      ],
+      "example": "She checked a price comparison site before buying the insurance policy."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "required timeframe",
+      "ipa": "/rɪˈkwaɪəd ˈtaɪmfreɪm/",
+      "pos": "phr.",
+      "meaning_zh": "规定的时间范围；要求的时间框架",
+      "collocations": [
+        "within the required timeframe",
+        "meet the required timeframe",
+        "a strict required timeframe"
+      ],
+      "example": "Applicants must submit all documents within the required timeframe."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "search for",
+      "ipa": "/sɜːtʃ fɔːr/",
+      "pos": "phr.",
+      "meaning_zh": "搜索，查找",
+      "collocations": [
+        "search for information",
+        "search for a property",
+        "search for fuel"
+      ],
+      "example": "Many drivers use apps to search for the cheapest fuel nearby."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "link to",
+      "ipa": "/lɪŋk tuː/",
+      "pos": "phr.",
+      "meaning_zh": "链接到；与……连接",
+      "collocations": [
+        "link to a website",
+        "link to an account",
+        "directly link to"
+      ],
+      "example": "The app can link to your calendar to remind you of appointments."
+    },
+    {
+      "category": "academic_word",
+      "word": "supplement",
+      "ipa": "/ˈsʌplɪment/",
+      "pos": "v.",
+      "meaning_zh": "补充，增补",
+      "collocations": [
+        "supplement data",
+        "supplement income",
+        "supplement a diet"
+      ],
+      "example": "The company supplements its survey data with government statistics."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "From Thursday, a search for forecourts on the app will display their locations as well as their pricing, using data supplied via the government's Fuel Finder scheme.",
+      "explanation_zh": "主句为“a search ... will display ...”，其中“a search for forecourts on the app”是主语，“their locations as well as their pricing”是宾语；“using data ...”是现在分词短语作方式状语，说明价格信息的来源；“supplied via ...”是过去分词短语作后置定语修饰“data”。",
+      "grammar_point": "非谓语动词：现在分词短语作状语，过去分词短语作定语；并列结构“as well as”。",
+      "translation_zh": "从周四起，在该应用上搜索加油站将显示其位置和油价，数据来自政府的 Fuel Finder 计划。"
+    },
+    {
+      "sentence": "It comes days after the price of diesel topped £2 per litre for the first time, which RAC policy head Simon Williams described as \"a price threshold no one wanted to cross\".",
+      "explanation_zh": "主句为“It comes days after ...”；“which ... wanted to cross”是非限制性定语从句，补充说明柴油价格突破£2这一事件；从句中“described as”后接名词短语作宾语补足语。",
+      "grammar_point": "非限制性定语从句；宾语补足语“described as ...”。",
+      "translation_zh": "这一变化发生在柴油价格首次突破每升2英镑几天后，RAC政策主管西蒙·威廉姆斯称这是“没有人愿意跨越的价格门槛”。"
+    },
+    {
+      "sentence": "There are multiple apps dedicated to finding the cheapest fuel around, but Google Maps is used by 77% of Britain's adult population for general navigation, according to Ofcom.",
+      "explanation_zh": "该句由并列连词“but”连接两个分句；前一分句用“dedicated to finding ...”作后置定语修饰“apps”，后一分句用被动语态“is used by ...”并附有“according to Ofcom”说明信息来源。",
+      "grammar_point": "并列句；过去分词短语作后置定语；被动语态；来源说明“according to”。",
+      "translation_zh": "目前有多款专门寻找最便宜燃油的应用，但根据英国通信管理局的数据，谷歌地图被英国77%的成年人用于一般导航。"
+    },
+    {
+      "sentence": "\"Accuracy is very important, so we will still show the petrol station and where it is, but you'll only see a price if we have high confidence that it's the right price,\" she said.",
+      "explanation_zh": "引语内部是一个由“so”和“but”连接的复合句；“so”引出结果，“but”表示转折；“if”引导条件状语从句；“that it's the right price”是同位语从句，说明“confidence”的内容。",
+      "grammar_point": "复合句：结果状语从句、条件状语从句、同位语从句。",
+      "translation_zh": "她说：“准确性非常重要，因此我们仍会显示加油站及其位置，但只有在我们高度确信价格正确时才会显示价格。”"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "cross a threshold",
+      "meaning_zh": "跨越一个界限；进入新的阶段（常指达到令人关注的水平）",
+      "usage_note": "多用于描述价格、数据等突破某个标志性水平，带有正式或新闻语体色彩；也可用于抽象意义。",
+      "example": "Global average temperatures crossed a critical threshold last year."
+    },
+    {
+      "expression": "on its own",
+      "meaning_zh": "单独地；靠自己；不借助其他事物",
+      "usage_note": "用于强调某事物单独存在时不具备足够功能或效果，常与否定或不足语境搭配。",
+      "example": "The new sensor is not accurate enough on its own."
+    },
+    {
+      "expression": "up-to-date",
+      "meaning_zh": "最新的；包含最新信息的",
+      "usage_note": "作形容词常用连字符形式；可作定语或表语，语气较正式。",
+      "example": "Please make sure your contact details are up-to-date."
+    },
+    {
+      "expression": "in time",
+      "meaning_zh": "及时；在规定时间内",
+      "usage_note": "表示在某个期限之前完成，不迟到；区别于 on time（准时）。",
+      "example": "They submitted the report just in time for the deadline."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main subject of the passage?",
+      "options": {
+        "A": "Google Maps showing UK fuel prices through the Fuel Finder scheme",
+        "B": "The impact of global wars on fuel prices",
+        "C": "Why diesel prices have fallen by 2p",
+        "D": "The reliability of third-party fuel price apps"
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Detail",
+      "question": "According to the passage, what are UK forecourts legally required to do?",
+      "options": {
+        "A": "Display fuel prices on Google Maps",
+        "B": "Offer the cheapest fuel in their area",
+        "C": "Report prices to PetrolPrices every day",
+        "D": "Add their prices to Fuel Finder within 30 minutes of changing them"
+      },
+      "answer": "D",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the statement that Google Maps will display fuel prices \"From Thursday\"?",
+      "options": {
+        "A": "The feature will be available to Google Maps users in the UK from that date.",
+        "B": "Fuel prices will stop rising on Thursday.",
+        "C": "Apple Maps will launch a similar feature on Thursday.",
+        "D": "Forecourts will no longer need to update Fuel Finder."
+      },
+      "answer": "A",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In the first paragraph, the word \"forecourts\" refers to",
+      "options": {
+        "A": "areas in front of buildings where vehicles stop for fuel",
+        "B": "websites that compare fuel prices",
+        "C": "government agencies responsible for transport",
+        "D": "navigation apps on smartphones"
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which word best describes the author's attitude toward the reliability of Fuel Finder?",
+      "options": {
+        "A": "Balanced",
+        "B": "Enthusiastic",
+        "C": "Dismissive",
+        "D": "Alarmist"
+      },
+      "answer": "A",
+      "evidence_paragraph": 11
+    },
+    {
+      "type": "Organization",
+      "question": "Which of the following best describes the function of the final paragraph?",
+      "options": {
+        "A": "It provides background information about the launch of Fuel Finder.",
+        "B": "It introduces a new problem.",
+        "C": "It summarizes expert criticism.",
+        "D": "It compares Fuel Finder with other schemes."
+      },
+      "answer": "A",
+      "evidence_paragraph": 18
+    },
+    {
+      "type": "Title",
+      "question": "Which of the following would be the most appropriate title for the passage?",
+      "options": {
+        "A": "Google Maps to Display UK Fuel Prices Using Fuel Finder Data",
+        "B": "Diesel Prices Top £2 for the First Time",
+        "C": "Apple Maps Lacks Fuel Price Feature",
+        "D": "How to Save £40 a Year on Petrol"
+      },
+      "answer": "A",
+      "evidence_paragraph": 2
+    }
+  ],
+  "answer_key": "ADAAAAA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
+      "url": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
