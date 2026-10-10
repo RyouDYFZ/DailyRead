@@ -1,0 +1,293 @@
+{
+  "title_en": "WhatsApp Introduces Optional Parental Controls for Teenagers",
+  "title_zh": "WhatsApp 推出青少年可选家长控制功能",
+  "summary_zh": "WhatsApp 推出针对青少年的可选家长控制功能，家长可接收孩子加入或退出群组的通知并调整隐私设置，但无法查看消息和通话内容。社交媒体分析师认为可选设计是一处明显弱点，实际效果取决于家庭是否使用。此举正值英国等政府加强对科技公司儿童保护的监管，WhatsApp 目前因被视作通讯服务而暂不适用针对社交媒体的禁令。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Technology",
+    "Child Safety",
+    "Digital Parenting"
+  ],
+  "difficulty": 4,
+  "reading_passage": "WhatsApp is introducing new parental controls for teenagers, as tech companies continue to come under pressure to provide more age-appropriate experiences for children.\n\nThe social messaging app's new tools will give parents a range of options, such as being told when their child joins or leaves a group. It will also let them decide on privacy settings for their account.\n\nIn a blog post, WhatsApp, clarified parents would not be given the power to see the messages their teen is sending and receiving, which along with calls would stay private and protected by end-to-end encryption.\n\nAnd it said the controls were optional, which social media analyst Matt Navarra called an \"obvious weakness\".\n\nHe said the move was \"fairly convenient\" for Meta, which owns WhatsApp, because it reduced the company's reliance on age verification by putting some responsibility on parents and teenagers.\n\n\"Meta is trying to show regulators we have a child safety system, we have parental controls and we're rolling it out across our platforms,\" he said.\n\n\"I think the big unanswered question is whether enough families will actually use it.\"\n\nThe minimum age to use WhatsApp is 13 in the UK, although it is higher in some countries.\n\nAccording to the firm, parents will be able to adjust or switch off the controls at any time.\n\nThe settings will be \"straightforward to set up\" using a Pin set by a parent, which teens will need if they want to switch off the controls.\n\nSome of the new privacy tools include selecting who can see a child's profile photo and who can add them to groups.\n\nParents can also choose how their teenager uses Channels, which allows organisations and public figures to send out content.\n\nAnd they will have the option of choosing between the default 13+ setting for Meta AI, the app's optional built-in AI assistant, or a stricter \"Limited Content\" option.\n\n\"All of these controls are being designed to support open conversations about how to use WhatsApp between parents and teens, while keeping everyone's personal messages private,\" the company said.\n\nThe changes come as pressure mounts on tech companies from governments and regulators to change the way they operate in order to better protect children using their platforms.\n\nIn June, the government announced it plans to ban under-16s from social media platforms, with the restrictions expected to come into force in March 2027.\n\nIt said \"highly effective age assurance\" measures would be used to check the age of those using social media.\n\nWhatsApp is currently excluded from the ban because the government considers it a messaging service.\n\nSign up for our Tech Decoded newsletter to follow the world's top tech stories and trends. Outside the UK? Sign up here.\n\nSocial media bans for teens – everything parents need to know\n\nWhen will social media ban start, and which apps will be affected?",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "introduce",
+      "ipa": "/ˌɪntrəˈdjuːs/",
+      "pos": "v.",
+      "meaning_zh": "引入，推出",
+      "collocations": [
+        "introduce new features",
+        "introduce controls",
+        "introduce measures"
+      ],
+      "example": "The company plans to introduce a new safety policy next month."
+    },
+    {
+      "category": "core_word",
+      "word": "optional",
+      "ipa": "/ˈɒpʃənl/",
+      "pos": "adj.",
+      "meaning_zh": "可选的",
+      "collocations": [
+        "optional controls",
+        "optional feature",
+        "optional setting"
+      ],
+      "example": "Parents can activate an optional restriction on certain content."
+    },
+    {
+      "category": "core_word",
+      "word": "privacy",
+      "ipa": "/ˈprɪvəsi/",
+      "pos": "n.",
+      "meaning_zh": "隐私",
+      "collocations": [
+        "privacy settings",
+        "privacy concerns",
+        "protect privacy"
+      ],
+      "example": "The new policy is designed to protect user privacy more effectively."
+    },
+    {
+      "category": "core_word",
+      "word": "reliance",
+      "ipa": "/rɪˈlaɪəns/",
+      "pos": "n.",
+      "meaning_zh": "依赖",
+      "collocations": [
+        "reliance on age verification",
+        "reduce reliance",
+        "heavy reliance"
+      ],
+      "example": "The new system reduces the company's reliance on manual checks."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "age-appropriate",
+      "ipa": "/ˌeɪdʒ əˈprəʊpriət/",
+      "pos": "adj.",
+      "meaning_zh": "适龄的",
+      "collocations": [
+        "age-appropriate experiences",
+        "age-appropriate content",
+        "age-appropriate controls"
+      ],
+      "example": "The platform promised to provide more age-appropriate content for young users."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "end-to-end encryption",
+      "ipa": "/ˌend tə ˈend ɪnˈkrɪpʃn/",
+      "pos": "phr.",
+      "meaning_zh": "端到端加密",
+      "collocations": [
+        "protected by end-to-end encryption",
+        "provide end-to-end encryption",
+        "use end-to-end encryption"
+      ],
+      "example": "The app uses end-to-end encryption to protect user data."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "come into force",
+      "ipa": "/ˌkʌm ɪntə ˈfɔːs/",
+      "pos": "phr.",
+      "meaning_zh": "生效，开始实施",
+      "collocations": [
+        "come into force in March",
+        "expected to come into force",
+        "formally come into force"
+      ],
+      "example": "The revised rules will come into force later this year."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "roll out",
+      "ipa": "/ˌrəʊl ˈaʊt/",
+      "pos": "phr.",
+      "meaning_zh": "推出，推广",
+      "collocations": [
+        "roll out across platforms",
+        "roll out new features",
+        "roll out a system"
+      ],
+      "example": "The company will roll out the update in several stages."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "switch off",
+      "ipa": "/ˌswɪtʃ ˈɒf/",
+      "pos": "phr.",
+      "meaning_zh": "关闭",
+      "collocations": [
+        "switch off controls",
+        "switch off notifications",
+        "switch off a device"
+      ],
+      "example": "Teenagers will need a PIN if they want to switch off the new controls."
+    },
+    {
+      "category": "academic_word",
+      "word": "restriction",
+      "ipa": "/rɪˈstrɪkʃn/",
+      "pos": "n.",
+      "meaning_zh": "限制",
+      "collocations": [
+        "age restrictions",
+        "legal restrictions",
+        "impose restrictions"
+      ],
+      "example": "The government announced new restrictions on social media use."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "WhatsApp is introducing new parental controls for teenagers, as tech companies continue to come under pressure to provide more age-appropriate experiences for children.",
+      "explanation_zh": "主句用现在进行时表示正在实施的新措施；as 引导原因状语从句，说明推出该功能的背景。从句中 continue to do 表示持续性，come under pressure 后接不定式说明压力指向的行为。",
+      "grammar_point": "现在进行时 + as 引导的原因状语从句 + 不定式短语",
+      "translation_zh": "WhatsApp 正在为青少年推出新的家长控制功能，科技公司持续面临提供更适合儿童体验的压力。"
+    },
+    {
+      "sentence": "In a blog post, WhatsApp, clarified parents would not be given the power to see the messages their teen is sending and receiving, which along with calls would stay private and protected by end-to-end encryption.",
+      "explanation_zh": "主句为 WhatsApp clarified，后接省略 that 的宾语从句 parents would not be given the power；their teen is sending and receiving 是定语从句修饰 messages；which 引导非限制性定语从句，补充说明消息和通话都会保持私密并受加密保护。",
+      "grammar_point": "宾语从句 + 定语从句 + 非限制性定语从句 + 被动语态",
+      "translation_zh": "WhatsApp 在博客文章中澄清，家长不会被授予查看孩子收发消息的权限；这些消息以及通话将保持私密，并受到端到端加密保护。"
+    },
+    {
+      "sentence": "He said the move was \"fairly convenient\" for Meta, which owns WhatsApp, because it reduced the company's reliance on age verification by putting some responsibility on parents and teenagers.",
+      "explanation_zh": "主句为 He said，后接宾语从句 the move was \"fairly convenient\"；which owns WhatsApp 是非限制性定语从句，补充说明 Meta；because 引导原因状语从句，说明为何对 Meta 有利；by putting... 为介词短语作方式状语。",
+      "grammar_point": "间接引语 + 非限制性定语从句 + 原因状语从句 + by + 动名词",
+      "translation_zh": "他表示，这一举措对拥有 WhatsApp 的 Meta 来说“相当方便”，因为它通过把部分责任转移给家长和青少年，降低了公司对年龄验证的依赖。"
+    },
+    {
+      "sentence": "The changes come as pressure mounts on tech companies from governments and regulators to change the way they operate in order to better protect children using their platforms.",
+      "explanation_zh": "主句为 The changes come；as 引导时间状语从句，说明变化发生的背景；pressure mounts on... 表示压力不断增大；to change... 为不定式短语说明压力的内容；in order to better protect... 为目的状语；using their platforms 为现在分词短语修饰 children。",
+      "grammar_point": "as 引导的时间状语从句 + 不定式作定语和目的状语 + 现在分词作定语",
+      "translation_zh": "这些变化出现之际，来自政府和监管机构的压力正不断加大，要求科技公司改变运营方式，以更好地保护使用其平台的儿童。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "come under pressure",
+      "meaning_zh": "受到压力；面临外部要求",
+      "usage_note": "常见于新闻报道，主语通常为机构、行业或政府，后常接 from 表示压力来源，或接不定式说明被要求做的事。",
+      "example": "Tech companies have come under pressure from regulators to improve child safety."
+    },
+    {
+      "expression": "pressure mounts on",
+      "meaning_zh": "压力不断增加",
+      "usage_note": "新闻英语中常用，主语多为 pressure 或 tension，后接 on 引出承受压力的一方；通常暗示尚未解决的紧张态势。",
+      "example": "Pressure is mounting on lawmakers to review the proposed rules before the deadline."
+    },
+    {
+      "expression": "an unanswered question",
+      "meaning_zh": "悬而未决的问题",
+      "usage_note": "常用于指出某议题尚无明确答案，常与 remain、big 搭配；语气正式而克制。",
+      "example": "Whether enough parents will activate the controls remains an unanswered question."
+    },
+    {
+      "expression": "sign up for",
+      "meaning_zh": "注册订阅；报名参加",
+      "usage_note": "源自文章末尾 newsletter 提示，多用于订阅服务、课程或活动；口语和书面语中均可使用，后接名词或动名词。",
+      "example": "Readers can sign up for the weekly technology newsletter to receive updates."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the main focus of the passage?",
+      "options": {
+        "A": "Why the UK government is banning social media for under-16s",
+        "B": "The technical details of end-to-end encryption on WhatsApp",
+        "C": "Meta's financial performance after introducing parental controls",
+        "D": "How WhatsApp's new parental controls work and how they have been received"
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "According to the passage, which of the following is one of WhatsApp's new parental control features?",
+      "options": {
+        "A": "Parents can read their teenager's messages when necessary.",
+        "B": "Parents can approve every message before it is sent.",
+        "C": "Parents can be told when their child joins or leaves a group.",
+        "D": "Parents can access their child's call recordings."
+      },
+      "answer": "C",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from paragraph 3 about WhatsApp's parental controls?",
+      "options": {
+        "A": "They allow parents to read all text messages with a court order.",
+        "B": "They require teenagers to share all messages with parents.",
+        "C": "They make call data available to parents.",
+        "D": "They are designed to preserve message privacy even while giving parents some controls."
+      },
+      "answer": "D",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 4, the word \"weakness\" is closest in meaning to",
+      "options": {
+        "A": "strength",
+        "B": "advantage",
+        "C": "flaw",
+        "D": "clarity"
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "Which best describes the author's tone toward WhatsApp's new controls?",
+      "options": {
+        "A": "Neutral and informative, with attention to limitations",
+        "B": "Outraged and condemnatory",
+        "C": "Celebratory and uncritical",
+        "D": "Indifferent and uninterested"
+      },
+      "answer": "A",
+      "evidence_paragraph": 7
+    },
+    {
+      "type": "Organization",
+      "question": "Which best describes the organization of the passage?",
+      "options": {
+        "A": "It introduces new parental controls, explains their features and limits, reports expert reaction, and broadens to regulatory context.",
+        "B": "It compares multiple social media apps and then recommends one.",
+        "C": "It lists government statistics and then argues for stricter laws.",
+        "D": "It tells a chronological story of WhatsApp's creation."
+      },
+      "answer": "A",
+      "evidence_paragraph": 18
+    },
+    {
+      "type": "Title",
+      "question": "Which title best fits the passage?",
+      "options": {
+        "A": "WhatsApp Introduces Optional Parental Controls for Teenagers",
+        "B": "UK Government Bans Social Media for Under-16s",
+        "C": "Meta AI's New Content Filters Explained",
+        "D": "Why End-to-End Encryption Is Under Threat"
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "DCDCAAA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "WhatsApp introduces optional parental controls for teenagers",
+      "url": "https://www.bbc.co.uk/news/articles/cm986x65we88o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
