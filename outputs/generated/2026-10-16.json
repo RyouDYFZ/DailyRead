@@ -1,0 +1,287 @@
+{
+  "title_en": "Backlash Against Data Centres Becomes a US Election Issue",
+  "title_zh": "数据中心反对声浪成为美国选举议题",
+  "summary_zh": "美国多州选民对数据中心建设的不满正在影响中期选举政治。居民对数据中心的规模、噪音、资源消耗和审批速度提出担忧，社区反对团体数量迅速增加。共和党与民主党政治人物纷纷调整立场，部分州出台暂停税收优惠等临时措施，但此类措施多为短期，未来走向仍不确定。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Business",
+    "Politics",
+    "Technology"
+  ],
+  "difficulty": 4,
+  "reading_passage": "Her analysis was echoed by the adviser to the US senator working on data centre legislation.\n\n\"There is a clear policy need here that we're looking to fill,\" he said. \"This is a major backlash across the country - constituents are seeing the impacts of data centres and they do not like them.\"\n\nThat has put many on Capitol Hill - even Republicans - in direct conflict with President Donald Trump, who has championed the unrestrained growth of AI technology.\n\nTrump has dubbed the backlash to data centres a \"sick conspiracy\" and said people and towns working to keep the buildings out are \"backwards and poor\".\n\nHis ire has been used as a boon to Democratic politicians looking to draw midterm votes from unhappy or undecided constituents.\n\nThe BBC spoke to residents of Indiana, Arizona, Michigan, Pennsylvania and Oregon, all of whom have been organising locally against the development of data centres. They expressed concerns about many aspects of the buildings, including their size, construction and operational noise, their impact on air, water and energy resources, as well as the speed at which they seem to be approved by local authorities.\n\nDuring the first few months of this year, community groups organising against data centres more than doubled to 833, cropping up in almost every US state, according to research from Data Center Watch. The firm collects data for AI industry stakeholders and is part of an AI startup 10a Labs.\n\nStephanie Maldonado, the political director of LUCHA, a community organising group based in Arizona, referred to the pushback against data centres as \"a David and Goliath story\" that began several years ago.\n\n\"People have been ready to put a stop to it,\" Maldonado added. \"Now, people are angry.\"\n\nNew national polling, external shows that AI regulation and data centres are among some of the top issues for voters this election cycle, behind the ongoing Iran war and various aspects of the economy.\n\nProponents of building data centres often argue the projects will create more, and better paying, local jobs.\n\nYet, recent research, external from the Brookings Institution, a non-partisan policy research group, found that a new data centre creates between 100 and 200 local jobs, which is \"fewer than industry advocates claim\". The projects also have essentially no impact on local wages.\n\nLUCHA, a community organising group based in Arizona, has made stopping data centre development one of their key issues\n\nArizona Governor Katie Hobbs was one such proponent - until public pressure pushed her to the other side of the issue. In July, she enacted a three-year pause on any new tax break given to a company for a data centre project.\n\nArizona is far from the only state to see politicians react to data centre backlash.\n\nAbdul El Sayed, a Democrat running for Senate in Michigan, made new rules and regulations for data centres a clear part of his successful primary campaign for Senate.\n\nIn the race for governor of Georgia, a Democrat who is calling for a pause on data centre development is in a dead heat with a Republican who disagrees.\n\nRepublican Senator John Husted of Ohio, who is fighting to keep his seat against Democrat Sherrod Brown, has also had to shift his position. Recent polls, external have found that the majority of Ohio voters oppose data centres. He has softened his support, saying that their arrival should be up to local citizens and elected officials.\n\nMeanwhile, Brown has stumped on his opposition to new data centres. He leads Husted in recent polls.\n\nHusted's trouble in Ohio led the National Republican Senatorial Committee, the major fundraising arm for conservatives in the Senate, to write in a private memo, external that Republican politicians needed to entirely reframe how they spoke to voters on data centres.\n\n\"This has become a sleeper issue for the entire election cycle,\" the NRSC added.\n\nTexas is perhaps the most clear cut example of how backlash has turned into an undeniable issue for even the most pro-business politician.\n\nThe state currently has almost 300 operational data centres, with another 170 planned for development, according to Pew data.\n\nAt the end of last year, Republican Governor Greg Abbott had boasted of Texas as \"the epicentre of AI development\" because of the number of data centres it housed.\n\nWithin months he was backtracking, citing concerns of \"safety and quality of life\".\n\nIt could play a part in the state's upcoming Senate race too.\n\nDemocrat James Talarico's campaign is pushing for an end to \"sweetheart tax deals\" for Big Tech. He's now seen as a frontrunner for the historically Republican seat, where he is facing off against Republican Attorney General Ken Paxton.\n\nPaxton said in a late September interview that there was still \"plenty of open space in Texas that we can put data centres\".\n\nDemocrat James Talarico has made data centres a part of his campaign for Senate\n\nMany of the actions or proposals that have come from politicians looking to appease or address these voters are temporary. Most of the moratoriums, for instance, will end in one to three years.\n\nIt is possible that the political winds will have shifted by the time such moratoriums expire, leaving Big Tech and AI firms to build as they wish.\n\nFor now, people's feelings toward them are strong.\n\nBalaji Tammabattula, the chief executive of Barupon, is developing a roughly 700-acre data centre and technology campus in Liberty, Texas. Despite the buildings being designed to use rain capture for water and supply its own energy needs, an increasingly common design for major data centre projects, Tammabattula told the BBC that people in the community oppose the project out of hand.",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "backlash",
+      "ipa": "/ˈbæklæʃ/",
+      "pos": "n.",
+      "meaning_zh": "（对某事的）强烈反对，反弹",
+      "collocations": [
+        "public backlash",
+        "political backlash",
+        "face backlash"
+      ],
+      "example": "The company faced a public backlash after raising its prices."
+    },
+    {
+      "category": "core_word",
+      "word": "constituents",
+      "ipa": "/kənˈstɪtʃuənts/",
+      "pos": "n.",
+      "meaning_zh": "选区居民，选民",
+      "collocations": [
+        "local constituents",
+        "serve constituents",
+        "address constituents' concerns"
+      ],
+      "example": "The senator held a town hall to listen to her constituents."
+    },
+    {
+      "category": "core_word",
+      "word": "enact",
+      "ipa": "/ɪˈnækt/",
+      "pos": "v.",
+      "meaning_zh": "颁布，实施（法律或政策）",
+      "collocations": [
+        "enact legislation",
+        "enact a policy",
+        "enact a ban"
+      ],
+      "example": "The state enacted new rules to limit data centre construction."
+    },
+    {
+      "category": "core_word",
+      "word": "reframe",
+      "ipa": "/ˌriːˈfreɪm/",
+      "pos": "v.",
+      "meaning_zh": "重新表述，重新构建（观点或问题）",
+      "collocations": [
+        "reframe the debate",
+        "reframe an issue",
+        "reframe a narrative"
+      ],
+      "example": "The committee advised politicians to reframe the data centre debate for voters."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "dead heat",
+      "ipa": "/ˌded ˈhiːt/",
+      "pos": "phr.",
+      "meaning_zh": "势均力敌，平局",
+      "collocations": [
+        "in a dead heat",
+        "end in a dead heat",
+        "a dead heat race"
+      ],
+      "example": "The two candidates are in a dead heat before the final debate."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "sweetheart tax deals",
+      "ipa": "/ˈswiːthɑːrt tæks diːlz/",
+      "pos": "phr.",
+      "meaning_zh": "给予大公司的优惠税收协议",
+      "collocations": [
+        "end sweetheart tax deals",
+        "oppose sweetheart tax deals",
+        "sweetheart tax deals for big tech"
+      ],
+      "example": "The candidate promised to end sweetheart tax deals for large corporations."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "tax break",
+      "ipa": "/ˈtæks breɪk/",
+      "pos": "phr.",
+      "meaning_zh": "税收减免，税收优惠",
+      "collocations": [
+        "grant a tax break",
+        "receive a tax break",
+        "a new tax break"
+      ],
+      "example": "The state paused any new tax break for data centre projects."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "crop up",
+      "ipa": "/ˌkrɒp ˈʌp/",
+      "pos": "phr.",
+      "meaning_zh": "突然出现，涌现",
+      "collocations": [
+        "problems crop up",
+        "new groups crop up",
+        "issues crop up"
+      ],
+      "example": "Community opposition groups cropped up in nearly every state."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "face off against",
+      "ipa": "/ˌfeɪs ˈɒf əˈɡenst/",
+      "pos": "phr.",
+      "meaning_zh": "与…对抗，对阵",
+      "collocations": [
+        "face off against an opponent",
+        "face off against a rival",
+        "face off against incumbent"
+      ],
+      "example": "The newcomer will face off against the incumbent in November."
+    },
+    {
+      "category": "academic_word",
+      "word": "legislation",
+      "ipa": "/ˌledʒɪsˈleɪʃn/",
+      "pos": "n.",
+      "meaning_zh": "立法，法规",
+      "collocations": [
+        "pass legislation",
+        "draft legislation",
+        "data centre legislation"
+      ],
+      "example": "The senator is working on legislation to address data centre growth."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "That has put many on Capitol Hill - even Republicans - in direct conflict with President Donald Trump, who has championed the unrestrained growth of AI technology.",
+      "explanation_zh": "主句为“That has put many on Capitol Hill in direct conflict with President Donald Trump”；破折号插入语“even Republicans”补充说明范围；关系代词“who”引导非限制性定语从句，修饰“President Donald Trump”。该句点明数据中心反对浪潮使国会两党与特朗普的立场出现冲突。",
+      "grammar_point": "插入语与非限制性定语从句",
+      "translation_zh": "这一局面使国会山的许多人——甚至包括共和党人——与主张不受限制地发展人工智能技术的特朗普总统直接对立。"
+    },
+    {
+      "sentence": "The BBC spoke to residents of Indiana, Arizona, Michigan, Pennsylvania and Oregon, all of whom have been organising locally against the development of data centres.",
+      "explanation_zh": "主句为“The BBC spoke to residents of...”；“all of whom”引导非限制性定语从句，指代前面的五个州居民，说明他们一直在地方层面组织反对数据中心的建设。这种结构用于补充说明前面提到的群体。",
+      "grammar_point": "介词+关系代词引导的非限制性定语从句",
+      "translation_zh": "英国广播公司采访了印第安纳州、亚利桑那州、密歇根州、宾夕法尼亚州和俄勒冈州的居民，这些人都在当地组织起来反对数据中心的建设。"
+    },
+    {
+      "sentence": "Yet, recent research, external from the Brookings Institution, a non-partisan policy research group, found that a new data centre creates between 100 and 200 local jobs, which is 'fewer than industry advocates claim'.",
+      "explanation_zh": "主句为“recent research...found that...”；“external”为插入标记，说明外部来源；“a non-partisan policy research group”是“Brookings Institution”的同位语；“that”引导宾语从句；“which”引导非限制性定语从句，修饰前面的“between 100 and 200 local jobs”。该句用研究证据反驳了支持者的就业论点。",
+      "grammar_point": "同位语、宾语从句与非限制性定语从句",
+      "translation_zh": "然而，无党派政策研究机构布鲁金斯学会最近的外部研究发现，一座新数据中心创造100至200个当地就业岗位，这“少于行业支持者所声称的数量”。"
+    },
+    {
+      "sentence": "Despite the buildings being designed to use rain capture for water and supply its own energy needs, an increasingly common design for major data centre projects, Tammabattula told the BBC that people in the community oppose the project out of hand.",
+      "explanation_zh": "主句为“Tammabattula told the BBC that people in the community oppose the project out of hand”；“Despite the buildings being designed...”为介词短语，含动名词被动结构，表示让步；“an increasingly common design...”是前面“rain capture...energy needs”的同位语，进一步说明这种设计已越发普遍。句末“that”引导宾语从句。",
+      "grammar_point": "介词+动名词被动结构、同位语、宾语从句",
+      "translation_zh": "尽管这些建筑设计为利用雨水收集供水并满足自身能源需求——这是大型数据中心项目日益普遍的设计——但塔马巴图拉告诉英国广播公司，社区居民仍不加考虑地反对该项目。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "a David and Goliath story",
+      "meaning_zh": "大卫与歌利亚式的故事，形容力量悬殊的对抗。",
+      "usage_note": "源自《圣经》典故，用于描述弱小一方挑战强大一方；在正式报道中常带引号，表示引用评价。",
+      "example": "The local group's fight against the multinational corporation became a David and Goliath story."
+    },
+    {
+      "expression": "put a stop to",
+      "meaning_zh": "制止，使终止。",
+      "usage_note": "口语和书面语均可，后接名词或动名词，表示强行结束某事。",
+      "example": "Residents demanded that the council put a stop to the noisy construction."
+    },
+    {
+      "expression": "out of hand",
+      "meaning_zh": "不假思索地，立即（拒绝）；也可指失控。",
+      "usage_note": "此处为“不加考虑地、断然”之意，常与 reject/oppose 搭配；另一常见意思是“失控”。",
+      "example": "The board rejected the proposal out of hand without reviewing the evidence."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the article mainly about?",
+      "options": {
+        "A": "The economic benefits of building more data centres in rural areas.",
+        "B": "How local opposition to data centres is influencing US midterm election politics.",
+        "C": "President Trump's plan to expand AI technology without new regulations.",
+        "D": "A comparison of state tax policies for technology companies."
+      },
+      "answer": "B",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "According to the US senator's adviser, what are constituents doing regarding data centres?",
+      "options": {
+        "A": "They are asking for more data centre jobs.",
+        "B": "They are seeing negative impacts and do not like them.",
+        "C": "They are unaware of the environmental effects.",
+        "D": "They are pressuring lawmakers to speed up approvals."
+      },
+      "answer": "B",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from the statement that many on Capitol Hill, including Republicans, are in direct conflict with President Trump over data centres?",
+      "options": {
+        "A": "Trump has changed his position on AI technology.",
+        "B": "The backlash crosses party lines and is politically significant.",
+        "C": "Data centre opposition is limited to local government officials.",
+        "D": "Republican politicians usually support Trump's technology agenda."
+      },
+      "answer": "B",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 4, what does the word 'dubbed' most nearly mean?",
+      "options": {
+        "A": "described as",
+        "B": "denied",
+        "C": "celebrated as",
+        "D": "ignored"
+      },
+      "answer": "A",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "What is the author's tone when reporting Tammabattula's statement about community opposition in the final paragraph?",
+      "options": {
+        "A": "Supportive of the developer's sustainable design.",
+        "B": "Neutral and factual, presenting the opposition without endorsement.",
+        "C": "Critical of the community's refusal to consider evidence.",
+        "D": "Enthusiastic about the potential for compromise."
+      },
+      "answer": "B",
+      "evidence_paragraph": 33
+    },
+    {
+      "type": "Organization",
+      "question": "Which best describes the organization of the passage?",
+      "options": {
+        "A": "It contrasts two opposing scientific studies and then offers a personal opinion.",
+        "B": "It lists the benefits of data centres and then refutes each one separately.",
+        "C": "It opens with a historical account and moves to a technical explanation of data centre design.",
+        "D": "It presents a national trend, gives state-level examples, and ends with a note on future uncertainty."
+      },
+      "answer": "D",
+      "evidence_paragraph": 22
+    },
+    {
+      "type": "Title",
+      "question": "Which title best captures the article's focus?",
+      "options": {
+        "A": "Data Centres: The Key to America's AI Future",
+        "B": "Why Tax Breaks for Big Tech Are Ending in Arizona",
+        "C": "Backlash Against Data Centres Becomes a US Election Issue",
+        "D": "Trump's 'Sick Conspiracy' Comment Sparks National Debate"
+      },
+      "answer": "C",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "BBBABDC",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "How backlash against data centres could shape the US midterm elections",
+      "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
