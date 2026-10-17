@@ -1,0 +1,287 @@
+{
+  "title_en": "WhatsApp Introduces Optional Parental Controls for Teenagers",
+  "title_zh": "WhatsApp 为青少年推出可选家长控制",
+  "summary_zh": "`WhatsApp` 推出针对青少年的可选家长控制，家长可获知孩子加入或退出群聊、调整隐私设置，并限制 `Channels` 和 `Meta AI` 使用；但家长不能查看私信，消息和通话仍受端到端加密保护。分析人士马特·纳瓦拉称这些控制是“明显弱点”，因为 `Meta` 借此减少对年龄验证的依赖，把部分责任转移给家长和青少年。与此同时，英国政府计划在2027年3月前禁止16岁以下青少年使用社交媒体，`WhatsApp` 作为消息服务暂被豁免。",
+  "cefr": "B2-C1",
+  "themes": [
+    "Technology",
+    "Child Safety",
+    "Education"
+  ],
+  "difficulty": 4,
+  "reading_passage": "WhatsApp is introducing new parental controls for teenagers, as tech companies continue to come under pressure to provide more age-appropriate experiences for children.\n\nThe social messaging app's new tools will give parents a range of options, such as being told when their child joins or leaves a group. It will also let them decide on privacy settings for their account.\n\nIn a blog post, WhatsApp, clarified parents would not be given the power to see the messages their teen is sending and receiving, which along with calls would stay private and protected by end-to-end encryption.\n\nAnd it said the controls were optional, which social media analyst Matt Navarra called an \"obvious weakness\".\n\nHe said the move was \"fairly convenient\" for Meta, which owns WhatsApp, because it reduced the company's reliance on age verification by putting some responsibility on parents and teenagers.\n\n\"Meta is trying to show regulators we have a child safety system, we have parental controls and we're rolling it out across our platforms,\" he said.\n\n\"I think the big unanswered question is whether enough families will actually use it.\"\n\nThe minimum age to use WhatsApp is 13 in the UK, although it is higher in some countries.\n\nAccording to the firm, parents will be able to adjust or switch off the controls at any time.\n\nThe settings will be \"straightforward to set up\" using a Pin set by a parent, which teens will need if they want to switch off the controls.\n\nSome of the new privacy tools include selecting who can see a child's profile photo and who can add them to groups.\n\nParents can also choose how their teenager uses Channels, which allows organisations and public figures to send out content.\n\nAnd they will have the option of choosing between the default 13+ setting for Meta AI, the app's optional built-in AI assistant, or a stricter \"Limited Content\" option.\n\n\"All of these controls are being designed to support open conversations about how to use WhatsApp between parents and teens, while keeping everyone's personal messages private,\" the company said.\n\nThe changes come as pressure mounts on tech companies from governments and regulators to change the way they operate in order to better protect children using their platforms.\n\nIn June, the government announced it plans to ban under-16s from social media platforms, with the restrictions expected to come into force in March 2027.\n\nIt said \"highly effective age assurance\" measures would be used to check the age of those using social media.\n\nWhatsApp is currently excluded from the ban because the government considers it a messaging service.\n\nSign up for our Tech Decoded newsletter to follow the world's top tech stories and trends. Outside the UK? Sign up here.\n\nSocial media bans for teens – everything parents need to know\n\nWhen will social media ban start, and which apps will be affected?",
+  "vocabulary": [
+    {
+      "category": "core_word",
+      "word": "introduce",
+      "ipa": "/ˌɪntrəˈdjuːs/",
+      "pos": "v.",
+      "meaning_zh": "推出；引入",
+      "collocations": [
+        "introduce parental controls",
+        "introduce new features",
+        "introduce measures"
+      ],
+      "example": "The company decided to introduce stricter privacy settings for younger users."
+    },
+    {
+      "category": "core_word",
+      "word": "privacy",
+      "ipa": "/ˈprɪvəsi/",
+      "pos": "n.",
+      "meaning_zh": "隐私",
+      "collocations": [
+        "privacy settings",
+        "protect privacy",
+        "privacy concerns"
+      ],
+      "example": "Teenagers often value privacy when using messaging apps."
+    },
+    {
+      "category": "core_word",
+      "word": "optional",
+      "ipa": "/ˈɒpʃənl/",
+      "pos": "adj.",
+      "meaning_zh": "可选的",
+      "collocations": [
+        "optional controls",
+        "optional feature",
+        "optional setting"
+      ],
+      "example": "The new safety tools are optional, so parents can choose whether to use them."
+    },
+    {
+      "category": "core_word",
+      "word": "pressure",
+      "ipa": "/ˈpreʃə(r)/",
+      "pos": "n.",
+      "meaning_zh": "压力",
+      "collocations": [
+        "come under pressure",
+        "mounting pressure",
+        "public pressure"
+      ],
+      "example": "Tech companies are under pressure to improve child safety."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "parental controls",
+      "ipa": "/pəˈrentl kənˈtrəʊlz/",
+      "pos": "phr.",
+      "meaning_zh": "家长控制",
+      "collocations": [
+        "introduce parental controls",
+        "use parental controls",
+        "parental control settings"
+      ],
+      "example": "Many devices now include parental controls to limit screen time."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "end-to-end encryption",
+      "ipa": "/ˌend tuː ˈend ɪnˈkrɪpʃn/",
+      "pos": "phr.",
+      "meaning_zh": "端到端加密",
+      "collocations": [
+        "protected by end-to-end encryption",
+        "end-to-end encrypted messages",
+        "use end-to-end encryption"
+      ],
+      "example": "End-to-end encryption prevents third parties from reading messages."
+    },
+    {
+      "category": "fixed_collocation",
+      "word": "age verification",
+      "ipa": "/ˈeɪdʒ ˌverɪfɪˈkeɪʃn/",
+      "pos": "phr.",
+      "meaning_zh": "年龄验证",
+      "collocations": [
+        "age verification systems",
+        "rely on age verification",
+        "online age verification"
+      ],
+      "example": "The platform introduced age verification to prevent underage access."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "set up",
+      "ipa": "/ˌset ˈʌp/",
+      "pos": "phr.",
+      "meaning_zh": "设置；建立",
+      "collocations": [
+        "set up parental controls",
+        "set up an account",
+        "straightforward to set up"
+      ],
+      "example": "Parents can set up a PIN to manage the controls."
+    },
+    {
+      "category": "phrasal_verb",
+      "word": "switch off",
+      "ipa": "/ˌswɪtʃ ˈɒf/",
+      "pos": "phr.",
+      "meaning_zh": "关闭；关掉",
+      "collocations": [
+        "switch off the controls",
+        "switch off a feature",
+        "switch off notifications"
+      ],
+      "example": "Teenagers need a PIN if they want to switch off the controls."
+    },
+    {
+      "category": "academic_word",
+      "word": "reliance",
+      "ipa": "/rɪˈlaɪəns/",
+      "pos": "n.",
+      "meaning_zh": "依赖；依靠",
+      "collocations": [
+        "reliance on age verification",
+        "reduce reliance",
+        "heavy reliance"
+      ],
+      "example": "The move reduces the company's reliance on manual identity checks."
+    }
+  ],
+  "difficult_sentences": [
+    {
+      "sentence": "WhatsApp is introducing new parental controls for teenagers, as tech companies continue to come under pressure to provide more age-appropriate experiences for children.",
+      "explanation_zh": "主句为“WhatsApp is introducing new parental controls for teenagers”；`as` 引导原因状语从句，说明推出措施的背景是科技公司持续面临提供适龄体验的压力。",
+      "grammar_point": "as引导原因状语从句，主句为现在进行时。",
+      "translation_zh": "`WhatsApp` 正在为青少年推出新的家长控制功能，因为科技公司持续面临压力，需为儿童提供更适合其年龄的体验。"
+    },
+    {
+      "sentence": "In a blog post, WhatsApp, clarified parents would not be given the power to see the messages their teen is sending and receiving, which along with calls would stay private and protected by end-to-end encryption.",
+      "explanation_zh": "主句为 WhatsApp clarified...；“parents would not be given the power...”为宾语从句；“their teen is sending and receiving”是修饰 messages 的定语从句；“which along with calls would stay private...”为非限制性定语从句，补充说明消息和通话会受到加密保护。",
+      "grammar_point": "宾语从句、定语从句与非限制性定语从句的组合。",
+      "translation_zh": "在一篇博客文章中，`WhatsApp` 澄清说，家长不会被赋予查看青少年收发消息的权力；这些消息以及通话将保持私密并受到端到端加密保护。"
+    },
+    {
+      "sentence": "He said the move was \"fairly convenient\" for Meta, which owns WhatsApp, because it reduced the company's reliance on age verification by putting some responsibility on parents and teenagers.",
+      "explanation_zh": "主句为 He said...；“the move was ‘fairly convenient’ for Meta”为宾语从句；“which owns WhatsApp”为非限制性定语从句修饰 `Meta`；“because...”引导原因状语从句，其中 `by putting some responsibility...` 作方式状语。",
+      "grammar_point": "宾语从句、非限制性定语从句、because原因状语从句和by doing方式状语。",
+      "translation_zh": "他表示，对拥有 `WhatsApp` 的 `Meta` 而言，这一举措“相当便利”，因为它通过把部分责任交给家长和青少年，降低了公司对年龄验证的依赖。"
+    },
+    {
+      "sentence": "The changes come as pressure mounts on tech companies from governments and regulators to change the way they operate in order to better protect children using their platforms.",
+      "explanation_zh": "主句为 The changes come；`as` 引导时间/原因状语从句表示“随着”或“由于”，pressure mounts 为从句主干；“to change the way they operate”说明压力的内容；“the way they operate”是省略关系副词的定语从句；“in order to better protect children using their platforms”为目的状语，现在分词短语 `using their platforms` 修饰 children。",
+      "grammar_point": "as引导状语从句，不定式短语作目的状语，现在分词作后置定语。",
+      "translation_zh": "这些变化出现之时，政府和监管机构对科技公司施加的压力正在加大，要求它们改变运营方式，以便更好地保护使用其平台的儿童。"
+    }
+  ],
+  "idioms": [
+    {
+      "expression": "roll out",
+      "meaning_zh": "推出；铺开（新功能、措施等）",
+      "usage_note": "常用于科技和商业新闻，表示正式发布或分阶段推出产品或服务，可用作及物短语动词。",
+      "example": "The company plans to roll out the new safety feature to all users next month."
+    },
+    {
+      "expression": "come under pressure",
+      "meaning_zh": "受到压力；面临压力",
+      "usage_note": "新闻中常与政府部门、公众或监管机构搭配，说明主体承受外部压力。",
+      "example": "Social media firms have come under pressure to improve age checks."
+    },
+    {
+      "expression": "come into force",
+      "meaning_zh": "生效；开始实施",
+      "usage_note": "多用于法律、法规或政策语境，主语通常为规定、禁令或协议。",
+      "example": "The new age restrictions are expected to come into force in March 2027."
+    }
+  ],
+  "reading_questions": [
+    {
+      "type": "Main Idea",
+      "question": "What is the central topic of the passage?",
+      "options": {
+        "A": "The UK government is preparing to ban WhatsApp for users under 16.",
+        "B": "Meta is replacing WhatsApp's end-to-end encryption with parental monitoring.",
+        "C": "Parents will be required to verify their children's ages on social media.",
+        "D": "WhatsApp has introduced optional parental controls for teenagers amid growing child-safety pressure."
+      },
+      "answer": "D",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Detail",
+      "question": "According to the passage, which ability will the new tools give parents?",
+      "options": {
+        "A": "Reading the messages their teenager is sending and receiving.",
+        "B": "Setting a different minimum age for WhatsApp in the UK.",
+        "C": "Being notified when their child joins or leaves a group and deciding on privacy settings.",
+        "D": "Removing end-to-end encryption from their child's calls."
+      },
+      "answer": "C",
+      "evidence_paragraph": 2
+    },
+    {
+      "type": "Inference",
+      "question": "What can be inferred from WhatsApp's statement about message privacy?",
+      "options": {
+        "A": "Parents will be able to see encrypted messages if they enter a PIN.",
+        "B": "Calls will be visible to parents, but text messages will remain private.",
+        "C": "Group chats will no longer be protected by end-to-end encryption.",
+        "D": "WhatsApp regards teenage message content as private even with parental controls."
+      },
+      "answer": "D",
+      "evidence_paragraph": 3
+    },
+    {
+      "type": "Vocabulary in Context",
+      "question": "In paragraph 4, the word \"optional\" most nearly means:",
+      "options": {
+        "A": "required by law",
+        "B": "hidden from parents",
+        "C": "available by choice",
+        "D": "protected by encryption"
+      },
+      "answer": "C",
+      "evidence_paragraph": 4
+    },
+    {
+      "type": "Author's Attitude",
+      "question": "How does the author present the regulatory environment described in the passage?",
+      "options": {
+        "A": "As intensifying pressure from governments and regulators to improve child protection.",
+        "B": "As a settled issue after WhatsApp's announcement.",
+        "C": "As a minor concern limited to age assurance.",
+        "D": "As an attack on end-to-end encryption."
+      },
+      "answer": "A",
+      "evidence_paragraph": 15
+    },
+    {
+      "type": "Organization",
+      "question": "Which best describes how the passage is organized?",
+      "options": {
+        "A": "It introduces a product change, details features and analyst reaction, then sets out regulatory context.",
+        "B": "It opens with the UK ban, then explains WhatsApp's exclusion, and ends with technical setup steps.",
+        "C": "It compares several messaging apps before recommending one for teenagers.",
+        "D": "It presents a chronological history of Meta's child safety measures."
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    },
+    {
+      "type": "Title",
+      "question": "Which title best summarizes the passage?",
+      "options": {
+        "A": "WhatsApp Adds Optional Parental Controls as Child-Safety Pressure Grows",
+        "B": "Why the UK Excluded WhatsApp from the Social Media Ban",
+        "C": "Meta Removes End-to-End Encryption for Teen Accounts",
+        "D": "Government Plans to Ban Under-16s from All Messaging Apps"
+      },
+      "answer": "A",
+      "evidence_paragraph": 1
+    }
+  ],
+  "answer_key": "DCDCAAA",
+  "content_mode": "original-adapt",
+  "spec_version": "1.0",
+  "sources": [
+    {
+      "outlet": "BBC News",
+      "title": "WhatsApp introduces optional parental controls for teenagers",
+      "url": "https://www.bbc.co.uk/news/articles/cm986x65we88o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
